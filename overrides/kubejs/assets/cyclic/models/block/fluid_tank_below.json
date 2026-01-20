@@ -1,0 +1,13 @@
+{
+    "parent": "block/cube_directional",
+  "render_type": "cutout_mipped",
+    "textures": {
+        "particle": "cyclic:block/tank/tank_top",
+        "down": "cyclic:block/tank/tank_nothing",
+        "up": "cyclic:block/tank/tank_top",
+        "north": "cyclic:block/tank/tank_above",
+        "east": "cyclic:block/tank/tank_base_flip_hack",
+        "south": "cyclic:block/tank/tank_above",
+        "west": "cyclic:block/tank/tank_base_flip"
+    }
+}

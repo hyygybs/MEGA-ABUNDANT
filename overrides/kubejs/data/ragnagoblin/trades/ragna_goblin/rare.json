@@ -1,0 +1,59 @@
+{
+  "replace": true,
+  "trades": [
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:netherite_pickaxe",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "item": "minecraft:netherite_ingot",
+        "count": 3
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 64,
+      "experience": 40
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:stick",
+        "count": 1,
+        "nbt": "{display:{Name:\u0027{\"extra\":[{\"text\":\" \"},{\"translate\":\"item.minecraft.stick\"}],\"translate\":\"enchantment.minecraft.knockback\"}\u0027}}"
+      },
+      "payment_item": {
+        "item": "minecraft:netherite_ingot",
+        "count": 3
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 64,
+      "experience": 40,
+      "enchantments": [
+        {
+          "id": "minecraft:knockback",
+          "level": 2
+        }
+      ]
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "draconicevolution:awakened_draconium_ingot",
+        "count": 9
+      },
+      "payment_item": {
+        "item": "draconicevolution:draconium_dust",
+        "count": 36
+      },
+      "secondary_payment_item": {
+        "item": "draconicevolution:dragon_heart",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 64,
+      "experience": 40
+    }
+  ]
+}

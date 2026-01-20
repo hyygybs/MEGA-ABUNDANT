@@ -1,0 +1,604 @@
+
+#─────────────────────────────────────────────────────────────────────────
+# Anywhere that uses item IDs also supports:
+# • Tags (e.g. "#minecraft:planks")
+# • Comma-separated lists (e.g. "minecraft:blaze_powder,#forge:rods/blaze")
+#     Applies the setting to all listed IDs. Can use tags, regular IDs, and negation interchangeably
+# • Negation (e.g. "!minecraft:black_dye")
+#     Useful with lists/tags. Excludes the listed IDs from the setting
+#     i.e. "#forge:dyes,!minecraft:black_dye" (all dyes EXCEPT black dye)
+# Settings with "//v" will list elements vertically. Removing "//v" will list elements in one line
+#─────────────────────────────────────────────────────────────────────────
+#─────────────────────────────────────────────────────────────────────────
+# Defines items that can be used as fuel
+# └── Format: [["item_id", amount], [...], etc]
+# • item_id: The item's ID (i.e. "minecraft:coal").
+# • amount: The amount of fuel the item provides. Higher values mean the item burns longer
+# ⌄ 
+["Fuel Items"]
+	#─────────────────────────────────//v
+	Boiler = [
+	    ["minecraft:coal", 37],
+	    ["minecraft:charcoal", 37],
+	    ["minecraft:coal_block", 500],
+	    ["minecraft:magma_block", 333],
+	    ["minecraft:lava_bucket", 1000],
+	    ["minecraft:dried_kelp_block", 40]
+	]
+	#─────────────────────────────────//v
+	Icebox = [
+	    ["minecraft:snowball", 10],
+	    ["minecraft:clay", 37],
+	    ["minecraft:snow_block", 40],
+	    ["minecraft:ice", 250],
+	    ["minecraft:packed_ice", 1000]
+	]
+	#─────────────────────────────────//v
+	# (Negative values indicate cold fuel
+	Hearth = [
+	    ["minecraft:coal", 37],
+	    ["minecraft:charcoal", 37],
+	    ["minecraft:coal_block", 500],
+	    ["minecraft:magma_block", 333],
+	    ["minecraft:lava_bucket", 1000],
+	    ["minecraft:snowball", -10],
+	    ["minecraft:clay", -37],
+	    ["minecraft:snow_block", -40],
+	    ["minecraft:ice", -250],
+	    ["minecraft:packed_ice", -1000],
+	    ["minecraft:dried_kelp_block", 40]
+	]
+
+["Soulspring Lamp"]
+	#─────────────────────────────────────────────────────────────────────────//v
+	# Defines items that the Soulspring Lamp can use as fuel
+	# └── Format: [["item_id", amount], [...], etc]
+	# • item_id: The item's ID (i.e. "cold_sweat:soul_sprout").
+	# • amount: The amount of fuel the item provides. Higher values mean the item burns longer
+	# ⌄ 
+	"Fuel Items" = [
+	    ["cold_sweat:soul_sprout", 4]
+	]
+	#─────────────────────────────────────────────────────────────────────────//v
+	# Defines the dimensions that the Soulspring Lamp can be used in
+	# └── Format: ["dimension_id", "dimension_id", ...etc]
+	# ⌄ 
+	"Valid Dimensions" = [
+	    "minecraft:the_nether"
+	]
+
+[Insulation]
+	#─────────────────────────────────────────────────────────────────────────//v
+	# Defines the items that can be used for insulating armor in the Sewing Table
+	# ├── Format (Static): [["item_id", cold, heat, *"static", *"{nbt}", *fillSlots], [...], etc]
+	# ├── Format (Adaptive): [["item_id", amount, adaptSpeed, "adaptive", *"{nbt}", *fillSlots], [...], etc]
+	# └── [* = optional]
+	# • item_id: The item's ID (i.e. "minecraft:iron_ingot").
+	# • cold: The cold insulation the item provides.
+	# • heat: The heat insulation the item provides.
+	# • amount: The amount of insulation the item provides.
+	# • adaptSpeed: The speed at which the insulation adapts to the environment.
+	# • *static/adaptive: The type of insulation the item provides. Defaults to "static" if unset
+	# • *nbt: If set, the item will only provide insulation if it has the specified NBT tag.
+	# • *fillSlots: If true, the item will fill 1 slot per 2 insulation points. Otherwise, the item will fill 1 slot.
+	# ⌄ 
+	"Insulation Ingredients" = [
+	    ["chipped:cross_haired_lime_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cross_haired_cyan_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cornered_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:scaled_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:windmill_white_wool", 1.5, 0.0, "static", "", true],
+	    ["minecraft:magenta_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cross_haired_magenta_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:bundled_pink_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:scaled_magenta_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cornered_light_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cubed_purple_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:soft_yellow_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:crafted_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:bundled_light_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:wickered_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tiled_cyan_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tripped_cyan_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:harsh_quilted_light_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:blocky_lime_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cross_haired_red_wool", 1.5, 0.0, "static", "", true],
+	    ["minecraft:brown_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:blocky_black_wool", 1.5, 0.0, "static", "", true],
+	    ["ad_astra:glacian_fur", 1.5, 0.0, "static", "", true],
+	    ["chipped:bundled_brown_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:knitted_magenta_wool", 1.5, 0.0, "static", "", true],
+	    ["minecraft:rabbit_hide", 0.0, 1.5, "static", "", true],
+	    ["chipped:rectangle_green_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tripped_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:ribbled_white_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:crafted_lime_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:scaled_light_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:ribbled_red_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tiled_black_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:wickered_red_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:blocky_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["minecraft:red_mushroom_block", 1.5, 0.0, "static", "", true],
+	    ["chipped:stringed_yellow_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:crafted_magenta_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:stringed_light_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:windmill_light_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:blocky_magenta_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:windmill_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:patched_red_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:knitted_pink_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tiled_yellow_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tripped_magenta_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:scaled_lime_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:harsh_quilted_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cross_haired_purple_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:blocky_brown_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cross_haired_pink_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:windmill_lime_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:blocky_light_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:wickered_green_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:windmill_purple_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:harsh_quilted_pink_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:knitted_brown_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:stringed_red_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:barky_pink_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tripped_purple_wool", 1.5, 0.0, "static", "", true],
+	    ["minecraft:green_wool", 1.5, 0.0, "static", "", true],
+	    ["minecraft:purple_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:ribbled_light_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:bundled_orange_wool", 1.5, 0.0, "static", "", true],
+	    ["cold_sweat:goat_fur", 2.0, 0.0, "static", "", true],
+	    ["chipped:crafted_light_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:windmill_green_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:scaled_orange_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:ribbled_brown_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tiled_lime_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:harsh_quilted_light_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tripped_pink_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cornered_yellow_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:crafted_brown_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:woved_brown_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tiled_white_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:wickered_light_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:knitted_light_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:knitted_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:bundled_red_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:stringed_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:knitted_red_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:soft_brown_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:woved_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["minecraft:orange_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:soft_lime_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:rectangle_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:knitted_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:wickered_pink_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:soft_red_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:ribbled_pink_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:wickered_light_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cornered_black_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cubed_brown_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:woved_green_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:crafted_white_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:barky_white_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:harsh_quilted_red_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:wickered_black_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:stringed_light_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:barky_black_wool", 1.5, 0.0, "static", "", true],
+	    ["extendedmushrooms:poisonous_mushroom_cap", 1.5, 0.0, "static", "", true],
+	    ["chipped:soft_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cubed_magenta_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:crafted_red_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tiled_pink_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cubed_yellow_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:windmill_cyan_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cross_haired_light_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:rectangle_black_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tripped_lime_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:blocky_orange_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:harsh_quilted_magenta_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:wickered_magenta_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:ribbled_green_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cornered_lime_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:blocky_cyan_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:stringed_brown_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cornered_brown_wool", 1.5, 0.0, "static", "", true],
+	    ["minecraft:light_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cross_haired_white_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:harsh_quilted_lime_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:barky_light_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tripped_brown_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:knitted_purple_wool", 1.5, 0.0, "static", "", true],
+	    ["minecraft:pink_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:soft_purple_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:blocky_green_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tripped_white_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cubed_green_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:stringed_green_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:wickered_cyan_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:scaled_green_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:wickered_orange_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:rectangle_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cross_haired_orange_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:rectangle_lime_wool", 1.5, 0.0, "static", "", true],
+	    ["minecraft:black_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:stringed_purple_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tiled_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:scaled_purple_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:scaled_cyan_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:barky_green_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:stringed_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cubed_light_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:crafted_black_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:knitted_black_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:ribbled_purple_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:patched_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:windmill_orange_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:crafted_cyan_wool", 1.5, 0.0, "static", "", true],
+	    ["minecraft:gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:windmill_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cornered_red_wool", 1.5, 0.0, "static", "", true],
+	    ["minecraft:lime_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:bundled_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:barky_cyan_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:scaled_yellow_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:windmill_red_wool", 1.5, 0.0, "static", "", true],
+	    ["minecraft:white_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:woved_light_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:blocky_purple_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:harsh_quilted_green_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:scaled_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:crafted_pink_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:knitted_white_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:ribbled_black_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cross_haired_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:scaled_pink_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:stringed_pink_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tripped_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:patched_white_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:rectangle_purple_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:harsh_quilted_brown_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tripped_yellow_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:blocky_light_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tripped_light_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["minecraft:light_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:rectangle_red_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:barky_yellow_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:ribbled_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tiled_brown_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cross_haired_yellow_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:barky_light_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tripped_green_wool", 1.5, 0.0, "static", "", true],
+	    ["minecraft:cyan_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:ribbled_yellow_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:barky_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:woved_orange_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:scaled_black_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:woved_light_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:bundled_lime_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:patched_yellow_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:ribbled_lime_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tiled_purple_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:scaled_red_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:harsh_quilted_white_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:patched_lime_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cornered_purple_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:rectangle_orange_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tiled_light_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:patched_cyan_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:bundled_cyan_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:knitted_orange_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cornered_pink_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:woved_white_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:soft_magenta_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:woved_lime_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tripped_red_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:bundled_magenta_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tiled_magenta_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:woved_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cornered_orange_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cubed_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:windmill_brown_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:rectangle_magenta_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:bundled_light_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:soft_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:ribbled_light_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tiled_orange_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cornered_green_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:stringed_magenta_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:blocky_pink_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cubed_orange_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:woved_cyan_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cubed_red_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:rectangle_brown_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cornered_white_wool", 1.5, 0.0, "static", "", true],
+	    ["extendedmushrooms:honey_fungus_cap", 1.5, 0.0, "static", "", true],
+	    ["chipped:ribbled_orange_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:crafted_green_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:knitted_green_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:stringed_orange_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cross_haired_green_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:woved_magenta_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:harsh_quilted_purple_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:crafted_orange_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:wickered_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:harsh_quilted_black_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:rectangle_pink_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:scaled_white_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:windmill_yellow_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:patched_light_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:crafted_light_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:windmill_black_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:rectangle_white_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:stringed_white_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:woved_red_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:ribbled_magenta_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:patched_purple_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:wickered_brown_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:wickered_white_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:woved_purple_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:patched_light_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:stringed_cyan_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:patched_pink_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:soft_orange_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:knitted_yellow_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:barky_lime_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:knitted_light_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:soft_light_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cross_haired_light_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["minecraft:brown_mushroom_block", 1.5, 0.0, "static", "", true],
+	    ["chipped:woved_black_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:ribbled_cyan_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cross_haired_black_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:barky_purple_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tiled_red_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:rectangle_light_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cross_haired_brown_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:bundled_white_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:patched_magenta_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:soft_light_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:woved_yellow_wool", 1.5, 0.0, "static", "", true],
+	    ["minecraft:yellow_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cross_haired_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:blocky_yellow_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:patched_orange_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:barky_orange_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:woved_pink_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cubed_cyan_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:soft_black_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:knitted_lime_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:windmill_pink_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:stringed_lime_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:soft_green_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:barky_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:barky_red_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:patched_brown_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:harsh_quilted_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["minecraft:leather", 1.0, 1.0, "static", "", true],
+	    ["chipped:scaled_light_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:rectangle_yellow_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cubed_black_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:rectangle_light_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:harsh_quilted_yellow_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:patched_black_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:bundled_yellow_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:crafted_purple_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:windmill_magenta_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cornered_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:rectangle_cyan_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:harsh_quilted_orange_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tiled_light_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:bundled_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:patched_green_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:barky_magenta_wool", 1.5, 0.0, "static", "", true],
+	    ["extendedmushrooms:slime_fungus_cap", 1.5, 0.0, "static", "", true],
+	    ["chipped:blocky_red_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:windmill_light_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tripped_orange_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:bundled_purple_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:patched_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:blocky_white_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tripped_light_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:soft_cyan_wool", 1.5, 0.0, "static", "", true],
+	    ["extendedmushrooms:glowshroom_cap", 1.5, 0.0, "static", "", true],
+	    ["chipped:cubed_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cubed_lime_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:barky_brown_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cornered_light_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:ribbled_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:harsh_quilted_cyan_wool", 1.5, 0.0, "static", "", true],
+	    ["minecraft:red_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:wickered_yellow_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:soft_white_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:wickered_lime_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cubed_white_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:soft_pink_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:knitted_cyan_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:scaled_brown_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tripped_black_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tiled_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:tiled_green_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:bundled_black_wool", 1.5, 0.0, "static", "", true],
+	    ["minecraft:blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:stringed_black_wool", 1.5, 0.0, "static", "", true],
+	    ["environmental:yak_hair", 1.5, -1.0, "static", "", true],
+	    ["chipped:cubed_pink_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cornered_cyan_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:wickered_purple_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cornered_magenta_wool", 1.5, 0.0, "static", "", true],
+	    ["cold_sweat:hoglin_hide", 0.0, 2.0, "static", "", true],
+	    ["chipped:crafted_yellow_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:crafted_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:bundled_green_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:cubed_light_gray_wool", 1.5, 0.0, "static", "", true],
+	    ["chipped:blocky_blue_wool", 1.5, 0.0, "static", "", true],
+	    ["cold_sweat:chameleon_molt", 2, 0.0085, "adaptive", "", true]
+	]
+	#─────────────────────────────────────────────────────────────────────────//v
+	# Defines the items that provide insulation when worn
+	# ** See Insulation Ingredients for formatting.
+	# Enabling "fillSlots" will cause the armor's built-in insulation to consume the available insulation slots
+	# i.e. if an item has 5 insulation slots and gives one slot of cold insulation by default, it will only have 4 free slots left
+	# ⌄ 
+	"Insulating Armor" = [
+	    ["cold_sweat:hoglin_tunic", 0, 14],
+	    ["cold_sweat:goat_fur_cap", 10, 0],
+	    ["cold_sweat:goat_fur_parka", 14, 0],
+	    ["minecraft:leather_chestplate", 7, 7],
+	    ["minecraft:leather_boots", 5, 5],
+	    ["minecraft:leather_leggings", 6, 6],
+	    ["cold_sweat:goat_fur_pants", 12, 0],
+	    ["environmental:yak_pants", 7.5, -5.0],
+	    ["cold_sweat:hoglin_headpiece", 0, 10],
+	    ["cold_sweat:hoglin_hooves", 0, 10],
+	    ["cold_sweat:goat_fur_boots", 10, 0],
+	    ["minecraft:leather_helmet", 5, 5],
+	    ["cold_sweat:hoglin_trousers", 0, 12],
+	    ["cold_sweat:chameleon_scale_helmet", 10, 0.0085, "adaptive"],
+	    ["cold_sweat:chameleon_scale_chestplate", 14, 0.0085, "adaptive"],
+	    ["cold_sweat:chameleon_scale_leggings", 12, 0.0085, "adaptive"],
+	    ["cold_sweat:chameleon_scale_boots", 10, 0.0085, "adaptive"]
+	]
+	#─────────────────────────────────────────────────────────────────────────
+	# Defines how many insulation slots armor pieces have
+	# There are 4 modes for this setting:
+	# ┌ Static: Each armor slot (head, body, legs, feet) has a fixed number of insulation slots
+	# └─── Format: [head, body, legs, feet]
+	#      • head/body/legs/feet: The number of insulation slots for that armor slot
+	# ┌ Linear: Number of slots increases steadily with protection
+	# ├ Exponential: Number of slots increases exponentially with protection
+	# ├ Logarithmic: Number of slots increases with protection, with diminishing returns
+	# └─── Format: [multiplier, max-slots]
+	#      • multiplier: Multiplied by the armor's protection value to get the number of insulation slots
+	#      • max-slots: The maximum number of insulation slots an armor piece can have
+	# ⌄ 
+	"Insulation Slots" = [16, 24, 20, 16]
+	#─────────────────────────────────────────────────────────────────────────//v
+	# Defines wearable items that cannot be insulated
+	# └── Format: ["item_id", "item_id", ...etc]
+	# ⌄ 
+	"Insulation Blacklist" = []
+	#─────────────────────────────────────────────────────────────────────────//v
+	# Defines the items that provide insulation when worn in a curio slot
+	# See Insulation Ingredients for formatting. This setting does not have a "fillSlots" option
+	# ⌄ 
+	"Insulating Curios" = []
+	#─────────────────────────────────────────────────────────────────────────
+	# Defines the effectiveness of insulating items in protecting against temperature
+	# ⌄ 
+	#Range: 0.0 ~ Infinity
+	"Insulation Strength" = 1.0
+	#─────────────────────────────────────────────────────────────────────────//v
+	# Allows for overriding the number of insulation slots for specific items
+	# └── Format: [["item_id", slotCount, *"{nbt}"], ["item_id", slotCount, *"{nbt}"], [...], etc]
+	# • item_id: The item's ID (i.e. "minecraft:iron_helmet").
+	# • slot_count: The number of insulation slots the item should have.
+	# • *nbt: If set, the item will only have the specified number of insulation slots if it has the specified NBT tag.
+	# ⌄ 
+	"Insulation Slot Overrides" = []
+
+[Consumables]
+	#─────────────────────────────────────────────────────────────────────────//v
+	# Defines items that affect the player's temperature when consumed
+	# ├── Format: [["item_id", amount, *"{nbt}", *duration, *stack_limit], [...], etc]
+	# └── [* = optional]
+	# • item_id: The item's ID (i.e. "minecraft:apple").
+	# • amount: The amount to change the player's temperature by. Negative values are cold, positive values are hot
+	# • *nbt: If set, the item will only affect the player's temperature if it has the specified NBT tag.
+	# • *duration: If set, the player's temperature will remain increased/decreased for this amount of time (in ticks).
+	# • *stack_limit: If set, consuming multiple of the same item will apply stacking effects up to this limit.
+	# ⌄ 
+	"Temperature-Affecting Foods" = [
+	    ["cold_sweat:soul_sprout", 0.0, "{}", 1200]
+	]
+	#─────────────────────────────────────────────────────────────────────────
+	# Defines how much a waterskin will change the player's body temperature when used
+	# ⌄ 
+	#Range: > 0
+	"Waterskin Strength" = 50
+	#─────────────────────────────────────────────────────────────────────────
+	# Determines the strength of the Soulspring Lamp's effect before it is overwhelmed
+	# A value of 1 means it will never be overwhelmed
+	# ⌄ 
+	#Range: 0.0 ~ 1.0
+	"Soulspring Lamp Strength" = 0.6
+	#─────────────────────────────────────────────────────────────────────────//v
+	# Defines items that can be used to dry the player
+	# └── Format: [["item_id", "turns_into"], [...], etc]
+	# • item_id: The item's ID (i.e. "minecraft:sponge").
+	# • turns_into: The item to be turned into when the item is used (i.e. "minecraft:wet_sponge").
+	# ⌄ 
+	"Drying Items" = [
+	    ["minecraft:sponge", "minecraft:wet_sponge"]
+	]
+	#─────────────────────────────────────────────────────────────────────────
+	# A multiplier for how effective a waterskin's over-time effect is, when held in the player's hotbar
+	# ⌄ 
+	#Range: 0.0 ~ Infinity
+	"Waterskin Hotbar Strength" = 1.0
+	#─────────────────────────────────────────────────────────────────────────
+	# A multiplier for how quickly a waterskin will return to its neutral temperature when being used in the hotbar
+	# ⌄ 
+	#Range: 0.0 ~ Infinity
+	"Waterskin Neutralize Speed" = 1.0
+	#─────────────────────────────────────────────────────────────────────────
+	# Defines how many times a waterskin can be used before becoming empty
+	# ⌄ 
+	#Range: > 1
+	"Waterskin Uses" = 1
+
+[Misc]
+	#─────────────────────────────────────────────────────────────────────────//v
+	# Defines items that affect the player's temperature when in the inventory
+	# ├── Format: [["item_id", temperature, "slotRange", "trait", *"{nbt}", *maxEffect, *tempLimit], [...], etc]
+	# └── [* = optional]
+	# • item_id: The item's ID (i.e. "minecraft:lava_bucket").
+	# • temperature: The temperature change the item will apply to the entity. For core temperature, this is applied every tick
+	# • slot_range: Either "inventory", "hotbar", or "hand". Defines what slots the item must be in to apply to the entity (inventory includes hotbar)
+	# • trait: The temperature trait to apply the effect to. Typical values are "core" for body temperature or "world" for ambient temperature. More on the mod documentation page.
+	# • *nbt: The NBT data the item must have to apply to the entity.
+	# • *max_effect: The maximum temperature effect the item can apply to the entity.
+	# • *tempLimit: The maximum temperature at which this item temp will have any effect.
+	#   (Based on the given trait. Represents the minimum temp if the item temp is negative)
+	# ⌄ 
+	"Item Temperatures" = []
+
+["Hearth Extras"]
+	#─────────────────────────────────────────────────────────────────────────//v
+	# Potions containing any of these effects will not be allowed in the hearth
+	# └── Format: ["effect_id", "effect_id", ...etc]
+	# ⌄ 
+	"Blacklisted Hearth Potions" = [
+	    "minecraft:instant_damage",
+	    "minecraft:poison",
+	    "minecraft:wither",
+	    "minecraft:weakness",
+	    "minecraft:mining_fatigue",
+	    "minecraft:slowness"
+	]
+	#─────────────────────────────────────────────────────────────────────────
+	# If true, potions can be used in the hearth to give all players in range the potion effect
+	# ⌄ 
+	"Allow Potions in Hearth" = true
+
+["Item Functions"]
+	#─────────────────────────────────────────────────────────────────────────
+	# Allow fire resistance to block overheating damage
+	# ⌄ 
+	"Fire Resistance Immunity" = true
+	#─────────────────────────────────────────────────────────────────────────
+	# Allow ice resistance to block freezing damage
+	# ⌄ 
+	"Ice Resistance Immunity" = true
+	#─────────────────────────────────────────────────────────────────────────
+	# Whether a thermometer is required to see exact world and body temperature
+	# ⌄ 
+	"Require Thermometer" = true
+
+# Drains pressure from Create's netherite backtank if the player is in a hot/cold environment
+# Triggered by the set bonus for wearing a full set of netherite diving gear
+# Disabling these settings will not disable the heat/cold protection set bonus
+# ⌄ 
+["Create Backtank"]
+	"Heat Drains Backtank" = true
+	"Cold Drains Backtank" = false
+

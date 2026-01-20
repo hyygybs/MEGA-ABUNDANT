@@ -1,0 +1,35 @@
+{
+  "entity": "endermanoverhaul:end_enderman",
+  "name": "entity.endermanoverhaul.end_enderman",
+  "name_color": "0xB969EF",
+  "gui_scale": 1.0,
+  "gui_x_offset": 0.0,
+  "gui_y_offset": 0.0,
+  "gui_z_offset": 0.0,
+  "sim_cost": 512,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+	"item": "hostilenetworks:end_prediction"
+  },
+  "trivia": "",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:ender_pearl",
+      "count": 16
+    },
+    {
+      "item": "endermanoverhaul:corrupted_pearl",
+      "count": 8
+    },
+	{
+      "item": "minecraft:chorus_fruit",
+      "count": 4
+    },
+	{
+      "item": "endermanoverhaul:enderman_tooth",
+      "count": 1
+    }
+  ]
+}

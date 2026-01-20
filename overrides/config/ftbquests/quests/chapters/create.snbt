@@ -1,0 +1,2090 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "2DB7574DB5EFE80D"
+	icon: "create:gearbox"
+	id: "7093DA17DBE9B6D0"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["基本合成材料"]
+			id: "1BDCC64850845370"
+			rewards: [{
+				id: "3C8CF92BF8E975D6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72FD2873397D2CA3"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0D1D499497F5F3A5"]
+			description: ["使用安山合金对去皮原木使用"]
+			id: "6C0447A249672D7A"
+			rewards: [{
+				id: "3443A2765BCD2ED1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CF8F729778F4B25"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1BDCC64850845370"]
+			id: "0E5D0010EE090C6A"
+			rewards: [{
+				id: "6E0F898BD667225D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65B291EB512595C8"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0E5D0010EE090C6A"]
+			description: ["最初的动力源"]
+			id: "0D1D499497F5F3A5"
+			rewards: [{
+				id: "2ABB8F357092A239"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "23A1EC859CCD11B7"
+					item: "create:hand_crank"
+					type: "item"
+				}
+				{
+					id: "592C6C80B1E2FA8A"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "439D1DB492E737DD"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+				{
+					id: "2669F624784F5587"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6C0447A249672D7A"]
+			id: "5E8AAD8C0A62A0A1"
+			rewards: [{
+				id: "6E274317123F7609"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6DCAAA9D11E36B0C"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "76E853CCE7A79D57"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0D1D499497F5F3A5"]
+			description: ["曲柄和齿轮两者结合的产物"]
+			id: "23540F7DC9C2F279"
+			rewards: [{
+				id: "07EEF9AC342FED00"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "064A1CAB26921AE6"
+					item: "create_connected:crank_wheel"
+					type: "item"
+				}
+				{
+					id: "3D1EDA21E083F4CA"
+					item: "create_connected:large_crank_wheel"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7FCA0C0ABA37DF2C"]
+			description: ["处理材料的机器"]
+			id: "2B64C4360BD5D102"
+			rewards: [{
+				id: "526C1B9EEEAB4B56"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5CEAA5F9146B07DB"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "0F5B9529CB9EA495"
+					item: "create:depot"
+					type: "item"
+				}
+				{
+					id: "0822EFC25675DACD"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5E8AAD8C0A62A0A1"]
+			description: ["用于物品运输和传递旋转力"]
+			id: "345BACB804CF1F98"
+			rewards: [{
+				id: "69485E1DCE4EC5EF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AA95BBC5B6CD2AB"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["345BACB804CF1F98"]
+			description: ["用于传递旋转力"]
+			id: "2E4D72AB024CA169"
+			rewards: [{
+				id: "21BAB1176B576F81"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "626F25CC1476E1EC"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "1FE3A3F15388FA00"
+					item: "create:vertical_gearbox"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["345BACB804CF1F98"]
+			description: ["用于传递旋转力，但接受红石信号"]
+			id: "70FEF9CA9EDD8E88"
+			rewards: [{
+				id: "2A1833534F30F73D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3BFCA07720AF2C3F"
+					item: "create:clutch"
+					type: "item"
+				}
+				{
+					id: "5409F063B0C70998"
+					item: "create:gearshift"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["345BACB804CF1F98"]
+			description: ["用于传递旋转力"]
+			id: "7AEFFCDFB83FB83B"
+			rewards: [{
+				id: "1909A09943B72B54"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0BF7EE2F03246686"
+					item: "create:encased_chain_drive"
+					type: "item"
+				}
+				{
+					id: "42D73835C5C78647"
+					item: "create:adjustable_chain_gearshift"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["655C25AC5BBD3BDA"]
+			description: ["显示组件的信息"]
+			id: "269FDF818FB0B41A"
+			rewards: [{
+				id: "6BA12253AC484634"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37B70BC2A9F84884"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							insulation: [ ]
+						}
+					}
+					id: "create:goggles"
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["269FDF818FB0B41A"]
+			description: ["检测转速"]
+			id: "2C2476083CA22227"
+			rewards: [{
+				id: "03C80408C1431D94"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20C5513B3D09B178"
+				item: "create:speedometer"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2B64C4360BD5D102"]
+			description: ["调整模组的机器"]
+			id: "655C25AC5BBD3BDA"
+			rewards: [{
+				id: "05961CFBF5883DAD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29B4D5AF4D601A46"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["655C25AC5BBD3BDA"]
+			id: "561139EB4552EDA3"
+			rewards: [{
+				id: "33C3B75CB8B64A80"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "13B66677DD3CAAE6"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "2AB6E004FB22A3F5"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["561139EB4552EDA3"]
+			description: ["用于捕捉烈焰人"]
+			id: "49951B122D9E39C6"
+			rewards: [{
+				id: "5F0658F7D8632FD8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C97D88B7490E276"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["49951B122D9E39C6"]
+			description: ["用于机器合成，需要燃料"]
+			id: "017EE8B2C76E556A"
+			rewards: [{
+				id: "3D8E463118C4636C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1186552513AB8E3A"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["345BACB804CF1F98"]
+			description: ["加工材料的机器"]
+			id: "7FCA0C0ABA37DF2C"
+			rewards: [{
+				id: "44435C7D00AC70D9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4913FFD296345409"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2B64C4360BD5D102"]
+			description: ["用于砍树和处理木材"]
+			id: "55BE27F04B1E4440"
+			rewards: [{
+				id: "53268FF2776BE085"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26F79E1CCB1DAD68"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2B64C4360BD5D102"]
+			description: ["用于吹动实体或加工物品"]
+			id: "716C3DB5B5223258"
+			rewards: [{
+				id: "332C9E17CB8A50B0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3242E9F11A968148"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5B9389495BEAE132"]
+			description: ["模拟玩家交互"]
+			id: "25B7C7319508FB56"
+			rewards: [{
+				id: "68798BA1AE782E2F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03EB1578CD41B58B"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["345BACB804CF1F98"]
+			description: ["用锁链传递旋转力"]
+			id: "2C34039778B23502"
+			rewards: [{
+				id: "06BAAA103B0FFCC1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CEB624BB8360020"
+				item: "create:chain_conveyor"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["561139EB4552EDA3"]
+			description: ["基础合成材料"]
+			id: "0FFE66FD39B62E31"
+			rewards: [{
+				id: "28AE7E31DE694F95"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D4584E69F734DEE"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["064E2A735C834E00"]
+			description: ["用于自动合成"]
+			id: "5B9389495BEAE132"
+			rewards: [{
+				id: "3803128B9637668A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "539F740FC8195B7F"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["345BACB804CF1F98"]
+			description: ["用于传输物品"]
+			id: "7A0612199A38C18B"
+			rewards: [{
+				id: "7C51A8DE8474E7DD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A53A8D5E322C95B"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["345BACB804CF1F98"]
+			description: ["用于在传送带上分流物品"]
+			id: "7B6D53E1F130B2CD"
+			rewards: [{
+				id: "4105EC38184F1CD4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "435958F4BFD0A78A"
+				item: "create:andesite_tunnel"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5B9389495BEAE132"]
+			description: ["粉碎加工"]
+			id: "1DFF00DA40DB49B0"
+			rewards: [{
+				id: "2A15F56005D3CD15"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0265602E54185A3A"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5B9389495BEAE132"]
+			description: ["更高级的漏斗"]
+			id: "1D2E696F927FE0C6"
+			rewards: [{
+				id: "4745822FF3140760"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "285BE997AD64D291"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5B9389495BEAE132"]
+			description: ["更高级的隧道"]
+			id: "265696C36107B112"
+			rewards: [{
+				id: "79341DCB0B6ACEB6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "095FB743BDCA1BBE"
+				item: "create:brass_tunnel"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B64C4360BD5D102"]
+			description: ["用于破坏方块"]
+			id: "07627719CA74D44E"
+			rewards: [{
+				id: "7E615A5F56EF3E50"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "577D479FFE0DE05C"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2B64C4360BD5D102"]
+			description: ["用于分离物品中的流体"]
+			id: "312666F7D6FC96EC"
+			rewards: [{
+				id: "38F4508C617DBD32"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C93F512C47667C2"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B64C4360BD5D102"]
+			description: ["用于为物品注入流体"]
+			id: "6EC1C08880117967"
+			rewards: [{
+				id: "0F4B0150DC2130F9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14D00009C2606D93"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2B64C4360BD5D102"]
+			description: ["用于传输流体"]
+			id: "0597C2181730062C"
+			rewards: [{
+				id: "3FF985EC2171EBEE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4CBB5DD30F7CEFD2"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					id: "1C50C2AD892641B6"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "5A5290517F152C07"
+					item: "create:fluid_valve"
+					type: "item"
+				}
+				{
+					id: "43A3D5C487D9D291"
+					item: "create:smart_fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "4050FA019A972EF2"
+					item: "create:copper_valve_handle"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["345BACB804CF1F98"]
+			description: ["用于移动结构"]
+			id: "6E3B28923AB921F3"
+			rewards: [{
+				id: "1489836FCA95C1CB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B025FB359699534"
+				item: "create:mechanical_piston"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0FFE66FD39B62E31"]
+			description: ["用于合成机器"]
+			id: "064E2A735C834E00"
+			rewards: [{
+				id: "11E978FBDE5B2BFA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "351FB27C737856F9"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5B9389495BEAE132"]
+			id: "44D33B9AF1729549"
+			rewards: [{
+				id: "52B47440A793BD78"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13B6EEFE9FCE35C6"
+				item: "create:sequenced_gearshift"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["561139EB4552EDA3"]
+			description: ["用于物流"]
+			id: "09C0456C34EABD72"
+			rewards: [{
+				id: "7947CCC5281971D2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "69D3588B36688D49"
+					item: "create:packager"
+					type: "item"
+				}
+				{
+					id: "5EF94CE8D02A2307"
+					item: "create:repackager"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["09C0456C34EABD72"]
+			description: ["用于物流"]
+			id: "5156382707281A99"
+			rewards: [{
+				id: "1AD623E858A85B10"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7A023997E9FA62FC"
+					item: "create:stock_ticker"
+					type: "item"
+				}
+				{
+					id: "640EAF7432A1134A"
+					item: "create:stock_link"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["345BACB804CF1F98"]
+			description: ["用于存储物品"]
+			id: "5C59569B417D041C"
+			rewards: [{
+				id: "04DDDC895ADC0852"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "229CF22F8CC97F9E"
+					item: "create:item_vault"
+					type: "item"
+				}
+				{
+					id: "724B8C63C394D27F"
+					item: "create_connected:item_silo"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5156382707281A99"]
+			description: ["用于物流"]
+			id: "7426A9EE874B97F3"
+			rewards: [{
+				id: "02E9F83BEAC1FD4A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10EF66CC58305DEE"
+				item: "create:package_frogport"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1DFF00DA40DB49B0"]
+			description: ["合成材料"]
+			id: "343BB162F2623C28"
+			rewards: [{
+				id: "3BDB9DC6AAAD758D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2117E145FA446E6B"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["343BB162F2623C28"]
+			description: ["调节转速"]
+			id: "5A584D9596B15D10"
+			rewards: [{
+				id: "2A9D0E28FA25C7B5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D40F554779910E8"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["343BB162F2623C28"]
+			description: ["用于物流"]
+			id: "51E0E420F5A45419"
+			rewards: [{
+				id: "22BDB60415A859F8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B4B153A0FAF6A53"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 26.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B64C4360BD5D102"]
+			description: ["用于收割作物"]
+			id: "709BE87168C8ED06"
+			rewards: [{
+				id: "2A84ACCEB4C86001"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BD3FD11AE13F25E"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["343BB162F2623C28"]
+			description: ["列车组件"]
+			id: "7D3DF23097F5F5AB"
+			rewards: [{
+				id: "335411ABBC6AE985"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6103806A439BE461"
+					item: "create:railway_casing"
+					type: "item"
+				}
+				{
+					id: "35FDE565FA073320"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					id: "2E4FF6C4B1591377"
+					item: "create:controls"
+					type: "item"
+				}
+			]
+			x: 27.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3E15A33C49499233"]
+			description: ["将流体储罐转变为锅炉"]
+			id: "23554681680427AE"
+			rewards: [{
+				id: "4349545C213BE9AC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5DE22174A2E5A000"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					id: "5D6B37E26015D903"
+					item: "create:steam_whistle"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0597C2181730062C"]
+			description: ["用于存储流体"]
+			id: "3E15A33C49499233"
+			rewards: [{
+				id: "2B178D6552B695A4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BEE941347A13915"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7D3DF23097F5F5AB"]
+			description: ["用于组装或拆解列车，或作为列车停靠标识"]
+			id: "2524306E9ACED5F3"
+			rewards: [{
+				id: "61244A384EF99425"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54AA115C24E2D432"
+				item: "create:track_station"
+				type: "item"
+			}]
+			x: 29.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2524306E9ACED5F3"]
+			description: ["指挥交通"]
+			id: "2D67BEF12EF61666"
+			rewards: [{
+				id: "2CD51910A3295E4F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0FBEB93A0B0C448C"
+					item: "create:track_signal"
+					type: "item"
+				}
+				{
+					id: "6BD755EB59FAD5BD"
+					item: "create:track_observer"
+					type: "item"
+				}
+			]
+			x: 31.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5B9389495BEAE132"]
+			description: ["处理材料的机器"]
+			id: "26F1385774855826"
+			rewards: [{
+				id: "4CBCFBCA2F5E1CC1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A977B85B22AFADB"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["13D04ECC89DC182B"]
+			description: ["输入FE能量产生旋转力"]
+			id: "00124D6924D9C3B8"
+			rewards: [{
+				id: "64A0C5DEDD18CF0A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EEDD7774D679583"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["26F1385774855826"]
+			description: ["从旋转力中产生FE能量"]
+			id: "13D04ECC89DC182B"
+			rewards: [{
+				id: "3A3D9D2D711DF89A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C6A14B7878BEDE4"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["13D04ECC89DC182B"]
+			description: ["给物品充电"]
+			id: "064F7B1D297A567C"
+			rewards: [{
+				id: "150D31FC4A1B0B18"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B1E3F5F99B0366B"
+				item: "createaddition:tesla_coil"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["13D04ECC89DC182B"]
+			description: ["储存FE能量"]
+			id: "15A03D4505023FF2"
+			rewards: [{
+				id: "20B916549793FC3A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "47235DD3F1C6DE0B"
+				item: "createaddition:modular_accumulator"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["017EE8B2C76E556A"]
+			description: ["将烈焰人燃烧室转化为烈焰人附魔室"]
+			id: "78650046E079548A"
+			rewards: [{
+				id: "7FF5957C42FE6C53"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AF3444B43E1C135"
+				item: "create_enchantment_industry:enchanting_guide"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["017EE8B2C76E556A"]
+			description: ["将烈焰人燃烧室转化为烈焰人炉灶"]
+			id: "3EE3E65D5CB45334"
+			rewards: [{
+				id: "25255CDA6F4CB755"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F389B2DD2E99B81"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "create_central_kitchen:cooking_guide"
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["017EE8B2C76E556A"]
+			description: ["将烈焰人燃烧室转化为烈焰人银行家"]
+			id: "4C25BF6A8701F109"
+			rewards: [{
+				id: "6CBA68CAFB753F5A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EF2337E5D423CAA"
+				item: "numismatics:banking_guide"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["78650046E079548A"]
+			description: ["附魔相关"]
+			id: "0CC2E28D64B51B82"
+			rewards: [{
+				id: "6BE612BA4C8302FC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2DAF915FC55BA9FF"
+					item: "create_enchantment_industry:disenchanter"
+					type: "item"
+				}
+				{
+					id: "4F5A115C37078ED3"
+					item: "create_enchantment_industry:printer"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["343BB162F2623C28"]
+			description: ["远程传递应力/物品/流体"]
+			id: "21C7B5841520BEDE"
+			rewards: [{
+				id: "578921084D90AF80"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "47D47C52DA3D6119"
+					item: "createendertransmission:energy_transmitter"
+					type: "item"
+				}
+				{
+					id: "203CAFCE1ACBF48D"
+					item: "createendertransmission:item_transmitter"
+					type: "item"
+				}
+				{
+					id: "3E5C22456E7E3941"
+					item: "createendertransmission:fluid_transmitter"
+					type: "item"
+				}
+			]
+			x: 25.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["064E2A735C834E00"]
+			description: ["反应堆结构方块"]
+			id: "2A733838ADA0534A"
+			rewards: [{
+				id: "7CD0CED2B80C53A8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A8F5A74C89D53E1"
+				item: "createnuclear:reactor_casing"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2A733838ADA0534A"]
+			description: ["多方块结构，为5x7的长方体"]
+			id: "33AF8E0864E81F60"
+			rewards: [{
+				id: "6F05411A210583F2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6EA2074B17032EEF"
+					item: "createnuclear:reactor_controller"
+					type: "item"
+				}
+				{
+					id: "5231C3235BA5E105"
+					item: "createnuclear:reactor_frame"
+					type: "item"
+				}
+				{
+					id: "309F334A6D8C01FF"
+					item: "createnuclear:reactor_core"
+					type: "item"
+				}
+				{
+					id: "3EC74701FA1D8D81"
+					item: "createnuclear:reactor_cooler"
+					type: "item"
+				}
+				{
+					id: "1D346CAD1FF9FD7C"
+					item: "createnuclear:reactor_input"
+					type: "item"
+				}
+				{
+					id: "054DE09519677F14"
+					item: "createnuclear:reactor_output"
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5B9389495BEAE132"]
+			description: ["合成材料"]
+			id: "5AD3A4918A3A3601"
+			rewards: [{
+				id: "364D6B00D8FEEEDE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C3CF4E94921774A"
+				item: "createutilities:void_steel_ingot"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5AD3A4918A3A3601"]
+			description: ["用于合成机器"]
+			id: "26A97BC85C5E6963"
+			rewards: [{
+				id: "31BB6127DAB6EFB7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E8C495EC10729E3"
+				item: "createutilities:void_casing"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["26A97BC85C5E6963"]
+			description: ["远程传递应力/物品/流体/FE能量"]
+			id: "704F7229AF6EB481"
+			rewards: [{
+				id: "162027ECC85F47BA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6C0F57BC64108F9A"
+					item: "createutilities:void_motor"
+					type: "item"
+				}
+				{
+					id: "4F939A3D999F560A"
+					item: "createutilities:void_chest"
+					type: "item"
+				}
+				{
+					id: "1AB1CA4F08F54365"
+					item: "createutilities:void_tank"
+					type: "item"
+				}
+				{
+					id: "4E672C10BAD46A88"
+					item: "createutilities:void_battery"
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2D67BEF12EF61666"]
+			description: ["用于捕捉恶魂"]
+			id: "02464187DF40B939"
+			rewards: [{
+				id: "5F73AACFA8A3E43F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18C1F6144C229F7D"
+				item: "create_power_loader:empty_andesite_chunk_loader"
+				type: "item"
+			}]
+			x: 33.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["02464187DF40B939"]
+			description: ["用于加载区块"]
+			id: "436B22306C59937A"
+			rewards: [{
+				id: "12BD72EE06AD079D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F69880857C3B25C"
+				item: "create_power_loader:andesite_chunk_loader"
+				type: "item"
+			}]
+			x: 35.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0D1D499497F5F3A5"]
+			description: ["先进的动力源"]
+			id: "306BA6C97FFF5723"
+			rewards: [{
+				id: "71A2749ECAEAFBF0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "281CAF63B416B2E2"
+					item: "create_new_age:generator_coil"
+					type: "item"
+				}
+				{
+					id: "2075D693E4E8798F"
+					item: "create_new_age:carbon_brushes"
+					type: "item"
+				}
+				{
+					id: "64991335BF8D0E10"
+					item: "create_new_age:basic_motor"
+					type: "item"
+				}
+				{
+					id: "6927AF6569C23A51"
+					item: "create_new_age:electrical_connector"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6E3B28923AB921F3"]
+			description: ["用于移动结构"]
+			id: "2C15094E95FF79F5"
+			rewards: [{
+				id: "12C334D9A33AF32B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "348F231BBE9EC603"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2C15094E95FF79F5"]
+			description: ["用于抽取原油"]
+			id: "3EFB4D8823316105"
+			rewards: [{
+				id: "4E074EA3072476C1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "541587703FBE1049"
+					item: "createdieselgenerators:pumpjack_bearing"
+					type: "item"
+				}
+				{
+					id: "38EEC99283C50938"
+					item: "createdieselgenerators:pumpjack_head"
+					type: "item"
+				}
+				{
+					id: "1ACDDCB999AC04B3"
+					item: "createdieselgenerators:pumpjack_crank"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3EFB4D8823316105"]
+			description: ["用于探测原油区块"]
+			id: "2ADE565CFE08AF2A"
+			rewards: [{
+				id: "48D2DEC34963AC74"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17E819200E219F36"
+				item: "createdieselgenerators:oil_scanner"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3E15A33C49499233"]
+			description: ["将储罐改造成分馏塔"]
+			id: "700D71D2559AA5F0"
+			rewards: [{
+				id: "502D0E6933B92197"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A4921F1C4A55B79"
+				item: "createdieselgenerators:distillation_controller"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["700D71D2559AA5F0"]
+			description: ["用于产生应力"]
+			id: "1AF9E0CE1169AF55"
+			rewards: [{
+				id: "41B4DD42BB7C8899"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07A9114635FCB9C1"
+				item: "createdieselgenerators:diesel_engine"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1AF9E0CE1169AF55"]
+			description: ["用于产生应力"]
+			id: "593B100A1F8AB4AD"
+			rewards: [{
+				id: "780969C4D05C8C79"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "138D176286466AE6"
+					item: "createdieselgenerators:large_diesel_engine"
+					type: "item"
+				}
+				{
+					id: "3FF082E170D53520"
+					item: "createdieselgenerators:huge_diesel_engine"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1AF9E0CE1169AF55"]
+			description: ["用于机器合成，需要燃料"]
+			id: "4BC573A5A5DCEF19"
+			rewards: [{
+				id: "7EA475513E787E42"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "592CB0367835E5EA"
+				item: "createdieselgenerators:burner"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5B9389495BEAE132"]
+			description: ["用于合成物品"]
+			id: "5375DA31F6352A10"
+			rewards: [{
+				id: "17277EC20B32045E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "28456FE7E64ACBC1"
+					item: "sculkcatalyticchamber:chamber"
+					type: "item"
+				}
+				{
+					id: "41E0FF228B5718C2"
+					item: "sculkcatalyticchamber:mechanical_shrieker"
+					type: "item"
+				}
+			]
+			x: 23.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["55BE27F04B1E4440"]
+			description: ["用于传输电流"]
+			id: "65DFC3D9337C6483"
+			rewards: [{
+				id: "100B71ECA627C2E4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C521AF094C758AB"
+				item: "powergrid:wire"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2163611A309C9AEC"]
+			description: ["用于加工磁铁"]
+			id: "018040FD0DC52B87"
+			rewards: [{
+				id: "691D133D6050D37C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CE81CB859D8E561"
+				item: "powergrid:electromagnet"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["65DFC3D9337C6483"]
+			description: ["用于发电"]
+			id: "2163611A309C9AEC"
+			rewards: [{
+				id: "2195505483FBE744"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1FE3E251038B5123"
+					item: "powergrid:copper_coil"
+					type: "item"
+				}
+				{
+					id: "711623A2E92C7623"
+					item: "powergrid:generator_housing"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2276A9AE15538F3E"]
+			description: ["用于组成发电机"]
+			id: "7CB89B598077AB02"
+			rewards: [{
+				id: "6860A4EB48FE0FFD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04792F69A8790928"
+				item: "powergrid:generator_induction_rotor"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["2163611A309C9AEC"]
+			description: ["用于组成发电机"]
+			id: "2276A9AE15538F3E"
+			rewards: [{
+				id: "4CB148B4B2CBEB8A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "01994FF916C49E5D"
+					item: "powergrid:generator_clutch"
+					type: "item"
+				}
+				{
+					id: "39D2BE5A40BFFE49"
+					item: "powergrid:generator_commutator"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7CB89B598077AB02"]
+			description: ["用于查看电压和电流"]
+			id: "563329CC0E2ADBC5"
+			rewards: [{
+				id: "39BC32DD2C9000B8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3ABD608D52F96FFC"
+					item: "powergrid:voltage_gauge"
+					type: "item"
+				}
+				{
+					id: "7B62C87CE1A91C5F"
+					item: "powergrid:current_gauge"
+					type: "item"
+				}
+				{
+					id: "4007DB7AE8B48C60"
+					item: "powergrid:power_gauge"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["563329CC0E2ADBC5"]
+			description: ["用于将低电压转化为大电流"]
+			id: "0626D4310B111260"
+			rewards: [{
+				id: "78AF1CAFD60BBC01"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69128E9BCFBE1BB2"
+				item: "powergrid:contactor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["563329CC0E2ADBC5"]
+			description: ["用于改变电压"]
+			id: "7691174181B9CF33"
+			rewards: [{
+				id: "78C461EDFA72AD08"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "005893386E72C231"
+				item: "powergrid:transformer_core"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["7691174181B9CF33"]
+			description: ["用于改变电压"]
+			id: "2EBE9AB3F39239AF"
+			rewards: [{
+				id: "01EAFBD80F0F5096"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "781BF7C83E640A35"
+				item: "powergrid:variac"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["563329CC0E2ADBC5"]
+			description: ["用于开关电路"]
+			id: "134EE05652C6B732"
+			rewards: [{
+				id: "0F5D952BA7BBCA92"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1EC0370D8FAA9410"
+					item: "powergrid:lv_switch"
+					type: "item"
+				}
+				{
+					id: "5F9F590F6EC32B72"
+					item: "powergrid:mv_switch"
+					type: "item"
+				}
+				{
+					id: "760E1B9F8D0C8B2A"
+					item: "powergrid:hv_switch"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["563329CC0E2ADBC5"]
+			description: ["将电力转化为应力"]
+			id: "587F1FA6F553948E"
+			rewards: [{
+				id: "3578D511A59B1D99"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "25FEE48F91DC1DC6"
+					item: "powergrid:electric_motor"
+					type: "item"
+				}
+				{
+					id: "79E65CBCB6B8D314"
+					item: "powergrid:servo"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["563329CC0E2ADBC5"]
+			description: ["将电力转化为热量"]
+			id: "691D528C468B25FB"
+			rewards: [{
+				id: "3A25531F5C04DFAA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C8C6E5C2055DB28"
+				item: "powergrid:heating_coil"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["563329CC0E2ADBC5"]
+			description: ["将电力转化为热量"]
+			id: "276B23B56C65EC5B"
+			rewards: [{
+				id: "4BAE6DAEBC5566F8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6947271BE07802BE"
+				item: "powergrid:basin_heater"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["563329CC0E2ADBC5"]
+			description: ["用于储存电力"]
+			id: "6647F2A94658D64B"
+			rewards: [{
+				id: "72D25CDC6A4C578D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "245847CF440A54BC"
+				item: "powergrid:battery"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["6647F2A94658D64B"]
+			description: ["连接设备的电路"]
+			id: "0DA62C19FF496664"
+			rewards: [{
+				id: "6DD1A534C1E9FFDF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E4B74E9418793AC"
+				item: "powergrid:device_connector"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["587F1FA6F553948E"]
+			description: ["通电吹动物品和实体"]
+			id: "4D16620C250E8F3B"
+			rewards: [{
+				id: "658079E05C111739"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1600605B05C77D1E"
+				item: "powergrid:electric_fan"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["134EE05652C6B732"]
+			description: ["用于保护电路"]
+			id: "2529C2FA0B2D46BA"
+			rewards: [{
+				id: "6A3F1BFFA338B9FD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17D720E143191E5C"
+				item: "powergrid:fuse_holder"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["691D528C468B25FB"]
+			description: ["用于照明"]
+			id: "08F8C8C645CE2C98"
+			rewards: [{
+				id: "7BCA08F187EA553B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "66B7D5BD14B55258"
+					item: "powergrid:light_bulb"
+					type: "item"
+				}
+				{
+					id: "32AFE258F5A1A779"
+					item: "powergrid:growth_lamp"
+					type: "item"
+				}
+				{
+					id: "6C5B6B0959D5580A"
+					item: "powergrid:light_fixture"
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3EE3E65D5CB45334"]
+			description: ["用于烧制食物"]
+			id: "0CF256C085118E7B"
+			rewards: [{
+				id: "48CCE38863E458F4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "70A145FE2D5E42F8"
+					item: "ratatouille:oven"
+					type: "item"
+				}
+				{
+					id: "4DC694EC82F28334"
+					item: "ratatouille:oven_fan"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["709BE87168C8ED06"]
+			description: ["用于处理作物"]
+			id: "760913B9610F92CF"
+			rewards: [{
+				id: "4E214F14233A15E3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43F1E7B0E77D1348"
+				item: "ratatouille:thresher"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2B64C4360BD5D102"]
+			description: ["用于处理材料"]
+			id: "6E83696DC8609CAB"
+			rewards: [{
+				id: "4215D8A13ECDFAF0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73FA2E0E9D0FB023"
+				item: "ratatouille:squeeze_basin"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B64C4360BD5D102"]
+			description: ["用于处理食物"]
+			id: "2B0940E720A28692"
+			rewards: [{
+				id: "62C33CCC5193E606"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C00DA96BF5314D9"
+				item: "ratatouille:mechanical_demolder"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3E15A33C49499233"]
+			description: ["用于优化耕地"]
+			id: "2DF224211046E1C4"
+			rewards: [{
+				id: "58F44E77BBB1FC1C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54143711304C3C29"
+				item: "ratatouille:irrigation_tower"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["716C3DB5B5223258"]
+			description: ["用于催熟作物"]
+			id: "0217CB35616B8D67"
+			rewards: [{
+				id: "3AD4248A6BE70856"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09EA7C0DE8135D96"
+				item: "ratatouille:spreader"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0CF256C085118E7B"]
+			description: ["用于处理堆肥"]
+			id: "6518DD5AB357210E"
+			rewards: [{
+				id: "2C98620242499FAA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05C98FA257D46EC8"
+				item: "ratatouille:compost_tower"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3E15A33C49499233"]
+			description: ["用于净化水"]
+			id: "09C4CF97805431CB"
+			rewards: [{
+				id: "4EAC382E243E8A8A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C38BE280EE3BD9D"
+				item: "thirst:sand_filter"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6E3B28923AB921F3"]
+			description: ["用于制造石头"]
+			id: "14B6C56A9CAA3226"
+			rewards: [{
+				id: "5473B2FC2B7EA8DD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17DCDE040AA65F54"
+				item: "create_mechanical_extruder:mechanical_extruder"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5B9389495BEAE132"]
+			description: ["输入流体来刷怪"]
+			id: "7687B69D18CECB44"
+			rewards: [{
+				id: "7233E19CB7AC8B9C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3BD116F5C79F16AD"
+					item: "create_mechanical_spawner:mechanical_spawner"
+					type: "item"
+				}
+				{
+					id: "6CF9E2276A01319F"
+					item: "create_mechanical_spawner:loot_collector"
+					type: "item"
+				}
+			]
+			x: 23.0d
+			y: -0.5d
+		}
+	]
+	title: "Create"
+}

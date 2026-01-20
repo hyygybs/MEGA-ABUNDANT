@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:sword_or_axe",
+    "industrialforegoing:infinity_saw",
+    "industrialforegoing:infinity_hammer",
+    "draconicevolution:draconic_staff",
+    "draconicevolution:chaotic_staff",
+    "apotheosis:weapon_tome",
+    "twilightforest:block_and_chain",
+    "actuallyadditions:wooden_aiot",
+    "actuallyadditions:stone_aiot",
+    "actuallyadditions:iron_aiot",
+    "actuallyadditions:gold_aiot",
+    "actuallyadditions:diamond_aiot",
+    "actuallyadditions:netherite_aiot"
+  ],
+  "incompatible": [
+    "deeperdarker:sculk_smite",
+    "minecraft:sharpness",
+    "ensorcellation:damage_villager",
+    "ensorcellation:instigating",
+    "minecraft:smite",
+    "ensorcellation:magic_edge",
+    "minecraft:bane_of_arthropods",
+    "apotheosis:bane_of_illagers",
+    "ensorcellation:damage_ender"
+  ]
+}

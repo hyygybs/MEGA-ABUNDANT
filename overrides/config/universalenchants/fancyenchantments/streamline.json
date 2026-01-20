@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:bow",
+    "cataclysm:cursed_bow",
+    "apotheosis:bow_tome"
+  ],
+  "incompatible": [
+    "fancyenchantments:eroding",
+    "fancyenchantments:standing_wall",
+    "fancyenchantments:heavy_arrow",
+    "fancyenchantments:falling_stone",
+    "fancyenchantments:sharp_rock",
+    "fancyenchantments:sander",
+    "fancyenchantments:cumbersome",
+    "fancyenchantments:mountain_supreme_protection",
+    "fancyenchantments:rolling_stone",
+    "fancyenchantments:solid_as_a_rock",
+    "fancyenchantments:heavy_blow"
+  ]
+}

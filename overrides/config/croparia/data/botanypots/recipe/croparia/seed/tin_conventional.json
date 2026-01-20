@@ -1,0 +1,28 @@
+{
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "croparia:seed_crop_tin_conventional"
+  },
+  "categories": [
+    "crop", "farmland"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "croparia:block_crop_tin_conventional"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "croparia:fruit_tin_conventional"
+      }
+    },
+    {
+      "chance": 0.01,
+      "output": {
+        "item": "croparia:seed_crop_tin_conventional"
+      }
+    }
+  ]
+}

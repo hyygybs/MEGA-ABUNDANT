@@ -1,0 +1,525 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "natures_aura"
+	group: "0896B032D36C2B34"
+	icon: "naturesaura:nature_altar"
+	id: "22DA017B90ACBCEF"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6A37836890DC264C"]
+			description: ["右键树叶获得黄金叶"]
+			id: "04DFDBA458798923"
+			rewards: [{
+				id: "310F8C2DC5A22443"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DFB01A8BC8A35A8"
+				item: "naturesaura:gold_fiber"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04DFDBA458798923"]
+			description: ["合成材料"]
+			id: "5A08BF37E298E943"
+			rewards: [{
+				id: "729A7FFF58FF09F0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67F260D9DED3956C"
+				item: "naturesaura:gold_leaf"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: ["本模组的指导书"]
+			id: "6A37836890DC264C"
+			rewards: [{
+				id: "21B58D313DDB7E46"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24A409681DD01011"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "naturesaura:book"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A08BF37E298E943"]
+			description: ["多方块结构，用于转换树苗"]
+			id: "299ADC6C6DC26AED"
+			rewards: [{
+				id: "38FDB1ADE55609B2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 12L
+					id: "16DE71C589EDA458"
+					item: { Count: 12, id: "naturesaura:gold_powder" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "16CCF366470E4894"
+					item: "naturesaura:wood_stand"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["299ADC6C6DC26AED"]
+			description: ["释放灵气之树"]
+			id: "3347AE8C2844A0C6"
+			rewards: [{
+				id: "0EFE994B57ADDE4F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C5142F3937B59A7"
+				item: "naturesaura:ancient_sapling"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3347AE8C2844A0C6"]
+			description: ["查看环境灵气"]
+			id: "7823A887B6916230"
+			rewards: [{
+				id: "74324BB24F049278"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18F3067408991A0B"
+				item: "naturesaura:eye"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["299ADC6C6DC26AED"]
+			description: ["多方块结构，用于将灵气灌注到材料中"]
+			id: "62B527EEA6B011A5"
+			rewards: [{
+				id: "56B524F001A092A8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1961A236663B6296"
+					item: "naturesaura:nature_altar"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "43E0C559C6E40A32"
+					item: "minecraft:stone_bricks"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2306E805DE4F51FD"
+					item: { Count: 8, id: "naturesaura:gold_brick" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "7289F043B53932FE"
+					item: { Count: 20, id: "minecraft:oak_planks" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "52BDAE8F4D03BC5B"
+					item: { Count: 16, id: "minecraft:chiseled_stone_bricks" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["299ADC6C6DC26AED"]
+			description: ["合成材料"]
+			id: "56684D3735F8FE0C"
+			rewards: [{
+				id: "55CCC14A1F03D170"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0A2DC9A703F70B35"
+					item: "naturesaura:token_joy"
+					type: "item"
+				}
+				{
+					id: "6D9AF75F2D506228"
+					item: "naturesaura:token_fear"
+					type: "item"
+				}
+				{
+					id: "267A1964A5F29708"
+					item: "naturesaura:token_anger"
+					type: "item"
+				}
+				{
+					id: "502CE27CFF06B2DD"
+					item: "naturesaura:token_sorrow"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["62B527EEA6B011A5"]
+			description: ["合成材料"]
+			id: "5DE6AA0B586342CD"
+			rewards: [{
+				id: "1405A934ED9E3524"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B66D759A007A1C5"
+				item: "naturesaura:infused_iron"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5DE6AA0B586342CD"]
+			description: ["利用灵气工作"]
+			id: "1B2B3E4A3EC88BF1"
+			rewards: [{
+				id: "53CD1A57F775B8C9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "26196F302B460BCF"
+					item: "naturesaura:furnace_heater"
+					type: "item"
+				}
+				{
+					id: "1EB89BAA82094695"
+					item: "naturesaura:hopper_upgrade"
+					type: "item"
+				}
+				{
+					id: "2EE56AD6BE2E5B78"
+					item: "naturesaura:placer"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["62B527EEA6B011A5"]
+			id: "7E1A70F73CB393B2"
+			rewards: [{
+				id: "4FE2236D95D8B03B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7A024903F50D4B6F"
+					item: "naturesaura:conversion_catalyst"
+					type: "item"
+				}
+				{
+					id: "44DBC871D8AE8791"
+					item: "naturesaura:crushing_catalyst"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5DE6AA0B586342CD"]
+			description: ["用于特定的合成"]
+			id: "6549F71AA0236FA0"
+			rewards: [{
+				id: "6644371E716808C9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2446D79A3D5C3142"
+					item: "naturesaura:offering_table"
+					type: "item"
+				}
+				{
+					id: "6181BC2ACA8B57AA"
+					item: "naturesaura:calling_spirit"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5DE6AA0B586342CD"]
+			description: ["制造灵气"]
+			id: "18895E8A4938271B"
+			rewards: [{
+				id: "68AEC60F8ACA692B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "74458A8F532F82FF"
+					item: "naturesaura:flower_generator"
+					type: "item"
+				}
+				{
+					id: "61E0EDDC94069DCB"
+					item: "naturesaura:oak_generator"
+					type: "item"
+				}
+				{
+					id: "2929AC6631DB8041"
+					item: "naturesaura:moss_generator"
+					type: "item"
+				}
+				{
+					id: "0C72C51B8B21A003"
+					item: "naturesaura:slime_split_generator"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6549F71AA0236FA0"]
+			id: "239E570E060D1486"
+			rewards: [{
+				id: "5FF6B1FD7AA44E77"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B4DA045F0348ECA"
+				item: "naturesaura:sky_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["239E570E060D1486"]
+			description: ["多方块结构，用于召唤生物"]
+			id: "68834C1D64161EA1"
+			rewards: [{
+				id: "78B7ABA4D9F99AC2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "15DFA4AA9D4A80F9"
+					item: "naturesaura:animal_spawner"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "77F5D677E488C869"
+					item: { Count: 16, id: "minecraft:hay_block" }
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "48EFC02CEAA0D9F9"
+					item: { Count: 17, id: "naturesaura:infused_brick" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4390C01DF02EC217"
+					item: { Count: 4, id: "naturesaura:ancient_planks" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["239E570E060D1486"]
+			description: ["多方块结构，将灵气转化为FE能量"]
+			id: "28167380898C6B66"
+			rewards: [{
+				id: "0BEEA695FB949232"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2CABFE25A0B2EDC5"
+					item: "naturesaura:rf_converter"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "2CC4B424CCBD8271"
+					item: { Count: 18, id: "minecraft:redstone_block" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["62B527EEA6B011A5"]
+			description: ["多方块结构，用于将灵气灌注到材料中"]
+			id: "52CBDBB4EAFA8BA9"
+			rewards: [{
+				id: "593BC989E0DBD7EB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2F7372AD2BA559A4"
+					item: "naturesaura:nature_altar"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "32A2CCFA744D6AE6"
+					item: "minecraft:nether_bricks"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "71DDA000B3E2B3BF"
+					item: "naturesaura:gold_nether_brick"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "3F4C0390E4B019B5"
+					item: "minecraft:crimson_planks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4DAF30AD36B40E98"
+					item: "minecraft:red_nether_bricks"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["52CBDBB4EAFA8BA9"]
+			id: "09748EF7553512CD"
+			rewards: [{
+				id: "44646439B1FA0A58"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E2A593D8D11F638"
+				item: "naturesaura:tainted_gold"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["09748EF7553512CD"]
+			description: ["用于制造灵气"]
+			id: "18A15B988B99D64C"
+			rewards: [{
+				id: "5BDCD42D6FD27FCE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4DDE8D5CCD71D2CE"
+					item: "naturesaura:animal_generator"
+					type: "item"
+				}
+				{
+					id: "43AA0B4FAC5517A5"
+					item: "naturesaura:projectile_generator"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["09748EF7553512CD"]
+			description: ["多方块结构，用于吸收滞留型药水产生灵气"]
+			id: "154D1A651F960E5C"
+			rewards: [{
+				id: "0BE0F95FE70DAB7B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "665A483848773A7B"
+					item: "naturesaura:potion_generator"
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "534F1F1FE305EA13"
+					item: { Count: 7, id: "minecraft:nether_bricks" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "122B7B56901C5950"
+					item: { Count: 12, id: "minecraft:red_nether_bricks" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -5.0d
+		}
+	]
+	title: "Nature's Aura"
+}

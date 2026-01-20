@@ -1,0 +1,425 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether"
+	group: "05AB17DBA7318260"
+	icon: "minecraft:netherrack"
+	id: "395748273D776EE1"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["64BBCEC3FD31C564"]
+			description: ["将黑曜石摆放成内部为2x3空气的空心门，再用打火石点燃黑曜石"]
+			icon: "minecraft:netherrack"
+			id: "7851E29F18AC0F15"
+			rewards: [{
+				id: "2C7E9A275AFF6D26"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "378B66E5AE77B87B"
+				type: "dimension"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7851E29F18AC0F15"]
+			description: ["挖掘下界矿物"]
+			id: "48837E1DE87A6D25"
+			rewards: [{
+				id: "286E6E4EF5E654BA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7D49CF320017EC49"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					id: "0B18E40968D04AB5"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "2FBEAF630DB42D42"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					id: "142BAC6D5827CFF1"
+					item: "tconstruct:cobalt_ingot"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48837E1DE87A6D25"]
+			description: ["寻找下界要塞，杀死下界怪物获得掉落物"]
+			id: "23C62E383AF8471D"
+			rewards: [{
+				id: "4169EA40F7E67A03"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "642E0B24B07BB9B6"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "770CF0E8525417F1"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "6E5FF6E347B18C47"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+				{
+					id: "38EBF3784531A5BE"
+					item: "minecraft:magma_cream"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23C62E383AF8471D"]
+			description: ["酿造药水"]
+			id: "64951C38590CE202"
+			rewards: [{
+				id: "5621305F5269385A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C3D91CBB8010BC9"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23C62E383AF8471D"]
+			description: ["回主世界寻找要塞"]
+			id: "58835215980C7032"
+			rewards: [{
+				id: "5B9250D52EE32C18"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E3D28C89E113E56"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48837E1DE87A6D25"]
+			description: ["寻找堡垒遗迹，升级工具和盔甲"]
+			id: "3ED8D238B3AD020C"
+			rewards: [{
+				id: "39297440297BDA89"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "08A1F1B435247078"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "42D92BB890475D9C"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58835215980C7032"]
+			description: ["找到要塞里有着末地传送门框架的房间，将末影之眼放在框架上"]
+			icon: "minecraft:end_stone"
+			id: "26683414CF02765E"
+			rewards: [{
+				id: "08F525BAA1A468E0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "6B1442780C637470"
+				type: "dimension"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23C62E383AF8471D"]
+			description: ["设置下界重生点"]
+			id: "16D400CF06A84BA6"
+			rewards: [{
+				id: "484F542AF5DF81FC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CBA0E49D35D4C13"
+				item: "minecraft:respawn_anchor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["23C62E383AF8471D"]
+			description: [
+				"用4个灵魂沙和3个凋灵骷髅头颅召唤凋灵并将其打败"
+				"具体摆放方式为一层一个灵魂沙，二层3个灵魂沙，三层3个凋灵骷髅头颅，注意要对称"
+			]
+			id: "0AC88B4787B36D86"
+			rewards: [{
+				id: "617D9AFA56A801C8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53AF319B28CA5851"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0AC88B4787B36D86"]
+			description: ["多方块结构，可用不同的材料块当基座获得不同的效果"]
+			id: "730B56F3CB4B37C6"
+			rewards: [{
+				id: "7F7F0E037DFB18B6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7328A3673A4CAA18"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["48837E1DE87A6D25"]
+			description: ["将荧石摆放成内部为2x3空气的空心门，再将水倒在荧石上"]
+			icon: "aether:aether_grass_block"
+			id: "237034F66DAA794C"
+			rewards: [{
+				id: "51CBE798365E76AE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "02805811DE5FC5FE"
+				type: "dimension"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["58835215980C7032"]
+			description: ["专属于你的箱子"]
+			id: "1A21CBB6ACCFFB79"
+			rewards: [{
+				id: "3E3A8DE5642FB1B7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68ACD177C1910086"
+				item: "minecraft:ender_chest"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A21CBB6ACCFFB79"]
+			description: ["更高级的末影箱"]
+			id: "4F9A89B653EA4A32"
+			rewards: [{
+				id: "27491ACE34810D8F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7517D3F71EF88BA6"
+					item: "enderstorage:ender_chest"
+					type: "item"
+				}
+				{
+					id: "113CE209C412A23B"
+					item: "enderstorage:ender_tank"
+					type: "item"
+				}
+				{
+					id: "6B53B1FEC37B8800"
+					item: "enderstorage:ender_pouch"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["48837E1DE87A6D25"]
+			description: ["箱子，但单个槽内存储数量为普通箱子的八倍"]
+			id: "4DEFDB15ED112632"
+			rewards: [{
+				id: "608833C8738A3C70"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "067073CE8947341A"
+				item: "netherchested:nether_chest"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7851E29F18AC0F15"]
+			description: ["用于烧炼食物并可以降温"]
+			id: "2D9AAD4B84489DA2"
+			rewards: [{
+				id: "1C1E8530C248B78B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "053A021F4E1A35C3"
+				item: "minecraft:soul_campfire"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0AC88B4787B36D86"]
+			description: ["消耗经验飞行"]
+			id: "09137299DFC3F145"
+			rewards: [{
+				id: "39980115DBCFC032"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4063E6B64BF547F8"
+				item: "angelring:angel_ring"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["58835215980C7032"]
+			description: ["加速方块时间"]
+			id: "2BCFE6C5B789B53C"
+			rewards: [{
+				id: "653B652F0C57E38A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C46861DB13B4902"
+				item: {
+					Count: 1
+					id: "gag:time_sand_pouch"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3ED8D238B3AD020C"]
+			description: ["实用效果"]
+			id: "3BD5F11D8C6451C9"
+			rewards: [{
+				id: "6B567F6C41103073"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1059D9137A7D48EB"
+					item: "pylons:harvester_pylon"
+					type: "item"
+				}
+				{
+					id: "143533B409BBEB2E"
+					item: "pylons:infusion_pylon"
+					type: "item"
+				}
+				{
+					id: "7C4B3B97B85BF10B"
+					item: "pylons:expulsion_pylon"
+					type: "item"
+				}
+				{
+					id: "384A4A4BDD0D9D6B"
+					item: "pylons:interdiction_pylon"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["48837E1DE87A6D25"]
+			description: ["扫描周围各种东西"]
+			id: "5863683364AC68DD"
+			rewards: [{
+				id: "5FAD6EEF55F71A6E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18008ABE7E8EA54B"
+				item: {
+					Count: 1
+					id: "scannable:scanner"
+					tag: {
+						energy: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+	]
+	title: "Nether"
+}

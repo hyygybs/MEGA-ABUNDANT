@@ -1,0 +1,27 @@
+{
+  "entity": "endermanoverhaul:windswept_hills_enderman",
+  "name": "entity.endermanoverhaul.windswept_hills_enderman",
+  "name_color": "0x6D5852",
+  "gui_scale": 0.7,
+  "gui_x_offset": 0.0,
+  "gui_y_offset": 0.0,
+  "gui_z_offset": 0.0,
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+	"item": "hostilenetworks:end_prediction"
+  },
+  "trivia": "",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:ender_pearl",
+      "count": 16
+    },
+    {
+      "item": "endermanoverhaul:summoner_pearl",
+      "count": 8
+    }
+  ]
+}

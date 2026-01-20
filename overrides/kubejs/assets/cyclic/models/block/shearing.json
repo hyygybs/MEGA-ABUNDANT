@@ -1,0 +1,13 @@
+{
+    "parent": "minecraft:block/cube",
+  "render_type": "cutout",
+    "textures": {
+        "particle": "cyclic:block/shearing",
+        "down": "minecraft:block/furnace_top",
+        "up": "minecraft:block/furnace_top",
+        "north": "cyclic:block/shearing",
+        "south": "cyclic:block/shearing",
+        "west": "cyclic:block/shearing",
+        "east": "cyclic:block/shearing"
+    }
+}

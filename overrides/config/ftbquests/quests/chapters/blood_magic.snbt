@@ -1,0 +1,1079 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blood_magic"
+	group: "0896B032D36C2B34"
+	icon: "bloodmagic:altar"
+	id: "1F5569FE10BF17A8"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["模组的指导书"]
+			id: "1FCA45FE8106FB8D"
+			rewards: [{
+				id: "4451B14B481EC34C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7418C048996CB2ED"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EB8B1D8653E1EC2"]
+			description: ["获得恶魔意志"]
+			id: "2ED3FA81B4DB7906"
+			rewards: [{
+				id: "6A936C3CEEAD4715"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D0A39DF6A500D67"
+				item: "bloodmagic:soulsnare"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1FCA45FE8106FB8D"]
+			description: ["利用生命源质对物品进行合成"]
+			id: "6974987A773505ED"
+			rewards: [{
+				id: "39AD8BC838C72E32"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5211B1315DDE11D5"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6974987A773505ED"]
+			description: ["将自己的生命值转化为生命源质"]
+			id: "34DA0A13CA858325"
+			rewards: [{
+				id: "195F3166BE9E786B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40ADFEEBEE4FBA53"
+				item: {
+					Count: 1
+					id: "bloodmagic:sacrificialdagger"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2ED3FA81B4DB7906"]
+			description: ["合成基础材料"]
+			id: "1A63665102434A40"
+			rewards: [{
+				id: "4213E2DDBA3CEEB0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6974A5B25CFAED99"
+				item: {
+					Count: 1
+					id: "bloodmagic:basemonstersoul"
+					tag: {
+						souls: 5.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["34DA0A13CA858325"]
+			description: ["构建自己的灵魂网络"]
+			id: "3EB8B1D8653E1EC2"
+			rewards: [{
+				id: "37D92393DA240E8A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A75F9DE1A37ABD9"
+				item: "bloodmagic:weakbloodorb"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34DA0A13CA858325"]
+			description: ["合成材料"]
+			id: "0FA62F17A1E03003"
+			rewards: [{
+				id: "4CD12112377B9346"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D8187F097FD7FAF"
+				item: "bloodmagic:blankslate"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FA62F17A1E03003"]
+			description: ["升级血之祭坛等级，在血之祭坛下方的周围围上8个血符文"]
+			id: "2FCE2E49957D6105"
+			rewards: [{
+				id: "5AD4C64AEE90A4D7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "5A5383C0D8ACF18C"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FCE2E49957D6105"]
+			description: ["在血之祭坛范围内杀死生物获得生命源质"]
+			id: "37EA8E1B45446DF2"
+			rewards: [{
+				id: "7CE79BACE3B38859"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BBD61701E87BCD9"
+				item: "bloodmagic:daggerofsacrifice"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["337E959997FDA7C8"]
+			description: ["升级血之祭坛等级，在二级血之祭坛下方1格四面2格处摆上20个血符文，然后在其四角处搭上任意2个方块，最后摆上萤石或海晶灯或菌光体"]
+			id: "57FF2BA126B64D40"
+			rewards: [{
+				id: "747AFE0B06205AC6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				count: 20L
+				id: "50F6E874A5A1F09C"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["559D3297351BE160"]
+			description: ["升级血之祭坛等级，在三级血之祭坛下方1格四面2格处摆上28个血符文，然后在其四角处搭上任意3个方块，最后摆上大血石砖或血石砖"]
+			id: "3BF1C7664DC6F1A7"
+			rewards: [{
+				id: "441D2B400267358F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				count: 28L
+				id: "269FB287B29EA99C"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37EA8E1B45446DF2"]
+			description: ["合成材料"]
+			id: "337E959997FDA7C8"
+			rewards: [{
+				id: "2A4AFEDD6241A910"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "51885021E9F04C94"
+				item: "bloodmagic:reinforcedslate"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57FF2BA126B64D40"]
+			id: "559D3297351BE160"
+			rewards: [{
+				id: "1F361B07C86A5FD3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6864C8B9FDED0FF1"
+				item: "bloodmagic:infusedslate"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BF1C7664DC6F1A7"]
+			description: ["合成材料"]
+			id: "4B148066CEDA883B"
+			rewards: [{
+				id: "639C4111368A020F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D12345E25E69E58"
+				item: "bloodmagic:demonslate"
+				type: "item"
+			}]
+			x: 28.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B148066CEDA883B"]
+			description: ["升级血之祭坛等级，在四级血之祭坛下方1格四面3格处摆上52个血符文，然后在其四角处搭上地狱锻造块"]
+			id: "621AF15A0A3E4CE0"
+			rewards: [{
+				id: "361045BDE1A43052"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				count: 52L
+				id: "0649A5294386A762"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			x: 32.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FCE2E49957D6105"]
+			description: ["升级自己的灵魂网络"]
+			id: "5B726C7A8537CBE8"
+			rewards: [{
+				id: "1AF027829B91C783"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7797EEF33F29ACEC"
+				item: "bloodmagic:apprenticebloodorb"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["57FF2BA126B64D40"]
+			description: ["升级自己的灵魂网络"]
+			id: "269462C8016F77DE"
+			rewards: [{
+				id: "1FD3C84507BDD006"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4469A4074AB3CCE0"
+				item: "bloodmagic:magicianbloodorb"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3BF1C7664DC6F1A7"]
+			description: ["升级自己的灵魂网络"]
+			id: "3D1637C9C77AF05A"
+			rewards: [{
+				id: "05A7E90B34E15E8A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5209F39E46A97204"
+				item: "bloodmagic:masterbloodorb"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["621AF15A0A3E4CE0"]
+			description: ["升级自己的灵魂网络"]
+			id: "43BDB3E38D0A27A0"
+			rewards: [{
+				id: "70211C2C92327768"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16E705A94E3072B3"
+				item: "bloodmagic:archmagebloodorb"
+				type: "item"
+			}]
+			x: 32.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0FA62F17A1E03003"]
+			description: ["合成装置"]
+			id: "5CD000031F60483D"
+			rewards: [{
+				id: "7D915ED6656E34DD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "287591A51867A9AB"
+				item: "bloodmagic:soulforge"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0FA62F17A1E03003"]
+			description: ["合成装置"]
+			id: "656571313455F1F1"
+			rewards: [{
+				id: "5C203F044EA33FB8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44D2904994DEF86D"
+				item: "bloodmagic:alchemytable"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["621AF15A0A3E4CE0"]
+			description: ["用于提升血符文"]
+			id: "48E417F4B9854EC6"
+			rewards: [{
+				id: "554F28BDBB0EDA30"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7931C1B8B3ECA597"
+				item: "bloodmagic:etherealslate"
+				type: "item"
+			}]
+			x: 34.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5CD000031F60483D"]
+			description: ["储存恶魔意志"]
+			id: "09D79805ACD1EEE1"
+			rewards: [{
+				id: "3854E6748D262311"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3098991C2EFCD380"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgempetty"
+					tag: {
+						souls: 0.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["09D79805ACD1EEE1"]
+			description: ["储存恶魔意志"]
+			id: "71B3A8809053FF80"
+			rewards: [{
+				id: "556B69E64263C8EC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68B45041ABB80130"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemlesser"
+					tag: {
+						souls: 0.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["71B3A8809053FF80"]
+			description: ["储存恶魔意志"]
+			id: "4ABCA2F0D51EC2BD"
+			rewards: [{
+				id: "4CE9008D7961B9F5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "56806EC37A11E7C6"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemcommon"
+					tag: {
+						souls: 0.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4ABCA2F0D51EC2BD"]
+			description: ["储存恶魔意志"]
+			id: "1D1101DC51DCE50E"
+			rewards: [{
+				id: "63277E4F01193AA9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55666CEF5C30E73E"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemgreater"
+					tag: {
+						souls: 0.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["656571313455F1F1"]
+			description: ["绘制炼金矩阵"]
+			id: "075CBD336B2C68D2"
+			rewards: [{
+				id: "2C3B28B2767C0125"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D416C28EABD9007"
+				item: {
+					Count: 1
+					id: "bloodmagic:arcaneashes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["075CBD336B2C68D2"]
+			description: ["显示灵魂网络和血之祭坛的生命源质"]
+			id: "1170CE037CFE94FB"
+			rewards: [{
+				id: "059212E41BEC7641"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FDF1F0549DF6865"
+				item: "bloodmagic:divinationsigil"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0FA62F17A1E03003"]
+			description: ["提升血之祭坛合成速度"]
+			id: "7DCD497B1638B6B1"
+			rewards: [{
+				id: "18482A8D2CFF1F8E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "144D168E9E7E2370"
+				item: "bloodmagic:speedrune"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4B148066CEDA883B"]
+			description: ["当血之祭坛没有工作并且不存在气血宝珠的时候，会从中吸取生命源质，将其存储在祭坛外部，当有物品放入血之祭坛后，将会消耗外部的生命源质"]
+			id: "13A223E0798019FB"
+			rewards: [{
+				id: "4028BAB2865694B0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "748B01B76FFE3FC1"
+				item: "bloodmagic:chargingrune"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4B148066CEDA883B"]
+			description: ["用于提升充能符文与转位符文的操作"]
+			id: "05E0F92332053687"
+			rewards: [{
+				id: "64DB50CADC9B1D71"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65586E94DBEC0AA0"
+				item: "bloodmagic:accelerationrune"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["559D3297351BE160"]
+			description: ["提升血之祭坛在与外部进行生命源质交换时的速度"]
+			id: "55DA7BAD2E8F4012"
+			rewards: [{
+				id: "6736E7DEF42BBE9A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C5791AA603482F5"
+				item: "bloodmagic:dislocationrune"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4B148066CEDA883B"]
+			description: ["增加血之祭坛内的血之宝珠的容量"]
+			id: "53FEDD45362B0DB3"
+			rewards: [{
+				id: "17E91F68235DF257"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13B79CBD38BDABF6"
+				item: "bloodmagic:orbcapacityrune"
+				type: "item"
+			}]
+			x: 29.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["559D3297351BE160"]
+			description: ["可以增加血之祭坛存储生命源质的最大上限量"]
+			id: "564B3EBFC41A7439"
+			rewards: [{
+				id: "786AB44BB6AFC897"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30E1BE7A701F1075"
+				item: "bloodmagic:altarcapacityrune"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4B148066CEDA883B"]
+			id: "43B3838DDB97DD75"
+			rewards: [{
+				id: "37A557038DFFA10C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78996F445A033D03"
+				item: "bloodmagic:bettercapacityrune"
+				type: "item"
+			}]
+			x: 28.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["337E959997FDA7C8"]
+			description: ["可以增加血之祭坛从非玩家实体上获取生命源质的量"]
+			id: "77C09F23A1A4C863"
+			rewards: [{
+				id: "70F63A39BC5F3FF0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D8A85C1E2344C52"
+				item: "bloodmagic:sacrificerune"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["337E959997FDA7C8"]
+			description: ["可以增加血之祭坛从玩家实体上获取生命源质的量"]
+			id: "3C98B43DF50DD370"
+			rewards: [{
+				id: "3E19F79F0290BDBB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FE6F02F220980E5"
+				item: "bloodmagic:selfsacrificerune"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["656571313455F1F1"]
+			description: ["用于注魔"]
+			id: "60CB68AEF8317791"
+			rewards: [{
+				id: "7EB6ADCFB03C9C78"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32A146BB2899EE41"
+				item: "bloodmagic:slate_vial"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["09D79805ACD1EEE1"]
+			description: ["用剑收集恶魔意志"]
+			id: "6A57DC9486C8840F"
+			rewards: [{
+				id: "1742BE84D17D3FEE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DB9ED580B8D44CA"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4ABCA2F0D51EC2BD"]
+			description: ["用于放置意志晶体或地狱魂石，将恶魔意志散布到当前区块中"]
+			id: "4111A5ABFBEE5360"
+			rewards: [{
+				id: "6BDB6833F65BB556"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "335FD1541279629E"
+				item: "bloodmagic:demoncrucible"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4111A5ABFBEE5360"]
+			description: ["用于生成恶魔意志晶簇，当区块内的恶魔意志大于80时将在恶魔结晶坛上生成晶簇"]
+			id: "195CAC50DA6F8840"
+			rewards: [{
+				id: "74466C5EADBE4623"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "753C48AFB15C3AE5"
+				item: "bloodmagic:demoncrystallizer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["195CAC50DA6F8840"]
+			description: ["结晶的恶魔意志"]
+			id: "46D53CBB2E8D3062"
+			rewards: [{
+				id: "41CAEEE91F2AADC0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25F67D74DD527BB5"
+				item: "bloodmagic:defaultcrystal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["46D53CBB2E8D3062"]
+			description: ["检测区块中恶魔意志含量"]
+			id: "6A02FB9838BC1FE3"
+			rewards: [{
+				id: "0C879EFBA87E882E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E5B2A5AE989D1C8"
+				item: "bloodmagic:demonwillgauge"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["269462C8016F77DE"]
+			description: ["用于仪式"]
+			id: "1683ED083997F07A"
+			rewards: [{
+				id: "11A167D4670D021B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6F8F293D41FEA9E0"
+					item: "bloodmagic:ritualstone"
+					type: "item"
+				}
+				{
+					id: "602D758A513F2559"
+					item: "bloodmagic:masterritualstone"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1683ED083997F07A"]
+			description: ["用于转化仪式石"]
+			id: "060A1C4F0D6DE9C9"
+			rewards: [{
+				id: "10DD3B7678E04274"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "07AC92DDEE5F9D2E"
+					item: {
+						Count: 1
+						id: "bloodmagic:airscribetool"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F00BEEA64F1D1EE"
+					item: {
+						Count: 1
+						id: "bloodmagic:firescribetool"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D85CF3800FBF1C4"
+					item: {
+						Count: 1
+						id: "bloodmagic:waterscribetool"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62D910B40482EBA6"
+					item: {
+						Count: 1
+						id: "bloodmagic:earthscribetool"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["20DF77E22CB3E79B"]
+			description: ["用于激活仪式"]
+			id: "5FE2AF771FDE2F0D"
+			rewards: [{
+				id: "60669A1875EAB2D1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14E214AC790F61B4"
+				item: "bloodmagic:activationcrystalweak"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["060A1C4F0D6DE9C9"]
+			description: ["使用潜行键+鼠标右键可以选择不同的仪式"]
+			id: "20DF77E22CB3E79B"
+			rewards: [{
+				id: "2530E073C0147C1E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E65CAB1DD38CCF9"
+				item: "bloodmagic:ritualdiviner"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["559D3297351BE160"]
+			id: "6BFB25D4CCA5DA21"
+			rewards: [{
+				id: "3BE7A7BF41ACF416"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65800EFF53C8A7F0"
+				item: "bloodmagic:alchemicalreactionchamber"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6BFB25D4CCA5DA21"]
+			description: ["合成材料"]
+			id: "07CD76AE5C880940"
+			rewards: [{
+				id: "753E8C772B548961"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79CD13001B8BD8EE"
+				item: "bloodmagic:weakbloodshard"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["269462C8016F77DE"]
+			description: ["一套随着其穿戴者成长而成长的盔甲"]
+			id: "3DD879F7762B3821"
+			rewards: [{
+				id: "32EB9EE89E6D988A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3A6878376A6A2056"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "bloodmagic:livinghelmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "295E707F76B58647"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "bloodmagic:livingplate"
+						tag: {
+							Damage: 0
+							livingStats: {
+								maxPoints: 100
+								upgrades: [ ]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CA436873A795336"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "bloodmagic:livingleggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "262ABC7F07280E70"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "bloodmagic:livingboots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["34DA0A13CA858325"]
+			description: ["消耗生命源质释放新生魔艺的法术"]
+			id: "21A685420107A628"
+			rewards: [{
+				id: "5D63D4851E564CD2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EBD9FB93AF4627D"
+				item: "tomeofblood:novice_tome_of_blood"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["57FF2BA126B64D40"]
+			description: ["消耗生命源质释放新生魔艺的法术"]
+			id: "381473C8E6CF5535"
+			rewards: [{
+				id: "54EDE09D6D1C9B8A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16A3FBD1AC999656"
+				item: "tomeofblood:archmage_tome_of_blood"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2FCE2E49957D6105"]
+			description: ["消耗生命源质释放新生魔艺的法术"]
+			id: "673606A5BD9CAE90"
+			rewards: [{
+				id: "20326B29F0C777F9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "636637F26DE2667C"
+				item: "tomeofblood:apprentice_tome_of_blood"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+	]
+	title: "Blood Magic"
+}

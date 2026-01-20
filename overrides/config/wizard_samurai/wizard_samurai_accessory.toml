@@ -1,0 +1,183 @@
+
+[spellbook]
+
+	[spellbook.wizard_samurai]
+		#Spell Book Wizard Samurai Mana
+		#Range: 0 ~ 1000
+		mana = 200
+		#Spell Book Wizard Samurai Mana Regen
+		#Range: 0.0 ~ 100.0
+		mana_regen = 0.1
+		#Spell Book Wizard Samurai Spell Power
+		#Range: 0.0 ~ 100.0
+		spell_power = 0.1
+		#Spell Book Wizard Samurai Cooldown Reduction
+		#Range: 0.0 ~ 100.0
+		cooldown_reduction = 0.1
+		#Spell Book Wizard Samurai Cast Time Reduction
+		#Range: 0.0 ~ 100.0
+		cast_time_reduction = 0.1
+
+	[spellbook.amethyst_wizard_samurai]
+		#Spell Book Amethyst Wizard Samurai Mana
+		#Range: 0 ~ 1000
+		mana = 200
+		#Spell Book Amethyst Wizard Samurai Mana Regen
+		#Range: 0.0 ~ 100.0
+		mana_regen = 0.12
+		#Spell Book Amethyst Wizard Samurai Cooldown Reduction
+		#Range: 0.0 ~ 100.0
+		cooldown_reduction = 0.15
+		#Spell Book Amethyst Wizard Samurai Cast Time Reduction
+		#Range: 0.0 ~ 100.0
+		cast_time_reduction = 0.15
+
+	[spellbook.sculk_wizard_samurai]
+		#Spell Book Crimson Wizard Samurai Mana
+		#Range: 0 ~ 1000
+		mana = 200
+		#Spell Book Crimson Wizard Samurai Mana Regen
+		#Range: 0.0 ~ 100.0
+		mana_regen = 0.1
+		#Spell Book Sculk Wizard Samurai Eldritch Spell Power
+		#Range: 0.0 ~ 100.0
+		eldritch_spell_power = 0.2
+		#Spell Book Crimson Wizard Samurai Cooldown Reduction
+		#Range: 0.0 ~ 100.0
+		cooldown_reduction = 0.1
+		#Spell Book Crimson Wizard Samurai Cast Time Reduction
+		#Range: 0.0 ~ 100.0
+		cast_time_reduction = 0.1
+		#Spell Book Crimson Wizard Samurai Blood Spell Power
+		#Range: 0.0 ~ 100.0
+		blood_spell_power = 0.1
+		#Spell Book Crimson Wizard Blood Magic Resistance
+		#Range: 0.0 ~ 100.0
+		blood_magic_resistance = 0.1
+
+[ring]
+
+	[ring.wizard_samurai]
+		#Ring Wizard Samurai Mana
+		#Range: 0 ~ 1000
+		mana = 200
+
+	[ring.sculk_wizard_samurai]
+		#Ring Sculk Wizard Samurai Eldritch Spell Power
+		#Range: 0.0 ~ 100.0
+		eldritch_spell_power = 0.1
+
+	[ring.amethyst_wizard_samurai]
+		#Ring Amethyst Wizard Samurai Cooldown Reduction
+		#Range: 0.0 ~ 100.0
+		cooldown_reduction = 0.1
+
+	[ring.crimson_wizard_samurai]
+		#Ring Crimson Wizard Samurai Blood Spell Power
+		#Range: 0.0 ~ 100.0
+		blood_spell_power = 0.1
+
+[omamori]
+
+	[omamori.wizard_samurai]
+		#Omamori Mana
+		#Range: 0 ~ 1000
+		mana = 300
+		#Omamori Mana Regen 
+		#Range: 0.0 ~ 100.0
+		mana_regen = 0.3
+		#Omamori Protection
+		#Range: 0 ~ 100
+		protection = 10
+		#Omamori Cooldown Reduction
+		#Range: 0.0 ~ 100.0
+		cooldown_reduction = 0.35
+		#Omamori Spell Resistance
+		#Range: 0.0 ~ 100.0
+		spell_resistance = 0.5
+		#Omamori Attack Damage
+		#Range: 0.0 ~ 100.0
+		attack_damage = 0.2
+		#Omamori Spell Power
+		#Range: 0.0 ~ 100.0
+		spell_power = 0.25
+
+[mask]
+
+	[mask.wizard_samurai]
+		#Mask Wizard Samurai Armor
+		#Range: 0 ~ 100
+		armor = 3
+		#Mask Wizard Samurai Max Health
+		#Range: 0 ~ 100
+		max_health = 2
+		#Mask Wizard Samurai Mana
+		#Range: 0 ~ 1000
+		mana = 20
+		#Mask Wizard Samurai Spell Power
+		#Range: 0.0 ~ 100.0
+		spell_power = 0.02
+		#Mask Wizard Samurai Spell Resistance
+		#Range: 0.0 ~ 100.0
+		spell_resistance = 0.015
+
+	[mask.sculk_wizard_samurai]
+		#Mask Sculk Wizard Samurai Armor
+		#Range: 0 ~ 100
+		armor = 1
+		#Mask Sculk Wizard Samurai Mana
+		#Range: 0 ~ 1000
+		mana = 25
+		#Mask Sculk Wizard Samurai Spell Power
+		#Range: 0.0 ~ 100.0
+		spell_power = 0.03
+		#Mask Wizard Samurai Spell Resistance
+		#Range: 0.0 ~ 100.0
+		spell_resistance = 0.015
+		#Mask Sculk Wizard Samurai Max Health
+		#Range: 0 ~ 100
+		max_health = 2
+
+	[mask.amethyst_wizard_samurai]
+		#Mask Amethyst Wizard Samurai Armor
+		#Range: 0 ~ 100
+		armor = 1
+		#Mask Amethyst Wizard Samurai Mana
+		#Range: 0 ~ 1000
+		mana = 25
+		#Mask Amethyst Wizard Samurai Mana Regen
+		#Range: 0.0 ~ 100.0
+		mana_regen = 0.01
+		#Mask Amethyst Wizard Samurai Cooldown Reduction
+		#Range: 0.0 ~ 100.0
+		cooldown_reduction = 0.01
+		#Mask Amethyst Wizard Samurai Cast Time Reduction
+		#Range: 0.0 ~ 100.0
+		cast_time_reduction = 0.01
+		#Mask Amethyst Wizard Samurai Spell Resistance
+		#Range: 0.0 ~ 100.0
+		spell_resistance = 0.02
+		#Mask Amethyst Wizard Samurai Max Health
+		#Range: 0 ~ 100
+		max_health = 2
+
+	[mask.crimson_wizard_samurai]
+		#Mask Crimson Wizard Samurai Armor
+		#Range: 0 ~ 100
+		armor = 1
+		#Mask Crimson Wizard Samurai Max Health
+		#Range: 0 ~ 100
+		max_health = 2
+		#Mask Crimson Wizard Samurai Mana
+		#Range: 0 ~ 1000
+		mana = 25
+		#Mask Crimson Wizard Samurai Blood Spell Power
+		#Range: 0.0 ~ 100.0
+		spell_power = 0.05
+		#Mask Crimson Wizard Samurai Magic Resistance
+		#Range: 0.0 ~ 100.0
+		magic_resistance = 0.05
+		#Mask Crimson Wizard Samurai Spell Resistance
+		#Range: 0.0 ~ 100.0
+		spell_resistance = 0.01
+

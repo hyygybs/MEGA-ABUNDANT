@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_chest",
+    "apotheosis:chestplate_tome",
+    "$minecraft:universal_enchants_horse_armor",
+    "$minecraft:universal_enchants_shield"
+  ],
+  "incompatible": [
+    "ensorcellation:displacement",
+    "twilightforest:chill_aura",
+    "ensorcellation:fire_rebuke",
+    "apotheosis:icy_thorns",
+    "ensorcellation:frost_rebuke",
+    "allurement:vengeance",
+    "twilightforest:fire_react"
+  ]
+}

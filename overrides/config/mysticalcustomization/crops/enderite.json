@@ -1,0 +1,12 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "enderitemod:enderite_ingot"
+    },
+    "color": "143D35",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+    }
+  }

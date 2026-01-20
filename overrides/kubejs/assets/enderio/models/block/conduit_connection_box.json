@@ -1,0 +1,20 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "enderio:block/conduit_connector",
+		"particle": "enderio:block/conduit_connector"
+	},
+	"elements": [
+		{
+			"from": [6.5, 0, 6.5],
+			"to": [9.5, 4, 9.5],
+			"faces": {
+				"north": {"uv": [7, 8, 10, 12], "texture": "#1"},
+				"east": {"uv": [7, 8, 10, 12], "texture": "#1"},
+				"south": {"uv": [7, 8, 10, 12], "texture": "#1"},
+				"west": {"uv": [7, 8, 10, 12], "texture": "#1"},
+				"up": {"uv": [7, 8, 10, 11], "texture": "#1"}
+			}
+		}
+	]
+}

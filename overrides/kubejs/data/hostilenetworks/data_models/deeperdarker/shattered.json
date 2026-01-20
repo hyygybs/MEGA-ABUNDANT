@@ -1,0 +1,23 @@
+{
+  "entity": "deeperdarker:shattered",
+  "name": "entity.deeperdarker.shattered",
+  "name_color": "0x033D4B",
+  "gui_scale": 1.0,
+  "gui_x_offset": 0.0,
+  "gui_y_offset": 0.0,
+  "gui_z_offset": 0.0,
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+	"item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "",
+  "fabricator_drops": [
+    {
+      "item": "deeperdarker:sculk_bone",
+      "count": 16
+    }
+  ]
+}

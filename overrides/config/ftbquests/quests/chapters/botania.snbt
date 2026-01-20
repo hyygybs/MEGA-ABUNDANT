@@ -1,0 +1,2526 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania"
+	group: "0896B032D36C2B34"
+	icon: {
+		Count: 1
+		id: "botania:lexicon"
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	}
+	id: "3537232F2B0AD6F5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["本模组的指导书"]
+			id: "7D7825E2473EF00D"
+			rewards: [{
+				id: "13735AEF26AC660C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "472DDE98CED5B20B"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D7825E2473EF00D"]
+			description: ["采集神秘花"]
+			id: "3532DFFAC768DA46"
+			rewards: [{
+				id: "65F865BAF6D63EB0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DF1BD0B4CA5E65B"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(botania:mystical_flowers)"
+					}
+				}
+				type: "item"
+			}]
+			title: "神秘花"
+			x: -13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3532DFFAC768DA46"]
+			description: ["使草方块上长出神秘花"]
+			id: "76188832C2407524"
+			rewards: [{
+				id: "43EBD2FFEDE7083D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B41255F7380A574"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3532DFFAC768DA46"]
+			description: ["用于存储神秘花"]
+			id: "09F8CE6390D0B92D"
+			rewards: [{
+				id: "2D28AEA26E723562"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0ADA44A1B7F36B3B"
+				item: "botania:flower_bag"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3532DFFAC768DA46"]
+			description: ["合成花所用的设备，需要添加水"]
+			id: "28A6450CA927A496"
+			rewards: [{
+				id: "4121AE50DB1689C7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29DE1ACE352B84BB"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28A6450CA927A496"]
+			description: ["转换方块为基础材料"]
+			id: "19DDDAF85B950B4B"
+			rewards: [{
+				id: "438BC8C47159777B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "340747228551EBCD"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19DDDAF85B950B4B"]
+			description: ["合成材料"]
+			id: "479FFEE85B00C595"
+			rewards: [{
+				id: "36376861EC273020"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "35DC24FB5DF079BA"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+				{
+					id: "7F0DB7B2176574B2"
+					item: "botania:livingrock"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["479FFEE85B00C595"]
+			description: ["调整各种设备"]
+			id: "4E8533854A7EA6D1"
+			rewards: [{
+				id: "6E2350FC7ABC0F5E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4673B23B61641DDF"
+				item: {
+					Count: 1
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E8533854A7EA6D1"]
+			description: ["最初的产能花，消耗燃料产生魔力"]
+			id: "0722931F6B9C83C6"
+			rewards: [{
+				id: "7E03487C5A3F5C0A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BC376614783FE4B"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0722931F6B9C83C6"]
+			description: ["收集魔力并转化物品"]
+			id: "2FD20791201A72CA"
+			rewards: [{
+				id: "2F3F11DC188D46E7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "56C71C2FC604376D"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+				{
+					id: "7FF624B28AB597B8"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FD20791201A72CA"]
+			description: ["基础合成材料"]
+			id: "0C693349C086AB53"
+			rewards: [{
+				id: "3124B4EFCF1810FD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2AA10E05089C67F2"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					id: "4907F4A5E16DFFD3"
+					item: "botania:mana_pearl"
+					type: "item"
+				}
+				{
+					id: "5841B954D4D3EAE6"
+					item: "botania:mana_diamond"
+					type: "item"
+				}
+				{
+					id: "4F587B50D36CEFD0"
+					item: "botania:mana_powder"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C693349C086AB53"]
+			description: ["随身携带魔力"]
+			id: "45C5B9EDF95A4E1B"
+			rewards: [{
+				id: "3D3F5DC1091157FD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F54B624FFD697D8"
+				item: "botania:mana_tablet"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0C693349C086AB53"]
+			description: ["合成符文的设备"]
+			id: "7774BF5D4EE92F77"
+			rewards: [{
+				id: "5D7DEE38E4A14F98"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CD2010AFA80A569"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7774BF5D4EE92F77"]
+			description: ["一级符文"]
+			id: "5C4E264FC133CAD6"
+			rewards: [{
+				id: "5F3B3A8A8D0F1456"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "209356BD17FAF9A5"
+					item: "botania:rune_water"
+					type: "item"
+				}
+				{
+					id: "54C83A74C8FE159B"
+					item: "botania:rune_fire"
+					type: "item"
+				}
+				{
+					id: "6CC94579524B1657"
+					item: "botania:rune_earth"
+					type: "item"
+				}
+				{
+					id: "3CA2173FBFD35A07"
+					item: "botania:rune_air"
+					type: "item"
+				}
+				{
+					id: "039BBA293705BB5E"
+					item: "botania:rune_mana"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C4E264FC133CAD6"]
+			description: ["二级符文"]
+			id: "5B4F6C724BBFD3EE"
+			rewards: [{
+				id: "4C951F5D12C1C6F4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7780DDD6E4621747"
+					item: "botania:rune_spring"
+					type: "item"
+				}
+				{
+					id: "19C8774C26952E2F"
+					item: "botania:rune_summer"
+					type: "item"
+				}
+				{
+					id: "4CE4E68A015C4708"
+					item: "botania:rune_autumn"
+					type: "item"
+				}
+				{
+					id: "6C9186DFFC239CB4"
+					item: "botania:rune_winter"
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B4F6C724BBFD3EE"]
+			description: ["三级符文"]
+			id: "7764CEEB363B38BA"
+			rewards: [{
+				id: "19EB1AA5176F44DB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7595F6F1692E13AF"
+					item: "botania:rune_lust"
+					type: "item"
+				}
+				{
+					id: "76A59F618C9E560B"
+					item: "botania:rune_gluttony"
+					type: "item"
+				}
+				{
+					id: "144008FFD449030C"
+					item: "botania:rune_greed"
+					type: "item"
+				}
+				{
+					id: "5D2C9AAB337DE7CA"
+					item: "botania:rune_sloth"
+					type: "item"
+				}
+				{
+					id: "407E5E165E10DCFE"
+					item: "botania:rune_wrath"
+					type: "item"
+				}
+				{
+					id: "60195DF8D85FAC8F"
+					item: "botania:rune_envy"
+					type: "item"
+				}
+				{
+					id: "5AC940531C9225A7"
+					item: "botania:rune_pride"
+					type: "item"
+				}
+			]
+			x: 21.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7764CEEB363B38BA"]
+			description: ["多方块结构，将5块活石和4块青金石块摆成3x3的棋盘，然后将泰拉凝聚板放置在中间的活石上"]
+			id: "1748EF5FE6F5B476"
+			rewards: [{
+				id: "7E17A4EB4CD68F4D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3013AAECB3D09238"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1748EF5FE6F5B476"]
+			id: "0E3F324F41FCC920"
+			rewards: [{
+				id: "3D825D9383BACA3E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6681DE5D1E05D64B"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1748EF5FE6F5B476"]
+			description: ["远程传输魔力，用于合成泰拉钢锭"]
+			id: "6FBBF3A42011071C"
+			rewards: [{
+				id: "793A1B3076A82604"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BA60300A5B4A7E5"
+				item: "botania:spark"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5C4E264FC133CAD6"]
+			description: ["消耗同高度的熔岩产生魔力，但会有冷却时间"]
+			id: "198319E84FC29B5D"
+			rewards: [{
+				id: "32D47373332F6BFB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64A1D7E8A21C4297"
+				item: "botania:thermalily"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7764CEEB363B38BA"]
+			description: ["当周围产生TNT爆炸时吸收爆炸产生魔力"]
+			id: "7BC2A01525841819"
+			rewards: [{
+				id: "69137BD7586FD321"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "361DAA80DD559D1F"
+				item: "botania:entropinnyum"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5B4F6C724BBFD3EE"]
+			description: ["消耗周围的食物产生魔力，但有消化时间，且不能一直投喂同一种食物"]
+			id: "2074788B8EDD1805"
+			rewards: [{
+				id: "1F0EEE07A8F68189"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DEC6453DF5BF80D"
+				item: "botania:gourmaryllis"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0C693349C086AB53"]
+			description: ["靠周围液体温差产生魔力"]
+			id: "7AD35E9A17A7761B"
+			rewards: [{
+				id: "41E806E5C731C0DF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AA9C80DC2C90353"
+				item: "extrabotany:twinstar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0722931F6B9C83C6"]
+			description: ["最初的产能花，吸收周围同高度的静水产生魔力，但会枯萎"]
+			id: "0F30CD3DEA2EE617"
+			rewards: [{
+				id: "376D92061E8FB33B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C54BF68D1B8E2C5"
+				item: "botania:hydroangeas"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0722931F6B9C83C6"]
+			description: ["最初的产能花，在夜晚产生魔力，但会枯萎"]
+			id: "785A68A82C43D96D"
+			rewards: [{
+				id: "1FCFE507DBBB72F2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "496957E806151944"
+				item: "extrabotany:moonlight_lily"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0722931F6B9C83C6"]
+			description: ["最初的产能花，在白天产生魔力，但会枯萎"]
+			id: "2207D57B4DBC27AB"
+			rewards: [{
+				id: "37FFBE16C90E421C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66EE6C0E0CFD3016"
+				item: "extrabotany:sunshine_lily"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5C4E264FC133CAD6"]
+			description: ["当玩家在周围运动时产生魔力"]
+			id: "5D207F2AA1376752"
+			rewards: [{
+				id: "29E445007D9699BF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F07268E01D8EB3D"
+				item: "extrabotany:tinkle"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7764CEEB363B38BA"]
+			description: ["消耗周围的树叶方块产生魔力"]
+			id: "195DD8892BFFC40A"
+			rewards: [{
+				id: "20025BCC9603511C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D7757905ED6255E"
+				item: "botania:munchdew"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7764CEEB363B38BA"]
+			description: ["吸收周围的声音产生魔力，但不能一直吸收同种声音"]
+			id: "026E2287A01054E0"
+			rewards: [{
+				id: "1A734157B91E259B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69ED2947DE66A799"
+				item: "extrabotany:resoncund"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7764CEEB363B38BA"]
+			description: ["消耗周围的石头或矿物产生魔力"]
+			id: "3693DD50E4CD272B"
+			rewards: [{
+				id: "18D3A6298BB55F97"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DC1E2B844247C2A"
+				item: "extrabotany:stonesia"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7764CEEB363B38BA"]
+			description: ["消耗周围的书来产生魔力，可放置书架加速"]
+			id: "217FDD0A5FB92DAC"
+			rewards: [{
+				id: "068628E85DCFE994"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A1ACD741B9A4551"
+				item: "extrabotany:omniviolet"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B4F6C724BBFD3EE"]
+			description: ["吸收周围的史莱姆产生魔力"]
+			id: "01D7888DB27B8E0B"
+			rewards: [{
+				id: "3D2FA51247F4062F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62D096371D956275"
+				item: "botania:narslimmus"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5C4E264FC133CAD6"]
+			description: ["吸收周围的雪傀儡产生魔力"]
+			id: "7FC2A51907DCCC16"
+			rewards: [{
+				id: "75ACD9D593BFD8A7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AFB30018D9BBB04"
+				item: "extrabotany:edelweiss"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7764CEEB363B38BA"]
+			description: ["吸收周围的生物的生命值产生魔力，但不能一直吸收同一个目标"]
+			id: "542872712472182B"
+			rewards: [{
+				id: "5948CBCDE338CCF8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10187208196D8554"
+				item: "extrabotany:blood_enchantress"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0722931F6B9C83C6"]
+			description: ["将周围的风力转化为魔力，但是会枯萎"]
+			id: "05A716E5586F3D22"
+			rewards: [{
+				id: "274D992DBF0869E1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B83FF6DFFE7B84D"
+				item: "extrabotany:bellflower"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5C4E264FC133CAD6"]
+			description: ["吸收玩家身上的经验产生魔力"]
+			id: "548032C1834E67D5"
+			rewards: [{
+				id: "1B9899D501AA300C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34A59FD8CCEFA944"
+				item: "botania:rosa_arcana"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0E3F324F41FCC920"]
+			description: ["多方块结构，摆放方式为用8块活木和3块微光原木以及1个精灵门核心摆放成中间为3x3空气的空心门，要求微光活木和精灵门要在每一条边的正中心，且精灵门核心在底部的边上，然后在精灵传送门周围摆上两个魔力池，上面摆上两个自然水晶"]
+			id: "62E26E1F741B1BB6"
+			rewards: [{
+				id: "63BD9ED2AB1479EE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "083069193ECC9B14"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					id: "1F70F73542A57162"
+					item: "botania:natura_pylon"
+					type: "item"
+				}
+			]
+			x: 29.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62E26E1F741B1BB6"]
+			description: ["对精灵门交易指导书获得"]
+			id: "4B6400375EABF774"
+			rewards: [{
+				id: "66EE88F9154B4C3A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6847474C06AE836E"
+				item: {
+					Count: 1
+					id: "botania:lexicon"
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 29.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["62E26E1F741B1BB6"]
+			description: ["精灵门交易得到基础材料"]
+			id: "6C67C95D8C292BB0"
+			rewards: [{
+				id: "4D4789697B781F95"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "37E8027A4E1FC008"
+					item: "botania:elementium_ingot"
+					type: "item"
+				}
+				{
+					id: "64D4C8018A374268"
+					item: "botania:dragonstone"
+					type: "item"
+				}
+				{
+					id: "2B7CC45C7A584B06"
+					item: "botania:pixie_dust"
+					type: "item"
+				}
+			]
+			x: 31.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C67C95D8C292BB0"]
+			description: ["吃掉周围的蛋糕产生魔力"]
+			id: "219B53E5CAD30B16"
+			rewards: [{
+				id: "738E64EBE4AD7819"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3406F221C82CF164"
+				item: "botania:kekimurus"
+				type: "item"
+			}]
+			x: 30.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6C67C95D8C292BB0"]
+			description: ["吃掉一定顺序颜色的羊毛产生魔力"]
+			id: "58CBA0AADDCB007C"
+			rewards: [{
+				id: "01694385687B655C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B92314F1A9A92C8"
+				item: "botania:spectrolus"
+				type: "item"
+			}]
+			x: 31.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6C67C95D8C292BB0"]
+			description: ["吃掉被动型产能花产生魔力，但不能一直吃同一种花"]
+			id: "3CB5B77E4A997434"
+			rewards: [{
+				id: "23A322CE2979CCD1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "596EF7C58A233B50"
+				item: "botania:rafflowsia"
+				type: "item"
+			}]
+			x: 32.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["264B92507890831C"]
+			description: ["四级符文"]
+			id: "6C77B78815C6197C"
+			rewards: [{
+				id: "5AD6ACE58FA3F4CA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "24AE50EA3612C283"
+					item: "mythicbotany:asgard_rune"
+					type: "item"
+				}
+				{
+					id: "6F17E208C806C9F8"
+					item: "mythicbotany:vanaheim_rune"
+					type: "item"
+				}
+				{
+					id: "0083C11DF83A33EE"
+					item: "mythicbotany:alfheim_rune"
+					type: "item"
+				}
+				{
+					id: "4664B89B66A3AEED"
+					item: "mythicbotany:midgard_rune"
+					type: "item"
+				}
+				{
+					id: "4F97911B51E52F7C"
+					item: "mythicbotany:joetunheim_rune"
+					type: "item"
+				}
+				{
+					id: "58459557E4CD0302"
+					item: "mythicbotany:muspelheim_rune"
+					type: "item"
+				}
+				{
+					id: "448A7EC66ED9AD48"
+					item: "mythicbotany:niflheim_rune"
+					type: "item"
+				}
+				{
+					id: "400BF125AAF4A35E"
+					item: "mythicbotany:nidavellir_rune"
+					type: "item"
+				}
+				{
+					id: "774C450213F4F2D4"
+					item: "mythicbotany:helheim_rune"
+					type: "item"
+				}
+			]
+			x: 35.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C77B78815C6197C"]
+			description: ["多方块结构，将5块微光石和4块金块摆成3x3的棋盘，然后将注魔板放置在中间的活石上"]
+			id: "04C9F6748C5E04A9"
+			rewards: [{
+				id: "001C9AB6DF098D06"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F0539B6DFE708B7"
+				item: "mythicbotany:mana_infuser"
+				type: "item"
+			}]
+			x: 37.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04C9F6748C5E04A9"]
+			id: "26FCDEA545BC6969"
+			rewards: [{
+				id: "227F751F5ABDFB15"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DC2E40B32E37738"
+				item: "mythicbotany:alfsteel_ingot"
+				type: "item"
+			}]
+			x: 39.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C4E264FC133CAD6"]
+			description: ["种植在鲜草草地或蕴魔土上，下雨时产生魔力"]
+			id: "15A8DFBD17CF4FA4"
+			rewards: [{
+				id: "655A4EB93E3970D9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C80C3FA4731071E"
+				item: "mythicbotany:raindeletia"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7764CEEB363B38BA"]
+			description: ["消耗下界之星产生魔力"]
+			id: "2B889A06E6D1AEC7"
+			rewards: [{
+				id: "5C1A0BF066438EE9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AE448DD94DA63B2"
+				item: "mythicbotany:wither_aconite"
+				type: "item"
+			}]
+			x: 21.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0C693349C086AB53"]
+			description: ["快速清除高草和草"]
+			id: "005A33FE0AE444B2"
+			rewards: [{
+				id: "26D0C3AFC17279E8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6454D2DBC09511D5"
+				item: "botania:horn_grass"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["005A33FE0AE444B2"]
+			description: ["与狂野号角具有相同的能力，但需要魔力脉冲工作"]
+			id: "0FB17BC846BC7B70"
+			rewards: [{
+				id: "652BD6B96E16F551"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D4F0E6E6EE05D56"
+				item: "botania:drum_wild"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["479FFEE85B00C595"]
+			description: ["接受物品，然后从下方输出物品"]
+			id: "17939D92CD8A21CA"
+			rewards: [{
+				id: "13BA5F8D1A403000"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CA449EDDEC1176F"
+				item: "botania:open_crate"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["26FCDEA545BC6969"]
+			description: [
+				"多方块结构，用于召唤盖亚守护者"
+				"需要一个用9个铁块激活的信标，然后在信标高1格的水平面上摆上四个盖亚水晶，水平位置在距离铁块顶点斜三格远"
+			]
+			id: "291BCB02D90E7C83"
+			rewards: [{
+				id: "6F63541C4B121FE2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68E7D7A443AA2C8C"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			x: 41.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["291BCB02D90E7C83"]
+			description: ["打败盖亚守护者"]
+			id: "000C390C6EF22148"
+			rewards: [{
+				id: "79ED9321757355C5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "113CC47C95A64BFB"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			x: 43.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000C390C6EF22148"]
+			description: ["用于召唤盖亚守护者II"]
+			id: "7C6EB3EB9DEA5B74"
+			rewards: [{
+				id: "054BEA62E503C1FF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "413A9ED87242AEEA"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: 45.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000C390C6EF22148"]
+			description: ["当生物被潜影贝集中并飘浮时产生魔力"]
+			id: "11A0DA3D097FC2F4"
+			rewards: [{
+				id: "7A344F5582275EC1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E385221127FACFC"
+				item: "botania:shulk_me_not"
+				type: "item"
+			}]
+			x: 43.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["000C390C6EF22148"]
+			description: ["遵循康威生命游戏的规则产生魔力"]
+			id: "4C9AC1A2CF8F2151"
+			rewards: [{
+				id: "6902843D72DB505D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20681BEA00723783"
+				item: "botania:dandelifeon"
+				type: "item"
+			}]
+			x: 44.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0C693349C086AB53"]
+			description: ["魔力转化配合的仪器"]
+			id: "50D00D0ACE72A2A7"
+			rewards: [{
+				id: "2C4350F5FF66F858"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4800AF9AD1B19B6C"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50D00D0ACE72A2A7"]
+			description: ["魔力转化配合的仪器"]
+			id: "2CF2BB9D29E3D1D8"
+			rewards: [{
+				id: "778704F44E129287"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "273CC4B1E20160FB"
+				item: "botania:conjuration_catalyst"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2CF2BB9D29E3D1D8"]
+			description: ["魔力转化配合的仪器"]
+			id: "197CE3BB93BC5B0E"
+			rewards: [{
+				id: "253FF459CB4D8302"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F3E4B36F1E7520F"
+				item: "extrabotany:dimension_catalyst"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["479FFEE85B00C595"]
+			description: ["合成进阶材料的仪器"]
+			id: "60710D1271DDD70B"
+			rewards: [{
+				id: "438416C81FEBB02F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E3E7F5330C1ED76"
+				item: "extrabotany:pedestal_livingrock"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7774BF5D4EE92F77"]
+			id: "202FDE6E4D82A1DC"
+			rewards: [{
+				id: "07CC57450DBD8A6A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "06EE3925FCCCBD50"
+					item: "extrabotany:photonium_ingot"
+					type: "item"
+				}
+				{
+					id: "347EB2ED06E2346E"
+					item: "extrabotany:shadowium_ingot"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34462B698D81FB1A"]
+			description: ["用于召唤盖亚守护者III"]
+			id: "3F690554D84E1AC4"
+			rewards: [{
+				id: "310EED74A802543C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19FC9C931F6A9B92"
+				item: "extrabotany:challenge_ticket"
+				type: "item"
+			}]
+			x: 49.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F690554D84E1AC4"]
+			description: ["打败盖亚守护者III"]
+			id: "6B3F6B0B4E4F8438"
+			rewards: [{
+				id: "27D0E30F8C3DF303"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CEC764C0C720CDD"
+				item: "extrabotany:hero_medal"
+				type: "item"
+			}]
+			x: 51.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B3F6B0B4E4F8438"]
+			description: ["最终材料"]
+			id: "3F0F9299C9E3F578"
+			rewards: [{
+				id: "2467CD488FC5D6A6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22DDD9C9890C59A4"
+				item: "extrabotany:orichalcos_ingot"
+				type: "item"
+			}]
+			x: 53.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E3F324F41FCC920"]
+			description: ["武器和盔甲"]
+			id: "0B3F3E144CA8BCA1"
+			rewards: [{
+				id: "5FA27A1E162134E2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "468C5696EE80CAE3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "botania:terrasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EE26E4AC9D3FF78"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "botania:terrasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2C22C1561AB167"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "botania:terrasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06022A4D8748469D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "botania:terrasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44FA8038362271D6"
+					item: {
+						Count: 1
+						id: "botania:terra_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48F644CC1686F801"
+					item: {
+						Count: 1
+						id: "botania:terra_pick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74A3247F7C77276F"
+					item: {
+						Count: 1
+						id: "botania:terra_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 27.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6C67C95D8C292BB0"]
+			id: "264B92507890831C"
+			rewards: [{
+				id: "54A5F42550D883D4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3CFB512AAF23869B"
+					item: "botania:elven_spreader"
+					type: "item"
+				}
+				{
+					id: "5DEBD695636D230F"
+					item: "botania:lens_normal"
+					type: "item"
+				}
+			]
+			x: 33.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000C390C6EF22148"]
+			id: "1C1C9C53BB4CD923"
+			rewards: [{
+				id: "07BD3F9F7D73FAF0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39387F5BDBE9BB1D"
+				item: "botania:gaia_spreader"
+				type: "item"
+			}]
+			x: 41.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["264B92507890831C"]
+			description: ["构建彩虹桥"]
+			id: "4172E1A2749FECEB"
+			rewards: [{
+				id: "17A48757C0A63745"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09830B791E06F327"
+				item: "botania:rainbow_rod"
+				type: "item"
+			}]
+			x: 33.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4172E1A2749FECEB"]
+			description: ["合成材料"]
+			id: "3CAEA732C678A9DA"
+			rewards: [{
+				id: "4AE40C806DEE3780"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AB5205BD3B0935D"
+				item: "botania:shimmerrock"
+				type: "item"
+			}]
+			x: 33.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3CAEA732C678A9DA"]
+			description: ["储存魔力，但更大"]
+			id: "45B7FD23F240DBE8"
+			rewards: [{
+				id: "3EDA54677EAA3C4B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70111D04B55152C9"
+				item: "botania:fabulous_pool"
+				type: "item"
+			}]
+			x: 33.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7C6EB3EB9DEA5B74"]
+			description: ["打败盖亚守护者II"]
+			id: "34462B698D81FB1A"
+			rewards: [{
+				id: "29E6D4374686CCA5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3891BD1127D382CB"
+				item: "botania:dice"
+				type: "item"
+			}]
+			x: 47.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45B7FD23F240DBE8"]
+			description: ["使魔力接入ME网络"]
+			id: "3CE16D9C868BA388"
+			rewards: [{
+				id: "4C95E0B5F8770523"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "330CCD65B73FC18F"
+				item: "appbot:fluix_mana_pool"
+				type: "item"
+			}]
+			x: 33.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["000C390C6EF22148"]
+			description: ["用于配合ME箱子或磁盘驱动器存储魔力"]
+			id: "6CB43F7D99905B87"
+			rewards: [{
+				id: "13A8F0A07368317C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "105A55A76C6654B7"
+					item: {
+						Count: 1
+						id: "appbot:mana_storage_cell_1k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7F566855FE99B9ED"
+					item: {
+						Count: 1
+						id: "appbot:mana_storage_cell_4k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "21256CD1BA330E61"
+					item: {
+						Count: 1
+						id: "appbot:mana_storage_cell_16k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "23591054E7C0104B"
+					item: {
+						Count: 1
+						id: "appbot:mana_storage_cell_64k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "196E5C2A0C70FD0B"
+					item: {
+						Count: 1
+						id: "appbot:mana_storage_cell_256k"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 45.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6CB43F7D99905B87"]
+			description: ["用于配合ME箱子或磁盘驱动器存储魔力"]
+			id: "3E8F52E8977B0BFC"
+			rewards: [{
+				id: "4A3B8392DFCF9360"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "32465E5A7E3C277E"
+					item: {
+						Count: 1
+						id: "megacells:mana_storage_cell_1m"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "07C59499E1E95F02"
+					item: {
+						Count: 1
+						id: "megacells:mana_storage_cell_4m"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2D6E53F5E063D8BC"
+					item: {
+						Count: 1
+						id: "megacells:mana_storage_cell_16m"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3DBCD9A1D5D01306"
+					item: {
+						Count: 1
+						id: "megacells:mana_storage_cell_64m"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4FEBB5847DAA0B7E"
+					item: {
+						Count: 1
+						id: "megacells:mana_storage_cell_256m"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 45.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["202FDE6E4D82A1DC"]
+			description: ["制作魔法药水"]
+			id: "4B867EC328D357C4"
+			rewards: [{
+				id: "5B86426AF949C87A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C9D2D64BB4EEB0C"
+				item: "botania:brewery"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4B867EC328D357C4"]
+			description: ["如同药剂一般被灌入了药水效果，但要消耗更多魔力"]
+			id: "535E52C9B1BC7E08"
+			rewards: [{
+				id: "641634C458EFA692"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "189B733936696093"
+				item: "botania:incense_stick"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7774BF5D4EE92F77"]
+			description: ["缓慢产生魔力"]
+			id: "10BB4DEFDEF751FE"
+			rewards: [{
+				id: "5D5C0992D5A084DA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31DE186C203933C0"
+				item: "botania:aura_ring"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["10BB4DEFDEF751FE"]
+			description: ["自然产生魔力"]
+			id: "555C3C0F1B94432D"
+			rewards: [{
+				id: "56D6C756ED81FBFD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62454B3CFEA8C22A"
+				item: "botania:aura_ring_greater"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["26FCDEA545BC6969"]
+			description: ["使用源质钢剑击杀女巫或唤魔者"]
+			id: "2C00ED1DF514F23F"
+			rewards: [{
+				id: "7238DE61CEF0C5A8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "56A0EADBF27DCD16"
+				item: "mythicbotany:alfsteel_template"
+				type: "item"
+			}]
+			x: 39.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7774BF5D4EE92F77"]
+			description: ["随身存储魔力"]
+			id: "2D7ABF29EA54A972"
+			rewards: [{
+				id: "65362E5BADE0B5F7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36BEF29795B1CE28"
+				item: "botania:mana_ring"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2D7ABF29EA54A972"]
+			description: ["随身存储魔力"]
+			id: "481DB59C71DE64E2"
+			rewards: [{
+				id: "478802C890353823"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7804CC5E2393C7B5"
+				item: "botania:mana_ring_greater"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7764CEEB363B38BA"]
+			description: ["消耗魔力砍树"]
+			id: "749248868612FE73"
+			rewards: [{
+				id: "4135791A59AC7D93"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "224D753E34B3DB88"
+				item: "extrabotany:woodienia"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5B4F6C724BBFD3EE"]
+			description: ["消耗魔力加快熔炉燃烧"]
+			id: "600CFF27A5E51053"
+			rewards: [{
+				id: "7956BC647CCEDD7C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6ED53185BC039EA9"
+				item: "botania:exoflame"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7764CEEB363B38BA"]
+			description: ["消耗魔力使村民打折"]
+			id: "18489B7CCBF639E2"
+			rewards: [{
+				id: "6C8281633C30569D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E860D2400554B84"
+				item: "extrabotany:trade_orchid"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5B4F6C724BBFD3EE"]
+			description: ["消耗魔力给予玩家生命恢复效果"]
+			id: "2956393CA1B0CFFA"
+			rewards: [{
+				id: "16FD3576BAC3ED62"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E413BEE24A54987"
+				item: "botania:fallen_kanade"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0722931F6B9C83C6"]
+			description: ["消耗魔力对除玩家以外的生物造成伤害"]
+			id: "75BB2AD286C8922D"
+			rewards: [{
+				id: "7F3199CC45448092"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E46C07015E61F0F"
+				item: "botania:bellethorn"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C4E264FC133CAD6"]
+			description: ["消耗魔力使周围的石头发生转变"]
+			id: "66C5FB5CD3D012F8"
+			rewards: [{
+				id: "6FD06F790D02FDF8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11FB22674965792A"
+				item: "botania:marimorphosis"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0722931F6B9C83C6"]
+			description: ["抑制磁化指环的能力"]
+			id: "0709533C9D1A6AE0"
+			rewards: [{
+				id: "60F8E4FDBB31322C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3448ACA2DA1332CE"
+				item: "botania:solegnolia"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0722931F6B9C83C6"]
+			description: ["消耗魔力对成年动物造成伤害"]
+			id: "50022A795E3546E1"
+			rewards: [{
+				id: "40386D059644B48A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13129BE306D83FBF"
+				item: "botania:dreadthorn"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C4E264FC133CAD6"]
+			description: ["消耗魔力推动前方物品"]
+			id: "33F27178EC413716"
+			rewards: [{
+				id: "590F34A8D72D0B9F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19655A9B1C90BAF3"
+				item: "botania:daffomill"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C4E264FC133CAD6"]
+			description: ["将掉落物形式的方块拾取并放置"]
+			id: "09B224DAA3F68037"
+			rewards: [{
+				id: "24A608449827C826"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B34ADB4B7EE4D47"
+				item: "botania:rannuncarpus"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C4E264FC133CAD6"]
+			description: ["消耗魔力将周围生物限制在工作范围内的球体内部无法离开"]
+			id: "07F80DDDC3E79876"
+			rewards: [{
+				id: "2E42A4D04C0F9B9C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "096FF69D3AE00BA6"
+				item: "botania:tangleberrie"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C67C95D8C292BB0"]
+			description: ["消耗魔力捡起地上的命名牌并用它命名周围的所有生物和掉落物"]
+			id: "7D6A3DA211536379"
+			rewards: [{
+				id: "7FED84B6918AAED6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "199D19BF51E4D9BD"
+				item: "botania:labellia"
+				type: "item"
+			}]
+			x: 33.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7764CEEB363B38BA"]
+			description: ["消耗魔力对自身血量低于生命值上限50%的实体造成10点伤害并使得它们在接下来的一定时间内治疗反转效果"]
+			id: "5BC8B7161819FB33"
+			rewards: [{
+				id: "03E06CC8C5D63A3B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "110EBD88951CB378"
+				item: "extrabotany:necrofleur"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B4F6C724BBFD3EE"]
+			description: ["消耗魔力使除玩家以外的生物获得3秒钟的中毒I效果"]
+			id: "594F4668E0653264"
+			rewards: [{
+				id: "555EAC61AA540834"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2714F6C28079E3B6"
+				item: "botania:hyacidus"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C67C95D8C292BB0"]
+			description: ["消耗魔力排空工作范围内的水，创造一个可呼吸的无水空间"]
+			id: "7C3D71FBE7FB17B2"
+			rewards: [{
+				id: "7DB68E75E961C5A8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16060BA5CED72318"
+				item: "botania:bubbell"
+				type: "item"
+			}]
+			x: 33.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C67C95D8C292BB0"]
+			description: ["消耗魔力使掉落在工作范围内的掉落物瞬间出现在绑定的方块之上"]
+			id: "32C2D36CBEEE8EF7"
+			rewards: [{
+				id: "538E5293FE68E715"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31DDEF54C2AFDCE9"
+				item: "botania:spectranthemum"
+				type: "item"
+			}]
+			x: 32.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C67C95D8C292BB0"]
+			description: ["消耗魔力使附近怪物自相残杀"]
+			id: "4213DAC3EB058550"
+			rewards: [{
+				id: "504D8CE8F3FE1F6C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60524FA7EB745FDF"
+				item: "botania:heisei_dream"
+				type: "item"
+			}]
+			x: 31.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6C67C95D8C292BB0"]
+			description: ["消耗魔力将石头和深板岩变为矿物"]
+			id: "79271C5DDEC33DB1"
+			rewards: [{
+				id: "7DF28538B124E80D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "300AF1D0C7EC4B6B"
+				item: "botania:orechid"
+				type: "item"
+			}]
+			x: 30.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C67C95D8C292BB0"]
+			description: ["消耗魔力将下界岩变为矿物"]
+			id: "4735C7D183CBE62D"
+			rewards: [{
+				id: "3229361B06ABDBA5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D7334D793FB7CCB"
+				item: "botania:orechid_ignem"
+				type: "item"
+			}]
+			x: 30.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C67C95D8C292BB0"]
+			description: ["消耗魔力来生成携带宝藏的怪物"]
+			id: "0732CC7F6382A141"
+			rewards: [{
+				id: "0309FA737885816C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BC4E65F81E05A0E"
+				item: "botania:loonium"
+				type: "item"
+			}]
+			x: 30.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["000C390C6EF22148"]
+			description: ["使周围同一平面上的被动产能花停止枯委的进程，并使进程归零"]
+			id: "2CB450A874563B08"
+			rewards: [{
+				id: "3D0332A80E4A3222"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10CE0ED7FADD91D4"
+				item: "extrabotany:serenitian"
+				type: "item"
+			}]
+			x: 43.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0722931F6B9C83C6"]
+			description: ["吸收附近的声音"]
+			id: "25C3E98830C2B24E"
+			rewards: [{
+				id: "7882BDFD79922CFB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AD0ECAD712BD088"
+				item: "botania:bergamute"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C4E264FC133CAD6"]
+			description: ["会捡拾附近掉落物品，并将其放入紧贴着漏斗花的容器内"]
+			id: "6F783CEE10489D10"
+			rewards: [{
+				id: "55A2899FC86431DB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D6E9215A7D649F2"
+				item: "botania:hopperhock"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5B4F6C724BBFD3EE"]
+			description: ["消耗魔力使工作范围内的植物能够快速生长"]
+			id: "0A4352B7A3340936"
+			rewards: [{
+				id: "7A811C2DF76733EF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FEA7FA12E9E7646"
+				item: "botania:agricarnation"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7764CEEB363B38BA"]
+			description: ["消耗魔力向工作范围内的成年动物喂食合适的食物使其繁殖"]
+			id: "32EE6B68C103A276"
+			rewards: [{
+				id: "3BFD164722D99307"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20CC1407C6EAECDE"
+				item: "botania:pollidisiac"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C4E264FC133CAD6"]
+			description: ["消耗魔力抑制工作范围内除玩家以外的生物移动"]
+			id: "7178AF153413C066"
+			rewards: [{
+				id: "57ADB65F22BADAEC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45172C1D0DAC1583"
+				item: "botania:medumone"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5C4E264FC133CAD6"]
+			description: ["在神烦花周围摆放上一个带有水桶的自然祭坛，它就可以消耗魔力来自动钓鱼"]
+			id: "5104FED8AAB9B5AF"
+			rewards: [{
+				id: "382762FEED1986E9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A9ABE0C36B8E4BF"
+				item: "extrabotany:annoyingflower"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5B4F6C724BBFD3EE"]
+			description: ["消耗魔力在周围快速生成神秘花"]
+			id: "169A0E2A07852801"
+			rewards: [{
+				id: "6F28D8A70CF3AE0F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "462235678CF23B70"
+				item: "botania:jaded_amaranthus"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C4E264FC133CAD6"]
+			description: ["消耗魔力而使得所有邻近的动物和怪物无法进入一个圈内"]
+			id: "431EE6B092E9512B"
+			rewards: [{
+				id: "1425F5CEF6D4B0AA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FAF1C388172C5BD"
+				item: "botania:jiyuulia"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["000C390C6EF22148"]
+			description: ["消耗魔力将周围的草方块转化为蕴魔土"]
+			id: "18F73B81CB3C35DD"
+			rewards: [{
+				id: "2D25C6B04A06AA47"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E1C9C1DEFCDC438"
+				item: "extrabotany:enchanter"
+				type: "item"
+			}]
+			x: 42.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5B4F6C724BBFD3EE"]
+			description: ["消耗魔力使工作范围内的爬行者不会爆炸而是会尽力远离玩家"]
+			id: "4A56AF5D2DFCA8A0"
+			rewards: [{
+				id: "16B722427D7DE7C5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F8D5AAF97154FFB"
+				item: "botania:tigerseye"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7764CEEB363B38BA"]
+			description: ["消耗魔力，作用范围有末影人瞬移时，会被强制瞬移至此花上方"]
+			id: "238BBB307E810805"
+			rewards: [{
+				id: "366F0E703C0FFE04"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07C889F7F401F341"
+				item: "botania:vinculotus"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C4E264FC133CAD6"]
+			description: ["消耗魔力滋润附近沙子转化为黏土"]
+			id: "2033F8E02D172C21"
+			rewards: [{
+				id: "5D179776412C60E6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D3DC603F639B5D3"
+				item: "botania:clayconia"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7764CEEB363B38BA"]
+			description: ["消耗魔力像信标一样为周围的玩家不断提供镜棘效果"]
+			id: "3123D647C5313738"
+			rewards: [{
+				id: "6AE19F320229FF36"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2815320E6BB7B01B"
+				item: "extrabotany:mirrowtunia"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["000C390C6EF22148"]
+			description: [
+				"多方块结构，可以远程传输魔力"
+				"搭建方法为魔链星下方草方块四面摆上黑曜石，四角摆上青金石块，再在外面围一圈石英块"
+			]
+			id: "03180B7E953DC249"
+			rewards: [{
+				id: "0463B9703F1D84C0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E93B786AD6F401F"
+				item: "extrabotany:manalink"
+				type: "item"
+			}]
+			x: 44.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C4E264FC133CAD6"]
+			description: ["消耗魔力3格半径内的酿造台提供燃料"]
+			id: "2666B762D9A8F967"
+			rewards: [{
+				id: "63B768F95EAA4288"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3523DFB0067A9FFF"
+				item: "mythicbotany:exoblaze"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C4E264FC133CAD6"]
+			description: ["消耗魔力在工作范围内阻止猪灵、猪灵蛮兵和疣猪兽僵尸化"]
+			id: "077336B412CA0421"
+			rewards: [{
+				id: "634597B8D6861000"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E11B9DDB07E6ED4"
+				item: "mythicbotany:hellebore"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0722931F6B9C83C6"]
+			description: ["消耗魔力给以它为中心3格半径内的炼药锅、花药台、坩埚和桶填充水"]
+			id: "6CA868E0FB41EBC5"
+			rewards: [{
+				id: "4838971E367D2EBD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0928F90C1D086F5E"
+				item: "mythicbotany:aquapanthus"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5C4E264FC133CAD6"]
+			description: ["放置在魔力池边，与魔力引擎进行绑定"]
+			id: "05C2F770D3FF23F6"
+			rewards: [{
+				id: "6D4237E14C51586A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50909680C4BDCEC7"
+				item: "mechanicalbotania:spinerette"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["05C2F770D3FF23F6"]
+			description: ["将魔力转化为应力"]
+			id: "31E0076281C96074"
+			rewards: [{
+				id: "6FDF2D82A8EB7F77"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75E9A86C8E968B44"
+				item: "mechanicalbotania:mana_motor"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6FBBF3A42011071C"]
+			description: ["通过多媒体火花之间相互连接，形成一个整体网络来实现物流"]
+			id: "71F5325EF818151C"
+			rewards: [{
+				id: "20CCBC7E6EE5E347"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4048104353E7950A"
+					item: "botania:corporea_spark"
+					type: "item"
+				}
+				{
+					id: "4134F601BB6597EB"
+					item: "botania:corporea_funnel"
+					type: "item"
+				}
+				{
+					id: "145AFE070CB3750C"
+					item: "botania:corporea_crystal_cube"
+					type: "item"
+				}
+				{
+					id: "06714A117C9AD9EE"
+					item: "botania:corporea_index"
+					type: "item"
+				}
+			]
+			x: 25.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["34462B698D81FB1A"]
+			description: ["符文仪式进行所放置符文需要的支托"]
+			id: "7DCF17D04F15B6D1"
+			rewards: [{
+				id: "504A2E0010787050"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "37299CF67CD74119"
+					item: "mythicbotany:rune_holder"
+					type: "item"
+				}
+				{
+					id: "0B95D00F9581095B"
+					item: "mythicbotany:central_rune_holder"
+					type: "item"
+				}
+			]
+			x: 47.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0C693349C086AB53"]
+			description: ["随身工作台"]
+			id: "6B87853F722D9C33"
+			rewards: [{
+				id: "55012970FA7E718D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CE1CC1BF9373108"
+				item: "botania:crafting_halo"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6B87853F722D9C33"]
+			description: ["随身工作台，但自动合成"]
+			id: "593FA4D7A0C8A772"
+			rewards: [{
+				id: "5B72FA1387A5C605"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C4853720860AE91"
+				item: "botania:auto_crafting_halo"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+	]
+	title: "Botania"
+}

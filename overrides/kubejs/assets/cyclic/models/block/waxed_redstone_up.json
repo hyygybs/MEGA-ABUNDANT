@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"particle": "cyclic:block/waxed_redstone_block_side",
+		"down": "cyclic:block/waxed_redstone_block",
+		"up": "minecraft:block/redstone_block",
+		"north": "cyclic:block/waxed_redstone_block_side",
+		"south": "cyclic:block/waxed_redstone_block_side",
+		"west": "cyclic:block/waxed_redstone_block_side",
+		"east": "cyclic:block/waxed_redstone_block_side"
+	}
+}

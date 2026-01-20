@@ -1,0 +1,95 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "undergarden"
+	group: "05AB17DBA7318260"
+	icon: "undergarden:deepturf_block"
+	id: "42828941EA2EFFEB"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2CEE04D4C9EFDF87"]
+			description: ["用石砖摆成内部为2x3的门，然后用深园催化石激活"]
+			id: "1D8E8591F8A0F3D7"
+			rewards: [{
+				id: "13DEFDD621005293"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "undergarden:undergarden"
+				icon: "undergarden:deepturf_block"
+				id: "4955C964D15D0B8D"
+				type: "dimension"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D8E8591F8A0F3D7"]
+			description: ["挖掘材料"]
+			id: "37BB27DE08DCDB98"
+			rewards: [{
+				id: "661EB3723765D463"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "32ABFAEE539D95C0"
+					item: "undergarden:cloggrum_ingot"
+					type: "item"
+				}
+				{
+					id: "6CDBDFE8A9ACFEA7"
+					item: "undergarden:utherium_crystal"
+					type: "item"
+				}
+				{
+					id: "627059849148319C"
+					item: "undergarden:froststeel_ingot"
+					type: "item"
+				}
+				{
+					id: "3D2F9DAAE3E685CD"
+					item: "undergarden:regalium_crystal"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37BB27DE08DCDB98"]
+			description: ["打败遗忆守卫或开宝箱获得"]
+			id: "7BD931505B436318"
+			rewards: [{
+				id: "2C86E2410F8B5B50"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "440F8A3FFFE4C235"
+					item: "undergarden:forgotten_nugget"
+					type: "item"
+				}
+				{
+					id: "57681C950F4387D7"
+					item: "undergarden:forgotten_ingot"
+					type: "item"
+				}
+				{
+					id: "328B65D633E24B0F"
+					item: "undergarden:forgotten_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+	]
+	title: "Undergarden"
+}

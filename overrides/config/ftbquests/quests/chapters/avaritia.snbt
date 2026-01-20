@@ -1,0 +1,479 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "avaritia"
+	group: "494A7A3C22FC651F"
+	icon: "avaritia:infinity_catalyst"
+	id: "15E77F0FA9B54E6B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6416CABD6C60C5CB"]
+			description: ["1级合成台"]
+			id: "2DC08CE268C5C462"
+			rewards: [{
+				id: "7929B40E970F3A81"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36FB8EC6DD8E380C"
+				item: "avaritia:sculk_crafting_table"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DC08CE268C5C462"]
+			description: ["2级合成台"]
+			id: "29743BC1E73D6576"
+			rewards: [{
+				id: "5D6F1DB333F3198F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33460842FAF3C2A6"
+				item: "avaritia:nether_crafting_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29743BC1E73D6576"]
+			description: ["3级合成台"]
+			id: "6802DC4905DEBD94"
+			rewards: [{
+				id: "2BFCD65AA50DAAA8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "440598BD778573C3"
+				item: "avaritia:end_crafting_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: ["合成材料"]
+			id: "6416CABD6C60C5CB"
+			rewards: [{
+				id: "2D4265130EC37BC8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69ECA71D4665C331"
+				item: "avaritia:crystal_matrix_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6802DC4905DEBD94"]
+			description: ["4级合成台"]
+			id: "09DC7ACEFF42F6B9"
+			rewards: [{
+				id: "70C99168A0D8F61E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03F4D8B88A9CA330"
+				item: "avaritia:extreme_crafting_table"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29743BC1E73D6576"]
+			description: ["合成材料"]
+			id: "700E87E06036FDFA"
+			rewards: [{
+				id: "12935957DC2EC3B8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4360D0D3FD549FF3"
+				item: "avaritia:blaze_cube"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["09DC7ACEFF42F6B9"]
+			description: ["生产中子材料"]
+			id: "6AD32788E7233179"
+			rewards: [{
+				id: "7D555A763372CF9D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F0801EAC46DB7E8"
+				item: "avaritia:neutron_collector"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AD32788E7233179"]
+			id: "1DA501DFA796A028"
+			rewards: [{
+				id: "4272A2979BAF2BEB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D782168296A4FF1"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6AD32788E7233179"]
+			description: ["生产奇点"]
+			id: "17701233B466CCC0"
+			rewards: [{
+				id: "1A0E6B9A5E6BEE84"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D388C773E40711E"
+				item: "avaritia:neutron_compressor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17701233B466CCC0"]
+			description: ["合成材料"]
+			id: "68BD70BD0C6BD304"
+			rewards: [{
+				id: "17047187FF27ECFF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "56486A104B6E74B9"
+				item: "avaritia:eternal_singularity"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68BD70BD0C6BD304"]
+			description: ["无尽之始"]
+			id: "6770609526890506"
+			rewards: [{
+				id: "13998F679F96255B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B16FE52FAE25665"
+				item: "avaritia:infinity_catalyst"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6770609526890506"]
+			description: ["合成材料"]
+			id: "340B26D9759C90A7"
+			rewards: [{
+				id: "58AA037864B41BC6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FC30A2AD2EFC093"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["340B26D9759C90A7"]
+			description: ["剑"]
+			id: "4689CF9B2FC81E59"
+			rewards: [{
+				id: "438D1BE4D7174A2A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15F6BAA3F02E95F7"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_sword"
+					tag: {
+						mode: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["340B26D9759C90A7"]
+			description: ["远程武器"]
+			id: "4BE833FE9B4F61D5"
+			rewards: [{
+				id: "4F6C51DCA697B4A3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "472FF73B36492DFD"
+					item: {
+						Count: 1
+						id: "avaritia:infinity_bow"
+						tag: {
+							mode: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6761ACA1A6C3F215"
+					item: "avaritia:infinity_crossbow"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["340B26D9759C90A7"]
+			description: ["护甲"]
+			id: "2128339BFBA0ED1A"
+			rewards: [{
+				id: "21F457D883BD090D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1E22DE187D68FF4C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "avaritia:infinity_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "31DFB1F85BCDFEE1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "avaritia:infinity_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "168DFCEC322DD4B4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "avaritia:infinity_pants"
+					}
+					type: "item"
+				}
+				{
+					id: "0904C288A1A2F9EE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "avaritia:infinity_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["340B26D9759C90A7"]
+			description: ["盾牌"]
+			id: "3E4EED06636911EA"
+			rewards: [{
+				id: "7EAE557A13A88840"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71DC65709BFAD125"
+				item: "avaritia:infinity_shield"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["340B26D9759C90A7"]
+			description: ["工具"]
+			id: "0BEE3D3D8305D3E3"
+			rewards: [{
+				id: "7E43966FB1E5D536"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "24EC6053F858C111"
+					item: "avaritia:infinity_hoe"
+					type: "item"
+				}
+				{
+					id: "60AB1080CD8ECD0F"
+					item: {
+						Count: 1
+						id: "avaritia:infinity_pickaxe"
+						tag: {
+							mode: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "670881A5BBB74242"
+					item: {
+						Count: 1
+						id: "avaritia:infinity_shovel"
+						tag: {
+							mode: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C4E1CE9CFD7DD18"
+					item: "avaritia:infinity_axe"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["340B26D9759C90A7"]
+			description: ["用于与锻造模板相关的合成"]
+			id: "07AFB425A3B4981D"
+			rewards: [{
+				id: "5F4C605F8EC87A7B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "010847FCF81FEAA3"
+				item: "avaritia:extreme_smithing_table"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6770609526890506"]
+			description: ["升级无尽物品"]
+			id: "2C67D227B3ED40B4"
+			rewards: [{
+				id: "6F73C40EE284B84D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76533F7E86408180"
+				item: "avaritia:upgrade_smithing_template"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["07AFB425A3B4981D"]
+			description: ["小工具"]
+			id: "15E39AB36CE100C5"
+			rewards: [{
+				id: "3AA6BD378B4BD070"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2D7373C874216B5C"
+					item: "avaritia:infinity_bucket"
+					type: "item"
+				}
+				{
+					id: "247180F171931450"
+					item: {
+						Count: 1
+						id: "avaritia:infinity_clock"
+						tag: {
+							mode: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3ED450DAACE5976E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "avaritia:infinity_elytra"
+					}
+					type: "item"
+				}
+				{
+					id: "28F13D03A7975162"
+					item: "avaritia:neutron_horse_armor"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 4.0d
+		}
+	]
+	title: "Avaritia"
+}

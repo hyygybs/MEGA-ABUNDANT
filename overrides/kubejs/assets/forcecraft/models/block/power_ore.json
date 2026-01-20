@@ -1,0 +1,8 @@
+{
+  "parent": "forcecraft:block/ore",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "ore": "forcecraft:block/power_ore",
+    "stone": "minecraft:block/stone"
+  }
+}

@@ -1,0 +1,155 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hostile_neural_networks"
+	group: "1F9A9FE71A5A4AA9"
+	icon: "hostilenetworks:sim_chamber"
+	id: "550346FE7050F1EE"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["用于创建生物数据模型"]
+			id: "334BA028FD54BE57"
+			rewards: [{
+				id: "21FE65ED4C6FD3BF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32AB9DB972C90252"
+				item: "hostilenetworks:blank_data_model"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["334BA028FD54BE57"]
+			description: ["放入模型击杀同类生物"]
+			id: "3F29CCEAF7B27AE6"
+			rewards: [{
+				id: "25A58D19B56370E4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61A50C1D00C4522C"
+				item: "hostilenetworks:deep_learner"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3F29CCEAF7B27AE6"]
+			description: ["模拟击杀生物获得产物"]
+			id: "5D4D43EFB7B42301"
+			rewards: [{
+				id: "33ED8346A3B26E62"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75D76D1E7649D270"
+				item: "hostilenetworks:sim_chamber"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5D4D43EFB7B42301"]
+			description: ["将产物转化为战利品"]
+			id: "64CA50A92BA1CB86"
+			rewards: [{
+				id: "5E70F4D0925DD323"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E531B9B2660A416"
+				item: "hostilenetworks:loot_fabricator"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["64CA50A92BA1CB86"]
+			description: ["将四种模型组合为复合模型"]
+			id: "4E8BFF7AC9496F75"
+			rewards: [{
+				id: "5A5EF5B25FDBCA90"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6916CD3C0DE1B4E4"
+					item: "extrahnn:merger_camera"
+					type: "item"
+				}
+				{
+					id: "04F9BC6459BDECE1"
+					item: "extrahnn:blank_extra_data_model"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4E8BFF7AC9496F75"]
+			description: ["将复合模型模拟生成产物"]
+			id: "11034798DA5B6FC1"
+			rewards: [{
+				id: "638E59F97D63F3BC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "061D7B0A43A628F2"
+				item: "extrahnn:ultimate_sim_chamber"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["11034798DA5B6FC1"]
+			description: ["允许最多处理四种预测产物为战利品"]
+			id: "5834C88302F3F975"
+			rewards: [{
+				id: "7D5386021D4A5FC2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FBE0982A6ACED9D"
+				item: "extrahnn:ultimate_loot_fabricator"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["11034798DA5B6FC1"]
+			description: ["快速将模型训练到最高等级"]
+			id: "00ABB9900312C9B2"
+			rewards: [{
+				id: "127BDD19C3AA3E20"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FF8D60D4697E884"
+				item: "extrahnn:simulator_modeling"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+	]
+	title: "Hostile Neural Networks"
+}

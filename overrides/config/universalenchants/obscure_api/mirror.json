@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:dynamic_projectile_mirror",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": []
+}

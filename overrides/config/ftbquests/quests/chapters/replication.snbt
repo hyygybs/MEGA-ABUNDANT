@@ -1,0 +1,155 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "replication"
+	group: "1F9A9FE71A5A4AA9"
+	icon: "replication:replicator"
+	id: "7AA3073A8C0E5A58"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["合成材料"]
+			id: "7C8BBEDF1B3A88D1"
+			rewards: [{
+				id: "54F73B2E7C398BE8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "671F22950A9E1760"
+				item: "replication:replica_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C8BBEDF1B3A88D1"]
+			description: ["用于存储物质"]
+			id: "735942764FFFDBAB"
+			rewards: [{
+				id: "0CA6AFAC2DFBBA83"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "172C4BDF29D1901A"
+				item: "replication:matter_tank"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["735942764FFFDBAB"]
+			description: ["用于查看可以合成的物品"]
+			id: "35AF240CF0E991EE"
+			rewards: [{
+				id: "1BD286CD11FFD8DD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "57FEC4BEE3241FBF"
+					item: "replication:replication_terminal"
+					type: "item"
+				}
+				{
+					id: "0F6519078383D139"
+					item: "replication:matter_network_pipe"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35AF240CF0E991EE"]
+			description: ["将物品粉碎成物质"]
+			id: "4046DF504AE63F2D"
+			rewards: [{
+				id: "223BF59A975300CD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "185F521B67F1986E"
+				item: "replication:disintegrator"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4046DF504AE63F2D"]
+			description: ["消耗物质复制物品"]
+			id: "7CC1548F5A0F31E3"
+			rewards: [{
+				id: "1E273D122E312C57"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B9B49227317505B"
+				item: "replication:replicator"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7CC1548F5A0F31E3"]
+			description: ["将需要复制的物品写入芯片中"]
+			id: "173342AE88B00466"
+			rewards: [{
+				id: "258E92CBDE4CB6B3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B16F049E145E823"
+				item: "replication:identification_chamber"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["173342AE88B00466"]
+			description: ["用于存储芯片"]
+			id: "1DE1705425D9954C"
+			rewards: [{
+				id: "6639628BF01A318C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A5EF75181739EC5"
+				item: "replication:chip_storage"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["173342AE88B00466"]
+			description: ["将ME网络与复制网络相连接"]
+			id: "775B55B3ACFC4DB4"
+			rewards: [{
+				id: "7147B02C1FA2CDE7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1490711B494B0F2B"
+				item: "rep_ae2_bridge:rep_ae2_bridge"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+	]
+	title: "Replication"
+}

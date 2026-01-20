@@ -1,0 +1,1160 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "actually_additions"
+	group: "1F9A9FE71A5A4AA9"
+	icon: "actuallyadditions:atomic_reconstructor"
+	id: "7578EA88034EF33C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1017D100DE7976DD"]
+			description: ["一切机器的起始"]
+			id: "51C006D8551D4074"
+			rewards: [{
+				id: "27BBAA197F8873EF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EF185070BD09D55"
+				item: "actuallyadditions:iron_casing"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5CD67D97FFE7D617"]
+			description: ["消耗能量发射激光转化掉落物形式的物品，建议使用脉冲模式"]
+			id: "4DE1EC72BE76632A"
+			rewards: [{
+				id: "5A06183DB8B1A01C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "483419382146468C"
+				item: "actuallyadditions:atomic_reconstructor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			description: ["挖掘焦黑石英获得"]
+			id: "1017D100DE7976DD"
+			rewards: [{
+				id: "79823D7F94EA4523"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59EA98E176CCFA9B"
+				item: "actuallyadditions:black_quartz"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4DE1EC72BE76632A"]
+			description: ["将红石、煤炭、铁锭、青金石、钻石、绿宝石用原子再构机转化为合成原材料"]
+			id: "431321CCFAF50F67"
+			rewards: [{
+				id: "376227EFC3F553AA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "539E0DC90FB43B51"
+					item: "actuallyadditions:restonia_crystal"
+					type: "item"
+				}
+				{
+					id: "40B3DC6F5BB0BF52"
+					item: "actuallyadditions:void_crystal"
+					type: "item"
+				}
+				{
+					id: "59F937D9BE215B57"
+					item: "actuallyadditions:enori_crystal"
+					type: "item"
+				}
+				{
+					id: "7F47B658DA5B69C4"
+					item: "actuallyadditions:palis_crystal"
+					type: "item"
+				}
+				{
+					id: "6CC4F6E95DA805FA"
+					item: "actuallyadditions:diamatine_crystal"
+					type: "item"
+				}
+				{
+					id: "14A87771BE2C25B6"
+					item: "actuallyadditions:emeradic_crystal"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["431321CCFAF50F67"]
+			description: ["合成各种机器的基础物品"]
+			id: "3FD04DE17FBEB949"
+			rewards: [{
+				id: "7A71604710053E59"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70FE5A6EB920A328"
+				item: "actuallyadditions:basic_coil"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3FD04DE17FBEB949"]
+			description: ["合成手钻的基础物品"]
+			id: "6C5AE31BB661834C"
+			rewards: [{
+				id: "13023C92E221402F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2EB25362FA6E0592"
+				item: "actuallyadditions:drill_core"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3FD04DE17FBEB949"]
+			description: ["消耗能量将物品进行磨粉处理"]
+			id: "576FDEBD55AD310B"
+			rewards: [{
+				id: "4C503F0E677FBB5B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "042F9DFCD37F9484"
+				item: "actuallyadditions:crusher"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3FD04DE17FBEB949"]
+			description: ["合成各种机器的基础物品"]
+			id: "01D86043936D3C74"
+			rewards: [{
+				id: "07B72447B97B014E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "640A2C01C0C836CE"
+				item: "actuallyadditions:advanced_coil"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3FD04DE17FBEB949"]
+			description: ["消耗能量将物品进行烧炼处理，且一次可以进行两次处理"]
+			id: "2BDD2C843684F13E"
+			rewards: [{
+				id: "085F3096C31046DB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7991CDE3FFE3B94F"
+				item: "actuallyadditions:powered_furnace"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["01F7EAFCC2CC628F"]
+			description: ["利用油菜产生的流体产生能量"]
+			id: "1670E09E7226E7C0"
+			rewards: [{
+				id: "54C5CE8D967382A5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E73E112AAE78494"
+				item: "actuallyadditions:oil_generator"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["01D86043936D3C74"]
+			description: ["能够存储能量并给玩家物品栏里的物品充能的物品"]
+			id: "0B55EBFA5473ADCC"
+			rewards: [{
+				id: "2F81C9D2AA0CB7A5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "373F051CB4BFF3CF"
+				item: {
+					Count: 1
+					id: "actuallyadditions:single_battery"
+					tag: {
+						Charged: 1b
+						Energy: 0.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["01D86043936D3C74"]
+			description: ["释放物品内存储的能量"]
+			id: "32E408EC437C9210"
+			rewards: [{
+				id: "19DBEC84E58C30A9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "229D2CDB83A162AC"
+				item: "actuallyadditions:enervator"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["01D86043936D3C74"]
+			description: ["给需要能量的物品充能"]
+			id: "50E52EE346F7961E"
+			rewards: [{
+				id: "75052A5D8A52D0DF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20E1C4F6AEC5B889"
+				item: "actuallyadditions:energizer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["255B4365FD5EC11E"]
+			description: [
+				"多方块结构，用于将合成材料转化为更高级的合成材料"
+				"摆放方式为中央放置充能台，然后在距离充能台水平方向的四面的两格外即第三格摆放物品展示台，物品展示台需要提供能量"
+			]
+			id: "1FB9E95BCFF2B6C0"
+			rewards: [{
+				id: "7CF439082366035A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "04D8A5AFA25D3A8A"
+					item: "actuallyadditions:empowerer"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "28361B3E0E524C0E"
+					item: "actuallyadditions:display_stand"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0B55EBFA5473ADCC"]
+			description: ["能够存储能量并给玩家物品栏里的物品充能的物品，但容量更大"]
+			id: "255B4365FD5EC11E"
+			rewards: [{
+				id: "5C1C95736C01740C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CE3C20E7647E277"
+				item: {
+					Count: 1
+					id: "actuallyadditions:double_battery"
+					tag: {
+						Charged: 1b
+						Energy: 0.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7D924FF7FEA9BB9E"]
+			description: ["能够存储能量并给玩家物品栏里的物品充能的物品，但容量更大"]
+			id: "26738BCF3BA2D540"
+			rewards: [{
+				id: "1D1F449A36CE7B82"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C238DFBC694DAA0"
+				item: {
+					Count: 1
+					id: "actuallyadditions:triple_battery"
+					tag: {
+						Charged: 1b
+						Energy: 0.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["26738BCF3BA2D540"]
+			description: ["能够存储能量并给玩家物品栏里的物品充能的物品，但容量更大"]
+			id: "0D5CFF893633D14D"
+			rewards: [{
+				id: "7566CB452DAD64EE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07D6E0A1194503D4"
+				item: {
+					Count: 1
+					id: "actuallyadditions:quadruple_battery"
+					tag: {
+						Charged: 1b
+						Energy: 0.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1FB9E95BCFF2B6C0"]
+			id: "7D924FF7FEA9BB9E"
+			tasks: [
+				{
+					id: "1BE10657CA37272B"
+					item: "actuallyadditions:empowered_restonia_crystal"
+					type: "item"
+				}
+				{
+					id: "22078ABF3CAE9CBC"
+					item: "actuallyadditions:empowered_void_crystal"
+					type: "item"
+				}
+				{
+					id: "63CD21A674FBF447"
+					item: "actuallyadditions:empowered_enori_crystal"
+					type: "item"
+				}
+				{
+					id: "499C969BFB106DD7"
+					item: "actuallyadditions:empowered_palis_crystal"
+					type: "item"
+				}
+				{
+					id: "505622A1BA394DF2"
+					item: "actuallyadditions:empowered_diamatine_crystal"
+					type: "item"
+				}
+				{
+					id: "5B20CB9245EDE419"
+					item: "actuallyadditions:empowered_emeradic_crystal"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0D5CFF893633D14D"]
+			description: ["能够存储能量并给玩家物品栏里的物品充能的物品，但容量更大"]
+			id: "03436124C4E1FB13"
+			rewards: [{
+				id: "783B185C0E547897"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F73F66A69A16FAF"
+				item: {
+					Count: 1
+					id: "actuallyadditions:quintuple_battery"
+					tag: {
+						Charged: 1b
+						Energy: 0.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7D924FF7FEA9BB9E"]
+			description: ["摧毁其周围7格范围内的树叶产生能量"]
+			id: "2098A629F0959227"
+			rewards: [{
+				id: "31672FF26367239C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20B1EA8A32EFE403"
+				item: "actuallyadditions:leaf_generator"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["01D86043936D3C74"]
+			description: [
+				"多方块结构，消耗能量产生熔岩"
+				"摆放方式为第一层摆放岩浆工厂控制器，二层在控制器上方一格的四面摆放岩浆工厂外墙"
+			]
+			id: "5E0C2089B2A33068"
+			rewards: [{
+				id: "0422DE6CBA708488"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "58E81908417B7659"
+					item: "actuallyadditions:lava_factory_controller"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1C605BB722E78EED"
+					item: { Count: 4, id: "actuallyadditions:lava_factory_casing" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6C5AE31BB661834C"]
+			description: ["消耗能量作为镐和锹使用，可安装升级"]
+			id: "0E2D55BE8F8B0792"
+			rewards: [{
+				id: "6A8CB895AB11AA3E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E1109F7D08C03C5"
+				item: {
+					Count: 1
+					id: "actuallyadditions:drill_light_blue"
+					tag: {
+						Charged: 1b
+						Energy: 0.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["576FDEBD55AD310B"]
+			description: ["消耗能量将物品进行磨粉处理，且一次可以进行两次处理"]
+			id: "54B477DD475D94DA"
+			rewards: [{
+				id: "140ACAF2A6FC35BC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66C27A7D667E5605"
+				item: "actuallyadditions:crusher_double"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"50E52EE346F7961E"
+				"32E408EC437C9210"
+			]
+			description: ["用于储存能量，需要放入电池使用"]
+			id: "0810F2B580CE248A"
+			rewards: [{
+				id: "7CC271324BF758FE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F6A111925CAEA64"
+				item: "actuallyadditions:battery_box"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["01D86043936D3C74"]
+			description: ["将油菜处理成能够产生能量的流体"]
+			id: "01F7EAFCC2CC628F"
+			rewards: [{
+				id: "70AF4076CE57E75E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4659F04C2946DF0B"
+					item: "actuallyadditions:canola_press"
+					type: "item"
+				}
+				{
+					id: "5EEE8A505A454275"
+					item: "actuallyadditions:fermenting_barrel"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["431321CCFAF50F67"]
+			description: ["消耗能量吸收你周围四格内的掉落物"]
+			id: "7AC4D491FC4113CC"
+			rewards: [{
+				id: "47E47395EE30F8D9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "078F69717C6A7ACD"
+				item: {
+					Count: 1
+					id: "actuallyadditions:ring_of_magnetizing"
+					tag: {
+						Charged: 1b
+						Energy: 0.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["210B3CC6F4BBBFF1"]
+			description: ["可以销毁物品（开启I则会自动收取掉落物并销毁，可配置过滤名单）"]
+			id: "414249CF6255F42C"
+			rewards: [{
+				id: "293C83011FC53FB0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01E93F6D201CA574"
+				item: "actuallyadditions:void_sack"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["431321CCFAF50F67"]
+			description: ["可以存储物品（开启I则会自动收取掉落物并存储，可配置过滤名单）"]
+			id: "210B3CC6F4BBBFF1"
+			rewards: [{
+				id: "51E10B2E56915B10"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4892D8916A9A7032"
+				item: "actuallyadditions:travelers_sack"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D924FF7FEA9BB9E"]
+			description: ["通过消耗种子或食物或者作物产生能量"]
+			id: "56FE8EE89CB6D7C7"
+			rewards: [{
+				id: "3AE8979D558D6AE3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C0CC0246F5E620E"
+				item: "actuallyadditions:bio_reactor"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["431321CCFAF50F67"]
+			description: ["消耗能量在前方一格放置方块"]
+			id: "6313CBFD377030EC"
+			rewards: [{
+				id: "58E087902D3AD750"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01E9A618C8493D6B"
+				item: "actuallyadditions:placer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["431321CCFAF50F67"]
+			description: ["消耗能量破坏前方一格的方块"]
+			id: "61EBDDAC006FABA6"
+			rewards: [{
+				id: "2FD506DB82F6FF8B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44B3E9ABB08E8DA4"
+				item: "actuallyadditions:breaker"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["61EBDDAC006FABA6"]
+			description: ["消耗能量破坏前方最远八格的方块"]
+			id: "1F4EBC59326AF621"
+			rewards: [{
+				id: "611386CB0A73473E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61DA0554E8B3155F"
+				item: "actuallyadditions:long_range_breaker"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5E42E10620230824"]
+			description: ["幻灵接口可以模拟它连接到的容器或是玩家物品栏，需要配合幻灵连接器使用，而幻灵增幅器可以扩大幻灵设备的工作范围"]
+			id: "17F3316C98DC2414"
+			rewards: [{
+				id: "2359BE607055A097"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4D8F9229B4D4C980"
+					item: "actuallyadditions:phantom_itemface"
+					type: "item"
+				}
+				{
+					id: "3B021A619B5F1F1B"
+					item: "actuallyadditions:phantom_liquiface"
+					type: "item"
+				}
+				{
+					id: "3B28036CA00F0D67"
+					item: "actuallyadditions:phantom_energyface"
+					type: "item"
+				}
+				{
+					id: "60AD9D126B833B20"
+					item: "actuallyadditions:phantom_redstoneface"
+					type: "item"
+				}
+				{
+					id: "5CB67B333335A095"
+					item: "actuallyadditions:player_interface"
+					type: "item"
+				}
+				{
+					id: "5DE1F4D1D20B5A56"
+					item: {
+						Count: 1
+						id: "actuallyadditions:phantom_connector"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5DEB19DA4512749F"
+					item: "actuallyadditions:phantom_booster"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["17F3316C98DC2414"]
+			description: ["可以远距离在指定的位置放置或破坏方块，需要配合幻灵控制器使用"]
+			id: "6B0EAE301E5FC945"
+			rewards: [{
+				id: "52919DF3947DDFDA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1B98291EFAD524FC"
+					item: "actuallyadditions:phantom_placer"
+					type: "item"
+				}
+				{
+					id: "764A78D119C38B16"
+					item: "actuallyadditions:phantom_breaker"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["7D924FF7FEA9BB9E"]
+			description: ["用于制作幻灵系列机器"]
+			id: "5E42E10620230824"
+			rewards: [{
+				id: "218EE71D3CC2DA83"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "610A4ADA29AD868D"
+				item: "actuallyadditions:ender_casing"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["431321CCFAF50F67"]
+			description: ["无线传输能量，用中继器扳手相连接"]
+			icon: "actuallyadditions:laser_relay"
+			id: "1B7F3719194F00BE"
+			rewards: [{
+				id: "5AD564499B0679BC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "52FC8650AB45454B"
+					item: "actuallyadditions:laser_relay"
+					type: "item"
+				}
+				{
+					id: "26FCD8FD58897212"
+					item: {
+						Count: 1
+						id: "actuallyadditions:laser_wrench"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "738BC6E2E73A421C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "actuallyadditions:engineers_goggles"
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B7F3719194F00BE"]
+			description: ["无线传输能量且更快，用中继器扳手相连接"]
+			id: "39D8FFE640067EE1"
+			rewards: [{
+				id: "3686725672294C42"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10CE241956E4FBBC"
+				item: "actuallyadditions:laser_relay_advanced"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["39D8FFE640067EE1"]
+			description: ["无线传输能量且更快，用中继器扳手相连接"]
+			id: "4BE2D739AD731486"
+			rewards: [{
+				id: "6F64D60326419B8D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54E8B1CE683D9ABF"
+				item: "actuallyadditions:laser_relay_extreme"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1B7F3719194F00BE"]
+			description: ["无线传输流体，用中继器扳手相连接"]
+			id: "3CC3488D695CE0DE"
+			rewards: [{
+				id: "566F2F16AE7416B9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "51DB21BE60F8CB49"
+				item: "actuallyadditions:laser_relay_fluids"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3CC3488D695CE0DE"]
+			description: ["无线传输物品，用中继器扳手相连接，输出物品需要用管道或漏斗将容器与物品传输接口连接，接口要邻近中继器"]
+			icon: "actuallyadditions:laser_relay_item"
+			id: "647461CA07F91028"
+			rewards: [{
+				id: "46EA3E26CD239A35"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "228E9FFA57D82074"
+					item: "actuallyadditions:laser_relay_item"
+					type: "item"
+				}
+				{
+					id: "1702F60D5947C4C2"
+					item: "actuallyadditions:item_interface"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["647461CA07F91028"]
+			description: ["无线传输物品且可设置过滤，同时优先级更高，用中继器扳手相连接"]
+			id: "27362BB64FD7C29C"
+			rewards: [{
+				id: "724E511D3ED39D56"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63D6D0A7402A7E50"
+				item: "actuallyadditions:laser_relay_item_advanced"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["01D86043936D3C74"]
+			description: ["用于大面积清除花草和收获作物的工具"]
+			id: "5126591AA97F9CB4"
+			rewards: [{
+				id: "36A2493EA7396FC3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AB015468E312C37"
+				item: "actuallyadditions:leaf_blower"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5126591AA97F9CB4"]
+			description: ["用于大面积清除花草和收获作物的工具，且范围更大,速度更快,还可以破坏树叶"]
+			id: "3868ADE2EBFE4C45"
+			tasks: [{
+				id: "3772FBC734DCE9D6"
+				item: "actuallyadditions:advanced_leaf_blower"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4DE1EC72BE76632A"]
+			description: [
+				"不同的透镜拥有不同的作用"
+				"斑斓透镜可以改变物品的颜色"
+				"爆破透镜可以造成爆炸"
+				"死亡透镜会对实体造成伤害"
+				"祛魔透镜会把物品的附魔转移到书上（书和附魔物品在同一格）"
+				"矿工透镜会将前方的石头转化成主世界的矿物"
+			]
+			id: "1B6523A4EB0C673E"
+			rewards: [{
+				id: "6C7AC08605F92FEF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "74C546E81A2C0486"
+					item: "actuallyadditions:lens"
+					type: "item"
+				}
+				{
+					id: "739E8381D34133A1"
+					item: "actuallyadditions:lens_of_color"
+					type: "item"
+				}
+				{
+					id: "49AC5F9231FB7B2F"
+					item: "actuallyadditions:lens_of_detonation"
+					type: "item"
+				}
+				{
+					id: "2E6F3F90FFA26D04"
+					item: "actuallyadditions:lens_of_certain_death"
+					type: "item"
+				}
+				{
+					id: "0F27622127FEADC8"
+					item: "actuallyadditions:lens_of_disenchanting"
+					type: "item"
+				}
+				{
+					id: "2F35BDF01F2373D3"
+					item: "actuallyadditions:lens_of_the_miner"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0E2D55BE8F8B0792"]
+			id: "34EF5E7CBFDAD6F6"
+			rewards: [{
+				id: "4FC745ACDB838F96"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A73CFE66EE9772A"
+				item: "actuallyadditions:vertical_digger"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["01D86043936D3C74"]
+			description: ["升级版的投掷器，可以将物品扔在一格范围内"]
+			id: "2F565E85CF4DF409"
+			rewards: [{
+				id: "4587FA498B03C7DE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63AA23FA93404D8E"
+				item: "actuallyadditions:dropper"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3FD04DE17FBEB949"]
+			description: ["制作拥有药水效果的咖啡，使用咖啡豆作为原材料"]
+			id: "63128FA2EF8FA4D0"
+			rewards: [{
+				id: "296D625E184059EC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "28051DAD2166C655"
+				item: "actuallyadditions:coffee_machine"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["63128FA2EF8FA4D0"]
+			description: ["一杯拥有药水效果的咖啡"]
+			id: "39C41EB34D28A6F5"
+			rewards: [{
+				id: "1911D3BCB38771D5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36C64BDF92045F5A"
+				item: {
+					Count: 1
+					id: "actuallyadditions:coffee_cup"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D924FF7FEA9BB9E"]
+			description: ["消耗能量保护周围至少5个方块的区域免受爆炸的破坏"]
+			id: "133FAD6B89F4A8FA"
+			rewards: [{
+				id: "72643ACB41FCCB01"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53946C235D87DF40"
+				item: "actuallyadditions:shock_suppressor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7D924FF7FEA9BB9E"]
+			description: ["将经验转化为固化经验"]
+			id: "1E7075452BDA541C"
+			rewards: [{
+				id: "26665383946A8929"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E090040D3F26E1F"
+				item: "actuallyadditions:xp_solidifier"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7D924FF7FEA9BB9E"]
+			description: ["消耗能量加速玩家周围作物的生长"]
+			id: "74FE6FDFFF2127E8"
+			rewards: [{
+				id: "084FA1BA197FBCA9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "188DD1D685D7A957"
+				item: {
+					Count: 1
+					id: "actuallyadditions:ring_of_growth"
+					tag: {
+						Charged: 1b
+						Energy: 0.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["51C006D8551D4074"]
+			description: ["利用燃料产生能量"]
+			id: "5CD67D97FFE7D617"
+			rewards: [{
+				id: "42CCD630F902447A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5150D8DF4DAA8FE6"
+				item: "actuallyadditions:coal_generator"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["431321CCFAF50F67"]
+			description: ["消耗能量发射烟花"]
+			id: "1ABB3742274B41AB"
+			rewards: [{
+				id: "7FDAB5B2D16F7593"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "562E200039A24489"
+				item: "actuallyadditions:firework_box"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+	title: "Actually Additions"
+}

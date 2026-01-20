@@ -1,0 +1,36 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/cube",
+	"textures": {
+		"particle": "cyclic:block/screen",
+		"0": "cyclic:block/screen"
+	},
+	"elements": [
+		{
+			"name": "Screen",
+			"from": [0, 0, 0],
+			"to": [16, 16, 10],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"east": {"uv": [4, 0, 6.5, 4], "texture": "#0"},
+				"south": {"uv": [0, 4, 4, 8], "texture": "#0"},
+				"west": {"uv": [4, 4, 6.5, 8], "texture": "#0"},
+				"up": {"uv": [10.5, 2.5, 6.5, 0], "texture": "#0"},
+				"down": {"uv": [10.5, 2.5, 6.5, 5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Cube4",
+			"from": [2, 2, 10],
+			"to": [14, 14, 16],
+			"faces": {
+				"north": {"uv": [6.5, 5, 9.5, 8], "texture": "#0"},
+				"east": {"uv": [3, 8, 4.5, 11], "texture": "#0"},
+				"south": {"uv": [0, 8, 3, 11], "texture": "#0"},
+				"west": {"uv": [4.5, 8, 6, 11], "texture": "#0"},
+				"up": {"uv": [9, 9.5, 6, 8], "texture": "#0"},
+				"down": {"uv": [12, 8, 9, 9.5], "texture": "#0"}
+			}
+		}
+	]
+}

@@ -1,0 +1,27 @@
+
+#Game settings
+[settings]
+	#Ender Scale's dropping probability. Default:0.8
+	#Range: 0.0 ~ 1.0
+	enderScaleLoot = 0.8
+	#Ender Scale required damage level. Default:12.0
+	#Range: 2.0 ~ 20.0
+	enderScaleDamage = 12.0
+	#Enable Custom Bossbar. (on/off)
+	custombossbar = true
+
+#Entities
+[HeartOfTitanium]
+	#The Max Health of Heart of Titanium. Default:1.0
+	#Range: 0.5 ~ 100.0
+	maxHealthModifier = 1.0
+	#The Average Damage caused by Heart of Titanium. Default:1.0
+	#Range: 0.5 ~ 100.0
+	attackDamageModifier = 1.0
+	#Healing Ability when using Riptide. Default:1.0
+	#Range: 0.0 ~ 2.0
+	healingAbility = 1.0
+	#The Cooldown of Sugar Elf's Healing. Default:5 sec
+	#Range: 1 ~ 60
+	sugarElfHealCD = 5
+

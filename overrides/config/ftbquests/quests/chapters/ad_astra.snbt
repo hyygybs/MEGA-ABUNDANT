@@ -1,0 +1,1102 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ad_astra"
+	group: "05AB17DBA7318260"
+	icon: {
+		Count: 1
+		id: "ad_astra:tier_1_rocket"
+		tag: { }
+	}
+	id: "7AA16685CCEF5AE8"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["开启宇宙之旅"]
+			id: "2162158F7B43C254"
+			rewards: [{
+				id: "195BEB86E56E5B61"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12CCFD625415CD73"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "ad_astra:astrodux"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2162158F7B43C254"]
+			description: ["燃烧煤炭或木炭产生能量"]
+			id: "6FD21A61A62D7A3A"
+			rewards: [{
+				id: "66529623F49EFE98"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16DE821DFBA63CFF"
+				item: "ad_astra:coal_generator"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["298F319A9B30BEB6"]
+			description: ["消耗能量炼钢"]
+			id: "3B7ED2493BC99D03"
+			rewards: [{
+				id: "600D632FCF54930C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "667DE7689C15E5B9"
+				item: "ad_astra:etrionic_blast_furnace"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6FD21A61A62D7A3A"]
+			description: ["制造板材"]
+			id: "0F8D53CC518BFA97"
+			rewards: [{
+				id: "49D61BC1E70E4DF0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CB4E10D92403C35"
+				item: "ad_astra:compressor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0F8D53CC518BFA97"]
+			description: ["合成材料"]
+			id: "298F319A9B30BEB6"
+			rewards: [{
+				id: "760640AF993EA5B3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3243E94CDD4AA5BC"
+				item: "thermal:iron_plate"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5EF7830FB8A05100"]
+			description: ["用于合成火箭"]
+			id: "66950D4E78822DED"
+			rewards: [{
+				id: "4B9F74CDC6EA3A89"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3163CEA958FFCACC"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3B7ED2493BC99D03"]
+			description: ["基础材料"]
+			id: "5EF7830FB8A05100"
+			rewards: [{
+				id: "27417DC5E76E28C5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6D088109AB417325"
+					item: "thermal:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "6E23FB93F59138C6"
+					item: "thermal:steel_plate"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["66950D4E78822DED"]
+			description: ["用于合成火箭，但可以自动化"]
+			id: "2EE86EA01BC63A7B"
+			rewards: [{
+				id: "60A40D4E82443A7C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55E4607929C6718C"
+				item: "ad_astra_giselle_addon:automation_nasa_workbench"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5EF7830FB8A05100"]
+			description: ["传输能量"]
+			id: "1D52D7FE7D53CEEE"
+			rewards: [{
+				id: "5D66580448330744"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37796A10167D42B6"
+				item: "ad_astra:steel_cable"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1D52D7FE7D53CEEE"]
+			description: ["传输能量"]
+			id: "17EB785ABCE042B9"
+			rewards: [{
+				id: "4AD16B665D0F6E9C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AFC9717829F8B9C"
+				item: "ad_astra:cable_duct"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5EF7830FB8A05100"]
+			description: ["用于合成火箭燃料"]
+			id: "61AAF50C1F2B17D4"
+			rewards: [{
+				id: "058E17D0FB01A9F0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "53FA66A551E0DB58"
+					item: "ad_astra:fuel_refinery"
+					type: "item"
+				}
+				{
+					id: "03A06B28A2988201"
+					item: "ad_astra:oil_bucket"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["66950D4E78822DED"]
+			description: ["准备漫游太空，火箭需要消耗燃料"]
+			id: "0CFD7A503D159596"
+			rewards: [{
+				id: "77B9BAD684FCB724"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0CE4ABC75D06B103"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_1_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3E467F41A562DCE6"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["298F319A9B30BEB6"]
+			description: ["用于储存氧气"]
+			id: "4E1E2AA6C95BEDAB"
+			rewards: [{
+				id: "6D1C1533FED6BB4B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3277219FF2720369"
+				item: {
+					Count: 1
+					id: "ad_astra:gas_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5EF7830FB8A05100"]
+			description: ["消耗能量和水制造氧气"]
+			id: "54354215D6214C17"
+			rewards: [{
+				id: "35C039E08A220077"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48BAD3AD265DB4AA"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0CFD7A503D159596"]
+			description: ["在宇宙中需要穿戴的装备，耐寒不耐热，需要填充氧气"]
+			id: "614B5B0BFD951D86"
+			rewards: [{
+				id: "35B9FBFEF68690E8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0487D267AAFF8BED"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51DB4DF1F991CDAA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35F2AFC5078F325C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7557F15D0E634BB2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03DCD85EADF51902"
+					item: {
+						Count: 1
+						id: "ad_astra_giselle_addon:oxygen_can"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E1E2AA6C95BEDAB"]
+			description: ["用于储存氧气，并且容量更大"]
+			id: "44F3D0D690672EB1"
+			rewards: [{
+				id: "667A851F213CBC25"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52B8FB1B6755D235"
+				item: {
+					Count: 1
+					id: "ad_astra:large_gas_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0CFD7A503D159596"]
+			description: ["到达月球，注意带好灵魂火把或者萤石之类不需要氧气的光源，以及足够的氧气和食物，也可以使用传送石碑，记住要留一些经验"]
+			icon: "ad_astra:moon_stone"
+			id: "186BE0CE8315C1A0"
+			rewards: [{
+				id: "216CC8A2A1E68369"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				id: "17C3A8FBE90C67BB"
+				type: "dimension"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["186BE0CE8315C1A0"]
+			description: ["挖矿获得基础材料"]
+			id: "51842A485688DBBC"
+			rewards: [{
+				id: "24EF07D19D31B8A8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1EEB5D3DF6703CA7"
+					item: "ad_astra:desh_ingot"
+					type: "item"
+				}
+				{
+					id: "4A125746B0DDBDFC"
+					item: "ad_astra:desh_plate"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["51842A485688DBBC"]
+			dependency_requirement: "all_started"
+			description: ["传输流体"]
+			id: "25E918D2B7132785"
+			rewards: [{
+				id: "7772B3C516DA0232"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63DB64CDDE502E73"
+				item: "ad_astra:desh_fluid_pipe"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["25E918D2B7132785"]
+			description: ["传输流体"]
+			id: "0486BEF74A658778"
+			rewards: [{
+				id: "4AB80A93ABEDAFC9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F3C052FC06728EB"
+				item: "ad_astra:fluid_pipe_duct"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["51842A485688DBBC"]
+			description: ["传输能量，且更快"]
+			id: "1560128EA9743460"
+			rewards: [{
+				id: "77856EFA7832C76E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A19176EB2210906"
+				item: "ad_astra:desh_cable"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5EF7830FB8A05100"]
+			description: ["储存能量"]
+			id: "4DDC02E701E3FF45"
+			rewards: [{
+				id: "60D41E835D0EAF81"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68E9B3318AEE3ED9"
+				item: {
+					Count: 1
+					id: "ad_astra:etrionic_capacitor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["66C628AC01205206"]
+			description: ["在密闭环境中生成氧气"]
+			id: "7AE7BF0D0EC762F0"
+			rewards: [{
+				id: "167A13503CFB9F5B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F2DC75063DB2C5C"
+				item: "ad_astra:oxygen_distributor"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["51842A485688DBBC"]
+			description: ["提取下方的水源"]
+			id: "66C628AC01205206"
+			rewards: [{
+				id: "31D563443A5F9EBE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "570B1F61A7D45609"
+				item: "ad_astra:water_pump"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7AE7BF0D0EC762F0"]
+			description: ["在密闭结构中调整重力"]
+			id: "395BDFC8FEA48236"
+			rewards: [{
+				id: "431CCCF88CDB9A8D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CF1DB2A29F23CED"
+				item: "ad_astra:gravity_normalizer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["51842A485688DBBC"]
+			description: ["交通工具，需要消耗燃料"]
+			id: "6CF0565281C6AFF7"
+			rewards: [{
+				id: "66A0F6E236AB590F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "028812C04392DD36"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rover"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["51842A485688DBBC"]
+			description: ["在白天时获取能量"]
+			id: "40C6F3A8B834EDB7"
+			rewards: [{
+				id: "11BA85F011E8D760"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D0D9D3F9729DBB7"
+				item: "ad_astra:solar_panel"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["51842A485688DBBC"]
+			description: ["更高级的火箭，需要消耗燃料"]
+			id: "6D6FA225665906C0"
+			rewards: [{
+				id: "5459E200B08BA162"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14D7CE794ABFA817"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5EF7830FB8A05100"]
+			description: ["显示氧气、温度、重力信息"]
+			id: "24AE276A37D635FB"
+			rewards: [{
+				id: "1CF09C835B91236C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D3843E70F0C03D2"
+				item: "ad_astra:ti_69"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6D6FA225665906C0"]
+			description: ["到达火星"]
+			icon: "ad_astra:mars_stone"
+			id: "1A803948964E3990"
+			rewards: [{
+				id: "5E8BDDE65AB50557"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "ad_astra:mars"
+				id: "5B23692EDD666B6F"
+				type: "dimension"
+			}]
+			x: 17.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1A803948964E3990"]
+			description: ["挖矿获得高级基础材料"]
+			id: "02278D9E3DFDBB6C"
+			rewards: [{
+				id: "43D2F0D061050642"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1177057F33F06EC6"
+					item: "ad_astra:ostrum_ingot"
+					type: "item"
+				}
+				{
+					id: "0ED8DAE387E7FA0F"
+					item: "ad_astra:ostrum_plate"
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0CFD7A503D159596"]
+			description: ["范围内标准化重力"]
+			id: "7C2EFEC9E18382F0"
+			rewards: [{
+				id: "2E1C29896657FD91"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D54224239D6FCE6"
+				item: "ad_astra_giselle_addon:gravity_normalizer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0CFD7A503D159596"]
+			description: ["通过比较器输出红石信号"]
+			id: "5EA51933FF2D6015"
+			rewards: [{
+				id: "5651E5D36E255945"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FE9C701065CCB1B"
+				item: "ad_astra_giselle_addon:rocket_sensor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0CFD7A503D159596"]
+			description: ["向附近的火箭或漫游车加注燃料"]
+			id: "396E6CE1CD0E4DA3"
+			rewards: [{
+				id: "360CA0A5111F13A5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F49B20DDD5E0D72"
+				item: "ad_astra_giselle_addon:fuel_loader"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["02278D9E3DFDBB6C"]
+			description: ["探测氧气发出红石信号"]
+			id: "3F84CF3E7E289ADA"
+			rewards: [{
+				id: "47061D322FEEE235"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "316ACEB167DA9AE6"
+				item: "ad_astra:oxygen_sensor"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["02278D9E3DFDBB6C"]
+			description: ["消耗能量，右键给物品充能"]
+			id: "6A1EBA33AD201CBF"
+			rewards: [{
+				id: "018242F5C8FBBE28"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "120BF34190E12C3F"
+				item: {
+					Count: 1
+					id: "ad_astra:energizer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["298F319A9B30BEB6"]
+			description: ["调整管道和电缆"]
+			id: "235F951F7DD4B6D9"
+			rewards: [{
+				id: "7F0E79C3A1C029CA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44ADF452F2CA7807"
+				item: "ad_astra:wrench"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["02278D9E3DFDBB6C"]
+			description: ["用于制作更高等级的火箭燃料"]
+			id: "54F5DA69C4B902DD"
+			rewards: [{
+				id: "01B8C6B0CEE7B2AB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3D1F5F1F86E43C8A"
+					item: "ad_astra:cryo_freezer"
+					type: "item"
+				}
+				{
+					id: "427D95867AF8BA22"
+					item: "ad_astra:ice_shard"
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["02278D9E3DFDBB6C"]
+			description: ["更高级的火箭，需要消耗燃料"]
+			id: "71E0FEE055702465"
+			rewards: [{
+				id: "0C6CB50DCF2C068B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B766673643E88C0"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["71E0FEE055702465"]
+			description: ["在宇宙中需要穿戴的装备，耐寒并耐热，需要填充氧气"]
+			id: "63AD0AB0F6B890F5"
+			rewards: [{
+				id: "1D26BEBCD80A3E48"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4B39E9D0F291EB7D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03BC5FC95221C008"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07CBCE298EF1B441"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "667C513D89683397"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27ADDE0E5A3497CD"
+					item: {
+						Count: 1
+						id: "ad_astra_giselle_addon:netherite_oxygen_can"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["71E0FEE055702465"]
+			description: ["到达金星"]
+			icon: "ad_astra:venus_stone"
+			id: "56CE2A2ADDFED0C2"
+			rewards: [{
+				id: "1193ADAEF4A95DD0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				id: "1F24579DF441055A"
+				type: "dimension"
+			}]
+			x: 23.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["56CE2A2ADDFED0C2"]
+			description: ["挖矿获得高级基础材料"]
+			id: "387CF1C9315E0226"
+			rewards: [{
+				id: "29C6D58CC713192B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7839F10A0F69136A"
+					item: "ad_astra:calorite_ingot"
+					type: "item"
+				}
+				{
+					id: "4C8F7A63577B8C64"
+					item: "ad_astra:calorite_plate"
+					type: "item"
+				}
+			]
+			x: 25.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["44F3D0D690672EB1"]
+			description: ["消耗氧气在无重力环境推动自身前进"]
+			id: "0BBFA11352AE14F0"
+			rewards: [{
+				id: "39EB2D1820B40648"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AB7C27AF3B0083C"
+				item: {
+					Count: 1
+					id: "ad_astra:zip_gun"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["387CF1C9315E0226"]
+			description: ["最高等级的火箭"]
+			id: "59D9616704855F62"
+			rewards: [{
+				id: "212F3F9A5A3AD1A5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "140FF6C902E10366"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 27.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["59D9616704855F62"]
+			description: ["最高等级的航天装备，但拥有大推力"]
+			id: "0FCE84D7E84228B3"
+			rewards: [{
+				id: "5621A16ACC28E34F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "479590C331B96BB6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "ad_astra:jet_suit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2446C5F53D4119D5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "ad_astra:jet_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1AC30A3A040B14EB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "ad_astra:jet_suit_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38A3C4574325F172"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "ad_astra:jet_suit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 27.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["59D9616704855F62"]
+			icon: "ad_astra:glacio_stone"
+			id: "7D4C06920D0685B9"
+			rewards: [{
+				id: "1867D81B57DA99E0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				id: "43DF64375AF68509"
+				type: "dimension"
+			}]
+			x: 29.0d
+			y: -0.5d
+		}
+	]
+	title: "Ad Astra"
+}

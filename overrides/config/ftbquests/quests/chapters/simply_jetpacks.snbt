@@ -1,0 +1,349 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "simply_jetpacks"
+	group: "1F9A9FE71A5A4AA9"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"cold_sweat:item_insulation": {
+				insulation: [ ]
+			}
+		}
+		id: "simplyjetpacks:jetpack_vanilla1"
+		tag: { }
+	}
+	id: "1859EF41E3EE9061"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3ACB322A806D6530"]
+			description: ["需要能量进行飞行"]
+			id: "20AF84A018611AC4"
+			rewards: [{
+				id: "1048D23526B6613E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "545BAB0FED25D385"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							insulation: [ ]
+						}
+					}
+					id: "simplyjetpacks:jetpack_vanilla1"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3ACB322A806D6530"]
+			description: ["需要能量进行飞行"]
+			id: "29710F7A0F32EAFA"
+			rewards: [{
+				id: "357B5F6EC3D633ED"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E1B0B56C47ED02F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							insulation: [ ]
+						}
+					}
+					id: "simplyjetpacks:jetpack_te1"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3ACB322A806D6530"]
+			description: ["需要能量进行飞行"]
+			id: "2E0EFC65DE9B0FF1"
+			rewards: [{
+				id: "5A715DB5CEFF6958"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A5C3E772F5CAE8A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							insulation: [ ]
+						}
+					}
+					id: "simplyjetpacks:jetpack_mek1"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["20AF84A018611AC4"]
+			description: ["需要能量进行飞行"]
+			id: "02CFCA2224EB73BA"
+			rewards: [{
+				id: "1E7BEA6324A5EC6C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EBE77DB35816724"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							insulation: [ ]
+						}
+					}
+					id: "simplyjetpacks:jetpack_vanilla2"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E0EFC65DE9B0FF1"]
+			id: "18E0DABC2A49CC17"
+			rewards: [{
+				id: "5FF648FC703ED3C0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4088BCA1DCE5C907"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							insulation: [ ]
+						}
+					}
+					id: "simplyjetpacks:jetpack_mek2"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29710F7A0F32EAFA"]
+			description: ["需要能量进行飞行"]
+			id: "49C9027ED341F439"
+			rewards: [{
+				id: "5FE7568460C946E5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CDFF370352EE583"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							insulation: [ ]
+						}
+					}
+					id: "simplyjetpacks:jetpack_te2"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["02CFCA2224EB73BA"]
+			description: ["需要能量进行飞行"]
+			id: "3F34A16643BEFF8A"
+			rewards: [{
+				id: "1B5DE66D6D8913B2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7719C4AE0B425AC2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							insulation: [ ]
+						}
+					}
+					id: "simplyjetpacks:jetpack_vanilla3"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18E0DABC2A49CC17"]
+			description: ["需要能量进行飞行"]
+			id: "4C65C3E5A6112716"
+			rewards: [{
+				id: "0400B04970D8826F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D6947E6C29B7206"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							insulation: [ ]
+						}
+					}
+					id: "simplyjetpacks:jetpack_mek3"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["49C9027ED341F439"]
+			description: ["需要能量进行飞行"]
+			id: "231E2EDCF6F1E72A"
+			rewards: [{
+				id: "376BAA444960E521"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B8F1A839A9D9504"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							insulation: [ ]
+						}
+					}
+					id: "simplyjetpacks:jetpack_te3"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F34A16643BEFF8A"]
+			description: ["需要能量进行飞行"]
+			id: "102330B754FB48E1"
+			rewards: [{
+				id: "04DB68E4ECA22BEF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15ED88511C0399E4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							insulation: [ ]
+						}
+					}
+					id: "simplyjetpacks:jetpack_vanilla4"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["231E2EDCF6F1E72A"]
+			description: ["需要能量进行飞行"]
+			id: "3589CD37364C25B5"
+			rewards: [{
+				id: "221EFDB447A46611"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59BA7E2A199C30A9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							insulation: [ ]
+						}
+					}
+					id: "simplyjetpacks:jetpack_te4"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C65C3E5A6112716"]
+			description: ["需要能量进行飞行"]
+			id: "7A382E01841C7BC7"
+			rewards: [{
+				id: "71B31F15DB73DD80"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73062A2EFEB32F6C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							insulation: [ ]
+						}
+					}
+					id: "simplyjetpacks:jetpack_mek4"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			description: ["合成材料"]
+			id: "3ACB322A806D6530"
+			rewards: [{
+				id: "4190630F8D483BBA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08D298F319F773FA"
+				item: "simplyjetpacks:leather_strap"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+	]
+	title: "Simply Jetpacks"
+}

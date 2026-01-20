@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_feet",
+    "apotheosis:boots_tome",
+    "alexsmobs:pigshoes",
+    "$minecraft:universal_enchants_horse_armor"
+  ],
+  "incompatible": [
+    "netherdepthsupgrade:hell_strider",
+    "minecraft:depth_strider",
+    "additionaladditions:speed"
+  ]
+}

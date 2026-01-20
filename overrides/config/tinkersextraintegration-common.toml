@@ -1,0 +1,226 @@
+
+#Tinkers' Extra Integration Modifier Configuration
+[modifiers]
+
+	#Kinetic Modifier - Boosts stats while moving
+	[modifiers.kinetic]
+		#Minimum horizontal movement speed to be considered 'moving'
+		#Range: 0.001 ~ 1.0
+		movementThreshold = 0.01
+		#Mining speed bonus per level while moving (0.15 = 15%)
+		#Range: 0.0 ~ 2.0
+		miningSpeedBonus = 0.15
+		#Draw speed bonus per level while moving (0.10 = 10%)
+		#Range: 0.0 ~ 2.0
+		drawSpeedBonus = 0.1
+		#Protection bonus per level while moving
+		#Range: 0.0 ~ 20.0
+		protectionBonus = 2.5
+
+	#Mana Reserves Modifier - Grants bonus max mana (Ars Nouveau)
+	[modifiers.mana_reserves]
+		#Bonus max mana per level
+		#Range: 1.0 ~ 100.0
+		manaPerLevel = 5.0
+
+	#Mana Siphon Modifier - Grants mana regen on kill/mine (Ars Nouveau)
+	[modifiers.mana_siphon]
+		#Duration of mana regeneration effect in ticks (20 ticks = 1 second)
+		#Range: 20 ~ 1200
+		duration = 100
+
+	#Non-Toxic Modifier - Reduces Poison/Wither duration
+	[modifiers.non_toxic]
+		#Multiplier for Poison/Wither duration (0.5 = 50% duration, i.e., halved)
+		#Range: 0.0 ~ 1.0
+		durationMultiplier = 0.5
+
+	#Desperate Modifier - Speed boost after taking damage
+	[modifiers.desperate]
+		#Duration of Haste effect in ticks (20 ticks = 1 second)
+		#Range: 20 ~ 1200
+		duration = 120
+		#Speed bonus multiplier while effect is active (0.15 = 15%)
+		#Range: 0.0 ~ 2.0
+		speedBonus = 0.15
+
+	#Deep Freeze Modifier - Applies freezing and slowness on hit
+	[modifiers.deep_freeze]
+		#Duration of freeze ticks added to target
+		#Range: 20 ~ 600
+		freezeDuration = 60
+		#Duration of Slowness effect in ticks (20 ticks = 1 second)
+		#Range: 20 ~ 1200
+		slownessDuration = 100
+		#Base Slowness amplifier added to level (2 means level 1 gives Slowness III)
+		#Range: 0 ~ 10
+		baseSlownessAmplifier = 2
+
+	#Radioactive Modifier - Chance to apply Wither on hit
+	[modifiers.radioactive]
+		#Chance to apply Wither effect on hit (0.2 = 20%)
+		#Range: 0.0 ~ 1.0
+		witherChance = 0.2
+		#Duration of Wither effect in ticks (20 ticks = 1 second)
+		#Range: 20 ~ 1200
+		witherDuration = 100
+
+	#Expedience Modifier - Increases movement speed while held or worn
+	[modifiers.expedience]
+		#Movement speed bonus per level (0.1 = 10% faster)
+		#Range: 0.0 ~ 1.0
+		speedBonus = 0.1
+
+	#Wandering Modifier - Applies Levitation on hit
+	[modifiers.wandering]
+		#Duration of Levitation effect in ticks (20 ticks = 1 second)
+		#Range: 20 ~ 600
+		levitationDuration = 100
+		#Maximum Levitation amplifier (0 = Levitation I)
+		#Range: 0 ~ 4
+		maxAmplifier = 0
+
+	#Dread Volley Modifier - Causes arrows to rain down on hit
+	[modifiers.dread_volley]
+		#Base number of arrows spawned per hit
+		#Range: 1 ~ 50
+		baseArrows = 8
+		#Additional arrows per Furious Fusilade level
+		#Range: 1 ~ 20
+		arrowsPerFusilade = 4
+		#Base damage of each rain arrow
+		#Range: 0.5 ~ 10.0
+		arrowDamage = 2.0
+
+	#Rampage Modifier - Killing enemies builds rampage tiers with increasing bonuses
+	[modifiers.rampage]
+		#Maximum rampage tier (number of kill stacks)
+		#Range: 1 ~ 10
+		maxTier = 5
+		#Duration of each tier in ticks before decay (20 ticks = 1 second)
+		#Range: 20 ~ 600
+		tierDuration = 100
+		#Duration of max tier in ticks (longer to reward reaching max)
+		#Range: 20 ~ 1200
+		maxTierDuration = 200
+		#Attack speed bonus per tier (0.2 = 20% per tier, so tier 5 = 100%)
+		#Range: 0.0 ~ 1.0
+		attackSpeedPerTier = 0.2
+		#Flat attack damage bonus per tier
+		#Range: 0.0 ~ 20.0
+		attackDamagePerTier = 3.0
+		#Movement speed bonus per tier (0.01 = 1% per tier)
+		#Range: 0.0 ~ 0.1
+		movementSpeedPerTier = 0.01
+		#Duration of Regeneration effect at max tier in ticks
+		#Range: 20 ~ 200
+		regenDuration = 40
+		#Regeneration amplifier at max tier (2 = Regeneration III)
+		#Range: 0 ~ 5
+		regenAmplifier = 2
+
+	#Spammable Modifier - Doubles attack speed but halves damage (1.8 combat style)
+	[modifiers.spammable]
+		#Attack speed multiplier bonus (1.0 = double speed, 0.5 = 50% faster)
+		#Range: 0.0 ~ 3.0
+		attackSpeedBonus = 1.0
+		#Attack damage multiplier penalty (-0.5 = half damage)
+		#Range: -0.9 ~ 0.0
+		attackDamagePenalty = -0.5
+
+	#Copycat Modifier - Applies last received potion effect to target (Alex's Mobs)
+	[modifiers.copycat]
+		#Duration of the effect applied to targets in ticks (20 ticks = 1 second)
+		#Range: 20 ~ 600
+		effectDuration = 60
+
+	#PokePower Modifier - Boosts stats while a Pokemon is sent out (Cobblemon)
+	[modifiers.pokepower]
+		#Mining speed bonus per level while a Pokemon is out (0.15 = 15%)
+		#Range: 0.0 ~ 2.0
+		miningSpeedBonus = 0.15
+		#Attack speed bonus per level while a Pokemon is out (0.10 = 10%)
+		#Range: 0.0 ~ 2.0
+		attackSpeedBonus = 0.1
+		#Draw speed bonus per level while a Pokemon is out (0.10 = 10%)
+		#Range: 0.0 ~ 2.0
+		drawSpeedBonus = 0.1
+		#Melee damage bonus per level while a Pokemon is out (0.15 = 15%)
+		#Range: 0.0 ~ 2.0
+		damageBonus = 0.15
+
+	#Tri-Attack Modifier - Randomly ignites, freezes, or slows targets (Cobblemon)
+	[modifiers.tri_attack]
+		#Duration of fire/slowness effects in ticks (20 ticks = 1 second)
+		#Range: 20 ~ 600
+		effectDuration = 100
+		#Freeze ticks added to target
+		#Range: 20 ~ 400
+		freezeTicks = 140
+		#Slowness amplifier (0 = Slowness I, 1 = Slowness II)
+		#Range: 0 ~ 4
+		slownessAmplifier = 1
+
+	#Martial Arts Modifier - Increases unarmed damage (Cobblemon)
+	[modifiers.martial_arts]
+		#Bonus punch damage per level
+		#Range: 0.5 ~ 10.0
+		damageBonus = 2.0
+
+	#Emergency Exit Modifier - Speed boost at low health (Cobblemon)
+	[modifiers.emergency_exit]
+		#Speed bonus per level when below health threshold (0.15 = 15%)
+		#Range: 0.01 ~ 1.0
+		speedBonus = 0.15
+		#Health threshold in hearts (5 = 5 hearts)
+		#Range: 1.0 ~ 10.0
+		healthThreshold = 5.0
+
+	#Exorcism Modifier - Extra damage to undead and sets them on fire (Cobblemon)
+	[modifiers.exorcism]
+		#Bonus damage against undead per level
+		#Range: 1.0 ~ 20.0
+		bonusDamage = 4.0
+		#Duration in seconds to set undead on fire
+		#Range: 1 ~ 30
+		fireDuration = 5
+
+	#Ultra Density Modifier - Increases gravity and knockback resistance (Cobblemon)
+	[modifiers.ultra_density]
+		#Gravity increase per level (0.10 = 10%)
+		#Range: 0.01 ~ 1.0
+		gravityBonus = 0.1
+		#Knockback resistance per level (1.0 = full immunity at 1 level)
+		#Range: 0.1 ~ 1.0
+		knockbackResistance = 0.2
+
+	#Quick Draw Modifier - Speed boost after drawing a bow (Cobblemon)
+	[modifiers.quick_draw]
+		#Duration of speed boost in ticks (20 ticks = 1 second)
+		#Range: 20 ~ 600
+		duration = 100
+		#Speed bonus multiplier while effect is active (0.15 = 15%)
+		#Range: 0.0 ~ 2.0
+		speedBonus = 0.15
+
+	#Toxic Thorns Modifier - Chance to poison on hit (Cobblemon)
+	[modifiers.toxic_thorns]
+		#Base chance to apply poison per level (0.33 = 33%)
+		#Range: 0.0 ~ 1.0
+		baseChance = 0.33
+		#Duration of poison effect in ticks (20 ticks = 1 second)
+		#Range: 20 ~ 600
+		duration = 100
+
+	#Double Layered Modifier - Protection against magic and fire (Cobblemon)
+	[modifiers.double_layered]
+		#Protection value per level against magic and fire (1 = ~4% reduction)
+		#Range: 0.5 ~ 10.0
+		protection = 2.5
+
+	#Random Crits Modifier - Chance for random critical hits (Cobblemon)
+	[modifiers.random_crits]
+		#Base chance per level for a random critical hit (0.05 = 5%)
+		#Range: 0.01 ~ 0.5
+		baseChance = 0.05
+

@@ -1,0 +1,47 @@
+{
+  "values": [
+    "minecraft:diamond",
+    "minecraft:emerald",
+    "minecraft:amethyst_shard",
+    {
+      "required": false,
+      "id": "#forge:raw_materials/platinum"
+    },
+    {
+      "required": false,
+      "id": "#forge:raw_materials/titanium"
+    },
+    {
+      "required": false,
+      "id": "#forge:raw_materials/uranium"
+    },
+    {
+      "required": false,
+      "id": "#forge:raw_materials/osmium"
+    },
+    {
+      "required": false,
+      "id": "#forge:raw_materials/tungsten"
+    },
+    {
+      "required": false,
+      "id": "#forge:raw_materials/iridium"
+    },
+    {
+      "required": false,
+      "id": "#forge:gems/amethyst"
+    },
+    {
+      "required": false,
+      "id": "#forge:raw_materials/cobalt"
+    },
+    {
+      "required": false,
+      "id": "#forge:raw_materials/ardite"
+    },
+    {
+      "required": false,
+      "id": "ae2:fluix_crystal"
+    }
+  ]
+}

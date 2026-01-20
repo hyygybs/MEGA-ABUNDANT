@@ -1,0 +1,118 @@
+{
+  "type": "avaritia:infinity_catalyst",
+  "category": "misc",
+  "group": "default",
+  "ingredients": [
+    {
+      "item": "minecraft:bedrock"
+    },
+    {
+      "item": "avaritia:crystal_matrix_ingot"
+    },
+    {
+      "item": "avaritia:neutron_ingot"
+    },
+    {
+      "item": "avaritia:cosmic_meatballs"
+    },
+    {
+      "item": "avaritia:ultimate_stew"
+    },
+    {
+      "item": "avaritia:endest_pearl"
+    },
+    {
+      "item": "avaritia:record_fragment"
+    },
+    {
+      "item": "actuallyadditions:quintuple_battery"
+    },
+    {
+      "item": "ad_astra:desh_block"
+    },
+    {
+      "item": "ad_astra:ostrum_block"
+    },
+    {
+      "item": "ad_astra:calorite_block"
+    },
+    {
+      "item": "ae2:cell_component_64k"
+    },
+    {
+      "item": "allthemodium:allthemodium_block"
+    },
+    {
+      "item": "allthemodium:vibranium_block"
+    },
+    {
+      "item": "allthemodium:unobtainium_block"
+    },
+    {
+      "item": "botania:terrasteel_block"
+    },
+    {
+      "item": "mythicbotany:alfsteel_block"
+    },
+    {
+      "item": "botania:life_essence"
+    },
+    {
+      "item": "bloodmagic:dungeon_metal"
+    },
+    {
+      "item": "biggerreactors:ludicrite_block"
+    },
+    {
+      "item": "draconicevolution:awakened_draconium_block"
+    },
+    {
+      "item": "enderio:octadic_capacitor"
+    },
+    {
+      "item": "ars_nouveau:source_gem_block"
+    },
+    {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    {
+      "item": "integrateddynamics:crystalized_menril_block"
+    },
+    {
+      "item": "industrialforegoing:pink_slime_ingot"
+    },
+    {
+      "item": "embers:dawnstone_block"
+    },
+    {
+      "item": "thermal:signalum_block"
+    },
+    {
+      "item": "thermal:lumium_block"
+    },
+    {
+      "item": "thermal:enderium_block"
+    },
+    {
+      "item": "projecte:red_matter_block"
+    },
+    {
+      "item": "powah:battery_nitro"
+    },
+    {
+      "item": "tconstruct:cobalt_block"
+    },
+    {
+      "item": "tconstruct:manyullyn_block"
+    },
+    {
+      "item": "tconstruct:hepatizon_block"
+    },
+    {
+      "item": "naturesaura:sky_ingot_block"
+    },
+    {
+      "item": "naturesaura:depth_ingot_block"
+    }
+  ]
+}

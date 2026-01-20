@@ -1,0 +1,1103 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thermal_expansion"
+	group: "2DB7574DB5EFE80D"
+	icon: "thermal:machine_furnace"
+	id: "38438A2CE64347F2"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["用于制作机器"]
+			id: "7C36F78DEFB8F5FE"
+			rewards: [{
+				id: "669F1CDBC46CA2F9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2138596EE0EF17DB"
+				item: "thermal:rf_coil"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C36F78DEFB8F5FE"]
+			description: ["消耗燃料发电"]
+			id: "2225BDA328E0D671"
+			rewards: [{
+				id: "5F3724AF99C32C02"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "755E41F4D38C693A"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2225BDA328E0D671"]
+			description: ["消耗流体发电"]
+			id: "41D444CA4047B189"
+			rewards: [{
+				id: "2789EC7320269C32"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79CAD1B2A3C53D5E"
+				item: "thermal:dynamo_compression"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2225BDA328E0D671"]
+			description: ["消耗高温流体发电"]
+			id: "1AE73612F25C6CB7"
+			rewards: [{
+				id: "7470F86255A0EA8F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "488A1CF0A7289286"
+				item: "thermal:dynamo_magmatic"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2225BDA328E0D671"]
+			description: ["消耗食物发电"]
+			id: "1A753355FA708A4E"
+			rewards: [{
+				id: "618F37B8765557F0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24EF083D70BB18C8"
+				item: "thermal:dynamo_gourmand"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2225BDA328E0D671"]
+			description: ["消耗钱币发电"]
+			id: "4ED0ACD99E5C02B5"
+			rewards: [{
+				id: "1535A3C469A330FE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0249BDA13DE3D133"
+				item: "thermal:dynamo_numismatic"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2225BDA328E0D671"]
+			description: ["消耗宝石发电"]
+			id: "2442124184BE6B78"
+			rewards: [{
+				id: "0DCDD6096405CE0E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C73C1191760FB38"
+				item: "thermal:dynamo_lapidary"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2225BDA328E0D671"]
+			description: ["消耗附魔书发电"]
+			id: "33B0FC4A3EA00F9A"
+			rewards: [{
+				id: "4C3F1DBB45E5E969"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B5BA7C0D12C0BBB"
+				item: "thermal:dynamo_disenchantment"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C36F78DEFB8F5FE"]
+			description: ["将能量炉转化为锅炉"]
+			id: "254054E7EDDD57E6"
+			rewards: [{
+				id: "13A1C8431BCA0348"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5308C6B856C7124E"
+				item: "systeams:boiler_pipe"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["254054E7EDDD57E6"]
+			description: ["消耗蒸汽发电"]
+			id: "6E713D00140C7F95"
+			rewards: [{
+				id: "253DA029D8582A69"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AC54ACD43766320"
+				item: "systeams:steam_dynamo"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2225BDA328E0D671"]
+			description: ["消耗寒冷物品发电"]
+			id: "69D262B4FA9C464A"
+			rewards: [{
+				id: "5CB43164B71B29B6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CC62EC1F6E7B661"
+				item: "thermal_extra:dynamo_frost"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C36F78DEFB8F5FE"]
+			description: ["用于制造机器"]
+			id: "03A7CCA3018AF5CF"
+			rewards: [{
+				id: "2E62D08F6565B62B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B0A039C4822DED0"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03A7CCA3018AF5CF"]
+			description: ["用于烧制物品"]
+			id: "0EA19A63C116723F"
+			rewards: [{
+				id: "32A7F46C0588049B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "002B87648EF3E14B"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["03A7CCA3018AF5CF"]
+			description: ["用于处理木材"]
+			id: "387EB172FB791618"
+			rewards: [{
+				id: "6E9C46B0184DA3B9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E398431951E8EFE"
+				item: "thermal:machine_sawmill"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["03A7CCA3018AF5CF"]
+			description: ["用于磨粉"]
+			id: "283859B725897F1B"
+			rewards: [{
+				id: "4F3E63B25A0FBBC8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "723E42994CD8B866"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["03A7CCA3018AF5CF"]
+			description: ["用于制造合金"]
+			id: "0D1B22B3B7B67CC9"
+			rewards: [{
+				id: "62EFE59F51FA38D4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FF7D1CE0D266E09"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["03A7CCA3018AF5CF"]
+			description: ["用于增值植物"]
+			id: "350E60A3E919F295"
+			rewards: [{
+				id: "311D0AAFFC8EC448"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2639135567ECB37C"
+				item: "thermal:machine_insolator"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["03A7CCA3018AF5CF"]
+			description: ["用于将合金还原"]
+			id: "71E456182A2C023D"
+			rewards: [{
+				id: "03B5C86A93B6839A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1288A321E8389263"
+				item: "thermal:machine_centrifuge"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["03A7CCA3018AF5CF"]
+			description: ["用于处理材料"]
+			id: "11F88AAF69C93E5D"
+			rewards: [{
+				id: "67A3E390CC5A02FF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E7F4F25BF9D87F0"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["03A7CCA3018AF5CF"]
+			description: ["用于熔化物品"]
+			id: "589F8C0B82619725"
+			rewards: [{
+				id: "127EEE837C14F652"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B3B126CC07AA68D"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["03A7CCA3018AF5CF"]
+			description: ["用于冷却流体"]
+			id: "37A7DC7762FBF24F"
+			rewards: [{
+				id: "6312EDC10E63C80B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73558D09F977AF17"
+				item: "thermal:machine_chiller"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["03A7CCA3018AF5CF"]
+			description: ["用于处理流体"]
+			id: "560F943CD3ADA28C"
+			rewards: [{
+				id: "0A3B4F4930E6C37F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EFF40FD2DACCA6B"
+				item: "thermal:machine_refinery"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["03A7CCA3018AF5CF"]
+			description: ["用于处理碳"]
+			id: "76D640155BF64351"
+			rewards: [{
+				id: "66A117796831C532"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72931A03B3F09D46"
+				item: "thermal:machine_pyrolyzer"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["03A7CCA3018AF5CF"]
+			description: ["用于灌装流体"]
+			id: "2A17CFC188AFA137"
+			rewards: [{
+				id: "1F817198A298B6A3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FC55EBED9F26B28"
+				item: "thermal:machine_bottler"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["03A7CCA3018AF5CF"]
+			description: ["用于酿造药水"]
+			id: "0D9715CDCF7FA2D4"
+			rewards: [{
+				id: "3E873B6FF3744A55"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F09EA0CC788616F"
+				item: "thermal:machine_brewer"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["03A7CCA3018AF5CF"]
+			description: ["用于生长宝石"]
+			id: "31DF9136DB95112A"
+			rewards: [{
+				id: "6C8EA2FFA45DFB8A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11E050C52D156D21"
+				item: "thermal:machine_crystallizer"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["03A7CCA3018AF5CF"]
+			description: ["用于自动合成"]
+			id: "09AC6529DF70542C"
+			rewards: [{
+				id: "2E3CB0B797F3D814"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E0D9E2F0078A7B3"
+				item: "thermal:machine_crafter"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0D1B22B3B7B67CC9"]
+			description: ["合成材料"]
+			id: "57F06F328FFF7FB9"
+			rewards: [{
+				id: "4AF02255AE814CAF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0A455D41EBEAA3EF"
+					item: "thermal:signalum_ingot"
+					type: "item"
+				}
+				{
+					id: "0D715DFF45A3C83B"
+					item: "thermal:lumium_ingot"
+					type: "item"
+				}
+				{
+					id: "3E0495028DAA31B4"
+					item: "thermal:enderium_ingot"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0D1B22B3B7B67CC9"]
+			description: ["合成材料"]
+			id: "52E3CD0E8B2696CA"
+			rewards: [{
+				id: "2DCD52EC78675A39"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3224080706650E06"
+					item: "thermal_extra:soul_infused_ingot"
+					type: "item"
+				}
+				{
+					id: "25E70BB2B3B322C8"
+					item: "thermal_extra:twinite_ingot"
+					type: "item"
+				}
+				{
+					id: "169578B1F4DA0B37"
+					item: "thermal_extra:shellite_ingot"
+					type: "item"
+				}
+				{
+					id: "6C8EE8EFE4D98F81"
+					item: "thermal_extra:dragonsteel_ingot"
+					type: "item"
+				}
+				{
+					id: "3E669FF9D2E6D868"
+					item: "thermal_extra:abyssal_ingot"
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["52E3CD0E8B2696CA"]
+			description: ["用于精炼流体"]
+			id: "18466D0A5FC0E0C6"
+			rewards: [{
+				id: "50B78DA437E34719"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B0976FD2AB506EE"
+				item: "thermal_extra:advanced_refinery"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["52E3CD0E8B2696CA"]
+			description: ["用于增产金属"]
+			id: "23E3292C296E1A75"
+			rewards: [{
+				id: "0A6E2B40C4E9ECD6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "075107AA0E1F1D90"
+				item: "thermal_extra:nitratic_igniter"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["52E3CD0E8B2696CA"]
+			description: ["用于混合流体"]
+			id: "625A44C6C5AC1318"
+			rewards: [{
+				id: "382471DB83BF4826"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39CFDEB94838556D"
+				item: "thermal_extra:fluid_mixer"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["52E3CD0E8B2696CA"]
+			description: ["用于制造红石伺服器"]
+			id: "6EC5137527B28197"
+			rewards: [{
+				id: "55CAF885D106580B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14A8D72586673EE4"
+				item: "thermal_extra:component_assembly"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["52E3CD0E8B2696CA"]
+			description: ["用于脱水流体和物品"]
+			id: "35B4F201C1E3BD28"
+			rewards: [{
+				id: "7DA1B7504883762A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DD210D04DDDBDEC"
+				item: "thermal_extra:endothermic_dehydrator"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7C36F78DEFB8F5FE"]
+			description: ["用于制作机器"]
+			id: "5F7A3E5F55ED0FB0"
+			rewards: [{
+				id: "05CDC01F3397BDE7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FE4D8FF98AB0FB2"
+				item: "thermal:redstone_servo"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5F7A3E5F55ED0FB0"]
+			description: ["用于收获作物"]
+			id: "0608096A11626A9C"
+			rewards: [{
+				id: "158384AB7374BD86"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "542B775AD17027D7"
+				item: "thermal_extra:device_harvester"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5F7A3E5F55ED0FB0"]
+			description: ["用于生成熔岩"]
+			id: "05969DE61DE68619"
+			rewards: [{
+				id: "0B5C5CFF4207168D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EF09E393EFACD74"
+				item: "thermal_extra:device_lava_gen"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7C36F78DEFB8F5FE"]
+			description: ["用于强化或充能物品"]
+			id: "0C7D1A35CAE96F1F"
+			rewards: [{
+				id: "2E2C245B752DE4BB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "73702933BE0884AF"
+					item: "thermal:tinker_bench"
+					type: "item"
+				}
+				{
+					id: "74E10FCBA63A706E"
+					item: "thermal:charge_bench"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7C36F78DEFB8F5FE"]
+			description: ["用于存储运输能量"]
+			id: "670F2059DDE26809"
+			rewards: [{
+				id: "2B86B8DEF658032D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7A39F7E67F832379"
+					item: {
+						Count: 1
+						id: "thermal:energy_cell"
+						tag: {
+							BlockEntityTag: {
+								Energy: 0
+								EnergyMax: 1000000
+								EnergyRecv: 1000
+								EnergySend: 1000
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40A0340437E9B5B1"
+					item: "thermal:energy_duct"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F7A3E5F55ED0FB0"]
+			description: ["用于存储传输流体"]
+			id: "2F6D95652FA175F3"
+			rewards: [{
+				id: "4C0E3E33A870F11F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "44DE97BB84474B8B"
+					item: {
+						Count: 1
+						id: "thermal:fluid_cell"
+						tag: {
+							BlockEntityTag: {
+								TankInv: [{
+									Amount: 0
+									Capacity: 32000
+									FluidName: "minecraft:empty"
+									Tank: 0b
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F117DA33FA2CAF7"
+					item: "thermal:fluid_duct"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5F7A3E5F55ED0FB0"]
+			description: ["用于抽取蜂箱或蜂巢"]
+			id: "1A95117710BF53F6"
+			rewards: [{
+				id: "2BCE28599A0C2534"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7515B616C1521829"
+				item: "thermal:device_hive_extractor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5F7A3E5F55ED0FB0"]
+			description: ["用于提取树脂"]
+			id: "0DBEF82CBB78BFAB"
+			rewards: [{
+				id: "63D60984498F1D73"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FB8DAC3ADED0835"
+				item: "thermal:device_tree_extractor"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5F7A3E5F55ED0FB0"]
+			description: ["用于捕鱼"]
+			id: "5DF2832E6436CD2B"
+			rewards: [{
+				id: "0E3E639AFB38B48D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "464B2B9BFE88BCE4"
+				item: "thermal:device_fisher"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5F7A3E5F55ED0FB0"]
+			description: ["用于堆肥"]
+			id: "7C8BF7DDE36509C2"
+			rewards: [{
+				id: "4A940C2CA89EE5F7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33239AB1635DFA6F"
+				item: "thermal:device_composter"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5F7A3E5F55ED0FB0"]
+			description: ["用于注能植育土"]
+			id: "52B4BE2324853150"
+			rewards: [{
+				id: "59B7DEBD41F66BE1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2042855DA8B1FCB9"
+				item: "thermal:device_soil_infuser"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5F7A3E5F55ED0FB0"]
+			description: ["用于存储水"]
+			id: "1EEE121C5AAD03CB"
+			rewards: [{
+				id: "6D824D5EAFD69885"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58B41A5F697369A7"
+				item: "thermal:device_water_gen"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5F7A3E5F55ED0FB0"]
+			description: ["用于造石"]
+			id: "63F7789EC25AD69C"
+			rewards: [{
+				id: "103F3E6138C8499C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "680C208CC5DC6A0E"
+				item: "thermal:device_rock_gen"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5F7A3E5F55ED0FB0"]
+			description: ["用于吸取周围的物品"]
+			id: "49339E3FCB1C97AC"
+			rewards: [{
+				id: "3DF7B3D64F7E16AD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "274D991F0F26530A"
+				item: "thermal:device_collector"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5F7A3E5F55ED0FB0"]
+			description: ["用于吸取周围的经验"]
+			id: "5BB138AD2AF2B0BE"
+			rewards: [{
+				id: "713C5A068383D056"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4947A87447D0FD9C"
+				item: "thermal:device_xp_condenser"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5F7A3E5F55ED0FB0"]
+			description: ["用于销毁物品"]
+			id: "32908AD1FFE5AEE2"
+			rewards: [{
+				id: "5355C950F5DCF6A3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "382E934A9067741D"
+				item: "thermal:device_nullifier"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5F7A3E5F55ED0FB0"]
+			description: ["用于雾化药水"]
+			id: "3913FEDCBEEC6CF1"
+			rewards: [{
+				id: "70F0686FE5A0138D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6265D2602AD61788"
+				item: "thermal:device_potion_diffuser"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C36F78DEFB8F5FE"]
+			description: ["实用物品"]
+			id: "10290C522143084F"
+			rewards: [{
+				id: "3280DD92DD650E60"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3BCED2D148B9E0CA"
+					item: {
+						Count: 1
+						id: "thermal:flux_capacitor"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1E87F8831CBC39A1"
+					item: {
+						Count: 1
+						id: "thermal:flux_magnet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2E9F7C6719937B66"
+					item: {
+						Count: 1
+						id: "thermal:fluid_reservoir"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "483A2C7479E63F70"
+					item: {
+						Count: 1
+						id: "thermal:potion_infuser"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5925D3075304A81E"
+					item: {
+						Count: 1
+						id: "thermal:potion_quiver"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "18471CAB27754603"
+					item: {
+						Count: 1
+						id: "thermal:watering_can"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1425105118F7E8E0"
+					item: {
+						Count: 1
+						id: "thermal:flux_drill"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "62ECE708FFF116CB"
+					item: {
+						Count: 1
+						id: "thermal:flux_saw"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "689A717042486801"
+					item: {
+						Count: 1
+						id: "thermal:xp_crystal"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C36F78DEFB8F5FE"]
+			description: ["用于调整机器"]
+			id: "06DD4548AAE43453"
+			rewards: [{
+				id: "7D341228807FBC8B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "368DAE10B55693CA"
+				item: {
+					Count: 1
+					id: "thermal:wrench"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D1B22B3B7B67CC9"]
+			description: ["合成材料"]
+			id: "09E5A53E714ABCB2"
+			rewards: [{
+				id: "128C9ED7C9529B71"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3CF9610469824FAD"
+					item: "thermalendergy:prismalium_ingot"
+					type: "item"
+				}
+				{
+					id: "0E7ACFDF339BC844"
+					item: "thermalendergy:melodium_ingot"
+					type: "item"
+				}
+				{
+					id: "6351630E3AA9E9A1"
+					item: "thermalendergy:stellarium_ingot"
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: -5.5d
+		}
+	]
+	title: "Thermal Expansion"
+}

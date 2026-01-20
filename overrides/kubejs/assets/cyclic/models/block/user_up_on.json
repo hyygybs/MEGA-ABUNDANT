@@ -1,0 +1,6 @@
+{
+ 	"parent": "cyclic:block/user_up",
+	"textures":{
+        "front": "cyclic:block/machine/user/user_on"
+	}
+}

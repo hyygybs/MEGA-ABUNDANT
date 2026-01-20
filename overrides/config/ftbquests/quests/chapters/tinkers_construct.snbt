@@ -1,0 +1,479 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tinkers_construct"
+	group: "1F9A9FE71A5A4AA9"
+	icon: "tconstruct:smeltery_controller"
+	id: "14C734F7A88EB85F"
+	order_index: 17
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["合成材料"]
+			id: "44E91CA9466D08E9"
+			rewards: [{
+				id: "0B1058B70F0A7064"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43444D0912C43EB4"
+				item: "tconstruct:pattern"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["65BF9F92C840B61E"]
+			description: ["本模组的指导书"]
+			id: "54184BE06B4C17C4"
+			rewards: [{
+				id: "710618D4C8524EBD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "27F2493DB26B7048"
+					item: "tconstruct:materials_and_you"
+					type: "item"
+				}
+				{
+					id: "75B9B6435582F8B6"
+					item: "tconstruct:puny_smelting"
+					type: "item"
+				}
+				{
+					id: "1642316A700F8D9E"
+					item: "tconstruct:tinkers_gadgetry"
+					type: "item"
+				}
+				{
+					id: "46C19D65440076C3"
+					item: "tinkersjewelry:book"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["44E91CA9466D08E9"]
+			description: ["用于合成物品"]
+			id: "1C7E39BE30137E35"
+			rewards: [{
+				id: "0D9783F43E8145D6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B518428AE06E0CB"
+				item: "tconstruct:crafting_station"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C7E39BE30137E35"]
+			description: ["用于制造部件"]
+			id: "53A8F63E5742DAFE"
+			rewards: [{
+				id: "6DB8BF2086F64350"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21469BE17B18B649"
+				item: "tconstruct:part_builder"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["53A8F63E5742DAFE"]
+			description: ["将部件组合成武器、工具、饰品、盔甲"]
+			id: "6F32376EB607CAEE"
+			rewards: [{
+				id: "53676A320A0388D0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75889B9949654D11"
+				item: "tconstruct:tinker_station"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["53A8F63E5742DAFE"]
+			description: ["用于存储部件"]
+			id: "129CC1AAB6A070E8"
+			rewards: [{
+				id: "34ECDFE8FF90D782"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BDB58C9A6506F59"
+				item: "tconstruct:part_chest"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F32376EB607CAEE"]
+			description: ["将物品熔化成流体"]
+			id: "051C4AD13AB15C19"
+			rewards: [{
+				id: "31EA5C117181D246"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "010AFBBD45267677"
+				item: "tconstruct:seared_melter"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["051C4AD13AB15C19"]
+			description: ["焦黑熔化炉和焦褐合金炉的热源"]
+			id: "69367EBAABEEC4B3"
+			rewards: [{
+				id: "36AA136A6E652CBD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B576143F10F3276"
+				item: "tconstruct:seared_heater"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["051C4AD13AB15C19"]
+			description: ["将熔融金属导出"]
+			id: "2F9053A4835325CD"
+			rewards: [{
+				id: "24E4DE140029B4AF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3DC2B715611B1DE9"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+				{
+					id: "4CA26E707EDAF9AB"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+				{
+					id: "160E3C973C18ACCA"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F9053A4835325CD"]
+			description: ["多方块结构，用于熔化材料并合金"]
+			id: "0DCFD18F4D5C552E"
+			rewards: [{
+				id: "3DFC6CB295A79579"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E5DB17E79E2161C"
+				item: "tconstruct:smeltery_controller"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0DCFD18F4D5C552E"]
+			description: ["用于存储冶炼炉的燃料"]
+			id: "6289AECED0B42084"
+			rewards: [{
+				id: "66B4A15129BF5EB8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C68252F2CBC13C3"
+				item: "tconstruct:seared_fuel_tank"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0DCFD18F4D5C552E"]
+			description: ["向冶炼炉输入或输出流体和物品"]
+			id: "15A4CC892121D02C"
+			rewards: [{
+				id: "220923491C235470"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2EAB7E0B44682B40"
+					item: "tconstruct:seared_drain"
+					type: "item"
+				}
+				{
+					id: "580F9129F74ABC68"
+					item: "tconstruct:seared_chute"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0DCFD18F4D5C552E"]
+			description: ["将部件组合成武器、工具、饰品、盔甲"]
+			id: "306A9C2698A3AEDA"
+			rewards: [{
+				id: "25BAF4E7AFC260FE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F4E910D7C5E7FA4"
+				item: {
+					Count: 1
+					id: "tconstruct:tinkers_anvil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2F9053A4835325CD"]
+			description: ["本模组的指导书"]
+			id: "6A539931FDA162E9"
+			rewards: [{
+				id: "2F5B1135D5B2B632"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A8178C0DF5043C9"
+				item: "tconstruct:mighty_smelting"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50432829E8B61CD7"]
+			description: ["本模组的指导书"]
+			id: "1154B2070180556B"
+			rewards: [{
+				id: "66767A392B4A3EEA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D684B07EC0C8691"
+				item: "tconstruct:fantastic_foundry"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6A539931FDA162E9"]
+			description: ["本模组的指导书"]
+			id: "79267E4331E69FC7"
+			rewards: [{
+				id: "54F9EB290909191F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FEF8925AB0FFF01"
+				item: "tconstruct:encyclopedia"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0DCFD18F4D5C552E"]
+			description: ["多方块结构，用于熔化材料获得副产物，但不能合金"]
+			id: "041CEEF84D1C953F"
+			rewards: [{
+				id: "294B777D4B96259E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F36E50F9CB18717"
+				item: "tconstruct:foundry_controller"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["041CEEF84D1C953F"]
+			description: ["用于存储熔铸炉的燃料"]
+			id: "153BC0106F0E873F"
+			rewards: [{
+				id: "4423695A97ED8BE7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CF412FE25614707"
+				item: "tconstruct:scorched_fuel_tank"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["041CEEF84D1C953F"]
+			description: ["向熔铸炉输入或输出流体和物品"]
+			id: "290E78D5D7F7657B"
+			rewards: [{
+				id: "6598B1902BB5A591"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5868EEEA50C500B4"
+					item: "tconstruct:scorched_drain"
+					type: "item"
+				}
+				{
+					id: "76AD55D338E8DA8B"
+					item: "tconstruct:scorched_chute"
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["041CEEF84D1C953F"]
+			description: ["将熔融金属导出"]
+			id: "43DAA4CD14EBFFDD"
+			rewards: [{
+				id: "32A6E44B2454784F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0151AB6D6EB36935"
+					item: "tconstruct:scorched_table"
+					type: "item"
+				}
+				{
+					id: "1FAD130D2B05D95F"
+					item: "tconstruct:scorched_basin"
+					type: "item"
+				}
+				{
+					id: "070ACE26F7DB4FBA"
+					item: "tconstruct:scorched_faucet"
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["041CEEF84D1C953F"]
+			description: ["用于合金"]
+			id: "257E7DDFC99F034C"
+			rewards: [{
+				id: "15C740A982B2D4F0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "026F5E9FD18621A3"
+				item: "tconstruct:scorched_alloyer"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["44E91CA9466D08E9"]
+			description: ["合成材料"]
+			id: "65BF9F92C840B61E"
+			rewards: [{
+				id: "144A5B9C5F165274"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "702F3E659F34D3C4"
+				item: "tconstruct:grout"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["54184BE06B4C17C4"]
+			description: ["合成材料"]
+			id: "50432829E8B61CD7"
+			rewards: [{
+				id: "508E107284AFEA59"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F093A9094402376"
+				item: "tconstruct:nether_grout"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2F9053A4835325CD"]
+			description: ["用于存储铸模"]
+			id: "3BEAAF1F825E3A4A"
+			rewards: [{
+				id: "242CD209F00A3AD9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E0E49CC9A612DBC"
+				item: "tconstruct:cast_chest"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.5d
+		}
+	]
+	title: "Tinkers Construct"
+}

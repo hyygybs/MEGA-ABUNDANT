@@ -1,0 +1,7 @@
+{
+   "parent": "cyclic:block/detector_item",
+   "textures": {
+        "particle": "cyclic:block/detector_entity",
+        "0": "cyclic:block/detector_entity"
+    }
+}

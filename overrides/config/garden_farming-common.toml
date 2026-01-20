@@ -1,0 +1,37 @@
+#A magic number
+#Range: > 0
+magicNumber = 42
+#What you want the introduction message to be for the magic number
+magicNumberIntroduction = "The magic number is... "
+#A list of items to log on common setup.
+items = ["minecraft:iron_ingot"]
+#Additional blocks that can be catalyzed by the watering can
+#洒水壶可以催熟的额外方块
+#All CropBlock crops (wheat, carrots, etc.) are catalyzable by default
+#所有CropBlock作物（小麦、胡萝卜等）默认可催熟
+#This list adds EXTRA blocks that can also be catalyzed
+#此列表添加额外可催熟的方块
+#
+#Format: modid:block_id
+#格式：模组id:方块id
+#
+additional_crops = ["minecraft:nether_wart", "minecraft:cocoa", "minecraft:sweet_berry_bush"]
+#Items that should NOT be allowed in the compost bin
+#禁止放入堆肥箱的物品
+#These items will be rejected even if they are normally compostable
+#记得加双引号
+#
+#Format: modid:item_id
+#格式：模组id:物品id
+#
+compost_bin_blacklist = []
+#Additional items that SHOULD be allowed in the compost bin
+#额外允许放入堆肥箱的物品
+#These items will be accepted even if they are not normally compostable
+#记得加双引号
+#
+#Format: modid:item_id
+#格式：模组id:物品id
+#
+compost_bin_whitelist = []
+

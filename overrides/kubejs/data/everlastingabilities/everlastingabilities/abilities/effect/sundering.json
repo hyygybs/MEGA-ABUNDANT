@@ -1,0 +1,13 @@
+{
+  "type": "everlastingabilities:effect",
+  "target": "radius",
+  "name": "ability.everlastingabilities.sundering",
+  "rarity": "rare",
+  "max_level": 5,
+  "xp_per_level": 50,
+  "effect": "apotheosis:sundering",
+  "condition": {
+    "type": "forge:mod_loaded",
+    "modid": "apotheosis"
+  }
+}

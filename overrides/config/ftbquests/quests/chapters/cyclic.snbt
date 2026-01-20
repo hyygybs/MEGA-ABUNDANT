@@ -1,0 +1,425 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cyclic"
+	group: "1F9A9FE71A5A4AA9"
+	icon: "cyclic:solidifier"
+	id: "5B7874614A371B72"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["本模组的指导书"]
+			id: "388590F007B08302"
+			rewards: [{
+				id: "014924B188298627"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08809C95365035E0"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "cyclic:guide_book"
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["388590F007B08302"]
+			description: ["燃烧燃料产生能量"]
+			id: "6CBBC44EC5C514AC"
+			rewards: [{
+				id: "2B5AF44A6868167C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A61582442AEC249"
+				item: "cyclic:generator_fuel"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["388590F007B08302"]
+			id: "2D3CD69C23149CF0"
+			rewards: [{
+				id: "5A9E97EDDF648158"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "679C58A695F2D8A4"
+				item: "cyclic:biomass"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2D3CD69C23149CF0"]
+			id: "2F14B508D96B4DB8"
+			rewards: [{
+				id: "60ED1023883233AA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C04986FD4DDD534"
+				item: "cyclic:peat_fuel"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6CBBC44EC5C514AC"]
+			description: ["消耗食物产生能量"]
+			id: "448D0BD9E16B8F81"
+			rewards: [{
+				id: "5E0DD49DA7D8ECFA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BB14BC9B0236F32"
+				item: "cyclic:generator_food"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6CBBC44EC5C514AC"]
+			description: ["消耗特定流体产生能量"]
+			id: "7AB07F079EEF3CF7"
+			rewards: [{
+				id: "6EA870562F89220C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FDD12A8F8281B74"
+				item: "cyclic:generator_fluid"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6CBBC44EC5C514AC"]
+			description: ["消耗泥炭或怪物掉落物产生能量"]
+			id: "2F7FDB9FFF93D828"
+			rewards: [{
+				id: "2EAD54D5466A0C02"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08C37769D193AB4F"
+				item: "cyclic:generator_item"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C5E2BA5BF677F10"]
+			description: ["消耗能量转化材料"]
+			id: "52C2DB07EB120E4D"
+			rewards: [{
+				id: "670D7DC60BB62B9D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5186F2ECE8A06C87"
+				item: "cyclic:solidifier"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52C2DB07EB120E4D"]
+			id: "3E91A3415C4C69B6"
+			rewards: [{
+				id: "38B022A8BBB08133"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "756968CEE4C3C362"
+				item: "cyclic:gem_amber"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E91A3415C4C69B6"]
+			id: "1AF3B3C1D8A62C9E"
+			rewards: [{
+				id: "2404F73EAFC3418F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67A7012888A00A6A"
+				item: "cyclic:gem_obsidian"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1AF3B3C1D8A62C9E"]
+			description: ["消耗能量修复物品"]
+			id: "48E89A1C8AFDF337"
+			rewards: [{
+				id: "5090C7BB18AA2C45"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5755FFAE6E2A9C4E"
+				item: "cyclic:anvil"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1AF3B3C1D8A62C9E"]
+			description: ["拆解物品"]
+			id: "74D32F393078FFFC"
+			rewards: [{
+				id: "2B5E41F9150EE57F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "755552A1E1A35502"
+				item: "cyclic:uncrafter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1AF3B3C1D8A62C9E"]
+			description: ["转移物品附魔到附魔书"]
+			id: "6D884C7BA23C1EAB"
+			rewards: [{
+				id: "3C270408F0293A66"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BF3C073AB876919"
+				item: "cyclic:disenchanter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6CBBC44EC5C514AC"]
+			description: ["消耗能量把物品转化为流体"]
+			id: "3C5E2BA5BF677F10"
+			rewards: [{
+				id: "7B3C881A56C792E8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23740974A92FEB69"
+				item: "cyclic:melter"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F7FDB9FFF93D828"]
+			description: ["自动放置和收获泥炭"]
+			id: "4FF491C4FFF37620"
+			rewards: [{
+				id: "077F98441CA53CC9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "560C7C55D845A8F4"
+				item: "cyclic:peat_farm"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3E91A3415C4C69B6"]
+			description: ["自动合成物品"]
+			id: "1C1BB4D542B49FC0"
+			rewards: [{
+				id: "47FF6DDF77AAFEEF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39B5B58B7984FD4C"
+				item: "cyclic:crafter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6CBBC44EC5C514AC"]
+			description: ["放置和破坏方块和流体"]
+			id: "2520F39257F3B0B9"
+			rewards: [{
+				id: "5E609B79CAAD3C9D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2E73C57B40BE66D8"
+					item: "cyclic:placer"
+					type: "item"
+				}
+				{
+					id: "61ECA4307F81D640"
+					item: "cyclic:breaker"
+					type: "item"
+				}
+				{
+					id: "408DDF0A9CC9BC69"
+					item: "cyclic:placer_fluid"
+					type: "item"
+				}
+				{
+					id: "46A9677E86FA6925"
+					item: "cyclic:collector_fluid"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6CBBC44EC5C514AC"]
+			description: ["自动种植和收获"]
+			id: "5F83AA17D69A4347"
+			rewards: [{
+				id: "6B670C53A9546F28"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1F3091548CC337B3"
+					item: "cyclic:forester"
+					type: "item"
+				}
+				{
+					id: "1719E18D72F5A66E"
+					item: "cyclic:harvester"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6CBBC44EC5C514AC"]
+			description: ["投掷和收集掉落物"]
+			id: "4157DE2518C888B4"
+			rewards: [{
+				id: "1B90BFBB333F3006"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1BC1883EA116FF46"
+					item: "cyclic:dropper"
+					type: "item"
+				}
+				{
+					id: "0F10F06FBBDF9F51"
+					item: "cyclic:collector"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6CBBC44EC5C514AC"]
+			description: ["模拟玩家操作"]
+			id: "6C89A4218AF60330"
+			rewards: [{
+				id: "719BB4E2FD759B7E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CCD6CD40B0A399E"
+				item: "cyclic:user"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1C1BB4D542B49FC0"]
+			description: ["自动化合成配方"]
+			id: "6832DD9A4FEF04D2"
+			rewards: [{
+				id: "0E56AC1F37FD26B8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09F47AD65B6A0695"
+				item: "cyclic:packager"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1AF3B3C1D8A62C9E"]
+			description: ["饰品"]
+			id: "40607073F77AD99A"
+			rewards: [{
+				id: "2D6FDB7AD3548F1E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "51C6B17DF5EEE81C"
+				item: {
+					Count: 1
+					id: "cyclic:charm_ultimate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+	]
+	title: "Cyclic"
+}

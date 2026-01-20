@@ -1,0 +1,8 @@
+{ 
+ 	"parent": "cyclic:parent/machine_classic_on",
+    "textures": { 
+        "base": "minecraft:block/observer_side",
+        "stem": "cyclic:item/wand/amber",
+        "front": "cyclic:block/machine/forester/forester_on"
+    }
+}

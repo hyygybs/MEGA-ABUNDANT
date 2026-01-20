@@ -1,0 +1,12 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "justdirethings:time_crystal"
+    },
+    "color": "BBDCBB",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_gem"
+    }
+  }

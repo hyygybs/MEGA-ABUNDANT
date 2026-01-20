@@ -1,0 +1,501 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "biomancy"
+	group: "0896B032D36C2B34"
+	icon: "biomancy:primordial_cradle"
+	id: "728A0AA3CE6771FA"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["一切的起始"]
+			id: "42E85E112E5A53EE"
+			rewards: [{
+				id: "79F6255F4A254189"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5502327331796E47"
+				item: "biomancy:primordial_core"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42E85E112E5A53EE"]
+			description: ["杀死生物获得特殊掉落物"]
+			id: "77BD7B053416300D"
+			rewards: [{
+				id: "348070ACD7A7807E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1ACC6A8D005233A5"
+				item: {
+					Count: 1
+					id: "biomancy:despoil_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FACAEEFAB8E7038"]
+			description: ["用于召唤肉块，需要5块任意生肉、两瓶治疗/再生药水（效果等级I）或一瓶治疗/再生药水（效果等级II），或者使用5块怪异的血肉混合物来召唤"]
+			id: "262790E44A1C4EA7"
+			rewards: [{
+				id: "61A30ACBE721D3EC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26DC1EAD0A10445A"
+				item: "biomancy:primordial_cradle"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77BD7B053416300D"]
+			description: ["用血肉掠夺镰或带有抽筋剥骨附魔的武器杀死生物掉落材料"]
+			id: "0FACAEEFAB8E7038"
+			rewards: [{
+				id: "58CFDBB100F37477"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1F2B6C01A65B6F6E"
+					item: "biomancy:mob_fang"
+					type: "item"
+				}
+				{
+					id: "7E45DE6EA2F975BF"
+					item: "biomancy:mob_claw"
+					type: "item"
+				}
+				{
+					id: "0192E554279EEDBB"
+					item: "biomancy:mob_sinew"
+					type: "item"
+				}
+				{
+					id: "5FF0185A5D5440C0"
+					item: "biomancy:mob_marrow"
+					type: "item"
+				}
+				{
+					id: "0BDC2A9019FEF192"
+					item: "biomancy:mob_gland"
+					type: "item"
+				}
+				{
+					id: "27607992D520B73B"
+					item: "biomancy:toxin_gland"
+					type: "item"
+				}
+				{
+					id: "080FEAEBD44E51D8"
+					item: "biomancy:volatile_gland"
+					type: "item"
+				}
+				{
+					id: "35EE466270F65760"
+					item: "biomancy:withered_mob_marrow"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["262790E44A1C4EA7"]
+			description: ["杀死肉块得到的材料"]
+			id: "249B251BDF34E045"
+			rewards: [{
+				id: "58AE886990BC1029"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A5012802D3FCE56"
+				item: "biomancy:living_flesh"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["249B251BDF34E045"]
+			description: ["用于合成基础材料"]
+			id: "7BBC832D58AB90D3"
+			rewards: [{
+				id: "7A279BD9DC0C3481"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A0A8C7FD080E4AD"
+				item: "biomancy:decomposer"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["249B251BDF34E045"]
+			description: ["用于合成基础材料"]
+			id: "07D018362BFCA5BA"
+			rewards: [{
+				id: "1D17E2AA2A2F81FE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E0FBC581F0CD78F"
+				item: "biomancy:bio_forge"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["07D018362BFCA5BA"]
+			description: ["用于生产营养膏作为机器营养来源"]
+			id: "73A9BA79A08453F9"
+			rewards: [{
+				id: "1F17A42373FC7224"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03A18F1BF9836A84"
+				item: "biomancy:digester"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["07D018362BFCA5BA"]
+			description: ["用于合成血清和试剂"]
+			id: "3BCFF5B79C65C919"
+			rewards: [{
+				id: "071D6F43303F625F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B3A47A90351BDE4"
+				item: "biomancy:bio_lab"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7BBC832D58AB90D3"]
+			description: ["基础材料"]
+			id: "166C2D282B6295F4"
+			rewards: [{
+				id: "3546CCBA99C06AF5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "460DE9AF8713A80B"
+					item: "biomancy:flesh_bits"
+					type: "item"
+				}
+				{
+					id: "47E585E630FDF119"
+					item: "biomancy:bone_fragments"
+					type: "item"
+				}
+				{
+					id: "258749FAB6327B68"
+					item: "biomancy:tough_fibers"
+					type: "item"
+				}
+				{
+					id: "19D5A4C17D141A2A"
+					item: "biomancy:elastic_fibers"
+					type: "item"
+				}
+				{
+					id: "4924494D75EAB91C"
+					item: "biomancy:mineral_fragment"
+					type: "item"
+				}
+				{
+					id: "41E192EC5E73AB55"
+					item: "biomancy:gem_fragments"
+					type: "item"
+				}
+				{
+					id: "10D6EC844B6FD115"
+					item: "biomancy:nutrients"
+					type: "item"
+				}
+				{
+					id: "2FCE15C09792C50D"
+					item: "biomancy:organic_matter"
+					type: "item"
+				}
+				{
+					id: "14260F5D94D707C4"
+					item: "biomancy:bio_lumens"
+					type: "item"
+				}
+				{
+					id: "76C0E03A5138FE8A"
+					item: "biomancy:exotic_dust"
+					type: "item"
+				}
+				{
+					id: "2ED24EB05F0C8458"
+					item: "biomancy:stone_powder"
+					type: "item"
+				}
+				{
+					id: "297E40EFD05B1E2C"
+					item: "biomancy:regenerative_fluid"
+					type: "item"
+				}
+				{
+					id: "4621229308733544"
+					item: "biomancy:withering_ooze"
+					type: "item"
+				}
+				{
+					id: "2163BA57BA93A651"
+					item: "biomancy:hormone_secretion"
+					type: "item"
+				}
+				{
+					id: "1F5C45F6A0A39439"
+					item: "biomancy:toxin_extract"
+					type: "item"
+				}
+				{
+					id: "79A9C77D8E2B1DDA"
+					item: "biomancy:bile"
+					type: "item"
+				}
+				{
+					id: "3ADDDD3D49BDA7D3"
+					item: "biomancy:volatile_fluid"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["07D018362BFCA5BA"]
+			description: ["存储与物流"]
+			id: "45CCF3EFFFF42F9A"
+			rewards: [{
+				id: "1302B7B47B0A1A21"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "543A72DDEDA003B7"
+					item: "biomancy:tongue"
+					type: "item"
+				}
+				{
+					id: "5DB5DF423CB75511"
+					item: "biomancy:maw_hopper"
+					type: "item"
+				}
+				{
+					id: "670B8951DBAA6A11"
+					item: "biomancy:fleshkin_chest"
+					type: "item"
+				}
+				{
+					id: "7BF94C5029809811"
+					item: {
+						Count: 1
+						id: "biomancy:storage_sac"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["07D018362BFCA5BA"]
+			description: ["可根据类型或唯一ID过滤生命体"]
+			id: "69D200B8265AD74C"
+			rewards: [{
+				id: "39A16EE827B729F7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68E158D0EC66A8B8"
+				item: "biomancy:biometric_membrane"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3BCFF5B79C65C919"]
+			description: ["为自己注射试剂"]
+			id: "6B48BAC821522021"
+			rewards: [{
+				id: "692991DA3187C73F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DF7ED52366BF490"
+				item: {
+					Count: 1
+					id: "biomancy:injector"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["07D018362BFCA5BA"]
+			description: ["护甲"]
+			id: "69B437ABFAF82DC8"
+			rewards: [{
+				id: "2DDEA234272D2E96"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6B29EE3D68E64866"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "biomancy:acolyte_armor_helmet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4285ED262922660B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "biomancy:acolyte_armor_chestplate"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1CF344FA5B008751"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "biomancy:acolyte_armor_leggings"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5888521CBA9D8CE4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "biomancy:acolyte_armor_boots"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["07D018362BFCA5BA"]
+			description: ["武器"]
+			id: "631B13A4F9822B10"
+			rewards: [{
+				id: "167F662ACA1A2253"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "09AC1031C1E25068"
+					item: {
+						Count: 1
+						id: "biomancy:ravenous_claws"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6E7512571C02986F"
+					item: {
+						Count: 1
+						id: "biomancy:caustic_gunblade"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "590C4DD2EE218572"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "biomancy:thorn_shield"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 3.0d
+		}
+	]
+	title: "Biomancy"
+}

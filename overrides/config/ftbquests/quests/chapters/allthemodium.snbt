@@ -1,0 +1,329 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "allthemodium"
+	group: "1F9A9FE71A5A4AA9"
+	icon: "allthemodium:allthemodium_ingot"
+	id: "2BF3F595DC425844"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["在主世界深暗之域生物群系地下洞穴表面的岩石中生成"]
+			id: "1D781AD8277E5B3B"
+			rewards: [{
+				id: "735519E4CD969113"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C5724563F9F43F0"
+				item: "allthemodium:allthemodium_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D781AD8277E5B3B"]
+			description: ["在远古城市中找到可疑的黏土，使用刷子对其刷扫"]
+			id: "5E0E0B40F2740DF6"
+			rewards: [{
+				id: "7B2DB69E341A4754"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "216FEFD5F0379CFF"
+				item: "allthemodium:allthemodium_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D781AD8277E5B3B"]
+			description: ["在下界各种生物群系的表面下界岩生成"]
+			id: "131CD2A3CE123683"
+			rewards: [{
+				id: "04AA09F111F6412A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AFF7CB62205DD27"
+				item: "allthemodium:vibranium_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["131CD2A3CE123683"]
+			description: ["在堡垒遗迹中找到可疑的灵魂沙，使用刷子对其刷扫"]
+			id: "6703C0106CAA39EE"
+			rewards: [{
+				id: "635EAC526E0CCB74"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72D1D50571B00259"
+				item: "allthemodium:vibranium_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["131CD2A3CE123683"]
+			description: ["在末地高地生物群系中向下搜寻至多12格并在这里生成"]
+			id: "419ABF580BEAC6B7"
+			rewards: [{
+				id: "1ACE1484642ACF84"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69A2B6B8DC8ECE28"
+				item: "allthemodium:unobtainium_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["419ABF580BEAC6B7"]
+			description: ["从异界维度的地牢图书馆的宝箱中获取"]
+			id: "114D63A251D9F4B1"
+			rewards: [{
+				id: "477C13E29B678946"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "057A65DA7E3DB814"
+				item: "allthemodium:unobtainium_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D781AD8277E5B3B"]
+			description: ["在主世界空手潜行并右键传送垫会将玩家传送至ATM挖矿维度，在下界空手潜行并右键传送垫会将玩家传送至异界"]
+			id: "054CAFD06BDD88F1"
+			rewards: [{
+				id: "3966B5417C05AAF0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "479AE4B866915CEB"
+				item: "allthemodium:teleport_pad"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5E0E0B40F2740DF6"]
+			description: ["升级装备"]
+			id: "798E223AF9AF7D8F"
+			rewards: [{
+				id: "7B493B4C89E3C56E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "68376E596355AD39"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "allthemodium:allthemodium_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "5C60F6A6F74342DF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "allthemodium:allthemodium_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "7A9B4C0D0EAC1C94"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "allthemodium:allthemodium_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "05573635ACAC8561"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "allthemodium:allthemodium_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6703C0106CAA39EE"]
+			description: ["升级装备"]
+			id: "5086020A3EED4280"
+			rewards: [{
+				id: "4EDC8F5B5E63A964"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "590E801E4F700F3B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "allthemodium:vibranium_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "23849DBFF3BA896D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "allthemodium:vibranium_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "6D170DF425C66461"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "allthemodium:vibranium_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "6A49C2826872B88C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "allthemodium:vibranium_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["114D63A251D9F4B1"]
+			description: ["升级装备"]
+			id: "4D73D1332E6E5177"
+			rewards: [{
+				id: "002B7F754DC1E586"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "75FE37B1041648EE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "allthemodium:unobtainium_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "44A5EA22DCB04F98"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "allthemodium:unobtainium_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "66401F787E6B9BA4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "allthemodium:unobtainium_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "280A5EDDE4546D0D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "allthemodium:unobtainium_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 4.0d
+		}
+	]
+	title: "Allthemodium"
+}

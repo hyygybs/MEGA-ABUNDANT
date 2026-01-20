@@ -1,0 +1,39 @@
+{
+  "entity": "creeperoverhaul:beach_creeper",
+  "name": "entity.creeperoverhaul.beach_creeper",
+  "name_color": "0xD2BF81",
+  "gui_scale": 1.0,
+  "gui_x_offset": 0.0,
+  "gui_y_offset": 0.0,
+  "gui_z_offset": 0.0,
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+	"item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:gunpowder",
+      "count": 16
+    },
+	{
+      "item": "minecraft:sand",
+      "count": 16
+    },
+	{
+      "item": "minecraft:prismarine_shard",
+      "count": 8
+    },
+	{
+      "item": "minecraft:seagrass",
+      "count": 8
+    },
+    {
+      "item": "minecraft:nautilus_shell",
+      "count": 1
+    }
+  ]
+}

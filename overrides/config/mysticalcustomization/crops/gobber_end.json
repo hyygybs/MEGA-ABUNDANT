@@ -1,0 +1,12 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "gobber2:gobber2_ingot_end"
+    },
+    "color": "65E1A7",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+    }
+  }

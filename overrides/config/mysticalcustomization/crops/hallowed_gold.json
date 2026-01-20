@@ -1,0 +1,12 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:4",
+    "ingredient": {
+      "item": "malum:hallowed_gold_ingot"
+    },
+    "color": "F3D55A",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+    }
+  }

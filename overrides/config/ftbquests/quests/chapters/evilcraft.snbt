@@ -1,0 +1,646 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "evilcraft"
+	group: "0896B032D36C2B34"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			Parent: { }
+		}
+		id: "evilcraft:blood_infuser"
+		tag: { }
+	}
+	id: "12ACE0CF127E7084"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["合成材料"]
+			id: "33E77F30600EC9F3"
+			rewards: [{
+				id: "0D18868C14B88E6F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AB63844AC18E5BE"
+				item: "evilcraft:dark_gem"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["33E77F30600EC9F3"]
+			description: ["用于得到黑暗起源"]
+			id: "6473E6717D6779AD"
+			rewards: [{
+				id: "6684A579FDEEB9FC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46CADABBAED03744"
+				item: "evilcraft:darkened_apple"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6473E6717D6779AD"]
+			description: ["本模组的指导书，将黑苹果喂给动物，在它死的地方会出现灵魂之门，将一本书丢向它就可以获得"]
+			id: "5D377118178891C0"
+			rewards: [{
+				id: "12D79C42D8C9B66B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59CAA9B15C16A169"
+				item: "evilcraft:origins_of_darkness"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5D377118178891C0"]
+			description: ["储存天气和生物群系"]
+			id: "0B1819AAFF5DA3C3"
+			rewards: [{
+				id: "17E7A64E160C8D3F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3948B5343344144E"
+					item: {
+						Count: 1
+						id: "evilcraft:weather_container"
+						tag: {
+							weather: "EMPTY"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EF7D07A1070DCE4"
+					item: "evilcraft:biome_extract"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5D377118178891C0"]
+			description: ["合成物品"]
+			id: "3115ACE6E9EC61EA"
+			rewards: [{
+				id: "3DD96E5974DF99C0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55248F4AD0B06DF7"
+				item: "evilcraft:dark_spike"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5D377118178891C0"]
+			id: "2C3D1EE0B2AE9F2E"
+			rewards: [{
+				id: "34BEF4E4726B5A67"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5ADAFA6C4B4ADBE0"
+					item: "evilcraft:exalted_crafter_wooden"
+					type: "item"
+				}
+				{
+					id: "27B85CB13E01FDCA"
+					item: "evilcraft:exalted_crafter"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5D377118178891C0"]
+			description: ["用于吸引复仇之魂"]
+			id: "25FD2487642A65DB"
+			rewards: [{
+				id: "5BAFB3987A198D74"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08AB3EC9CA74B46D"
+				item: "evilcraft:vengeance_ring"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27E1B6C8725F0183"]
+			description: ["用于捕捉复仇之魂"]
+			id: "321055D3AF6AABF8"
+			rewards: [{
+				id: "48F1391AAA4C64E3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "731C72DD2DF5068D"
+					item: {
+						Count: 1
+						id: "evilcraft:box_of_eternal_closure"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "165AC3AA9B8A46AE"
+					item: "evilcraft:vengeance_focus"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3115ACE6E9EC61EA"]
+			description: ["杀死怪物时会吸取血液"]
+			id: "14768A9BBA6114E9"
+			rewards: [{
+				id: "44FDC353679D30C2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "235E935C111CEF4A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "evilcraft:blood_extractor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["14768A9BBA6114E9"]
+			description: ["合成材料，使用暗黑宝石吸取5格连在一起的血液获得"]
+			id: "455EF7A4FDB07278"
+			rewards: [{
+				id: "465DBBE596DA20A8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "27AD03E79225BEC4"
+					item: "evilcraft:dark_power_gem"
+					type: "item"
+				}
+				{
+					id: "6CD65D012B9737A2"
+					item: "evilcraft:hardened_blood_shard"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["455EF7A4FDB07278"]
+			description: ["合成材料"]
+			id: "720736EF2D22DE21"
+			rewards: [{
+				id: "19716B24518F498D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0987F135577945B6"
+				item: "evilcraft:blood_infusion_core"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["720736EF2D22DE21"]
+			description: ["用血液修复物品或消耗血液合成新材料"]
+			id: "4560F09E24E7F6A7"
+			rewards: [{
+				id: "2DEB8D0A184F6600"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6A541899A6D751CA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "evilcraft:blood_chest"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "29F5CD65F0F92296"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "evilcraft:blood_infuser"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4560F09E24E7F6A7"]
+			description: ["用于得到亡灵木材料"]
+			id: "395BBEB4E998DEB3"
+			rewards: [{
+				id: "5624A912C7C7F74C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77D46556DF3AA846"
+				item: "evilcraft:undead_sapling"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4560F09E24E7F6A7"]
+			description: ["用于升级血能注入器"]
+			id: "3C1565F5CF1A9241"
+			rewards: [{
+				id: "31D6EBEC584A0D41"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2458E22F1782CC3F"
+				item: "evilcraft:promise_tier_1"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C1565F5CF1A9241"]
+			description: ["用于升级血能注入器"]
+			id: "702F8E7A544631A0"
+			rewards: [{
+				id: "10DF3C89FD6D0462"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4421D8D9D4CD84CF"
+				item: "evilcraft:promise_tier_2"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["702F8E7A544631A0"]
+			description: ["用于升级血能注入器"]
+			id: "23D94D0D9DF2D0E1"
+			rewards: [{
+				id: "53755A6D134ACE23"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27C17D45786C0F5D"
+				item: "evilcraft:promise_tier_3"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["702F8E7A544631A0"]
+			description: ["用于提升血能注入器的效率和速度"]
+			id: "41BE90A6EDE93E46"
+			rewards: [{
+				id: "2BBBF688062D6CE8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "308A41198D652C9C"
+					item: "evilcraft:promise_efficiency_0"
+					type: "item"
+				}
+				{
+					id: "15FBC93807FFCDFF"
+					item: "evilcraft:promise_speed_0"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4560F09E24E7F6A7"]
+			description: ["从周围的血迹中提取血液"]
+			id: "4B2D4AB901A523DD"
+			rewards: [{
+				id: "3F16044D034544E6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0C9DA9C1FFC84A19"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "evilcraft:sanguinary_pedestal_1"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "40317BE0B715CC3F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "evilcraft:dark_tank"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "28957ABD8D28673A"
+					item: "evilcraft:spiked_plate"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4560F09E24E7F6A7"]
+			description: ["用于净化工具诅咒，提取附魔，提取药水效果"]
+			id: "00656186FDD8460C"
+			rewards: [{
+				id: "08D8CB85767FA430"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C21465D7485917D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "evilcraft:purifier"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4560F09E24E7F6A7"]
+			description: ["在同一个线路的时候共享内部流体"]
+			id: "48DAB1A679B1BEF9"
+			rewards: [{
+				id: "122092CCF1E9F13F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44AF8CA42B472F77"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "evilcraft:entangled_chalice"
+					tag: {
+						tankID: "creative"
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["23D94D0D9DF2D0E1"]
+			description: ["合成材料"]
+			id: "2833C6525FC7B94B"
+			rewards: [{
+				id: "75F9E3377220D171"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2F6D852A20709435"
+					item: "evilcraft:garmonbozia"
+					type: "item"
+				}
+				{
+					id: "4671E88A5FB8EDE1"
+					item: "evilcraft:corrupted_tear"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2833C6525FC7B94B"]
+			description: ["可以看见复仇之魂"]
+			id: "3ED2720542326564"
+			rewards: [{
+				id: "1932BE76BA949B1D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D932A1E616FB48A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							insulation: [ ]
+						}
+					}
+					id: "evilcraft:spectral_glasses"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["25FD2487642A65DB"]
+			description: ["将复仇之魂的伤害转为饥饿值消耗"]
+			id: "27E1B6C8725F0183"
+			rewards: [{
+				id: "117FBE25A2839AC5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40E3CEE5AACE9CCD"
+				item: "evilcraft:burning_gem_stone"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B2D4AB901A523DD"]
+			description: ["需要在周围摆上8个存血容器使用，用于存储天气和生物群系"]
+			id: "21CB81AC2EFD20C1"
+			rewards: [{
+				id: "67BBAFA305015D4D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5568E82ACFF3ECF6"
+				item: "evilcraft:sanguinary_environmental_accumulator"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4B2D4AB901A523DD"]
+			description: ["多方块结构，用于复活灵魂"]
+			id: "662FDAEF18A0729E"
+			rewards: [{
+				id: "2933031A295AF739"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7ADC3BFAB30D3790"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "evilcraft:spirit_furnace"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0AE41BFEBB56A815"
+					item: "evilcraft:dark_blood_brick"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["662FDAEF18A0729E"]
+			description: ["放入装载灵魂的灵魂箱和鸡蛋同时消耗血液以此进行选定生物蛋制造进程"]
+			id: "55A40735FCF512D3"
+			rewards: [{
+				id: "00AE9FDC0B9B8607"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FA69D756C1B3285"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "evilcraft:spirit_reanimator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4560F09E24E7F6A7"]
+			description: ["多方块结构，3x3x3，最中央为大型血能箱"]
+			id: "4682210848755913"
+			rewards: [{
+				id: "2FD5798CF9BE69E1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1B5094CA045D1D2E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "evilcraft:colossal_blood_chest"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 26L
+					id: "340D41902F4EB6BB"
+					item: { Count: 26, id: "evilcraft:reinforced_undead_planks" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.5d
+		}
+	]
+	title: "Evilcraft"
+}

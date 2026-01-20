@@ -1,0 +1,870 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extreme_reactors"
+	group: "2DB7574DB5EFE80D"
+	icon: "bigreactors:reinforced_reactorcontroller"
+	id: "6886161B1F86AB7D"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["本模组的指导书"]
+			id: "36724F2F67BE1887"
+			rewards: [{
+				id: "63C921ACF3BC9E31"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14D34F6947E1BD4A"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "bigreactors:erguide"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36724F2F67BE1887"]
+			description: ["用于构建反应堆"]
+			id: "4431ABA3F6DC871C"
+			rewards: [{
+				id: "71386C33698EEE9C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C928A747D84AE0D"
+				item: "bigreactors:basic_reactorcasing"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4431ABA3F6DC871C"]
+			description: ["多方块结构，至少为3x3x3，但不超过5x5x5"]
+			id: "05E318F2E678859C"
+			rewards: [{
+				id: "11B86C6EA8F1FB78"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DDB39C048EB7979"
+				item: "bigreactors:basic_reactorcontroller"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05E318F2E678859C"]
+			description: ["用于存放燃料和废物"]
+			id: "1EDD3DD427489B1B"
+			rewards: [{
+				id: "4B47F4C76D063B6D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E55F1A9A1151589"
+				item: "bigreactors:basic_reactorfuelrod"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1EDD3DD427489B1B"]
+			description: ["放置在燃料棒顶部"]
+			id: "072FBA7D82D0B584"
+			rewards: [{
+				id: "4ACB3802753E08D9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30195D89092862C0"
+				item: "bigreactors:basic_reactorcontrolrod"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["05E318F2E678859C"]
+			description: ["用于插入燃料和提取废物"]
+			id: "1F3993318C98229C"
+			rewards: [{
+				id: "75B27C66507BCE00"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FEB153569792251"
+				item: "bigreactors:basic_reactorsolidaccessport"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1F3993318C98229C"]
+			description: ["从反应堆中提取能量"]
+			id: "3979A485787FEF6D"
+			rewards: [{
+				id: "412C65DA21351F10"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7486DA4EF8346D91"
+				item: "bigreactors:basic_reactorpowertapfe_active"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3979A485787FEF6D"]
+			description: ["允许通过红石电路控制各种反应堆功能"]
+			id: "15EEF1B3FEA4A189"
+			rewards: [{
+				id: "3203CA22FE2BD86F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CF5FA0CA9FE25E3"
+				item: "bigreactors:basic_reactorredstoneport"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["36724F2F67BE1887"]
+			description: ["用于调整机器"]
+			id: "2E453443FC7CFF32"
+			rewards: [{
+				id: "5CB98571C158B53E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6079D623A2D3374A"
+				item: "bigreactors:wrench"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["05E318F2E678859C"]
+			description: ["用于构建更大的反应堆"]
+			id: "55F5AA32F6D517B6"
+			rewards: [{
+				id: "77A12CCB214C32D0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61181E9E79F45D51"
+				item: "bigreactors:reinforced_reactorcasing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5CFDF902D6980DE9"]
+			description: ["用于存放燃料和废物"]
+			id: "271ACBDC8E054C76"
+			rewards: [{
+				id: "1594F5180226B325"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F38166D3F30E0B7"
+				item: "bigreactors:reinforced_reactorfuelrod"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["55F5AA32F6D517B6"]
+			description: ["多方块结构，至少为3x3x3"]
+			id: "5CFDF902D6980DE9"
+			rewards: [{
+				id: "15F45344CF64440A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "527CE34B467A107E"
+				item: "bigreactors:reinforced_reactorcontroller"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5CFDF902D6980DE9"]
+			description: ["用于插入燃料和提取废物"]
+			id: "764AE5740572EA99"
+			rewards: [{
+				id: "32E764E2DBF2E93F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0887FEBE32CF2B0D"
+				item: "bigreactors:reinforced_reactorsolidaccessport"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["271ACBDC8E054C76"]
+			description: ["放置在燃料棒顶部"]
+			id: "200079BDCA947173"
+			rewards: [{
+				id: "190871CEE593822B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B1CAF11C4238A20"
+				item: "bigreactors:reinforced_reactorcontrolrod"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["764AE5740572EA99"]
+			description: ["从反应堆中提取能量"]
+			id: "60DCEE5D7AB39382"
+			rewards: [{
+				id: "7199B422F752263C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EAB62B9231B5C11"
+				item: "bigreactors:reinforced_reactorpowertapfe_active"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["60DCEE5D7AB39382"]
+			description: ["允许通过红石电路控制各种反应堆功能"]
+			id: "3E83779FA3937DBF"
+			rewards: [{
+				id: "02637B3D503B6E80"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "587A632E222D4921"
+				item: "bigreactors:reinforced_reactorredstoneport"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["764AE5740572EA99"]
+			description: ["用于插入流体燃料"]
+			id: "78E95F9DF616B738"
+			rewards: [{
+				id: "1A5788F37EF45772"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52C5E253B78946EB"
+				item: "bigreactors:reinforced_reactorfluidaccessport"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["60DCEE5D7AB39382"]
+			description: ["用于给物品充能"]
+			id: "082AAAC800ADFD78"
+			rewards: [{
+				id: "194C490FD1DBB2C1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A616423B966DD91"
+				item: "bigreactors:reinforced_reactorchargingportfe"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3979A485787FEF6D"]
+			description: ["用于给物品充能"]
+			id: "1682AA9CEBF06D93"
+			rewards: [{
+				id: "180DE144F8EAFBA2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BA7B832D1BA3104"
+				item: "bigreactors:basic_reactorchargingportfe"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5CFDF902D6980DE9"]
+			description: ["用于输入和输出反应堆所需的水和蒸汽"]
+			id: "0CB0102DACE0A475"
+			rewards: [{
+				id: "1DFCA47FE865E4A1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "050DB498AA4741CC"
+				item: "bigreactors:reinforced_reactorfluidport_forge_active"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0CB0102DACE0A475"]
+			description: ["用于构建涡轮机"]
+			id: "32C11A034EA192F9"
+			rewards: [{
+				id: "22CF17A96F1077E1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F71E8B491ABB807"
+				item: "bigreactors:basic_turbinecasing"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0CB0102DACE0A475"]
+			description: ["用于再处理核废料"]
+			id: "4476006712D972D6"
+			rewards: [{
+				id: "108466CB1D93FB46"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B4CF75261A40FA0"
+				item: "bigreactors:reprocessorcasing"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4476006712D972D6"]
+			description: ["多方块结构，为3x3x7"]
+			id: "497D8F21797B2B82"
+			rewards: [{
+				id: "7E3856E88EFE8BDE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A54FDA8FB133A2F"
+				item: "bigreactors:reprocessorcontroller"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["497D8F21797B2B82"]
+			description: ["用于构建再处理器"]
+			id: "05DDEB7BCC7E69C0"
+			rewards: [{
+				id: "6FC847605B7F520A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "05000B7134A23A45"
+					item: "bigreactors:reprocessorwasteinjector"
+					type: "item"
+				}
+				{
+					id: "37E02386E6A7B046"
+					item: "bigreactors:reprocessoroutputport"
+					type: "item"
+				}
+				{
+					id: "3715F1FE277A4664"
+					item: "bigreactors:reprocessorpowerport"
+					type: "item"
+				}
+				{
+					id: "55A1E7E721E2AEF0"
+					item: "bigreactors:reprocessorcollector"
+					type: "item"
+				}
+				{
+					id: "3202DC581C8B3D5F"
+					item: "bigreactors:reprocessorfluidinjector"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["32C11A034EA192F9"]
+			description: ["多方块结构，至少为5x4x5，但不超过5x10x5"]
+			id: "12B1BA2E0131975D"
+			rewards: [{
+				id: "0C0B8469D9B25FAD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BECA7F62FD19144"
+				item: "bigreactors:basic_turbinecontroller"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12B1BA2E0131975D"]
+			description: ["涡轮机的轴，跨越端到端并连接到转子轴承"]
+			id: "25F1A1D7279AC21E"
+			rewards: [{
+				id: "32ACCBA585B2AA70"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "13A1C5D7091B4846"
+					item: "bigreactors:basic_turbinerotorshaft"
+					type: "item"
+				}
+				{
+					id: "3B1906488DA97005"
+					item: "bigreactors:basic_turbinerotorblade"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["25F1A1D7279AC21E"]
+			description: ["位于涡轮机轴的顶端"]
+			id: "6DCF91611904A06C"
+			rewards: [{
+				id: "70082ACCD0EC5A61"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DAC957711135A33"
+				item: "bigreactors:basic_turbinerotorbearing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["12B1BA2E0131975D"]
+			description: ["用于注入蒸汽和抽取水"]
+			id: "21A9B8FC7C0BC1FC"
+			rewards: [{
+				id: "6E4B2A5B361F939D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AD21CD1AD51E1D9"
+				item: "bigreactors:basic_turbinefluidport_forge_active"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["21A9B8FC7C0BC1FC"]
+			description: ["从涡轮机中提取能量"]
+			id: "2155EB91C35A535B"
+			rewards: [{
+				id: "79A61754E2172AD0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DC225C2D5E81A0C"
+				item: "bigreactors:basic_turbinepowertapfe_active"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2155EB91C35A535B"]
+			description: ["允许通过红石电路控制各种涡轮机功能"]
+			id: "3555FB0C4DCAB491"
+			rewards: [{
+				id: "351B2DAD54FC2023"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37600C40ADE3C48D"
+				item: "bigreactors:basic_turbineredstoneport"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2155EB91C35A535B"]
+			description: ["用于给物品充能"]
+			id: "2AF3C4DA5F97A49D"
+			rewards: [{
+				id: "3C42EA145585187D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EEA544F16D68758"
+				item: "bigreactors:basic_turbinechargingportfe"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["12B1BA2E0131975D"]
+			description: ["用于构建更大的涡轮机"]
+			id: "02BF7E885F8C90F9"
+			rewards: [{
+				id: "45C657FC2605FF41"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09B969C3D53B63F7"
+				item: "bigreactors:reinforced_turbinecasing"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02BF7E885F8C90F9"]
+			description: ["多方块结构，至少为5x4x5"]
+			id: "5550D2EEC5AA2846"
+			rewards: [{
+				id: "40622A92CFDC7C1E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62C42FB78787E636"
+				item: "bigreactors:reinforced_turbinecontroller"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5550D2EEC5AA2846"]
+			description: ["用于注入蒸汽和抽取水"]
+			id: "0ECD1798B857CBE2"
+			rewards: [{
+				id: "7FE53505CCE97D65"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F5D9E54EE3EE239"
+				item: "bigreactors:reinforced_turbinefluidport_forge_active"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0ECD1798B857CBE2"]
+			description: ["从涡轮机中提取能量"]
+			id: "425FE6AA1402F3DA"
+			rewards: [{
+				id: "31C2CA62C30F725C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C27A23EA653D8FB"
+				item: "bigreactors:reinforced_turbinepowertapfe_active"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["425FE6AA1402F3DA"]
+			description: ["用于给物品充能"]
+			id: "744BD6E68B0B7D27"
+			rewards: [{
+				id: "73345718A36468BD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79087C12CAA1E3FA"
+				item: "bigreactors:reinforced_turbinechargingportfe"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0ECD1798B857CBE2"]
+			description: ["允许通过红石电路控制各种涡轮机功能"]
+			id: "4FC361AAA3475F7E"
+			rewards: [{
+				id: "442A7B5A61AF3FD1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09522D2D5954CA23"
+				item: "bigreactors:reinforced_turbineredstoneport"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5550D2EEC5AA2846"]
+			description: ["涡轮机的轴，跨越端到端并连接到转子轴承"]
+			id: "1DE78E90A44C8C26"
+			rewards: [{
+				id: "67D03FE1CA38CB0C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "163872F6ECB8C5C2"
+					item: "bigreactors:reinforced_turbinerotorshaft"
+					type: "item"
+				}
+				{
+					id: "70AB8B2D825A651E"
+					item: "bigreactors:reinforced_turbinerotorblade"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1DE78E90A44C8C26"]
+			description: ["位于涡轮机轴的顶端"]
+			id: "534C7845D1D5A895"
+			rewards: [{
+				id: "517123EA0E8EA4AA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1510024A2E134DD1"
+				item: "bigreactors:reinforced_turbinerotorbearing"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["55F5AA32F6D517B6"]
+			description: ["用于构建流体化器"]
+			id: "64C162592DB2E1A7"
+			rewards: [{
+				id: "0A3EC5E2A75F6B7F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F9F7B76188D1EF2"
+				item: "bigreactors:fluidizercasing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64C162592DB2E1A7"]
+			description: ["多方块结构，至少为3x3x3"]
+			id: "37D85ECF8B8205D8"
+			rewards: [{
+				id: "24D61207F0964AE5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7960B509C7874F28"
+				item: "bigreactors:fluidizercontroller"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["37D85ECF8B8205D8"]
+			description: ["用于构建流体化器"]
+			id: "4433C3C75330DAF8"
+			rewards: [{
+				id: "4E8239432D397C37"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0C1A662EFA13CD14"
+					item: "bigreactors:fluidizersolidinjector"
+					type: "item"
+				}
+				{
+					id: "7C04D410EF7B5EF5"
+					item: "bigreactors:fluidizerfluidinjector"
+					type: "item"
+				}
+				{
+					id: "127DDFA1DD785D62"
+					item: "bigreactors:fluidizeroutputport"
+					type: "item"
+				}
+				{
+					id: "39BD094CB35FC1FB"
+					item: "bigreactors:fluidizerpowerport"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["05DDEB7BCC7E69C0"]
+			description: ["用于构建充能器"]
+			id: "30E5C30B0AE74B95"
+			rewards: [{
+				id: "0A6108AABC4CEAC8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5441357B0C95E31E"
+				item: "bigreactors:energizercasing"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["30E5C30B0AE74B95"]
+			description: ["多方块结构，至少为3x3x3"]
+			id: "7549E8C6DA960BBC"
+			rewards: [{
+				id: "2D7043DD5A6CDEFC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E3A3C376AA1B258"
+				item: "bigreactors:energizercontroller"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7549E8C6DA960BBC"]
+			description: ["用于给充能器输入输出能量"]
+			id: "31BB5E50255767CE"
+			rewards: [{
+				id: "5A9B824B9EC9A0B5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "761880D71B6072E0"
+				item: "bigreactors:energizerpowerport_fe_active"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["31BB5E50255767CE"]
+			description: ["用于给物品充能"]
+			id: "4085C7FFB6CEF87E"
+			rewards: [{
+				id: "26B62D82F0EB139E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50D4378E14B43736"
+				item: "bigreactors:energizerchargingport_fe"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["31BB5E50255767CE"]
+			description: ["充能器组件，需要堆满充能器内部空间"]
+			id: "2AF8AAE3583F098F"
+			rewards: [{
+				id: "52A6407C47A85FCF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50872EEDBCBB4654"
+				item: "bigreactors:energizercell"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -14.0d
+		}
+	]
+	title: "Extreme Reactors"
+}

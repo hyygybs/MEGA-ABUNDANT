@@ -1,0 +1,19 @@
+{
+  "type": "thermal:insolator",
+  "ingredient": {
+    "item": "croparia:seed_crop_desh"
+  },
+  "result": [
+    {
+      "item": "croparia:seed_crop_desh",
+      "chance": 2.0
+    },
+    {
+      "item": "croparia:fruit_desh",
+      "chance": 1.0
+    }
+  ],
+  "energy_mod": 1.5,
+  "water_mod": 1.5,
+  "experience": 0.2
+}

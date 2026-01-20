@@ -1,0 +1,31 @@
+{
+  "entity": "endermanoverhaul:badlands_enderman",
+  "name": "entity.endermanoverhaul.badlands_enderman",
+  "name_color": "0x88342C",
+  "gui_scale": 0.8,
+  "gui_x_offset": 0.0,
+  "gui_y_offset": 0.0,
+  "gui_z_offset": 0.0,
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+	"item": "hostilenetworks:end_prediction"
+  },
+  "trivia": "",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:ender_pearl",
+      "count": 16
+    },
+	{
+      "item": "endermanoverhaul:tiny_skull",
+      "count": 2
+    },
+    {
+      "item": "endermanoverhaul:badlands_hood",
+      "count": 1
+    }
+  ]
+}

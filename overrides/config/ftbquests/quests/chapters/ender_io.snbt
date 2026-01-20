@@ -1,0 +1,502 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ender_io"
+	group: "2DB7574DB5EFE80D"
+	icon: "enderio:stirling_generator"
+	id: "0FC0D7D82559C4F5"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["合成材料"]
+			id: "066DED2591F78730"
+			tasks: [{
+				id: "41067F36C0139FEE"
+				item: "enderio:grains_of_infinity"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["203C73F57F5843D3"]
+			description: ["燃烧燃料产生能量"]
+			id: "1959942FB40379FD"
+			tasks: [{
+				id: "2E21E2F2993682BE"
+				item: "enderio:stirling_generator"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1959942FB40379FD"]
+			description: ["最初始的合金炉"]
+			id: "5A59DDACA5CC228B"
+			tasks: [{
+				id: "3B71563BE3953B7E"
+				item: "enderio:primitive_alloy_smelter"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["066DED2591F78730"]
+			description: ["用于合成机器"]
+			id: "203C73F57F5843D3"
+			tasks: [{
+				id: "54640B755D27993B"
+				item: "enderio:void_chassis"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A59DDACA5CC228B"]
+			description: ["合成材料"]
+			id: "40DC2B764FC4605E"
+			tasks: [{
+				id: "0BFAE86ED75A97FC"
+				item: "enderio:dark_steel_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40DC2B764FC4605E"]
+			description: ["将不同材料合金为新材料"]
+			id: "023D116B1F22FD02"
+			tasks: [{
+				id: "07CC658CFBCE8404"
+				item: "enderio:alloy_smelter"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["023D116B1F22FD02"]
+			description: ["防爆的玻璃"]
+			id: "5ABF9611BC40B911"
+			tasks: [{
+				id: "6F95E2D4F6701301"
+				item: "enderio:fused_quartz"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5ABF9611BC40B911"]
+			description: ["存储流体"]
+			id: "4BA9CC6C9E66D881"
+			tasks: [{
+				id: "42DD2E3B19B8C177"
+				item: "enderio:pressurized_fluid_tank"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["40DC2B764FC4605E"]
+			description: ["消耗能量附魔书"]
+			id: "1A8411CB5D5F720B"
+			tasks: [{
+				id: "73FF406C1918DD6A"
+				item: "enderio:enchanter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["023D116B1F22FD02"]
+			description: ["合成材料"]
+			id: "29FEED278350BC14"
+			tasks: [
+				{
+					id: "0B7E586DDBEA3F9A"
+					item: "enderio:copper_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "38CE10EBD3E94D9C"
+					item: "enderio:energetic_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "2376F5FC34EA9627"
+					item: "enderio:vibrant_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "25B6252EA89F4BEF"
+					item: "enderio:redstone_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "0F9274130CAA6590"
+					item: "enderio:conductive_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "3462F8E41450EC66"
+					item: "enderio:pulsating_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "63FD42DB5D9096CD"
+					item: "enderio:soularium_ingot"
+					type: "item"
+				}
+				{
+					id: "129D8EA90B3B332E"
+					item: "enderio:end_steel_ingot"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["066DED2591F78730"]
+			description: ["机器工作需要的物品"]
+			id: "554A150FAEF47B6B"
+			tasks: [{
+				id: "4F0284CA362222C4"
+				item: "enderio:basic_capacitor"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["554A150FAEF47B6B"]
+			description: ["机器工作需要的物品"]
+			id: "39581DD53458692D"
+			tasks: [{
+				id: "0D7EE2C3AB28C3E2"
+				item: "enderio:double_layer_capacitor"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["39581DD53458692D"]
+			description: ["机器工作需要的物品"]
+			id: "5F56E308087F7CFB"
+			tasks: [{
+				id: "40D0EA457F878641"
+				item: "enderio:octadic_capacitor"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["40DC2B764FC4605E"]
+			description: ["消耗能量用于磨粉"]
+			id: "291BB2C7BEB01756"
+			tasks: [{
+				id: "00F1EBC2F4F164DB"
+				item: "enderio:sag_mill"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29FEED278350BC14"]
+			description: ["消耗能量给物品充能"]
+			id: "1A9CA4869788E93A"
+			tasks: [{
+				id: "49125E7BCC46FEC4"
+				item: "enderio:wired_charger"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29FEED278350BC14"]
+			description: ["消耗能量用于给方块覆盖伪装"]
+			id: "7E82234DD34EF05C"
+			tasks: [{
+				id: "0198EA45E205EE10"
+				item: "enderio:painting_machine"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["29FEED278350BC14"]
+			description: ["高级漏斗"]
+			id: "2412C953AE9D46EF"
+			tasks: [{
+				id: "6314F067FB59DACD"
+				item: "enderio:impulse_hopper"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["29FEED278350BC14"]
+			description: ["合成材料"]
+			id: "2928A76EEAA782E1"
+			tasks: [{
+				id: "2089485723B259EA"
+				item: "enderio:pulsating_crystal"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2928A76EEAA782E1"]
+			description: ["自动吸收周围掉落物"]
+			id: "3DB926D8BB9AEE4F"
+			tasks: [{
+				id: "7D2A603EECE98068"
+				item: "enderio:vacuum_chest"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2928A76EEAA782E1"]
+			description: ["自动吸收周围经验"]
+			id: "7652C33750F6533B"
+			tasks: [{
+				id: "489981CFA51A34EB"
+				item: "enderio:xp_vacuum"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["29FEED278350BC14"]
+			description: ["在白天产生能量"]
+			id: "3CD21F28D919B185"
+			tasks: [{
+				id: "22C0CEA5FB3ACA36"
+				item: "enderio:energetic_photovoltaic_module"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3CD21F28D919B185"]
+			description: ["在白天产生能量"]
+			id: "7881BCC6A1E0A20C"
+			tasks: [{
+				id: "124703EA45617FFA"
+				item: "enderio:pulsating_photovoltaic_module"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7881BCC6A1E0A20C"]
+			description: ["在白天产生能量"]
+			id: "6479182FE671E1F8"
+			tasks: [{
+				id: "5AE900A488B4696E"
+				item: "enderio:vibrant_photovoltaic_module"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2928A76EEAA782E1"]
+			description: ["用于点对点传送"]
+			id: "7C35B6F7663695B4"
+			tasks: [
+				{
+					id: "37EECAC5E2A3EFDB"
+					item: "enderio:travel_anchor"
+					type: "item"
+				}
+				{
+					id: "64CD4D8BB4B9557E"
+					item: {
+						Count: 1
+						id: "enderio:staff_of_travelling"
+						tag: {
+							Energy: {
+								EnergyStored: 0
+								MaxEnergyStored: 100000
+								MaxEnergyUse: 100000
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["554A150FAEF47B6B"]
+			description: ["用于存储能量"]
+			id: "00C6F7D9083C5BA9"
+			tasks: [{
+				id: "458367C0C7A12CB5"
+				item: "enderio:basic_capacitor_bank"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["39581DD53458692D"]
+			description: ["用于存储能量"]
+			id: "0EE4C532E8AB6829"
+			tasks: [{
+				id: "5EDEA99539E9F9DA"
+				item: "enderio:advanced_capacitor_bank"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F56E308087F7CFB"]
+			description: ["用于存储能量"]
+			id: "6FD4838345D59B2F"
+			tasks: [{
+				id: "5D66D07CAAEE3956"
+				item: "enderio:vibrant_capacitor_bank"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["29FEED278350BC14"]
+			description: ["用于存储水源"]
+			id: "3FD16BA20C2E41EE"
+			tasks: [{
+				id: "49997245842148F4"
+				item: "enderio:drain"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["29FEED278350BC14"]
+			description: ["合成材料"]
+			id: "256E8EDF4BE3C68A"
+			tasks: [{
+				id: "07E818321047C80A"
+				item: "enderio:vibrant_crystal"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["256E8EDF4BE3C68A"]
+			description: ["合成灵魂机器"]
+			id: "74E20A905F1D4A7A"
+			tasks: [{
+				id: "14B41926638D2930"
+				item: "enderio:ensouled_chassis"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7A5C5AAC24C6A616"]
+			description: ["消耗能量开始刷怪"]
+			id: "4538D58AAC573F5E"
+			tasks: [{
+				id: "60DF91E870447F3B"
+				item: {
+					Count: 1
+					id: "enderio:powered_spawner"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["74E20A905F1D4A7A"]
+			description: ["用于合成逻辑器"]
+			id: "46DF43EC486FBD7C"
+			tasks: [{
+				id: "2CF682F483C87075"
+				item: "enderio:slice_and_splice"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["46DF43EC486FBD7C"]
+			description: ["合成材料"]
+			id: "7A5C5AAC24C6A616"
+			tasks: [{
+				id: "6ADD86A742E2DFF0"
+				item: "enderio:z_logic_controller"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7A5C5AAC24C6A616"]
+			description: ["用于改变刷怪笼怪物"]
+			id: "7DEB156A16DE6FDE"
+			tasks: [{
+				id: "76FCC6F451055318"
+				item: "enderio:soul_binder"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["74E20A905F1D4A7A"]
+			description: ["用于存储经验"]
+			id: "50C43B91EA273958"
+			tasks: [{
+				id: "1D820AAB7AC59FBF"
+				item: "enderio:xp_obelisk"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["74E20A905F1D4A7A"]
+			description: ["用于排斥怪物"]
+			id: "2FDEC6E8ADF0F261"
+			tasks: [{
+				id: "488B3AE37507716B"
+				item: "enderio:aversion_obelisk"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+	]
+	title: "Ender IO"
+}

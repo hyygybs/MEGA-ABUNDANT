@@ -1,0 +1,281 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aether"
+	group: "05AB17DBA7318260"
+	icon: "aether:aether_grass_block"
+	id: "3E8D3098C83A9E31"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["48837E1DE87A6D25"]
+			description: ["将荧石摆放成内部为2x3空气的空心门，再将水倒在荧石上"]
+			icon: "aether:aether_grass_block"
+			id: "7FDEFC8DDB9843E2"
+			rewards: [{
+				id: "4DC70F9D29B0E8E0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "1AEB15DD0C8A15C5"
+				type: "dimension"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["433FB693FBA7C190"]
+			description: ["收集材料"]
+			id: "58E4172FA4721CB4"
+			rewards: [{
+				id: "72B7F4308AEC8138"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "583DB95126EF3F87"
+					item: "aether:ambrosium_shard"
+					type: "item"
+				}
+				{
+					id: "5A8437F3160BDDAC"
+					item: "aether:zanite_gemstone"
+					type: "item"
+				}
+				{
+					id: "3D93DE7C4205EB44"
+					item: "aether:enchanted_gravitite"
+					type: "item"
+				}
+				{
+					id: "6B5E45C53A2B982F"
+					item: "deep_aether:skyjade"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4897CD1F930833A6"]
+			description: ["升级装备"]
+			id: "2A31B5D8BA534204"
+			rewards: [{
+				id: "66E86C7560B1FA90"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7CBA99ADE8C7E64E"
+					item: "deep_aether:stratus_ingot"
+					type: "item"
+				}
+				{
+					id: "0F90F805CE8D9900"
+					item: "deep_aether:stratus_smithing_template"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58E4172FA4721CB4"]
+			description: ["用于合成材料"]
+			id: "0C6CB9953732010A"
+			rewards: [{
+				id: "7642D8368C3E4CDE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5D021810B0875A45"
+					item: "aether:altar"
+					type: "item"
+				}
+				{
+					id: "00FCEDFC184353A5"
+					item: "aether:freezer"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58E4172FA4721CB4"]
+			description: ["使用紫晶斧或级别更高的斧头工具采伐金琥珀橡木"]
+			id: "66105627C3BF851A"
+			rewards: [{
+				id: "0DBC3D5C95D6FAC7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BA09D7E5B9DA857"
+				item: "aether:golden_amber"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4897CD1F930833A6"]
+			description: ["探索铂金地牢"]
+			id: "49F2C4EC6ED21D07"
+			tasks: [
+				{
+					id: "0472635BE13A21EC"
+					item: "aethergearexpansion:aetherite_scrap"
+					type: "item"
+				}
+				{
+					id: "198A6B48B6F9F9A0"
+					item: "aethergearexpansion:aetherite_ingot"
+					type: "item"
+				}
+				{
+					id: "20D0E5DB1F08DE26"
+					item: "aethergearexpansion:aetherite_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0C6CB9953732010A"]
+			description: ["恐鸟相关机器"]
+			id: "4C437733D14B6A01"
+			rewards: [{
+				id: "31EFB1D624A24E30"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "204219B6789562FE"
+					item: "aether:incubator"
+					type: "item"
+				}
+				{
+					id: "67C8882CB74DB284"
+					item: "deep_aether:combiner"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C437733D14B6A01"]
+			description: ["在青铜地牢打败滑行磨石，打开宝藏箱"]
+			id: "3A9DD85EF3D97AFE"
+			rewards: [{
+				id: "5A2DC6FE25E1C330"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F449DC508989D3A"
+				item: "aether:bronze_dungeon_key"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D6A0893C6223E2A"]
+			description: ["在白银地牢打败女武神，打开宝藏箱"]
+			id: "6AF73910AFF6F058"
+			rewards: [{
+				id: "04485F5152E63CB7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3177A393C7CC4D47"
+				item: "aether:silver_dungeon_key"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A9DD85EF3D97AFE"]
+			description: ["在黄铜地牢打败狂瞳龙卷，打开宝藏箱"]
+			id: "3D6A0893C6223E2A"
+			rewards: [{
+				id: "3AE4F6CFF1D1E3F2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AF7682B9582FC48"
+				item: "deep_aether:brass_dungeon_key"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AF73910AFF6F058"]
+			description: ["在黄金地牢打败烈阳巨灵，打开宝藏箱"]
+			id: "61F5F037EBD8ABDF"
+			rewards: [{
+				id: "4EB362C2E14011F2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35A41BDE201A3E59"
+				item: "aether:gold_dungeon_key"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61F5F037EBD8ABDF"]
+			description: ["在铂金地牢打败帝王云鲸，打开宝藏箱"]
+			id: "4897CD1F930833A6"
+			rewards: [{
+				id: "0C07A4797C5434B7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35ED4C8EF1B18B5D"
+				item: "lost_aether_content:platinum_key"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FDEFC8DDB9843E2"]
+			description: ["模组的指南书"]
+			id: "433FB693FBA7C190"
+			rewards: [{
+				id: "5CCF7F333BFE7562"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1258ACCCB40A95D0"
+				item: "aether:book_of_lore"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+	]
+	title: "Aether"
+}

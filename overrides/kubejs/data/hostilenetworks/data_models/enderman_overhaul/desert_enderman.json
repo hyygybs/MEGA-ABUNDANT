@@ -1,0 +1,27 @@
+{
+  "entity": "endermanoverhaul:desert_enderman",
+  "name": "entity.endermanoverhaul.desert_enderman",
+  "name_color": "0xE2D6AC",
+  "gui_scale": 1.0,
+  "gui_x_offset": 0.0,
+  "gui_y_offset": 0.0,
+  "gui_z_offset": 0.0,
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+	"item": "hostilenetworks:end_prediction"
+  },
+  "trivia": "",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:ender_pearl",
+      "count": 16
+    },
+    {
+      "item": "minecraft:emerald",
+      "count": 1
+    }
+  ]
+}

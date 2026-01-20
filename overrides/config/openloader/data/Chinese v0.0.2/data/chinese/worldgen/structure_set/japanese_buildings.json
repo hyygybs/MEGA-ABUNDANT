@@ -1,0 +1,31 @@
+{
+  "structures": [
+    {
+      "structure": "chinese:chinese_camp",
+      "weight": 1
+    },
+    {
+      "structure": "chinese:chinese_fort",
+      "weight": 1
+    },
+    {
+      "structure": "chinese:chinese_ricefarm",
+      "weight": 1
+    },
+    {
+      "structure": "chinese:chinese_temple",
+      "weight": 1
+    },
+    {
+      "structure": "chinese:tulou",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 34,
+    "separation": 8,
+    "spread_type": "triangular",
+    "salt": 11059457
+  }
+}

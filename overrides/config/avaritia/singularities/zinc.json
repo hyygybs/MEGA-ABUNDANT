@@ -1,0 +1,22 @@
+{
+  "name": "singularity.avaritia.zinc",
+  "colors": [
+    "30534D",
+    "D3FDD9"
+  ],
+  "timeRequired": 240,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "tag": "forge:ingots/zinc",
+        "type": "forge:tag_empty"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/tin"
+  },
+  "enabled": true,
+  "recipeDisabled": false
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "ae2:annihilation_plane",
+    "industrialforegoing:infinity_drill",
+    "industrialforegoing:infinity_saw",
+    "apotheosis:other_tome",
+    "twilightforest:block_and_chain",
+    "the_bumblezone:carpenter_bee_boots_1",
+    "the_bumblezone:carpenter_bee_boots_2"
+  ],
+  "incompatible": [
+    "miningmaster:stonebreaker"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:4",
+    "ingredient": {
+      "item": "kubejs:gem_agglomeratio"
+    }
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_gem"
+    }
+}

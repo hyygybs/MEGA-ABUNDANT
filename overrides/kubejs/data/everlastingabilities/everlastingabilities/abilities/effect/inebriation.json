@@ -1,0 +1,13 @@
+{
+  "type": "everlastingabilities:effect",
+  "target": "radius",
+  "name": "ability.everlastingabilities.inebriation",
+  "rarity": "rare",
+  "max_level": 1,
+  "xp_per_level": 50,
+  "effect": "aether:inebriation",
+  "condition": {
+    "type": "forge:mod_loaded",
+    "modid": "aether"
+  }
+}

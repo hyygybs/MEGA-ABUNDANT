@@ -1,0 +1,10 @@
+{
+  "type": "voidminers:miner",
+  "allowHigherTiers": true,
+  "dimension": "minecraft:the_end",
+  "minTier": 1,
+  "output": {
+    "item": "enigmaticdelicacy:etherium_ore",
+    "weight": 0.1
+  }
+}

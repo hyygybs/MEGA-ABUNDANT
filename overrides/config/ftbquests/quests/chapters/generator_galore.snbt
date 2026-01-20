@@ -1,0 +1,249 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "generator_galore"
+	group: "1F9A9FE71A5A4AA9"
+	icon: "generatorgalore:iron_generator"
+	id: "505F1EBC6BC566EB"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["燃烧燃料产生能量"]
+			id: "11E1B2155B7DBB02"
+			rewards: [{
+				id: "45BD536149533E01"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52DEA85C436902AA"
+				item: "generatorgalore:copper_generator"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11E1B2155B7DBB02"]
+			description: ["燃烧燃料产生能量"]
+			id: "6628592F0182AC76"
+			rewards: [{
+				id: "40D5798B645DC715"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "284D8E4D09553875"
+				item: "generatorgalore:iron_generator"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6628592F0182AC76"]
+			description: ["燃烧燃料产生能量"]
+			id: "3E8152F358D0FEAE"
+			rewards: [{
+				id: "05787DDAC581A192"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E4894BC393D271C"
+				item: "generatorgalore:gold_generator"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E8152F358D0FEAE"]
+			description: ["燃烧燃料产生能量"]
+			id: "658CAC45DEB3023F"
+			rewards: [{
+				id: "52A274AD12920181"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FB67BEFE0E07FE4"
+				item: "generatorgalore:diamond_generator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["658CAC45DEB3023F"]
+			description: ["燃烧燃料产生能量"]
+			id: "2148ED5C87523076"
+			rewards: [{
+				id: "7078F1E7F3DD0565"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "784D0C72DDA95B4F"
+				item: "generatorgalore:emerald_generator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["658CAC45DEB3023F"]
+			id: "51D13F8D1EE23062"
+			rewards: [{
+				id: "357B5998B8A12531"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DCC99915387795A"
+				item: "generatorgalore:netherite_generator"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E8152F358D0FEAE"]
+			description: ["燃烧食物产生能量"]
+			id: "0D5D43FCA4A72F81"
+			rewards: [{
+				id: "1355FDCAEC45D298"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6464E1612A9B4697"
+				item: "generatorgalore:culinary_generator"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["658CAC45DEB3023F"]
+			description: ["燃烧燃料产生能量"]
+			id: "15ED8D2758A27F8E"
+			rewards: [{
+				id: "69213E1E53B079D8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FF41E9DDC6DB61E"
+				item: "generatorgalore:obsidian_generator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["51D13F8D1EE23062"]
+			description: ["燃烧下界之星产生能量"]
+			id: "55C1144DF4A6632A"
+			rewards: [{
+				id: "4C737E0744959892"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26C38B2025C3423A"
+				item: "generatorgalore:netherstar_generator"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["15ED8D2758A27F8E"]
+			description: ["燃烧末影材料产生能量"]
+			id: "77B9CBF4515E795C"
+			rewards: [{
+				id: "657390061889A072"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BE8A1CAB19099CD"
+				item: "generatorgalore:ender_generator"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["15ED8D2758A27F8E"]
+			description: ["燃烧熔岩产生能量"]
+			id: "44C2BD307BE01D0B"
+			rewards: [{
+				id: "5711143D188ABB7B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AF49FDBC263D973"
+				item: "generatorgalore:magmatic_generator"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0D5D43FCA4A72F81"]
+			description: ["燃烧药水产生能量"]
+			id: "77EFEE266203F3A0"
+			rewards: [{
+				id: "0D1FF27C1CADEDA2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "576A7B1220DE6C40"
+				item: "generatorgalore:potion_generator"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["77B9CBF4515E795C"]
+			description: ["燃烧龙息产生能量"]
+			id: "15EBC71F3AB07EBD"
+			rewards: [{
+				id: "0887B7CE9E6EB094"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "308D73BBEB0FD4B5"
+				item: "generatorgalore:halitosis_generator"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0D5D43FCA4A72F81"]
+			description: ["燃烧蜂蜜产生能量"]
+			id: "5EED1B592C6C08EF"
+			rewards: [{
+				id: "76B2E0B95472B19A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D0EA1A3CED729C3"
+				item: "generatorgalore:honey_generator"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+	]
+	title: "Generator Galore"
+}

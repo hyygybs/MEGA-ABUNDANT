@@ -1,0 +1,247 @@
+
+[maid_storage_manager]
+
+	[maid_storage_manager.craft]
+		enable = true
+
+	[maid_storage_manager.smithing]
+		enable = true
+
+	[maid_storage_manager.furnace]
+		enable = true
+
+	[maid_storage_manager.stone_cutting]
+		enable = true
+
+	[maid_storage_manager.altar]
+		enable = true
+
+	[maid_storage_manager.brewing]
+		enable = true
+		count = 3
+
+	[maid_storage_manager.watering]
+		enable = true
+		bucket = true
+		bottle = true
+
+	[maid_storage_manager.stripping]
+		enable = true
+
+	[maid_storage_manager.tacz]
+		enable = true
+
+[create]
+
+	[create.pressing]
+		enable = true
+
+	[create.compacting]
+		enable = true
+
+	[create.mixing]
+		enable = true
+
+	[create.milling]
+		enable = true
+
+	[create.crushing]
+		enable = true
+		count = 16
+
+	[create.fan]
+		enable = true
+		count = 8
+		splashing = true
+		haunting = true
+		smoking = true
+		blasting = true
+		replace_furnace = true
+
+	[create.item_application]
+		enable = true
+
+	[create.deploying]
+		enable = true
+
+[mekanism]
+
+	[mekanism.enriching]
+		enable = true
+		factory_parallel = true
+
+	[mekanism.metallurgic_infusing]
+		enable = true
+
+	[mekanism.crushing]
+		enable = true
+		factory_parallel = true
+
+	[mekanism.sawing]
+		enable = true
+		factory_parallel = true
+
+	[mekanism.compressing]
+		enable = true
+
+	[mekanism.combining]
+		enable = true
+		factory_parallel = true
+
+	[mekanism.smelting]
+		enable = true
+		replace_furnace = true
+		factory_parallel = true
+
+[ae2]
+
+	[ae2.inscriber]
+		enable = true
+
+	[ae2.charger]
+		enable = true
+
+	[ae2.item_transform]
+		enable = true
+
+[botania]
+
+	[botania.runic_altar]
+		enable = true
+
+	[botania.petal_apothecary]
+		enable = true
+
+	[botania.mana_infusion]
+		enable = true
+		accept_by_default = false
+
+	[botania.mythical_flower]
+		enable = true
+
+	[botania.elven_trade]
+		enable = true
+
+	[botania.pure_daisy]
+		enable = true
+
+[ars_nouveau]
+
+	[ars_nouveau.imbuement]
+		enable = true
+
+	[ars_nouveau.enchanting_apparatus]
+		enable = true
+
+	[ars_nouveau.enchantment]
+		enable = true
+
+[maidsoulkitchen_vintagedelight]
+
+	[maidsoulkitchen_vintagedelight.fermenting]
+		enable = true
+
+[maidsoulkitchen_vinery]
+
+	[maidsoulkitchen_vinery.grape]
+		enable = true
+
+[maidsoulkitchen_simplefarming]
+
+	[maidsoulkitchen_simplefarming.fermenting]
+		enable = true
+
+[maidsoulkitchen_miners_delight]
+
+	[maidsoulkitchen_miners_delight.cooking]
+		enable = true
+
+[maidsoulkitchen_meadow]
+
+	[maidsoulkitchen_meadow.cheese]
+		enable = true
+
+[maidsoulkitchen_kaleidoscope_cookery]
+
+	[maidsoulkitchen_kaleidoscope_cookery.stockpot]
+		enable = true
+
+	[maidsoulkitchen_kaleidoscope_cookery.pot]
+		enable = true
+
+	[maidsoulkitchen_kaleidoscope_cookery.chopping_board]
+		enable = true
+
+[maidsoulkitchen_immortalers_delight]
+
+	[maidsoulkitchen_immortalers_delight.enchantal_cooler]
+		enable = true
+
+[maidsoulkitchen_farmersdelight]
+
+	[maidsoulkitchen_farmersdelight.campfire_cooking]
+		enable = true
+
+	[maidsoulkitchen_farmersdelight.skillet]
+		enable = true
+
+	[maidsoulkitchen_farmersdelight.campfire_cooking_from_hand]
+		enable = true
+
+	[maidsoulkitchen_farmersdelight.cutting]
+		enable = true
+
+	[maidsoulkitchen_farmersdelight.cooking]
+		enable = true
+
+[maidsoulkitchen_farm_and_charm]
+
+	[maidsoulkitchen_farm_and_charm.stove]
+		enable = true
+
+	[maidsoulkitchen_farm_and_charm.roaster]
+		enable = true
+
+	[maidsoulkitchen_farm_and_charm.crafting_bowl]
+		enable = true
+
+	[maidsoulkitchen_farm_and_charm.pot_cooking]
+		enable = true
+
+[maidsoulkitchen_dungeonsdelight]
+
+	[maidsoulkitchen_dungeonsdelight.monster_cooking]
+		enable = true
+
+[maidsoulkitchen_maidsoulkitchen]
+
+	[maidsoulkitchen_maidsoulkitchen.consume_water_from_single]
+		enable = true
+
+	[maidsoulkitchen_maidsoulkitchen.consume_water_from_multi]
+		enable = true
+
+	[maidsoulkitchen_maidsoulkitchen.item_use]
+		enable = true
+
+[maidsoulkitchen_candlelight]
+
+	[maidsoulkitchen_candlelight.pot_cooking]
+		enable = true
+
+	[maidsoulkitchen_candlelight.roaster]
+		enable = true
+
+[maidsoulkitchen_beachparty]
+
+	[maidsoulkitchen_beachparty.palm_bar_mixing]
+		enable = true
+
+	[maidsoulkitchen_beachparty.mini_fridge_freezing]
+		enable = true
+
+[maidsoulkitchen_bakery]
+
+	[maidsoulkitchen_bakery.pot_cooking]
+		enable = true
+

@@ -1,0 +1,10 @@
+{
+  "type": "mysticalagriculture:soul_extraction",
+  "input": {
+    "item": "minecraft:phantom_membrane"
+  },
+  "output": {
+    "type": "mysticalcustomization:phantom",
+    "souls": 0.5
+  }
+}

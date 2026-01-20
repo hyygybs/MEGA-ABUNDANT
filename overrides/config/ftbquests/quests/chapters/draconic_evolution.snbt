@@ -1,0 +1,1030 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "draconic_evolution"
+	group: "2DB7574DB5EFE80D"
+	icon: "draconicevolution:crafting_core"
+	id: "37A07174BE007789"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5A1C3336CC83F8EE"]
+			description: ["基础合成材料"]
+			id: "30287FCE42DCA95C"
+			rewards: [{
+				id: "4E58437B259C787A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D6E49907D8A53B4"
+				item: "draconicevolution:draconium_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30287FCE42DCA95C"]
+			description: ["基础合成材料"]
+			id: "3F2E3321A4B83002"
+			rewards: [{
+				id: "01AC53D5DD83E79A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21572AB351AE66DD"
+				item: "draconicevolution:draconium_core"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			description: ["基础合成材料"]
+			id: "5A1C3336CC83F8EE"
+			rewards: [{
+				id: "4D5E1C549F63E505"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46AE19909E5791DA"
+				item: "draconicevolution:draconium_dust"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A1C3336CC83F8EE"]
+			description: ["潜行右键会记录当前坐标，记录之后使用右键可以传送到坐标位置并消耗一点耐久，可以跨维度传送"]
+			id: "7C9C975E8EFD9818"
+			rewards: [{
+				id: "05AB87460B5C29E2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19E536822991E60D"
+				item: {
+					Count: 1
+					id: "draconicevolution:dislocator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C9C975E8EFD9818"]
+			description: ["潜行右键开启，可以吸取大范围的掉落物"]
+			id: "0EB16A0B239E5816"
+			rewards: [{
+				id: "54369736FA581474"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0453336015017C63"
+				item: "draconicevolution:magnet"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3F2E3321A4B83002"]
+			description: ["合成材料"]
+			id: "10E53FCB4457A189"
+			rewards: [{
+				id: "5824F985953EB373"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7366187F0D02C4AB"
+				item: "draconicevolution:wyvern_energy_core"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["10E53FCB4457A189"]
+			description: ["瞬间杀死生物"]
+			id: "6B9540F4C68E7F24"
+			rewards: [{
+				id: "2239567AAEEFC441"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42807BEEB626B54C"
+				item: "draconicevolution:grinder"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3F2E3321A4B83002"]
+			description: ["燃烧燃料产生能量"]
+			id: "04C9B2BD7A2BA759"
+			rewards: [{
+				id: "0D90B1E14592C3D5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AF5C40D2CA2DB03"
+				item: "draconicevolution:generator"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0EB16A0B239E5816"]
+			description: ["使周围物品不受物品传送符咒影响"]
+			id: "592DDD66483026A1"
+			rewards: [{
+				id: "2B4EB3D9EABF5FA5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54D9BCFCD6870F87"
+				item: "draconicevolution:dislocation_inhibitor"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3F2E3321A4B83002"]
+			description: ["多方块结构，以聚合核心为中心，聚合核心六个面向外延长距离一格以外放上注入器，注入器需要输入能量"]
+			id: "11C571116B365632"
+			rewards: [{
+				id: "797E6BFEBE104ADB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "35097EEFD8C79A7A"
+					item: "draconicevolution:basic_crafting_injector"
+					type: "item"
+				}
+				{
+					id: "09754980E913D634"
+					item: "draconicevolution:crafting_core"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11C571116B365632"]
+			description: ["合成材料"]
+			id: "4E66A3856BB4EF5E"
+			rewards: [{
+				id: "0D64BB6CD4B54722"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3ED2A3D9D00591DF"
+				item: "draconicevolution:wyvern_core"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E66A3856BB4EF5E"]
+			description: ["更高级的注入器"]
+			id: "5E730EA0B42D76C3"
+			rewards: [{
+				id: "496D984459DFF0F3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A93317C8EC39CC8"
+				item: "draconicevolution:wyvern_crafting_injector"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E730EA0B42D76C3"]
+			description: ["杀死末影龙掉落"]
+			id: "12B647283B110ED2"
+			rewards: [{
+				id: "09E329477B4B427A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E6D2D89E7588489"
+				item: "draconicevolution:dragon_heart"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12B647283B110ED2"]
+			description: ["合成材料"]
+			id: "6143A06C0F4BDF2B"
+			rewards: [{
+				id: "19C16194A7A284BF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49AF074C0E84FA71"
+				item: "draconicevolution:awakened_draconium_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6143A06C0F4BDF2B"]
+			description: ["合成材料"]
+			id: "61A5263C70D44C16"
+			rewards: [{
+				id: "291DB87A40BE02E3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FC1DC7D9CD7063D"
+				item: "draconicevolution:awakened_core"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6143A06C0F4BDF2B"]
+			description: ["合成材料"]
+			id: "52BD2D856AEE8F4C"
+			rewards: [{
+				id: "566AC00D451EF070"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C0D48E6299FBF68"
+				item: "draconicevolution:draconic_energy_core"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D1D7FD49E93F843"]
+			description: ["模块化护甲"]
+			id: "3E58C0D3055699A6"
+			rewards: [{
+				id: "5D2F3A6A41B86D33"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13BD16C1B6DB2B55"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									48141006
+									-884847114
+									-1713822009
+									1582577910
+								]
+							}
+						}
+						"cold_sweat:item_insulation": {
+							insulation: [ ]
+						}
+					}
+					id: "draconicevolution:draconic_chestpiece"
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E66A3856BB4EF5E"]
+			description: ["提供能量护盾的饰品"]
+			id: "113DFA0CF163FEAD"
+			rewards: [{
+				id: "43DBC4235AEA1C65"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "124F7524C24F2580"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									1272964943
+									1906197224
+									-1551351569
+									1803179495
+								]
+							}
+						}
+					}
+					id: "draconicadditions:wyvern_necklace"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5E730EA0B42D76C3"]
+			description: ["随身能量存储器"]
+			id: "586CBE02F7A4B037"
+			rewards: [{
+				id: "2C0C3E59D1B3CD86"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C586543F263024E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									charge_armor: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_main: {
+										hud: 1b
+									}
+								}
+								provider_id: [I;
+									-2044070063
+									1857244509
+									-1356249193
+									1531834837
+								]
+							}
+						}
+					}
+					id: "draconicevolution:wyvern_capacitor"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D1D7FD49E93F843"]
+			description: ["更高级的通量容器"]
+			id: "0F297DA4558284DF"
+			rewards: [{
+				id: "79B867A6C51F6B36"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7275ABC66F2A5B64"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									charge_armor: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_main: {
+										hud: 1b
+									}
+								}
+								provider_id: [I;
+									146778966
+									-1242349055
+									-1398639865
+									1463833466
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_capacitor"
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F2E3321A4B83002"]
+			description: ["用于调整机器"]
+			id: "51B86C1E255D6ECC"
+			rewards: [{
+				id: "7DE8B20C6E47BD99"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41F4A280E3E9CB74"
+				item: "draconicevolution:crystal_binder"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["61A5263C70D44C16"]
+			description: ["更高级的项链"]
+			id: "71CD89BDF4A6C5BD"
+			rewards: [{
+				id: "70575DC1512487C8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "321AB92A190DF711"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									78237444
+									117785691
+									-1370841730
+									1523169645
+								]
+							}
+						}
+					}
+					id: "draconicadditions:draconic_necklace"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D1D7FD49E93F843"]
+			description: ["模块化武器"]
+			id: "5CDC7E88C264B743"
+			rewards: [{
+				id: "550841C1015BDCB3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E4551E60894923A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									645778248
+									-305905151
+									-1891237173
+									1788421203
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_staff"
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1D1D7FD49E93F843"]
+			description: ["模块化远程武器"]
+			id: "74B4D07D341EC28F"
+			rewards: [{
+				id: "44E181FD2C07B5A6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DDC3EB4EA90CA3E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									1900297979
+									-1145747783
+									-1133727413
+									-1522424922
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_bow"
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["61A5263C70D44C16"]
+			description: ["更高级的注入器"]
+			id: "1D1D7FD49E93F843"
+			rewards: [{
+				id: "53E3E4B85CE5037A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07B06397D4A37CB5"
+				item: "draconicevolution:awakened_crafting_injector"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D1D7FD49E93F843"]
+			description: ["杀死混沌守卫后挖掘混沌水晶获得"]
+			id: "25CDE5D8BE81BE10"
+			rewards: [{
+				id: "5B5CEBE2DCC789F7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "47C3FD2658DC6BF1"
+				item: "draconicevolution:chaos_shard"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25CDE5D8BE81BE10"]
+			description: ["合成材料"]
+			id: "15B43AC2C8731C82"
+			rewards: [{
+				id: "47AFCF94C7324D01"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C2091EF5761B502"
+				item: "draconicevolution:chaotic_core"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15B43AC2C8731C82"]
+			description: ["更高级的项链"]
+			id: "66A89A59DDF559AF"
+			rewards: [{
+				id: "1953F33DC7F7EA35"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00975250091C987A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									332836293
+									-1262334346
+									-1488729873
+									-422695977
+								]
+							}
+						}
+					}
+					id: "draconicadditions:chaotic_necklace"
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["057F66F7D5A4EB8B"]
+			id: "568100AB3A62FCD6"
+			rewards: [{
+				id: "01595FE2AD27E76F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01B69A1D44440894"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									charge_armor: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_main: {
+										hud: 1b
+									}
+								}
+								provider_id: [I;
+									1653369011
+									1277838134
+									-2027589800
+									1590639573
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_capacitor"
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["15B43AC2C8731C82"]
+			id: "057F66F7D5A4EB8B"
+			rewards: [{
+				id: "46598A62C1015B97"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "418BBBF2DECDE0FD"
+				item: "draconicevolution:chaotic_crafting_injector"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11C571116B365632"]
+			description: ["更大的储存"]
+			id: "090FD6B18CE93216"
+			rewards: [{
+				id: "060C1403212E046C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "589302596ABBB51D"
+				item: "draconicevolution:draconium_chest"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["25CDE5D8BE81BE10"]
+			description: ["合成材料"]
+			id: "6B53C1FFF266E9F3"
+			rewards: [{
+				id: "5A7AAE44E387E601"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AE244C13BEAD83A"
+				item: "draconicevolution:chaotic_energy_core"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["057F66F7D5A4EB8B"]
+			description: ["更高级的护甲"]
+			id: "6405C071EB62484D"
+			rewards: [{
+				id: "176056E7FE0B2E4F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "716DB41912B61D8A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-741387803
+									-852145861
+									-1898283274
+									591673151
+								]
+							}
+						}
+						"cold_sweat:item_insulation": {
+							insulation: [ ]
+						}
+					}
+					id: "draconicevolution:chaotic_chestpiece"
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["057F66F7D5A4EB8B"]
+			description: ["更高级的武器"]
+			id: "32A7199C98837C48"
+			rewards: [{
+				id: "5494B43373ABD59A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79EF6DA6905A8CC7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									-396891204
+									1217413797
+									-1190111484
+									-685024034
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_staff"
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["057F66F7D5A4EB8B"]
+			description: ["更高级的远程武器"]
+			id: "6D209456080FA9B4"
+			rewards: [{
+				id: "3DC44B678C67F874"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "47BFF2EC3A55472B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-2069338749
+									2110934922
+									-1147659439
+									1896274829
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_bow"
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["057F66F7D5A4EB8B"]
+			id: "7B749B536D25AB7E"
+			rewards: [{
+				id: "18FA1153F99CFBA5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2017588243129CD7"
+					item: "draconicevolution:reactor_core"
+					type: "item"
+				}
+				{
+					id: "35DF12FA22B6BCCD"
+					item: "draconicevolution:reactor_injector"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "341058EEAF84DF01"
+					item: { Count: 4, id: "draconicevolution:reactor_stabilizer" }
+					type: "item"
+				}
+				{
+					id: "1586E47A08E44B66"
+					item: "draconicevolution:flux_gate"
+					type: "item"
+				}
+				{
+					id: "59C568EA146D2B44"
+					item: "draconicevolution:draconic_io_crystal"
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B749B536D25AB7E"]
+			description: ["多方块结构，用于储存能量"]
+			id: "0B6D6702649AD324"
+			rewards: [{
+				id: "21CFAC14E85F9F42"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2F44FF5A52E4A056"
+					item: "draconicevolution:energy_core"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "61E5FFC34DF641B8"
+					item: { Count: 36, id: "draconicevolution:energy_core_stabilizer" }
+					type: "item"
+				}
+				{
+					count: 786L
+					id: "6C16C4D91091C921"
+					item: { Count: 786, id: "draconicevolution:draconium_block" }
+					type: "item"
+				}
+				{
+					count: 378L
+					id: "4A8E18E517E3030A"
+					item: { Count: 378, id: "draconicevolution:awakened_draconium_block" }
+					type: "item"
+				}
+			]
+			x: 21.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7B749B536D25AB7E"]
+			description: ["和能量核心连接用于传输电力"]
+			id: "1E2A4A1744709762"
+			rewards: [{
+				id: "36A636D6ADA082CD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "1E9C433F45F92327"
+					item: "draconicevolution:energy_pylon"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "36FF1182BA7ACAFF"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6D04744930EC0235"
+					item: "draconicevolution:draconic_io_crystal"
+					type: "item"
+				}
+			]
+			x: 21.5d
+			y: 1.0d
+		}
+	]
+	title: "Draconic Evolution"
+}

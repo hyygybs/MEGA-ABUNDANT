@@ -1,0 +1,13 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalcustomization:6",
+    "ingredient": {
+      "item": "allthemodium:vibranium_ingot"
+    },
+    "color": "26DB86",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+    },
+    "crux": "kubejs:vibranium_crux"
+  }

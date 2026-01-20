@@ -1,0 +1,9 @@
+{
+	"parent": "cyclic:parent/machine_crafting",
+    "render_type": "cutout_mipped",
+    "textures": {
+        "top": "cyclic:block/machine/solidifier/solidifier_top",
+        "side": "cyclic:block/machine/solidifier/solidifier_side",
+        "particle": "cyclic:block/machine/solidifier/solidifier_side"
+    }
+}

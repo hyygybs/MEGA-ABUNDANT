@@ -1,0 +1,9 @@
+
+["Kylin Arm Configuration"]
+	#The harvest level provided by Kylin Arm (0=none, 1=wood, 2=stone, 3=iron, 4=diamond, 5=netherite)
+	#Range: 0 ~ 5
+	harvestLevel = 5
+	#break speed bonus when Kylin Arm is equipped
+	#Range: 1.0 ~ 100.0
+	breakSpeedBonus = 10.0
+

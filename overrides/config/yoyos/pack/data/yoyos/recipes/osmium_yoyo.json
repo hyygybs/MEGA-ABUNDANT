@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "yoyos:cord"
+    },
+    "I": {
+      "item": "mekanism:ingot_osmium"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " I ",
+    "ISI",
+    "CI "
+  ],
+  "result": {
+    "item": "yoyos:osmium_yoyo"
+  },
+  "show_notification": true
+}

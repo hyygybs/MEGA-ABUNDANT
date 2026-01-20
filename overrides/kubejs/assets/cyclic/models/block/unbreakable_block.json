@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"particle": "cyclic:block/unbreakable_block",
+		"down": "cyclic:block/unbreakable_block_bottom",
+		"up": "cyclic:block/unbreakable_block_top",
+		"north": "cyclic:block/unbreakable_block",
+		"south": "cyclic:block/unbreakable_block",
+		"west": "cyclic:block/unbreakable_block",
+		"east": "cyclic:block/unbreakable_block"
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "vampirism:item/heart_striker_normal"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-45, -90, 0],
+			"translation": [0, 8, 1.5],
+			"scale": [1.5, 1.5, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-45, 90, 0],
+			"translation": [0, 8, 1.5],
+			"scale": [1.5, 1.5, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [-45, -90, 0],
+			"translation": [0, 8, 1.5],
+			"scale": [1.5, 1.5, 0.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-45, 90, 0],
+			"translation": [0, 8, 1.5],
+			"scale": [1.5, 1.5, 0.75]
+		},
+		"ground": {
+			"scale": [1, 1, 0.5]
+		},
+		"gui": {
+			"scale": [1, 1, 0.5]
+		},
+		"head": {
+			"scale": [1.5, 1.5, 0.75]
+		},
+		"fixed": {
+			"scale": [1, 1, 0.5]
+		}
+	}
+}

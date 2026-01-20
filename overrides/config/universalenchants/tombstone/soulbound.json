@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:type_tombstone_all"
+  ],
+  "incompatible": [
+    "enderio:soulbound",
+    "ars_elemental:soulbound",
+    "ensorcellation:soulbound",
+    "enderzoology:soulbound"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "05AB17DBA7318260", title: "冒险" }
+		{ id: "2DB7574DB5EFE80D", title: "科技" }
+		{ id: "0896B032D36C2B34", title: "魔法" }
+		{ id: "09ADA29D0719965C", title: "农业" }
+		{ id: "1F9A9FE71A5A4AA9", title: "实用" }
+		{ id: "494A7A3C22FC651F", title: "无尽" }
+	]
+}

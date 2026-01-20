@@ -1,0 +1,1483 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industrial_foregoing"
+	group: "2DB7574DB5EFE80D"
+	icon: "industrialforegoing:dissolution_chamber"
+	id: "1C8AF64A5A3C3447"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["本模组的指导书"]
+			id: "36712CBFBF14FF03"
+			rewards: [{
+				id: "3977E5C58B89370B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78840637D6A72E53"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "industrialforegoing:industrial_foregoing"
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["36712CBFBF14FF03"]
+			description: ["用于合成机器"]
+			id: "307C02C47A859DB6"
+			rewards: [{
+				id: "381EA504DCE11E9E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0804BE31AF9AF157"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["307C02C47A859DB6"]
+			description: ["从原木中提取胶乳"]
+			id: "566D4D85C647B91A"
+			rewards: [{
+				id: "6C5811BD7B8C1641"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B65FE9FDF301FE8"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["566D4D85C647B91A"]
+			description: ["将胶乳加工为橡胶"]
+			id: "7462F07DF7B4C209"
+			rewards: [{
+				id: "2215A970124F4D7B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58DC13DDD238DA35"
+				item: "industrialforegoing:latex_processing_unit"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7462F07DF7B4C209"]
+			description: ["橡胶加工而来的合成材料"]
+			id: "576DDE2E79CFCB3E"
+			rewards: [{
+				id: "24F68342122CCA7D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "026386EAB22DA19C"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["576DDE2E79CFCB3E"]
+			description: ["用于合成机器"]
+			id: "590ED7B7E4DA267B"
+			rewards: [{
+				id: "69185525E597C822"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79C44874EFCF03D0"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["307C02C47A859DB6"]
+			description: ["简易发电机"]
+			id: "31C12B4DE62BC690"
+			rewards: [{
+				id: "1D86F5AC4DA9705F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72C89BE9C7F52C9B"
+				item: "industrialforegoing:pitiful_generator"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["576DDE2E79CFCB3E"]
+			description: ["用于生产生物燃油"]
+			id: "64E2737E54CB9DDD"
+			rewards: [{
+				id: "1556AD48A3B711FD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21C4D4AF6CBF22E6"
+				item: "industrialforegoing:bioreactor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["576DDE2E79CFCB3E"]
+			description: ["用于收获作物"]
+			id: "1DBDFCFEEE23A2BC"
+			rewards: [{
+				id: "5844390ACC5089DA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37126BB58AD5DA16"
+				item: "industrialforegoing:plant_gatherer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["307C02C47A859DB6"]
+			description: ["用于物流"]
+			id: "0BE23757B7B8B69D"
+			rewards: [{
+				id: "0CCBEFD669244141"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "097BB7B826B5822F"
+					item: "industrialforegoing:item_transporter_type"
+					type: "item"
+				}
+				{
+					id: "10AC9733C626E4B6"
+					item: "industrialforegoing:fluid_transporter_type"
+					type: "item"
+				}
+				{
+					id: "3A0A6212A4FB0CA2"
+					item: "industrialforegoing:world_transporter_type"
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["307C02C47A859DB6"]
+			description: ["存储物品和流体"]
+			id: "3F0AC81A4F572316"
+			rewards: [{
+				id: "28E6F076D95DD039"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "25A284D0AA178C03"
+					item: "industrialforegoing:common_black_hole_unit"
+					type: "item"
+				}
+				{
+					id: "34FEC2ECC948A03C"
+					item: "industrialforegoing:common_black_hole_tank"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["576DDE2E79CFCB3E"]
+			description: ["用于破坏面前的方块"]
+			id: "052324E1A4AD5AFE"
+			rewards: [{
+				id: "258D4B4B5EB7D3C1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2543FE8D9C7502CF"
+				item: "industrialforegoing:block_breaker"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["576DDE2E79CFCB3E"]
+			description: ["用于杀死生物"]
+			id: "4362735452DBC175"
+			rewards: [{
+				id: "26132AF18102C6E0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C0C0D7D41EB025D"
+				item: "industrialforegoing:mob_slaughter_factory"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["576DDE2E79CFCB3E"]
+			description: ["用于管理动物"]
+			id: "13494AC56420F760"
+			rewards: [{
+				id: "7A822D5FB365EA55"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68D9FD2703530463"
+				item: "industrialforegoing:animal_baby_separator"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["576DDE2E79CFCB3E"]
+			description: ["用于收取面前的流体"]
+			id: "240D2700FCA00959"
+			rewards: [{
+				id: "2749D71EB492D45B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "224BC60BA52687E2"
+				item: "industrialforegoing:fluid_collector"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["576DDE2E79CFCB3E"]
+			description: ["用于在前方放置流体"]
+			id: "44FF2FA4603A29F1"
+			rewards: [{
+				id: "5E91D2D8326DC89A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "451471F5CBD1C394"
+				item: "industrialforegoing:fluid_placer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["576DDE2E79CFCB3E"]
+			description: ["用于在前方放置方块"]
+			id: "67FEC901D8161269"
+			rewards: [{
+				id: "793C20A6D379E5D1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "546FFEA20101B19B"
+				item: "industrialforegoing:block_placer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["576DDE2E79CFCB3E"]
+			description: ["用于收获动物资源"]
+			id: "576ED92924769B4C"
+			rewards: [{
+				id: "5578BC213B4390E9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DB5A28FBD550BB8"
+				item: "industrialforegoing:animal_rancher"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["576DDE2E79CFCB3E"]
+			description: ["用于收集污水"]
+			id: "6DEFBDF1B97C6398"
+			rewards: [{
+				id: "7570FEEF471B2769"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "28FEE9C98CDD1DE3"
+				item: "industrialforegoing:sewer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["576DDE2E79CFCB3E"]
+			description: ["用于喂养动物"]
+			id: "1EDC14BBA23A90FD"
+			rewards: [{
+				id: "6AC6A5687F8A6F17"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10A22B421BA959EE"
+				item: "industrialforegoing:animal_feeder"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["576DDE2E79CFCB3E"]
+			description: ["用于繁殖蘑菇"]
+			id: "73DAD79218E2722E"
+			rewards: [{
+				id: "7573C09CCB0448AA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F6C10C71A2D8669"
+				item: "industrialforegoing:spores_recreator"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["576DDE2E79CFCB3E"]
+			description: ["用于生产水"]
+			id: "3B5FACA6D5582E1A"
+			rewards: [{
+				id: "677C41FB808E9F08"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E19234DC01A6CA1"
+				item: "industrialforegoing:water_condensator"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["576DDE2E79CFCB3E"]
+			description: ["用于生产染料"]
+			id: "6AFBC0A547968EDB"
+			rewards: [{
+				id: "659E4D64D23F4FE4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7968346F193171D6"
+				item: "industrialforegoing:dye_mixer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["576DDE2E79CFCB3E"]
+			description: ["用与产生肥料"]
+			id: "14C6E4B614497E76"
+			rewards: [{
+				id: "56E5F6B108CAC6D4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "356D5FDB629A639E"
+				item: "industrialforegoing:sewage_composter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["576DDE2E79CFCB3E"]
+			description: ["用于燃烧物品"]
+			id: "678E748B7C954A81"
+			rewards: [{
+				id: "24BDD4CDF9772203"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D54AFFEE65C0A5D"
+				item: "industrialforegoing:resourceful_furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["576DDE2E79CFCB3E"]
+			description: ["用于合成更多物品"]
+			id: "6E04EF17D4614341"
+			rewards: [{
+				id: "1EB97E0813605795"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DC4D89B339AFF29"
+				item: "ifeu:precision_crafting_table"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["31C12B4DE62BC690"]
+			description: ["消耗生物燃油发电"]
+			id: "410A9E4F59033FB3"
+			rewards: [{
+				id: "413F022DBE1396E4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44BB83A5E26E0EFA"
+				item: "industrialforegoing:biofuel_generator"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["590ED7B7E4DA267B"]
+			description: ["用于合成机器"]
+			id: "28727781337D381B"
+			rewards: [{
+				id: "56308528F72CE2C2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C21952EB7E5B5D3"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["28727781337D381B"]
+			description: ["用于钓鱼"]
+			id: "7CD90DD173390A00"
+			rewards: [{
+				id: "07834619273BB7C8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "468AC40F4A4FC776"
+				item: "industrialforegoing:marine_fisher"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["28727781337D381B"]
+			description: ["用于给植物施肥"]
+			id: "1A2EEF5228FAB01B"
+			rewards: [{
+				id: "31A1819E91AEDF30"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "162798D9FBD59599"
+				item: "industrialforegoing:plant_fertilizer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["28727781337D381B"]
+			description: ["用于加速作物生长"]
+			id: "5A46862059E8F305"
+			rewards: [{
+				id: "2CE109FED750555D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79528865BBC2EA5C"
+				item: "industrialforegoing:hydroponic_bed"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["28727781337D381B"]
+			description: ["用于繁殖作物"]
+			id: "73BA9DDD4055E4A5"
+			rewards: [{
+				id: "329FED5734838369"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CDACF5117F59884"
+				item: "ifeu:simulated_hydroponic_bed"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["28727781337D381B"]
+			description: ["用于处理矿物肉汤"]
+			id: "19C430CB84489892"
+			rewards: [{
+				id: "42E787BD2DFE8F9D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "393E471DB5A0B813"
+				item: "industrialforegoing:fermentation_station"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["28727781337D381B"]
+			description: ["燃烧燃料发电"]
+			id: "7782B54EED463D06"
+			rewards: [{
+				id: "66C89EDA3122C47E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75EFB1CCD4AA21EC"
+				item: "industrialforegoing:mycelial_furnace"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["28727781337D381B"]
+			description: ["燃烧食物发电"]
+			id: "013F4936726204AD"
+			rewards: [{
+				id: "3AD732AB07107899"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A9C7E9B9A41FE0C"
+				item: "industrialforegoing:mycelial_culinary"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["28727781337D381B"]
+			description: ["燃烧冰雪发电"]
+			id: "06B52CABD393A4E4"
+			rewards: [{
+				id: "334CB513072E9475"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CAC9EE8D8728AC9"
+				item: "industrialforegoing:mycelial_frosty"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["28727781337D381B"]
+			description: ["需要配合镭射钻基座使用"]
+			id: "13DEB2ABE7578238"
+			rewards: [{
+				id: "3330550F37BDE670"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AA0E2DF1A999A99"
+				item: "industrialforegoing:laser_drill"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28727781337D381B"]
+			description: ["燃烧粉色物品发电"]
+			id: "1B4C9D0797DB4634"
+			rewards: [{
+				id: "767C4C149DC54274"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4392F109181EEF21"
+				item: "industrialforegoing:mycelial_pink"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["28727781337D381B"]
+			description: ["用于合成机器"]
+			id: "48C78AC87F1336C5"
+			rewards: [{
+				id: "4FA256E1D553D2AA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B013F859D52BEA0"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["48C78AC87F1336C5"]
+			description: ["用于挑出附魔物品"]
+			id: "69AD3DADB771F7D3"
+			rewards: [{
+				id: "2AE860A60D91993D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "657683DA42AAD61B"
+				item: "industrialforegoing:enchantment_sorter"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["48C78AC87F1336C5"]
+			description: ["用于给物品打上附魔书"]
+			id: "5A5918D7AFF05810"
+			rewards: [{
+				id: "023731E6E622E8ED"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E6A1D4FB7D7DBDD"
+				item: "industrialforegoing:enchantment_applicator"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["48C78AC87F1336C5"]
+			description: ["用于提取附魔"]
+			id: "12848CBF6A65E088"
+			rewards: [{
+				id: "418F46B41D97DBA3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C03FCB226D2DA56"
+				item: "industrialforegoing:enchantment_extractor"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["48C78AC87F1336C5"]
+			description: ["用于将发酵矿石肉汤处理成矿粉"]
+			id: "6C26336765DF3BB9"
+			rewards: [{
+				id: "4BA65381480CA17F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58DA2CBFC8D6B76B"
+				item: "industrialforegoing:fluid_sieving_machine"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["48C78AC87F1336C5"]
+			description: ["用于为物品充能"]
+			id: "20DB74A5F72945F3"
+			rewards: [{
+				id: "37E976540016BED8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C3B488E28A5C651"
+				item: "industrialforegoing:infinity_charger"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["48C78AC87F1336C5"]
+			description: ["用于炼药"]
+			id: "351837E6F7D04697"
+			rewards: [{
+				id: "20B097CC5B31B7A8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75AC5AA2C78418A1"
+				item: "industrialforegoing:potion_brewer"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["48C78AC87F1336C5"]
+			description: ["用于搭建平台"]
+			id: "0CFBC554CD602C98"
+			rewards: [{
+				id: "54240B4ED7BCD81C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61188F94BDA9B978"
+				item: "ifeu:platform_builder"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["48C78AC87F1336C5"]
+			description: ["配合镭射钻使用提取流体"]
+			id: "3B31E8FFD4485806"
+			rewards: [{
+				id: "7A8043C87F08FCF3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "115FA10CA01DBBA2"
+				item: "industrialforegoing:fluid_laser_base"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["48C78AC87F1336C5"]
+			description: ["配合镭射钻使用提取矿物"]
+			id: "3447E485CE64F7CC"
+			rewards: [{
+				id: "40259F52FF157161"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "410CAA9859223AB8"
+				item: "industrialforegoing:ore_laser_base"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["48C78AC87F1336C5"]
+			description: ["配合镭射钻使用提取灵魂"]
+			id: "3D6E2375420B8689"
+			rewards: [{
+				id: "3DC3ECE70CF0DD2D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41C993CF482FB99D"
+				item: "industrialforegoingsouls:soul_laser_base"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["48C78AC87F1336C5"]
+			description: ["用于冷凝水"]
+			id: "3B235255CCDC5568"
+			rewards: [{
+				id: "13827DA99E358718"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "716ECB841BA70357"
+				item: "industrialforegoing:stasis_chamber"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["48C78AC87F1336C5"]
+			description: ["制造并处理石头"]
+			id: "7B0D0103F4BAF492"
+			rewards: [{
+				id: "0BC15336EF80F09F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "696EA409851961B2"
+				item: "industrialforegoing:material_stonework_factory"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["48C78AC87F1336C5"]
+			description: ["用于附魔物品"]
+			id: "12EB24DD297B722C"
+			rewards: [{
+				id: "7AA9C7E075F3806C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CFA2C452BA9AF3A"
+				item: "industrialforegoing:enchantment_factory"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4362735452DBC175"]
+			description: ["合成材料"]
+			id: "4C69B80FA7949E2C"
+			rewards: [{
+				id: "1F67AEE731D6222E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "54BEA34B967EAD7C"
+					item: "industrialforegoing:pink_slime_ingot"
+					type: "item"
+				}
+				{
+					id: "485D5ADD81AA0FA8"
+					item: "industrialforegoing:pink_slime"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["48C78AC87F1336C5"]
+			description: ["用于复制生物"]
+			id: "304904F07900C867"
+			rewards: [{
+				id: "560F8981E0A53C16"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "201D407D1C08558D"
+				item: "industrialforegoing:mob_duplicator"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["48C78AC87F1336C5"]
+			description: ["用于杀死生物"]
+			id: "0D46103098D0D2D2"
+			rewards: [{
+				id: "1C242AB8F7A8DC51"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71EA6FD4CF46587B"
+				item: "industrialforegoing:mob_crusher"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["48C78AC87F1336C5"]
+			description: ["将肉汤和矿石转化为矿石肉汤"]
+			id: "3D61444F3BC30786"
+			rewards: [{
+				id: "379AE7B4AF92B0DD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55E9F244AF0F903B"
+				item: "industrialforegoing:washing_factory"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["48C78AC87F1336C5"]
+			description: ["燃烧牛奶和黏液球发电"]
+			id: "78A010AF3A961C56"
+			rewards: [{
+				id: "0668C136D4493D41"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1384B89719632520"
+				item: "industrialforegoing:mycelial_slimey"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48C78AC87F1336C5"]
+			description: ["燃烧附魔书发电"]
+			id: "44C07F0D220CD6F5"
+			rewards: [{
+				id: "4672722A94AF74B9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18926EF9CD341133"
+				item: "industrialforegoing:mycelial_disenchantment"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["48C78AC87F1336C5"]
+			description: ["燃烧末影珍珠发电"]
+			id: "713B32BEBB7E3BF4"
+			rewards: [{
+				id: "5134FC6282462E90"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "489199282DF1F78B"
+				item: "industrialforegoing:mycelial_ender"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["48C78AC87F1336C5"]
+			description: ["燃烧火药发电"]
+			id: "15C1E7A888B8AD02"
+			rewards: [{
+				id: "426C22BC2594719F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "746E4888CE2C4B18"
+				item: "industrialforegoing:mycelial_explosive"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["48C78AC87F1336C5"]
+			description: ["燃烧药水发电"]
+			id: "7EAC2629CB7F03AF"
+			rewards: [{
+				id: "21A812CB3D6D2831"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D220BAF05FF9EDF"
+				item: "industrialforegoing:mycelial_potion"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48C78AC87F1336C5"]
+			description: ["燃烧亡灵物品发电"]
+			id: "27E33489FF4420BA"
+			rewards: [{
+				id: "126B06310D77BF86"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B50123DAFE1E0A8"
+				item: "industrialforegoing:mycelial_death"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6B0E8DDF593333A5"]
+			description: ["燃烧矿物肉汤发电"]
+			id: "1981AE8AA0C3A344"
+			rewards: [{
+				id: "725E844E2B3BD330"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42E6052E7FE7D67F"
+				item: "industrialforegoing:mycelial_meatallurgic"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48C78AC87F1336C5"]
+			description: ["燃烧烟花发电"]
+			id: "38A12E13293FD975"
+			rewards: [{
+				id: "01094F2036018B09"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45377202F17C730A"
+				item: "industrialforegoing:mycelial_rocket"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["48C78AC87F1336C5"]
+			description: ["燃烧熔岩发电"]
+			id: "2489308FF9F7F85C"
+			rewards: [{
+				id: "4F35BA98676D6561"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EB9320F635AEE07"
+				item: "industrialforegoing:mycelial_magma"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["48C78AC87F1336C5"]
+			id: "6B0E8DDF593333A5"
+			rewards: [{
+				id: "7C1B1F36E6B5E0E1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "374B619BCA0769FB"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6B0E8DDF593333A5"]
+			id: "40BE10D0BF53A1B5"
+			rewards: [{
+				id: "6F55AF7E2F3CD68C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43D537E02B798447"
+				item: "industrialforegoing:wither_builder"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6B0E8DDF593333A5"]
+			description: ["用于存储物品和流体"]
+			id: "0C1ED86EC68C5624"
+			rewards: [{
+				id: "236457A813691037"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "220E64819F89F939"
+				item: "industrialforegoing:black_hole_controller"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B0E8DDF593333A5"]
+			description: ["用于将龙蛋转化为蛋"]
+			id: "7CD66309547F1689"
+			rewards: [{
+				id: "6081C6DAB34C4D5C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "353EB5FEE1672151"
+				item: "ifeu:arcane_dragon_egg_forging"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6B0E8DDF593333A5"]
+			description: ["燃烧龙息发电"]
+			id: "57F95E475B9384CB"
+			rewards: [{
+				id: "5C2DD540ACF27ECB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F7D18AB6ED80F27"
+				item: "industrialforegoing:mycelial_halitosis"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6B0E8DDF593333A5"]
+			description: ["燃烧下界之星发电"]
+			id: "7A3CE519412D4CAC"
+			rewards: [{
+				id: "38E8F8ED656F6AB9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "57FDE3ECA0164F68"
+				item: "industrialforegoing:mycelial_netherstar"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6B0E8DDF593333A5"]
+			description: ["用于合成机器"]
+			id: "4ACC0C14ABD39011"
+			rewards: [{
+				id: "57C6A7192CB489A8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5829C05523F173C2"
+				item: "ifeu:ultimate_machine_frame"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["48C78AC87F1336C5"]
+			description: ["燃烧下界菌菇发电"]
+			id: "08F7EBBE2F0E5DF4"
+			rewards: [{
+				id: "259291B5FD618A1B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "213B8298F6AEB736"
+				item: "industrialforegoing:mycelial_crimed"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4ACC0C14ABD39011"]
+			description: ["燃烧龙之星发电"]
+			id: "579874F83DCFDB61"
+			rewards: [{
+				id: "4743E23326CBCD45"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32DFC016937D01D0"
+				item: "ifeu:dragon_star_generator"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4ACC0C14ABD39011"]
+			description: ["用于改变天气"]
+			id: "1D0291E4CDF86CEA"
+			rewards: [{
+				id: "7737E8711FB661D3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77A33A3C4505D2DD"
+				item: "ifeu:weather_controller"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4ACC0C14ABD39011"]
+			description: ["用于改变时间"]
+			id: "3EC0CD575C499DD4"
+			rewards: [{
+				id: "7B06DBFE7C1B4687"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77402EE3BED043CF"
+				item: "ifeu:time_controller"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4ACC0C14ABD39011"]
+			description: ["用于改变游戏规则"]
+			id: "4E74B897F44A9ABA"
+			rewards: [{
+				id: "74F2F813DAF667E7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "237FA08819DE3CF8"
+				item: "ifeu:rule_controller"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["18E2939362A4E97B"]
+			description: ["用于加速机器"]
+			id: "42985545816757BC"
+			rewards: [{
+				id: "143FD37F7D520ECC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2955AEA0C4872C03"
+				item: "industrialforegoingsouls:soul_surge"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3D6E2375420B8689"]
+			description: ["用于传输灵魂"]
+			id: "18E2939362A4E97B"
+			rewards: [{
+				id: "621619E771158E04"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45848CEEB26BB434"
+				item: "industrialforegoingsouls:soul_network_pipe"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6B0E8DDF593333A5"]
+			description: ["带有流体槽的合成台"]
+			id: "24EBECE041F568F0"
+			rewards: [{
+				id: "753E3966B484F244"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0893F6BE18894694"
+				item: "ifeu:fluid_crafting_table"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4ACC0C14ABD39011"]
+			description: ["多方块结构版本的化学溶解室"]
+			id: "09D0D3C985CFC7E0"
+			rewards: [{
+				id: "753A9C471C0A7B88"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7C1B6915F830F5C7"
+					item: "ifeu:big_dissolution_chamber_core"
+					type: "item"
+				}
+				{
+					id: "683E724C8D703917"
+					item: "ifeu:fluid_transfer"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5865ED4AAE7D5735"
+					item: { Count: 2, id: "minecraft:barrel" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5ECFA42A144E3CCA"
+					item: { Count: 8, id: "industrialforegoing:machine_frame_simple" }
+					type: "item"
+				}
+				{
+					count: 13L
+					id: "62AB234B1F815F38"
+					item: { Count: 8, id: "minecraft:sculk" }
+					type: "item"
+				}
+				{
+					id: "18DFEFE0BD0C6C16"
+					item: "ifeu:dragon_star_block"
+					type: "item"
+				}
+			]
+			x: 27.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["307C02C47A859DB6"]
+			description: ["用于制造龙之星"]
+			id: "1F4DEEB9FE674BC1"
+			rewards: [{
+				id: "6B6E8AA678FD7D68"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CA06835AA2EDAB9"
+				item: "ifeu:infuser"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["42985545816757BC"]
+			description: ["用于与存储元件合成为配合ME箱子或磁盘驱动器存储灵魂的磁盘"]
+			id: "556F250C0EABA732"
+			rewards: [{
+				id: "76C8503995675EB9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10927A992F9F3419"
+				item: "ifsoulsdisks:souls_cell_housing"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -12.5d
+		}
+	]
+	title: "Industrial Foregoing"
+}

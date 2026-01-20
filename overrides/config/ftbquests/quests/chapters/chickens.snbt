@@ -1,0 +1,148 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chickens"
+	group: "09ADA29D0719965C"
+	icon: "chickens:breeder"
+	id: "088A24AAD284101E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["抓捕鸡"]
+			id: "6E71BFE63C4E4F12"
+			rewards: [{
+				id: "56E2FA9A4D5FAAFF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CC4FC4C377890DD"
+				item: "chickens:catcher"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E71BFE63C4E4F12"]
+			description: ["将鸡放置在饲养槽中"]
+			id: "17DBCD1FCF7E4768"
+			rewards: [{
+				id: "61E389162BDCC35D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F4B2E2210DCB866"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:vanilla_chicken"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17DBCD1FCF7E4768"]
+			description: ["杂交鸡"]
+			id: "59338F83308C398D"
+			rewards: [{
+				id: "1F065B116DA18941"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "108F77736200B714"
+				item: "chickens:breeder"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59338F83308C398D"]
+			description: ["产出蛋"]
+			id: "558717F139417DC7"
+			rewards: [{
+				id: "7B64599AEE070BD3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07CD5EC12BA96EBC"
+				item: {
+					Count: 1
+					id: "chickens:chicken_egg"
+					tag: {
+						chickentype: "chickens:vanilla_chicken"
+						missed: 0
+						progress: 0
+						viable: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["558717F139417DC7"]
+			description: ["检测鸡蛋是否成活"]
+			id: "433B1D4AFCD59590"
+			rewards: [{
+				id: "166AE2D57F70431C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "238CABD7D3C689CF"
+				item: "chickens:ovoscope"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["433B1D4AFCD59590"]
+			description: ["孵化鸡蛋"]
+			id: "2DCBE257518EFD73"
+			rewards: [{
+				id: "5CF80A21A96B44CC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63D2536F152E28B5"
+				item: "chickens:incubator"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["433B1D4AFCD59590"]
+			description: ["砸开鸡蛋"]
+			id: "2CA800FEA1716FB2"
+			rewards: [{
+				id: "649E9504064C554E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24DE3B2C8DDA751A"
+				item: "chickens:egg_cracker"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+	]
+	title: "Chickens"
+}

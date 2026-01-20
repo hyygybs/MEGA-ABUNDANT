@@ -1,0 +1,10 @@
+{
+  "type": "voidminers:miner",
+  "allowHigherTiers": true,
+  "dimension": "minecraft:overworld",
+  "minTier": 1,
+  "output": {
+    "item": "allthemodium:allthemodium_ore",
+    "weight": 0.1
+  }
+}

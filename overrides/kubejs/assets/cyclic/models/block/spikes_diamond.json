@@ -1,0 +1,10 @@
+{
+	"parent": "cyclic:parent/spikes_off",
+  "render_type": "cutout_mipped",
+	"textures": {
+		"side": "minecraft:block/iron_block",
+		"base_up": "minecraft:block/iron_block",
+		"down": "minecraft:block/iron_block",
+		"particle": "minecraft:block/iron_block"
+	}
+}

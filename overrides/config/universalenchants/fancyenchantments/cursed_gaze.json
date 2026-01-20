@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_head",
+    "apotheosis:helmet_tome",
+    "lost_aether_content:swetty_mask"
+  ],
+  "incompatible": [
+    "fancyenchantments:cracked_crown",
+    "fancyenchantments:unyielding_spirit",
+    "fancyenchantments:purifying",
+    "fancyenchantments:fearless_challenger",
+    "fancyenchantments:pure_fate",
+    "fancyenchantments:sacred_supreme_sharpness",
+    "fancyenchantments:eucharist",
+    "fancyenchantments:paladins_shield"
+  ]
+}

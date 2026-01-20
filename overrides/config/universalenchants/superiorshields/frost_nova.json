@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:superior_shield",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": [
+    "superiorshields:shulking_nova",
+    "superiorshields:fire_nova",
+    "superiorshields:flame_of_the_firehawk"
+  ]
+}

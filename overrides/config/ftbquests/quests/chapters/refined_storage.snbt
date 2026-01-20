@@ -1,0 +1,391 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "refined_storage"
+	group: "2DB7574DB5EFE80D"
+	icon: "refinedstorage:creative_controller"
+	id: "36515B76C16DAD6C"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["合成材料"]
+			id: "4474AE1E0BC1F0B7"
+			rewards: [{
+				id: "15DD12118381705A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "763E2F8F1E09B472"
+					item: "refinedstorage:quartz_enriched_iron"
+					type: "item"
+				}
+				{
+					id: "06ED53B4E7A1C9E9"
+					item: "refinedstorage:silicon"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4474AE1E0BC1F0B7"]
+			description: ["存储网络的控制器"]
+			id: "33EDE2D3A7A9CEF2"
+			rewards: [{
+				id: "091D82F3A530848B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04FBB502FBE8DBA6"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4474AE1E0BC1F0B7"]
+			description: ["合成材料"]
+			id: "605C835A4E02893F"
+			rewards: [{
+				id: "5362DF49ECAC9639"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "14B3FC2C9F624C68"
+					item: "refinedstorage:basic_processor"
+					type: "item"
+				}
+				{
+					id: "03034F0C4F90B420"
+					item: "refinedstorage:improved_processor"
+					type: "item"
+				}
+				{
+					id: "0E4A43A84878CF40"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30DFD491AE27CB56"]
+			description: ["存储终端"]
+			id: "5F6E625F5C0B7228"
+			rewards: [{
+				id: "5F08239622847333"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3670CB2E452FDA3D"
+					item: "refinedstorage:grid"
+					type: "item"
+				}
+				{
+					id: "08E5008F7B054E41"
+					item: "refinedstorage:crafting_grid"
+					type: "item"
+				}
+				{
+					id: "1B40C2E8D8267C63"
+					item: "refinedstorage:pattern_grid"
+					type: "item"
+				}
+				{
+					id: "5C4B58FAD342B11F"
+					item: "refinedstorage:fluid_grid"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33EDE2D3A7A9CEF2"]
+			description: ["用于存储物品"]
+			id: "30DFD491AE27CB56"
+			rewards: [{
+				id: "7276B94EB1CD5E29"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69BB9436FBE28D14"
+				item: "refinedstorage:disk_drive"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F6E625F5C0B7228"]
+			description: ["用于自动合成"]
+			id: "5BD4A73F4FDAAD59"
+			rewards: [{
+				id: "7888E4B136908CD8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "63FC99F99E6E4B7A"
+					item: "refinedstorage:crafter"
+					type: "item"
+				}
+				{
+					id: "1AED8DA07EABF8B0"
+					item: "refinedstorage:1k_storage_block"
+					type: "item"
+				}
+				{
+					id: "2CC8EA0EBA9FE492"
+					item: "refinedstorage:4k_storage_block"
+					type: "item"
+				}
+				{
+					id: "448C37C30A6478A8"
+					item: "refinedstorage:16k_storage_block"
+					type: "item"
+				}
+				{
+					id: "0A941BA9AF943554"
+					item: "refinedstorage:64k_storage_block"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30DFD491AE27CB56"]
+			description: ["存储物品和流体"]
+			id: "275AF1C05BB59F4B"
+			rewards: [{
+				id: "6972EB651A175FE1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "716B3D65DABF97B4"
+					item: "refinedstorage:1k_storage_disk"
+					type: "item"
+				}
+				{
+					id: "3354D7ED383383FD"
+					item: "refinedstorage:4k_storage_disk"
+					type: "item"
+				}
+				{
+					id: "23B98B1F79181A6D"
+					item: "refinedstorage:16k_storage_disk"
+					type: "item"
+				}
+				{
+					id: "24F4593E7005505D"
+					item: "refinedstorage:64k_storage_disk"
+					type: "item"
+				}
+				{
+					id: "38BCF4F734D70680"
+					item: "refinedstorage:64k_fluid_storage_disk"
+					type: "item"
+				}
+				{
+					id: "150F2B0D9AEAEAE8"
+					item: "refinedstorage:256k_fluid_storage_disk"
+					type: "item"
+				}
+				{
+					id: "64CFBF7E22751D5C"
+					item: "refinedstorage:1024k_fluid_storage_disk"
+					type: "item"
+				}
+				{
+					id: "483CFDD0795CD7CE"
+					item: "refinedstorage:4096k_fluid_storage_disk"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["33EDE2D3A7A9CEF2"]
+			description: ["管道"]
+			id: "69DCC0ED11528CFF"
+			rewards: [{
+				id: "5BAB379FDA21CC9C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A28E1A3504326E0"
+				item: "refinedstorage:cable"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["69DCC0ED11528CFF"]
+			description: ["与世界交互"]
+			id: "6493308FD25BEFF6"
+			rewards: [{
+				id: "5F0D95EDE3C798B4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5C36694E9FF85A20"
+					item: "refinedstorage:external_storage"
+					type: "item"
+				}
+				{
+					id: "09BEF329222BF436"
+					item: "refinedstorage:importer"
+					type: "item"
+				}
+				{
+					id: "60AF9F2BEFD311E5"
+					item: "refinedstorage:exporter"
+					type: "item"
+				}
+				{
+					id: "2BC88B048BB53445"
+					item: "refinedstorage:destructor"
+					type: "item"
+				}
+				{
+					id: "3749857DA7531ED0"
+					item: "refinedstorage:constructor"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["30DFD491AE27CB56"]
+			description: ["在磁盘间转移物品和流体"]
+			id: "5A2E7EEDBD7640D8"
+			rewards: [{
+				id: "29D8E5C4A8B1FCB1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55E169C985222827"
+				item: "refinedstorage:disk_manipulator"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["69DCC0ED11528CFF"]
+			description: ["用于无线访问网络"]
+			id: "519EB64C0C724D97"
+			rewards: [{
+				id: "5C5D83DC40F7CDC8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19A005F80FE26FBB"
+				item: "refinedstorage:wireless_transmitter"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["519EB64C0C724D97"]
+			description: ["用于无线访问网络"]
+			id: "680CBA1EADBF7F25"
+			rewards: [{
+				id: "67B521288EFB1A7F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0DDA6EAE93D34A52"
+					item: "refinedstorage:wireless_grid"
+					type: "item"
+				}
+				{
+					id: "76B0DCDF1CCA8BC5"
+					item: "refinedstorage:wireless_fluid_grid"
+					type: "item"
+				}
+				{
+					id: "7E442F99DCC2902C"
+					item: "refinedstorage:wireless_crafting_monitor"
+					type: "item"
+				}
+				{
+					id: "3194841290043AC9"
+					item: "refinedstorageaddons:wireless_crafting_grid"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["680CBA1EADBF7F25"]
+			description: ["用于无线访问网络"]
+			id: "6B47A40EAF7887C4"
+			rewards: [{
+				id: "3D8B213A7E6B4DE8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3203EFB3353FEEBE"
+				item: "universalgrid:wireless_universal_grid"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["519EB64C0C724D97"]
+			description: ["用于无线访问网络"]
+			id: "3AA58E0473172285"
+			rewards: [{
+				id: "1A1412E110C43E87"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "171864C1832ED9A7"
+					item: "rsinfinitybooster:infinity_card"
+					type: "item"
+				}
+				{
+					id: "58129A5D6C813EEF"
+					item: "rsinfinitybooster:dimension_card"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -4.0d
+		}
+	]
+	title: "Refined Storage"
+}

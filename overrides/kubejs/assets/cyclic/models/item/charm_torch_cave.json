@@ -1,0 +1,7 @@
+{
+ 	"parent": "cyclic:item/charm_torch",
+    "textures": {
+    "0": "cyclic:item/charm/torch_cave",
+    "particle": "cyclic:item/charm/torch_cave"
+    }
+}

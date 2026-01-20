@@ -1,0 +1,30 @@
+{
+  "entity": "endermanoverhaul:soulsand_valley_enderman",
+  "name": "entity.endermanoverhaul.soulsand_valley_enderman",
+  "name_color": "0x38FDFC",
+  "gui_scale": 1.0,
+  "gui_x_offset": 0.0,
+  "gui_y_offset": 0.0,
+  "gui_z_offset": 0.0,
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+	"item": "hostilenetworks:end_prediction"  },
+  "trivia": "",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:ender_pearl",
+      "count": 16
+    },
+    {
+      "item": "endermanoverhaul:soul_pearl",
+      "count": 8
+    },
+	{
+      "item": "minecraft:bone",
+      "count": 4
+    }
+  ]
+}

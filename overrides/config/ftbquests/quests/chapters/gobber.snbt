@@ -1,0 +1,450 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gobber"
+	group: "1F9A9FE71A5A4AA9"
+	icon: "gobber2:gobber2_ingot"
+	id: "693F39E09C99DAF2"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["原材料"]
+			id: "2AAF32FFE4A9F69F"
+			rewards: [{
+				id: "689034B2C1ADD7EC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16A005ED8174F108"
+				item: "gobber2:gobber2_glob"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AAF32FFE4A9F69F"]
+			description: ["原材料"]
+			id: "0EFEBD3E269F0A0A"
+			rewards: [{
+				id: "38387427A2566E62"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44B09FDFE6D080E4"
+				item: "gobber2:gobber2_glob_nether"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EFEBD3E269F0A0A"]
+			description: ["原材料"]
+			id: "7645B9385A569729"
+			rewards: [{
+				id: "492EA90187526692"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A5E8A69555ADDCC"
+				item: "gobber2:gobber2_glob_end"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AAF32FFE4A9F69F"]
+			description: ["合成材料"]
+			id: "210B8E5D925AF8DD"
+			rewards: [{
+				id: "4259E5AB34A2A84D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27E063782ED6F98B"
+				item: "gobber2:gobber2_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0EFEBD3E269F0A0A"]
+			description: ["合成材料"]
+			id: "79F774D8F818B713"
+			rewards: [{
+				id: "0D926E244A096C55"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6824D301A350FBA5"
+				item: "gobber2:gobber2_ingot_nether"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7645B9385A569729"]
+			description: ["合成材料"]
+			id: "34377CC7DA963DC1"
+			rewards: [{
+				id: "50A9C68036411648"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "293C690EABB532AD"
+				item: "gobber2:gobber2_ingot_end"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3E8240236476D01F"]
+			description: ["合成材料"]
+			id: "24D44B9708D24371"
+			rewards: [{
+				id: "02CE67B5545362F2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "39BEED16FB95362D"
+					item: "gobber2:dragon_star"
+					type: "item"
+				}
+				{
+					id: "203CB794235981F4"
+					item: "gobber2:dragon_elytra"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["210B8E5D925AF8DD"]
+			description: ["护甲"]
+			id: "7575DE038F4E9307"
+			rewards: [{
+				id: "1CD27714653E78F4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "365741F52ECB91F5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "gobber2:gobber2_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C37E79B05DBA343"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "gobber2:gobber2_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F0F121BBC436CCD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "gobber2:gobber2_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7895BFED5A237010"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "gobber2:gobber2_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["79F774D8F818B713"]
+			description: ["护甲"]
+			id: "525E05460D7A3619"
+			rewards: [{
+				id: "366A7EA8F1725D95"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "16C3442D9456A0FB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "gobber2:gobber2_helmet_nether"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "378AE0CD25AC49CE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "gobber2:gobber2_chestplate_nether"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3691E321A3B33399"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "gobber2:gobber2_leggings_nether"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7537A2446B7AB2CF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "gobber2:gobber2_boots_nether"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["34377CC7DA963DC1"]
+			description: ["护甲"]
+			id: "3E8240236476D01F"
+			rewards: [{
+				id: "632DBBE805DD595D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "43560025A9A011CD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "gobber2:gobber2_helmet_end"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43C08C8A408AF773"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "gobber2:gobber2_chestplate_end"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D51F26BE96A6D17"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "gobber2:gobber2_leggings_end"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "767680E44E57AD5A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "gobber2:gobber2_boots_end"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["24D44B9708D24371"]
+			description: ["最高级的护甲"]
+			id: "14E76295025150A9"
+			rewards: [{
+				id: "6FA3602D6226770C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5DDE8B178A799876"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "gobber2:gobber2_helmet_dragon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FF14ED593B1475C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "gobber2:gobber2_chestplate_dragon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4149F2472C15EBFC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "gobber2:gobber2_leggings_dragon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03953E9BAD13FC4B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "gobber2:gobber2_boots_dragon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 8.0d
+		}
+	]
+	title: "Gobber"
+}

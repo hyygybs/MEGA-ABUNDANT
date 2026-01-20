@@ -1,0 +1,154 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end"
+	group: "05AB17DBA7318260"
+	icon: "minecraft:end_stone"
+	id: "341D60E48823F01C"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["58835215980C7032"]
+			description: ["找到要塞里有着末地传送门框架的房间，将末影之眼放在框架上"]
+			icon: "minecraft:end_stone"
+			id: "2B747AAB4A736043"
+			rewards: [{
+				id: "48DF785F2880324A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "040EF34DBCB941B6"
+				type: "dimension"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2B747AAB4A736043"]
+			description: ["打败末影龙，找到末地折越门，进入末地外岛"]
+			id: "3F6807ACD61EDE05"
+			rewards: [{
+				id: "4AA2AD0C625F55EF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4BF25C3734A1C915"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					id: "038A42EB715567B5"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3F6807ACD61EDE05"]
+			description: ["找到末地城上的末地船，找到鞘翅"]
+			id: "2F216535C7FDE97B"
+			rewards: [{
+				id: "270A667DE5A680A4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "132D2E6529F6A0EC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "minecraft:shulker_shell"
+					}
+					type: "item"
+				}
+				{
+					id: "4F85F130F291F170"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "minecraft:elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "528E913AB850B6F9"
+					item: "minecraft:dragon_head"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F216535C7FDE97B"]
+			id: "1F94A79DB4084DE3"
+			rewards: [{
+				id: "04269CC53D30234C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59AD1567896ECE2E"
+				item: "thirstcanteen:dragon_bottle"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3F6807ACD61EDE05"]
+			description: ["打败末影龙后，在返回主世界传送门的四面框架中心摆放4个末地水晶即可复活末影龙"]
+			id: "715E31AC51CA4184"
+			rewards: [{
+				id: "79D757CD4B254B5B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A720916811981FD"
+				item: "minecraft:end_crystal"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B747AAB4A736043"]
+			description: ["设置末地重生点"]
+			id: "46E9AD0C8E4CA33A"
+			rewards: [{
+				id: "6B58063837030093"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0970126CFD5FA5CF"
+				item: "end_respawn_anchor:end_respawn_anchor"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+	]
+	title: "End"
+}

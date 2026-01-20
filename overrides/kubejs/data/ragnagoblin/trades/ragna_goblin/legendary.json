@@ -1,0 +1,49 @@
+{
+  "replace": true,
+  "trades": [
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "enderitemod:enderite_sword",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "item": "minecraft:dragon_head",
+        "count": 25
+      },
+      "secondary_payment_item": {
+        "item": "minecraft:diamond_sword",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 32,
+      "experience": 900,
+      "enchantments": [
+        {
+          "id": "minecraft:sharpness",
+          "level": 10
+        }
+      ]
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "draconicevolution:chaos_shard",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "draconicevolution:awakened_core",
+        "count": 4
+      },
+      "secondary_payment_item": {
+        "item": "draconicevolution:awakened_draconium_ingot",
+        "count": 18
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 32,
+      "experience": 900
+    }
+  ]
+}

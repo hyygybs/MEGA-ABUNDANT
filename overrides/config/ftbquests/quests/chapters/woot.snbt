@@ -1,0 +1,411 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "woot"
+	group: "1F9A9FE71A5A4AA9"
+	icon: "woot_revived:heart"
+	id: "08C1BCF50F1D8D44"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["合成材料"]
+			id: "19239125B6574A3B"
+			rewards: [{
+				id: "42D4BD5386078A87"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "646E3F93CEE8EA6C"
+				item: "woot_revived:stygian_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19239125B6574A3B"]
+			description: ["合成材料"]
+			id: "2658FE0003999DD6"
+			rewards: [{
+				id: "55EACECA9F0406B7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73ACD70BDDD26721"
+				item: "woot_revived:stygian_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2658FE0003999DD6"]
+			description: ["本模组的指导书"]
+			id: "5A26929B1EFC46B2"
+			rewards: [{
+				id: "20172756C0C00D8B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F02FA69EA43ABEE"
+				item: "woot_revived:guide"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2658FE0003999DD6"]
+			description: ["放置在岩浆块上，用于合成其他材料"]
+			id: "3A4850607574C726"
+			rewards: [{
+				id: "16326050955498F0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2CF32B4BF1F41725"
+					item: "woot_revived:stygian_anvil"
+					type: "item"
+				}
+				{
+					id: "578E7CD0625F2B4D"
+					item: "woot_revived:stygian_hammer"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A4850607574C726"]
+			description: ["合成材料"]
+			id: "6AF08E729FC38C7D"
+			rewards: [{
+				id: "0FA994FDB244E4D5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "087F3684E8BF3EB3"
+					item: "woot_revived:plate_mold"
+					type: "item"
+				}
+				{
+					id: "03BB348947BEAB31"
+					item: "woot_revived:shard_mold"
+					type: "item"
+				}
+				{
+					id: "30E44F29AFAB9FC2"
+					item: "woot_revived:dye_casing_mold"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AF08E729FC38C7D"]
+			description: ["用于合成生物工厂"]
+			id: "75D6A0AB15F2F9CA"
+			rewards: [{
+				id: "52BCC8F6BEDCC73D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22DD149E32D1849C"
+				item: "woot_revived:factory_base"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AF08E729FC38C7D"]
+			description: ["用碎片攻击敌人后杀死以编程"]
+			id: "2C47263148F94830"
+			rewards: [{
+				id: "625F181680D4F8D0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63D72987C86781AE"
+				item: {
+					Count: 1
+					id: "woot_revived:mob_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["75D6A0AB15F2F9CA"]
+			description: ["用于查看生物工厂结构"]
+			id: "1D91FA8554BE0A52"
+			rewards: [{
+				id: "7690ADFE98612EC7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2EDC5D0A1FDE0CCB"
+				item: "woot_revived:layout"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C47263148F94830"]
+			description: ["多方块结构部件"]
+			id: "41D76D37F49400F3"
+			rewards: [{
+				id: "42FCEFA4A9A41044"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48205CF647FE5208"
+				item: "woot_revived:fake_spawner"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3964A1E3EB121D76"]
+			description: ["1级生物工厂"]
+			id: "49B8A679A4D188DE"
+			rewards: [{
+				id: "18E88003DF93F544"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "59A6C6496936BBC8"
+					item: "woot_revived:copper_plinth"
+					type: "item"
+				}
+				{
+					id: "6D58558780561AD3"
+					item: "woot_revived:copper_pylon"
+					type: "item"
+				}
+				{
+					id: "71E0554E1523C24D"
+					item: "woot_revived:copper_cell"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D91FA8554BE0A52"]
+			description: ["多方块结构组件"]
+			id: "3964A1E3EB121D76"
+			rewards: [{
+				id: "2A3FC9FAA8B9DBF5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5BDD2618445B0754"
+					item: "woot_revived:import"
+					type: "item"
+				}
+				{
+					id: "31BE8EBFE1C3F1DC"
+					item: "woot_revived:export"
+					type: "item"
+				}
+				{
+					id: "57D34C1BC0259625"
+					item: "woot_revived:factory_connect"
+					type: "item"
+				}
+				{
+					id: "40D4B5B4D391FD12"
+					item: "woot_revived:heart"
+					type: "item"
+				}
+				{
+					id: "73A3BC1E8A5B9C73"
+					item: "woot_revived:factory_ctr_base_pri"
+					type: "item"
+				}
+				{
+					id: "26A72DBA1BE4E889"
+					item: "woot_revived:factory_ctr_base_sec"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49B8A679A4D188DE"]
+			description: ["2级生物工厂"]
+			id: "35E459242632ED22"
+			rewards: [{
+				id: "13FA856C57B3F870"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "12824CFFDEF384F8"
+					item: "woot_revived:iron_plinth"
+					type: "item"
+				}
+				{
+					id: "025E2BAB8CB9BF8B"
+					item: "woot_revived:iron_pylon"
+					type: "item"
+				}
+				{
+					id: "1420DCC69FDA121A"
+					item: "woot_revived:iron_cell"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75D6A0AB15F2F9CA"]
+			description: ["用于合成材料"]
+			id: "5D59F8292C3CB110"
+			rewards: [{
+				id: "3AAADDB833449563"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3D53BE08F65B6108"
+					item: "woot_revived:fluid_infuser"
+					type: "item"
+				}
+				{
+					id: "7563D2E51872C78F"
+					item: "woot_revived:item_infuser"
+					type: "item"
+				}
+				{
+					id: "68DCF95189438A53"
+					item: "woot_revived:dye_liquifier"
+					type: "item"
+				}
+				{
+					id: "0B454AE70F534009"
+					item: "woot_revived:enchanted_liquifier"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["35E459242632ED22"]
+			description: ["3级生物工厂"]
+			id: "4A0EFA606B8D8688"
+			rewards: [{
+				id: "29F702D624F5B9DD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6F7F7EC763206ACE"
+					item: "woot_revived:gold_plinth"
+					type: "item"
+				}
+				{
+					id: "42657182921B8E15"
+					item: "woot_revived:gold_pylon"
+					type: "item"
+				}
+				{
+					id: "6C00D4720A209500"
+					item: "woot_revived:gold_cell"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A0EFA606B8D8688"]
+			description: ["4级生物工厂"]
+			id: "0A20A52117915B24"
+			rewards: [{
+				id: "55E264FE8E9FA917"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7CB1997717E03143"
+					item: "woot_revived:diamond_plinth"
+					type: "item"
+				}
+				{
+					id: "1794CA989221E0AB"
+					item: "woot_revived:diamond_pylon"
+					type: "item"
+				}
+				{
+					id: "02443AC1FE6E8CB0"
+					item: "woot_revived:diamond_cell"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A20A52117915B24"]
+			description: ["5级生物工厂"]
+			id: "4BC5349444B3B8AC"
+			rewards: [{
+				id: "29CD867583A259EE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "25B32308732E9839"
+					item: "woot_revived:netherite_plinth"
+					type: "item"
+				}
+				{
+					id: "4DF540184A5E413C"
+					item: "woot_revived:netherite_pylon"
+					type: "item"
+				}
+				{
+					id: "1ADB60560F5B1887"
+					item: "woot_revived:netherite_cell"
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: 0.0d
+		}
+	]
+	title: "Woot"
+}

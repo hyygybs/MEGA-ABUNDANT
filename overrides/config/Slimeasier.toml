@@ -1,0 +1,7 @@
+
+["Sticky Leaves Drop Chance"]
+	#Sticky Leaves drop chance (range: 0%-100%)
+	"Drop Chance" = 7.0
+	#Bonus Sticky Leaves drop chance (range: 0%-100%)
+	"Bonus Drop Chance" = 25.0
+

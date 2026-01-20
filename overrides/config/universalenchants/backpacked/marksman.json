@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:backpack",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": []
+}

@@ -1,0 +1,10 @@
+{
+	"parent": "cyclic:parent/spikes_off",
+  "render_type": "cutout_mipped",
+	"textures": {
+		"side": "minecraft:block/polished_blackstone",
+		"base_up": "minecraft:block/polished_blackstone",
+		"down": "minecraft:block/polished_blackstone",
+		"particle": "minecraft:block/polished_blackstone"
+	}
+}

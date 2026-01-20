@@ -1,0 +1,35 @@
+{
+  "entity": "endermanoverhaul:cave_enderman",
+  "name": "entity.endermanoverhaul.cave_enderman",
+  "name_color": "0x9D9690",
+  "gui_scale": 1.0,
+  "gui_x_offset": 0.0,
+  "gui_y_offset": 0.0,
+  "gui_z_offset": 0.0,
+  "sim_cost": 512,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+	"item": "hostilenetworks:end_prediction"
+  },
+  "trivia": "",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:ender_pearl",
+      "count": 16
+    },
+    {
+      "item": "minecraft:coal",
+      "count": 4
+    },
+	{
+      "item": "minecraft:raw_iron",
+      "count": 2
+    },
+	{
+      "item": "minecraft:emerald",
+      "count": 1
+    }
+  ]
+}

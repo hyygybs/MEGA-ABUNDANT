@@ -1,0 +1,329 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "functional_storage"
+	group: "1F9A9FE71A5A4AA9"
+	icon: "functionalstorage:oak_4"
+	id: "5F280E38B00928DB"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["用于存储单个物品"]
+			id: "0EEDB701F39B6641"
+			rewards: [{
+				id: "3FCBE2F5EFEC61C7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "343234B1D3E32000"
+				item: "functionalstorage:oak_1"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0EEDB701F39B6641"]
+			description: ["用于存储两种单个物品"]
+			id: "3CCE32B50CFCA19B"
+			rewards: [{
+				id: "47A1353FCA0DEDF0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CD290DE4E827BAD"
+				item: "functionalstorage:oak_2"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0EEDB701F39B6641"]
+			description: ["用于存储四种单个物品"]
+			id: "275C78ABE9C2229A"
+			rewards: [{
+				id: "49A5470AD52908B8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CF7690883E47EBA"
+				item: "functionalstorage:oak_4"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0EEDB701F39B6641"]
+			description: ["用于升级抽屉容量"]
+			id: "112AB4152CA040D9"
+			rewards: [{
+				id: "1F0EFA104D0AC17F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A6FA4998C389ACA"
+				item: "functionalstorage:copper_upgrade"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["112AB4152CA040D9"]
+			description: ["用于升级抽屉容量"]
+			id: "06724B5F4FE284FE"
+			rewards: [{
+				id: "46670A2CB437AB6D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "328BD0733B6FA141"
+				item: "functionalstorage:gold_upgrade"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["06724B5F4FE284FE"]
+			description: ["用于升级抽屉容量"]
+			id: "1CF8A1FCA6F6FABE"
+			rewards: [{
+				id: "08EBF629E1EFC624"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CD6892526A9C4B5"
+				item: "functionalstorage:diamond_upgrade"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1CF8A1FCA6F6FABE"]
+			description: ["用于升级抽屉容量"]
+			id: "7A73A1C478253344"
+			rewards: [{
+				id: "65016B3E127004AD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72AA93AF0479FAEC"
+				item: "functionalstorage:netherite_upgrade"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0EEDB701F39B6641"]
+			description: ["用于升级抽屉收集掉落物"]
+			id: "16B6499812D153C3"
+			rewards: [{
+				id: "6E310BCDCE83E938"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BC5BC3F2EE34D6B"
+				item: "functionalstorage:collector_upgrade"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["16B6499812D153C3"]
+			description: ["用于升级抽屉从周围的方块中抽取或输出物品"]
+			id: "0C078F847348251C"
+			rewards: [{
+				id: "0662ABFC1B7D0BE6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6B89B9BB4C384CA1"
+					item: "functionalstorage:puller_upgrade"
+					type: "item"
+				}
+				{
+					id: "3C83FC95E9CB4B42"
+					item: "functionalstorage:pusher_upgrade"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0C078F847348251C"]
+			description: ["用于降级抽屉容量"]
+			id: "1D9CF5B0D3260804"
+			rewards: [{
+				id: "4358384DB7066EF8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5490B6C95116CCE7"
+				item: "functionalstorage:iron_downgrade"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1D9CF5B0D3260804"]
+			description: ["用于升级抽屉删除超出上限的物品"]
+			id: "4A2D79B26F6DB584"
+			rewards: [{
+				id: "17382F81D973E4CA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11896917CCAB7B3D"
+				item: "functionalstorage:void_upgrade"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4A2D79B26F6DB584"]
+			description: ["用于升级抽屉选择输出信号的栏位"]
+			id: "21113ACA55AC6469"
+			rewards: [{
+				id: "02020905FF989718"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AAE371A1E74CEB4"
+				item: {
+					Count: 1
+					id: "functionalstorage:redstone_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0EEDB701F39B6641"]
+			description: ["用于存储单个流体"]
+			id: "467B624435B5F76E"
+			rewards: [{
+				id: "6B18EA05CADC12A3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D9709FE8BD6BEDA"
+				item: "functionalstorage:fluid_1"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["467B624435B5F76E"]
+			description: ["用于存储两种单个流体"]
+			id: "5E083D34AD83EB3B"
+			rewards: [{
+				id: "73C3D77EE85F1778"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F808D7E9AE4D19D"
+				item: "functionalstorage:fluid_2"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["467B624435B5F76E"]
+			description: ["用于存储四种单个流体"]
+			id: "08B87D5E46401F65"
+			rewards: [{
+				id: "4EA4925F10C8A8FD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DAC9775842E3869"
+				item: "functionalstorage:fluid_4"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CCE32B50CFCA19B"]
+			description: ["用于存储能够压缩和解压缩的物品"]
+			id: "663408FB0F55CB17"
+			rewards: [{
+				id: "35CF1BCC42FF1653"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36A72D86597F46A2"
+				item: "functionalstorage:compacting_drawer"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["275C78ABE9C2229A"]
+			description: ["用于连接抽屉的存货"]
+			id: "6CF248533B9E46C1"
+			rewards: [{
+				id: "74BCF228EE807CD0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37B74C9C59237B20"
+				item: "functionalstorage:storage_controller"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0EEDB701F39B6641"]
+			description: ["用于储存不可堆叠物品"]
+			id: "69A8DAC87F937115"
+			rewards: [{
+				id: "6108D87F0907209A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59311D54943DA996"
+				item: "functionalstorage:armory_cabinet"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+	]
+	title: "Functional Storage"
+}

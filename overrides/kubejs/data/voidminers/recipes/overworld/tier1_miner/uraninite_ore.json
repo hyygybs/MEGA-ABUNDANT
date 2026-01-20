@@ -1,0 +1,10 @@
+{
+  "type": "voidminers:miner",
+  "allowHigherTiers": true,
+  "dimension": "minecraft:overworld",
+  "minTier": 1,
+  "output": {
+    "item": "powah:uraninite_ore",
+    "weight": 1.0
+  }
+}

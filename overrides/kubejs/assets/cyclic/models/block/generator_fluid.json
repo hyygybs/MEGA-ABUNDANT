@@ -1,0 +1,13 @@
+{
+	"parent": "minecraft:block/cube",
+  "render_type": "cutout_mipped",
+	"textures": {
+		"particle": "cyclic:block/machine/fuel_fluid",
+		"down": "cyclic:block/machine/plate",
+		"up": "cyclic:block/machine/plate",
+		"north": "cyclic:block/machine/fuel_fluid",
+		"south": "cyclic:block/machine/fuel_fluid",
+		"west": "cyclic:block/machine/fuel_fluid",
+		"east": "cyclic:block/machine/fuel_fluid"
+	}
+}

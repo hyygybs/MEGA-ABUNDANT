@@ -1,0 +1,894 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars_norveau"
+	group: "0896B032D36C2B34"
+	icon: "ars_nouveau:creative_spell_book"
+	id: "61617EA50071FCB4"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["本模组的指导书"]
+			id: "577EEE9C3179E62A"
+			rewards: [{
+				id: "03A5FB7910B0B6F9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A68EDA4572D003C"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["577EEE9C3179E62A"]
+			description: ["法术的开始，只能使用一级魔符，可以储存十个法术"]
+			id: "4C6A956C95F76127"
+			rewards: [{
+				id: "552D3FCAE0A72E8F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DA8D14ABF9FF971"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4C6A956C95F76127"]
+			description: ["用法术书右击抄写台可以选择需要制作的魔符，之后手持材料右击抄写台来提供原料"]
+			id: "46CB027F1FCC95CE"
+			rewards: [{
+				id: "0898742BCE2635AF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "784BC74B5BC9A78A"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["359704E4533D2678"]
+			description: ["升级你的法术书"]
+			id: "497A33B60B0DE71D"
+			rewards: [{
+				id: "102DACF826889CDC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25E5196F72822346"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["46CB027F1FCC95CE"]
+			description: ["同于合成材料和机器"]
+			id: "7B821B9243B40D55"
+			rewards: [{
+				id: "6C81603C6F70FEE4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52F1A7AD626DE7D4"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4F6C4EEFC383C62B"]
+			description: ["吸取附近的燃料掉落物产生魔源"]
+			id: "359704E4533D2678"
+			rewards: [{
+				id: "106CFD48D8090A54"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A2A36895E4E5661"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7B821B9243B40D55"]
+			description: ["合成原材料"]
+			id: "4F6C4EEFC383C62B"
+			rewards: [{
+				id: "0A6F42EC90F5E17A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "422397B2706AA142"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7B821B9243B40D55"]
+			description: ["放置在魔源合成设备（附魔装置、灌注室等）四周用于摆放合成材料"]
+			id: "73A3F925157C9AAB"
+			rewards: [{
+				id: "153A05467AB1FA84"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F27EB85EB81C150"
+				item: "ars_nouveau:arcane_pedestal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["577EEE9C3179E62A"]
+			description: ["探测魔法生物和紫水晶洞穴"]
+			id: "3968B5916EB24443"
+			rewards: [{
+				id: "1D62ADBA9EECAC66"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50013BD99CE6E8D1"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dowsing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F6C4EEFC383C62B"]
+			description: ["以农艺魔源通道为圆心，15格为半径的球内，任意作物或树苗自然生长时产生魔源"]
+			id: "774BCE7285900F17"
+			rewards: [{
+				id: "3ABED02AEA5BE763"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FC58C3A050678AB"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F6C4EEFC383C62B"]
+			description: ["从附近的生物死亡和动物繁殖中产生魔源"]
+			id: "451CAE070740FD5B"
+			rewards: [{
+				id: "75633B0810804D8C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "603616FF7CB42098"
+				item: "ars_nouveau:vitalic_sourcelink"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4F6C4EEFC383C62B"]
+			description: ["利用附近掉落的食物产生魔源"]
+			id: "3052025971B306DC"
+			rewards: [{
+				id: "7B89714410034593"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "629943B78F0DB52A"
+				item: "ars_nouveau:mycelial_sourcelink"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4F6C4EEFC383C62B"]
+			description: ["通过消耗相邻药水罐的药水产生魔源"]
+			id: "5688D2B5FACFE6F1"
+			rewards: [{
+				id: "60A718592C078821"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "563E3C563FD90BF2"
+				item: "ars_nouveau:alchemical_sourcelink"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4F6C4EEFC383C62B"]
+			id: "08932BE68B0C86F4"
+			rewards: [{
+				id: "00B36C7B66191C5E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "744987BEDCCB5EF2"
+				item: "ars_nouveau:relay"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["497A33B60B0DE71D"]
+			description: ["用于合成与附魔"]
+			id: "30B1ED9EDDC0B047"
+			rewards: [{
+				id: "2CEB1B249577E654"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71134DFC8A94B51B"
+				item: "ars_nouveau:enchanting_apparatus"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["30B1ED9EDDC0B047"]
+			description: ["调试机器的工具"]
+			id: "2826E16F5C16706C"
+			rewards: [{
+				id: "15E10CEDABE4DB65"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1349B23F578430A6"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dominion_wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["30B1ED9EDDC0B047"]
+			description: ["种植得到合成材料"]
+			id: "0DACD14077E3B350"
+			rewards: [{
+				id: "0CE1ACA9AEE6ADA5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46FA7605007CC9A3"
+				item: "ars_nouveau:magebloom_crop"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3807899236803B18"]
+			description: ["基础合成材料"]
+			id: "2094155E471BD701"
+			rewards: [{
+				id: "3928AE9FC6E43722"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DE473750627CF09"
+				item: "ars_nouveau:blank_thread"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3807899236803B18"]
+			description: ["基础合成材料"]
+			id: "33537890124F4795"
+			rewards: [{
+				id: "506D76AF06D133EB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CEE0ACC301B6CF3"
+				item: "ars_nouveau:blank_parchment"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["30B1ED9EDDC0B047"]
+			description: ["使用仪式石板完成仪式"]
+			id: "30508A6E66B9C488"
+			rewards: [{
+				id: "23ED7CD27FF4BBF9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "57C4A3C892E80E03"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			description: ["用附魔装置合成来召唤生物"]
+			id: "56F1DD16A8ECD821"
+			rewards: [{
+				id: "6A1FD19DB5A80977"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "04A42FA50D31DF3E"
+					item: {
+						Count: 1
+						id: "ars_nouveau:starbuncle_charm"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "49517217D5DE5920"
+					item: "ars_nouveau:whirlisprig_charm"
+					type: "item"
+				}
+				{
+					id: "77413E319E6D7911"
+					item: "ars_nouveau:drygmy_charm"
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0DACD14077E3B350"]
+			description: ["召唤生物实现自动化"]
+			id: "52BD99F232C823CA"
+			rewards: [{
+				id: "40937EF0BB69C576"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4CDB40837C6D167F"
+					item: "ars_nouveau:whirlisprig_charm"
+					type: "item"
+				}
+				{
+					id: "746E79CA671F5B22"
+					item: "ars_nouveau:drygmy_charm"
+					type: "item"
+				}
+				{
+					id: "0F56225ECF4C5573"
+					item: {
+						Count: 1
+						id: "ars_nouveau:starbuncle_charm"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "17E4419B2564F8CC"
+					item: "ars_nouveau:wixie_charm"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6AE19199ACA085E6"]
+			description: ["将书龙护符绑定至讲台，合成与存储物品"]
+			id: "7DB87A1FF61AFC28"
+			rewards: [{
+				id: "711BEC40998DCD65"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7B05050D2664BE46"
+					item: "ars_nouveau:bookwyrm_charm"
+					type: "item"
+				}
+				{
+					id: "01465995AE28C965"
+					item: "ars_nouveau:storage_lectern"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0DACD14077E3B350"]
+			description: ["基础合成材料"]
+			id: "3807899236803B18"
+			rewards: [{
+				id: "7A92089F9E870530"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "629D9F651B7D4E31"
+				item: "ars_nouveau:magebloom_fiber"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3807899236803B18"]
+			description: ["可插入纤维强化"]
+			id: "474FE92EB1022BA7"
+			rewards: [{
+				id: "403918682A08240D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4FF26F36BEEA1935"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "ars_nouveau:battlemage_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A9E4D7F2C18D57E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "ars_nouveau:battlemage_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "060351D893072DC3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "ars_nouveau:battlemage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0671869506E6508A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "ars_nouveau:battlemage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["30508A6E66B9C488"]
+			description: ["用于召唤"]
+			id: "6AE19199ACA085E6"
+			rewards: [{
+				id: "7645EBCFF986A5F0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "755F54AC5500503D"
+				item: "ars_nouveau:ritual_awakening"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6AE19199ACA085E6"]
+			description: ["召唤紫水晶傀儡"]
+			id: "2B7978A87A8F4798"
+			rewards: [{
+				id: "20860206652285AA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79A90988E9D82EA8"
+				item: "ars_nouveau:amethyst_golem_charm"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["30508A6E66B9C488"]
+			description: ["召唤荒野奇美拉"]
+			id: "436D66D6CA8E5F5A"
+			rewards: [{
+				id: "611BF294ACFA78DF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "539FA812313C6E21"
+					item: "ars_nouveau:ritual_wilden_summon"
+					type: "item"
+				}
+				{
+					id: "0F81CBEDFAB4CE10"
+					item: "ars_nouveau:wilden_horn"
+					type: "item"
+				}
+				{
+					id: "0E8DC4431D5B3A78"
+					item: "ars_nouveau:wilden_spike"
+					type: "item"
+				}
+				{
+					id: "3483EBDB87CBAF06"
+					item: "ars_nouveau:wilden_wing"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["436D66D6CA8E5F5A"]
+			description: ["杀死荒野奇美拉掉落"]
+			id: "109904E3F9F30A9D"
+			rewards: [{
+				id: "4567C5D67298C385"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "461B206079456808"
+				item: "ars_nouveau:wilden_tribute"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["109904E3F9F30A9D"]
+			description: ["最高等级的法术书"]
+			id: "06C917EF8DB9624D"
+			rewards: [{
+				id: "4988D21F8AFDA1E8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F898AF483E63857"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["73A3F925157C9AAB"]
+			description: ["基础合成材料"]
+			id: "129F0BBE25C64DB8"
+			rewards: [{
+				id: "6CBA2127CD810E79"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "186091C2F854822E"
+					item: "ars_nouveau:fire_essence"
+					type: "item"
+				}
+				{
+					id: "1D2FAB215A65A967"
+					item: "ars_nouveau:water_essence"
+					type: "item"
+				}
+				{
+					id: "43F12001FC119629"
+					item: "ars_nouveau:air_essence"
+					type: "item"
+				}
+				{
+					id: "7845FA57DFBB2B4F"
+					item: "ars_nouveau:earth_essence"
+					type: "item"
+				}
+				{
+					id: "7217FBABF6ACA27A"
+					item: "ars_nouveau:conjuration_essence"
+					type: "item"
+				}
+				{
+					id: "7A7D0C0FCB5C146D"
+					item: "ars_nouveau:manipulation_essence"
+					type: "item"
+				}
+				{
+					id: "3E7AD168501C294E"
+					item: "ars_nouveau:abjuration_essence"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["30B1ED9EDDC0B047"]
+			description: ["用于配合ME箱子或磁盘驱动器存储魔源"]
+			id: "0D511E5B78DDC260"
+			rewards: [{
+				id: "2C3957DA4F28F9D1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "674E2A16CB8A8E3D"
+					item: {
+						Count: 1
+						id: "arseng:source_storage_cell_1k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "17DB8199EB6F7953"
+					item: {
+						Count: 1
+						id: "arseng:source_storage_cell_4k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "43DB56A1A7ECDCBD"
+					item: {
+						Count: 1
+						id: "arseng:source_storage_cell_16k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "37FDAE99185AE4D9"
+					item: {
+						Count: 1
+						id: "arseng:source_storage_cell_64k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "27DEA5C678803743"
+					item: {
+						Count: 1
+						id: "arseng:source_storage_cell_256k"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0D511E5B78DDC260"]
+			description: ["用于配合ME箱子或磁盘驱动器存储魔源"]
+			id: "0C705AA96C74E199"
+			rewards: [{
+				id: "0C892CC431E0EEF9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5EBDD2FC33C740A8"
+					item: {
+						Count: 1
+						id: "megacells:source_storage_cell_1m"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "07E72AEF500BDDE8"
+					item: {
+						Count: 1
+						id: "megacells:source_storage_cell_4m"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "649ECC472EB0AF92"
+					item: {
+						Count: 1
+						id: "megacells:source_storage_cell_16m"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "465F2F4913BAF0E6"
+					item: {
+						Count: 1
+						id: "megacells:source_storage_cell_64m"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "178E160B98FEADBB"
+					item: {
+						Count: 1
+						id: "megacells:source_storage_cell_256m"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["30B1ED9EDDC0B047"]
+			description: ["将魔源接入ME网络"]
+			id: "36C682D309F2161E"
+			rewards: [{
+				id: "09921E2F284D0649"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5A007B50FFD78877"
+					item: "arseng:me_source_jar"
+					type: "item"
+				}
+				{
+					id: "11CD391D677E78DF"
+					item: "arseng:source_acceptor"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["30B1ED9EDDC0B047"]
+			description: ["机械动力联动"]
+			id: "5A2714C625B43B97"
+			rewards: [{
+				id: "4428D5DBA444DE09"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "028AFBDB0D108983"
+				item: "ars_technica:calibrated_precision_mechanism"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A2714C625B43B97"]
+			description: ["将魔源转化为应力"]
+			id: "3182D8F17BE1AF2C"
+			rewards: [{
+				id: "56117E4EB6795053"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EFE429FB36D5EE7"
+				item: "ars_technica:source_engine"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4F6C4EEFC383C62B"]
+			description: ["用魔源罐存储魔源"]
+			id: "1B95D4A9B298B065"
+			rewards: [{
+				id: "68B625B2312B0E18"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "789894AE1FDE5E04"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+	]
+	title: "Ars Nouveau"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "everlastingabilities:effect",
+  "target": "self",
+  "name": "ability.everlastingabilities.grace",
+  "rarity": "rare",
+  "max_level": 1,
+  "xp_per_level": 30,
+  "effect": "cold_sweat:grace",
+  "condition": {
+    "type": "forge:mod_loaded",
+    "modid": "cold_sweat"
+  }
+}

@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"particle": "cyclic:block/machine/crusher/crusher",
+		"down": "cyclic:block/machine/crusher/crusher_top_on",
+		"up": "cyclic:block/machine/crusher/crusher_top_on",
+		"north": "cyclic:block/machine/crusher/crusher_on",
+		"south": "cyclic:block/machine/crusher/crusher_on",
+		"west": "cyclic:block/machine/crusher/crusher_on",
+		"east": "cyclic:block/machine/crusher/crusher_on"
+	}
+}

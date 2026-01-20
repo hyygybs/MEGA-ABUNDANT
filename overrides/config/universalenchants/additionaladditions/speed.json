@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_feet",
+    "apotheosis:boots_tome",
+    "alexsmobs:pigshoes"
+  ],
+  "incompatible": [
+    "minecraft:depth_strider",
+    "minecraft:frost_walker",
+    "minecraft:soul_speed"
+  ]
+}

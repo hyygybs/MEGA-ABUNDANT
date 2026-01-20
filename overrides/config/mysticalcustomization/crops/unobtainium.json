@@ -1,0 +1,13 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalcustomization:6",
+    "ingredient": {
+      "item": "allthemodium:unobtainium_ingot"
+    },
+    "color": "CE51E0",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+    },
+    "crux": "kubejs:unobtainium_crux"
+  }

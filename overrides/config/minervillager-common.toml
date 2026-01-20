@@ -1,0 +1,8 @@
+
+["General Settings"]
+	#Chance to spawn Miner Villager in mineshaft. Range: 0.0 (never) to 1.0 (always). Default: 0.3 (30%)
+	#Range: 0.0 ~ 1.0
+	Miner_villager_spawn_rate = 0.3
+	#Enable debug message when a Miner Villager spawns
+	Debug_Spawn_Message = false
+

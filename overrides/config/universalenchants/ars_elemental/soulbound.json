@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:soulbounding",
+    "industrialforegoing:infinity_drill",
+    "industrialforegoing:infinity_saw",
+    "industrialforegoing:infinity_hammer",
+    "twilightforest:block_and_chain"
+  ],
+  "incompatible": [
+    "tombstone:soulbound"
+  ]
+}

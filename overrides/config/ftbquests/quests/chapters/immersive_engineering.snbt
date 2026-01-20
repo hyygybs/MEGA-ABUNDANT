@@ -1,0 +1,1445 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "immersive_engineering"
+	group: "2DB7574DB5EFE80D"
+	icon: "immersiveengineering:light_engineering"
+	id: "093CCEFC25CE5731"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["46F6DCB6E8DA0754"]
+			description: ["本模组的重要工具"]
+			id: "09C0AEF771771064"
+			rewards: [{
+				id: "0D3914144D42BE5F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39C19CBFB599BE05"
+				item: {
+					Count: 1
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["09C0AEF771771064"]
+			description: ["用于调整本模组的机器"]
+			id: "669E0B78017253B4"
+			rewards: [{
+				id: "42E068E7A3583F87"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B2C767A07E91D5D"
+				item: "immersiveengineering:screwdriver"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["09C0AEF771771064"]
+			description: ["多方块结构，你的第一台机器，摆放方式为3x3x3"]
+			id: "2F89AD5C5EE87E31"
+			rewards: [{
+				id: "3A750D84C971D2E1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				count: 27L
+				id: "3E562B7A1999F0E8"
+				item: { Count: 27, id: "immersiveengineering:cokebrick" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F89AD5C5EE87E31"]
+			description: ["用于制作防腐木"]
+			id: "28B7F44F9A283CD3"
+			rewards: [{
+				id: "59F8A4844CE068B7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "386EC1905843DCA4"
+				item: "immersiveengineering:creosote_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			description: ["本模组的指导书"]
+			id: "46F6DCB6E8DA0754"
+			rewards: [{
+				id: "03D61BF6C0949526"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EBF7F26FD9BD4F9"
+				item: "immersiveengineering:manual"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F89AD5C5EE87E31"]
+			description: ["多方块结构，用于生产合金，搭建方式为2x2x2"]
+			id: "62F5157B1D936FFE"
+			rewards: [{
+				id: "3EE8AF89019778B1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "3F9E5BB97BB59F38"
+				item: "immersiveengineering:alloybrick"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["62F5157B1D936FFE"]
+			description: ["合成材料"]
+			id: "317E756F0088755D"
+			rewards: [{
+				id: "513214BAC86F47D7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1213B05AA6AC9CB8"
+					item: "thermal:constantan_ingot"
+					type: "item"
+				}
+				{
+					id: "04197DDF764DF3BE"
+					item: "thermal:electrum_ingot"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2F89AD5C5EE87E31"]
+			description: ["多方块结构，用于炼钢，摆放方式为3x3x3"]
+			id: "3F374EF4BE20DDA5"
+			rewards: [{
+				id: "33037120F859068D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				count: 27L
+				id: "4C569281CC227D0F"
+				item: "immersiveengineering:blastbrick"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["28B7F44F9A283CD3"]
+			description: ["合成材料"]
+			id: "49563E1D05B392D6"
+			rewards: [{
+				id: "4733254A40F63E59"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DB29DC5DEAEE388"
+				item: "immersiveengineering:treated_wood_horizontal"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["49563E1D05B392D6"]
+			description: ["更高级的工作台"]
+			id: "514DF6F8C466BA24"
+			rewards: [{
+				id: "4B55408585804C21"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CDCF3C6F5B7C921"
+				item: "immersiveengineering:craftingtable"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3F374EF4BE20DDA5"]
+			id: "393BE937FBF6A8E9"
+			rewards: [{
+				id: "3804A36A087C3B9B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DFAA5A603A10818"
+				item: "thermal:steel_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3F374EF4BE20DDA5"]
+			description: ["多方块结构，更高级的高炉，摆放方式为强化高炉砖3x3x3，然后顶部的最中心摆上漏斗"]
+			id: "2C240C1F100C4565"
+			rewards: [{
+				id: "4262205A60DD1863"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 27L
+					id: "2E28C62CA9EE425B"
+					item: { Count: 27, id: "immersiveengineering:blastbrick_reinforced" }
+					type: "item"
+				}
+				{
+					id: "3D5A7FD385FF3FBC"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["514DF6F8C466BA24"]
+			description: ["用于构造蓝图中的物品"]
+			id: "2275B9D3E5006B07"
+			rewards: [{
+				id: "6A6D36AC1AFC8986"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F734CC453C8B7D0"
+				item: "immersiveengineering:workbench"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["49563E1D05B392D6"]
+			description: ["用于储存物品"]
+			id: "7DBB3EDA52E3F2EA"
+			rewards: [{
+				id: "5D07FE7C6653025F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AB74FE95DB584B6"
+				item: "immersiveengineering:crate"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7DBB3EDA52E3F2EA"]
+			description: ["用于储存物品，防爆"]
+			id: "218869B0163528EE"
+			rewards: [{
+				id: "178BA7539F978A3C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29BEB9C8497733FF"
+				item: "immersiveengineering:reinforced_crate"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["49563E1D05B392D6"]
+			description: ["用于存储低温流体"]
+			id: "29E10C497BF864FD"
+			rewards: [{
+				id: "326462FB9F515965"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20D93E9C4ABCC89C"
+				item: "immersiveengineering:wooden_barrel"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["29E10C497BF864FD"]
+			description: ["用于存储流体"]
+			id: "1F109BBE1E2EDA8D"
+			rewards: [{
+				id: "3234C128F170A106"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6ADEE3110A8E5941"
+				item: "immersiveengineering:metal_barrel"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["49563E1D05B392D6"]
+			description: ["多方块结构，用于存储单种物品，摆放方式为第一层4个防腐木栅栏中心1个铁板金属，第二层为8个铁板金属围成正方形，第三层到第六层同第二层，第七层9个铁板金属"]
+			id: "37DB6A130B0587AF"
+			rewards: [{
+				id: "261F33AF8DB6C65C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 50L
+					id: "65E4BBF797F859E7"
+					item: { Count: 50, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5E4435178913F6A2"
+					item: { Count: 4, id: "immersiveengineering:treated_fence" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["37DB6A130B0587AF"]
+			description: ["多方块结构，用于存储单种流体，摆放方式为第一层4个防腐木栅栏中心1个铁板金属，第二层为8个铁板金属围成正方形，第三层到第四层同第二层，第五层9个铁板金属"]
+			id: "48B584C4E7C4A9E8"
+			rewards: [{
+				id: "6BB74450567B5C02"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 34L
+					id: "07346E319B73EC3E"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "219D4FE64E1F5542"
+					item: { Count: 4, id: "immersiveengineering:treated_fence" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2275B9D3E5006B07"]
+			description: ["合成材料"]
+			id: "63BDC724B9B376DC"
+			rewards: [{
+				id: "190F3A2E93E61C33"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "32FFE1BEABB071BE"
+					item: "immersiveengineering:component_iron"
+					type: "item"
+				}
+				{
+					id: "57E8F80D6294F9B9"
+					item: "immersiveengineering:component_steel"
+					type: "item"
+				}
+				{
+					id: "188B30C7865FF467"
+					item: "immersiveengineering:component_electronic"
+					type: "item"
+				}
+				{
+					id: "1DA05CE4AAA031C8"
+					item: "immersiveengineering:electron_tube"
+					type: "item"
+				}
+				{
+					id: "647C1E4250D3050C"
+					item: "immersiveengineering:component_electronic_adv"
+					type: "item"
+				}
+				{
+					id: "30A76E14BE5E86AC"
+					item: "immersiveengineering:light_bulb"
+					type: "item"
+				}
+				{
+					id: "217808C5BBCF3E86"
+					item: "immersiveengineering:circuit_board"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["669E0B78017253B4"]
+			description: ["用于制造电线"]
+			id: "5C5EC014EDADD596"
+			rewards: [{
+				id: "22D8104DD4545B4D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FF411FDFE3AA7EE"
+				item: {
+					Count: 1
+					id: "immersiveengineering:wirecutter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C240C1F100C4565"]
+			description: ["和水车或风车配合使用产生能量"]
+			id: "596C47F15D6297A2"
+			rewards: [{
+				id: "064C42DB3A1AB1BE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "522DA4ED123DA816"
+				item: "immersiveengineering:dynamo"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["596C47F15D6297A2"]
+			description: ["用于发电"]
+			id: "298427A2DEA664B5"
+			rewards: [{
+				id: "125682ECFAAC2FB4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60C974186A6312C0"
+				item: "immersiveengineering:watermill"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["596C47F15D6297A2"]
+			description: ["用于发电"]
+			id: "7B4EA77D4EF518D7"
+			rewards: [{
+				id: "03E8D7EB12313DC0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3262E0949317EF5C"
+				item: "immersiveengineering:windmill"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E1CBFFDAA83D5CF"]
+			description: ["用于传输能量"]
+			id: "2B9C8363C21D4643"
+			rewards: [{
+				id: "7423AFEC13D328BF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "64C12ACE96143E52"
+					item: "immersiveengineering:connector_lv"
+					type: "item"
+				}
+				{
+					id: "08F50CF2F3D76F66"
+					item: "immersiveengineering:connector_lv_relay"
+					type: "item"
+				}
+				{
+					id: "5D274F390A616338"
+					item: "immersiveengineering:wirecoil_copper"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2B9C8363C21D4643"]
+			description: ["改变电路电压"]
+			id: "72CBFA2B1173353D"
+			rewards: [{
+				id: "4B3B3B2859607E2D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7C639E6AA843CD1D"
+					item: "immersiveengineering:transformer"
+					type: "item"
+				}
+				{
+					id: "621E7B4DF426C496"
+					item: "immersiveengineering:transformer_hv"
+					type: "item"
+				}
+				{
+					id: "2D75155BD742A90D"
+					item: "immersiveengineering:wirecoil_electrum"
+					type: "item"
+				}
+				{
+					id: "12F76B4FDCCC1708"
+					item: "immersiveengineering:wirecoil_steel"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B9C8363C21D4643"]
+			description: ["用于检测电路"]
+			id: "2E88FDA42D6DA026"
+			rewards: [{
+				id: "0E204E4021FF351F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "127BB8DB6DC20366"
+				item: "immersiveengineering:voltmeter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["72CBFA2B1173353D"]
+			description: ["用于开关电路"]
+			id: "5A3CFF5674422C3A"
+			rewards: [{
+				id: "40FD767FE89ADA0C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "517ED3FD4D8F49A5"
+					item: "immersiveengineering:breaker_switch"
+					type: "item"
+				}
+				{
+					id: "6F52E338883C6FC5"
+					item: "immersiveengineering:redstone_breaker"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2E88FDA42D6DA026"]
+			description: ["用于测量电流"]
+			id: "0E7B0A81D56C8E02"
+			rewards: [{
+				id: "776A3EFCF4EDA26E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E4D040C64F47F11"
+				item: "immersiveengineering:current_transformer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["63BDC724B9B376DC"]
+			description: ["用于组装逻辑电路"]
+			id: "2D25CE0F7C335AF3"
+			rewards: [{
+				id: "430924198B873C93"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BD80D0EFDAF232B"
+				item: "immersiveengineering:circuit_table"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["596C47F15D6297A2"]
+			description: ["依靠两侧温差产生能量"]
+			id: "1E1CBFFDAA83D5CF"
+			rewards: [{
+				id: "2C36978C7562D056"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E9AEAC5B146C6BF"
+				item: "immersiveengineering:thermoelectric_generator"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F94E5DE0202A749"]
+			description: ["多方块结构，用于消耗柴油产生能量"]
+			id: "3965E1032F1E6DC4"
+			rewards: [{
+				id: "1A79CD9C600A8E75"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "5766DE6E9DEACC4A"
+					item: { Count: 4, id: "immersiveengineering:generator" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "32ECF2651CA2B05C"
+					item: { Count: 9, id: "immersiveengineering:radiator" }
+					type: "item"
+				}
+				{
+					count: 13L
+					id: "042E266E62CE1938"
+					item: { Count: 13, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					id: "405B0F5ADB9331B6"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "790E311934C08632"
+					item: { Count: 6, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "56272C56FD1ECF1A"
+					item: { Count: 5, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2E75418A1F41F49D"]
+			description: ["多方块结构，用于吸收雷电产生能量"]
+			id: "5C9D409B0385E151"
+			rewards: [{
+				id: "52D072EC530AED35"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "7064325953056804"
+					item: { Count: 4, id: "immersiveengineering:capacitor_hv" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "72EA89058E8D5774"
+					item: { Count: 3, id: "immersiveengineering:coil_hv" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7DBB2C270B6F71C1"
+					item: { Count: 8, id: "immersiveengineering:coil_lv" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2675ABE2EEF0891F"
+					item: { Count: 4, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2CB38F021E7A6AC2"
+					item: { Count: 4, id: "immersiveengineering:treated_fence" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0245F8EA9213B895"
+					item: { Count: 4, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2B9C8363C21D4643"]
+			description: ["用于存储能量"]
+			id: "637ED7AE395F7D1A"
+			rewards: [{
+				id: "4CE67EE6A47888A0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "418E6E1752A631D6"
+					item: "immersiveengineering:capacitor_lv"
+					type: "item"
+				}
+				{
+					id: "2A351F113A84E8FC"
+					item: "immersiveengineering:capacitor_mv"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3965E1032F1E6DC4"]
+			description: ["用于存储能量"]
+			id: "2E75418A1F41F49D"
+			rewards: [{
+				id: "0D6C651D2B7D3D00"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62E19466F73A5691"
+				item: "immersiveengineering:capacitor_hv"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5C5EC014EDADD596"]
+			description: ["用于物流"]
+			id: "21D878686DABAFEF"
+			rewards: [{
+				id: "623E0FA5B3FEC22B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "56C7A98462DF12C2"
+				item: "immersiveengineering:conveyor_basic"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["63BDC724B9B376DC"]
+			description: ["用于种植作物"]
+			id: "1D8661B0F18A0DD3"
+			rewards: [{
+				id: "4EF69920912B02F6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7571EDB992282CA0"
+				item: "immersiveengineering:cloche"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["63BDC724B9B376DC"]
+			description: ["用于制造磁场"]
+			id: "084CCFA4A143B0F6"
+			rewards: [{
+				id: "115E1704A294382C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EFC6800347638EF"
+				item: "immersiveengineering:electromagnet"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["637ED7AE395F7D1A"]
+			description: ["多方块结构，用于制造板材"]
+			id: "5F94E5DE0202A749"
+			rewards: [{
+				id: "23A08526538163A3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4D29E93A03E3078C"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					id: "1CBA6FE5B3E290AF"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					id: "66E5A9461B7E0A63"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "180EFE89761B1BC3"
+					item: "immersiveengineering:conveyor_basic"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "134366F5DCE950F7"
+					item: { Count: 2, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F94E5DE0202A749"]
+			description: ["多方块结构，用于粉碎矿物"]
+			id: "7E63674CDC4D081A"
+			rewards: [{
+				id: "4B22C650AA7F78A1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 10L
+					id: "18AA32E79CF2132A"
+					item: { Count: 10, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "407F9D7A79918844"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "5576C491596C30C1"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "657F797E5019B631"
+					item: { Count: 8, id: "immersiveengineering:steel_fence" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "275DFF41B96D8D2A"
+					item: { Count: 9, id: "minecraft:hopper" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5F94E5DE0202A749"]
+			description: ["多方块结构，用于切割木板"]
+			id: "244D6239846C4B2C"
+			rewards: [{
+				id: "02332E77CB8AA33D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 6L
+					id: "40DECCFAF9E92AD0"
+					item: { Count: 6, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "523277A777A02C6D"
+					item: { Count: 4, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "147AB0852E4C02E2"
+					item: { Count: 2, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					id: "0C9BC5638B0374C2"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1C435E4A290219BA"
+					item: { Count: 8, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0700C691FD1F4E06"
+					item: "immersiveengineering:conveyor_basic"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			description: ["多方块结构，用于自动合成"]
+			id: "1BA6938BD82C6D46"
+			rewards: [{
+				id: "3CE88351F0570EBD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "218DB4F10D519FE8"
+					item: { Count: 2, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "11302F3F1B40EFD9"
+					item: { Count: 2, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "1F0A3AAA005B5D68"
+					item: { Count: 9, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "7DE23E9481FE1BFD"
+					item: { Count: 6, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "7FD1DE094D3C85BA"
+					item: { Count: 6, id: "immersiveengineering:slab_sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "64A529E655636C72"
+					item: { Count: 2, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5F94E5DE0202A749"]
+			description: ["多方块结构，用于自动合成蓝图"]
+			id: "7AD0995F7E46979C"
+			rewards: [{
+				id: "7C1637CE9D929644"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "3ABBEB070DC2C8E4"
+					item: { Count: 4, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "35BD95F08CE05B68"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "67ECC2F81310DBA8"
+					item: { Count: 2, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "37298C3A2EA7B1E4"
+					item: { Count: 5, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "70C9BAC657A09752"
+					item: { Count: 2, id: "immersiveengineering:slab_treated_wood_horizontal" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5103C353AD64652C"
+					item: { Count: 4, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5F94E5DE0202A749"]
+			description: ["多方块结构，用于挤压植物油"]
+			id: "016E0EF094784116"
+			rewards: [{
+				id: "76411074946152E8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "38361CB09411A736"
+					item: { Count: 2, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "45767F8A9E8397C2"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					id: "59709E65DCEB9F20"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "2CC006B104B5BADD"
+					item: { Count: 6, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "57340B86228F0573"
+					item: { Count: 3, id: "immersiveengineering:steel_fence" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5B1A7123C2D4A345"
+					item: { Count: 2, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "60FFBFAE639892C8"
+					item: { Count: 4, id: "immersiveengineering:wooden_barrel" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F94E5DE0202A749"]
+			description: ["多方块结构，用于提取乙醇"]
+			id: "188D8DE53C351CAF"
+			rewards: [{
+				id: "639EA6DEFF140EAD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "782DC19231516953"
+					item: { Count: 2, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "498C7711F6A6BAE6"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7D6B9AF1B87CD2A4"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "73D21A451825A00A"
+					item: { Count: 6, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3702586A76EEEB39"
+					item: { Count: 2, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "14A19D2AF8F8231F"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F94E5DE0202A749"]
+			description: ["多方块结构，用于混合固体和流体"]
+			id: "7BE1E80C51F97516"
+			rewards: [{
+				id: "2991C2882BAD253B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "63B65F26BD9FB643"
+					item: { Count: 2, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "3CA2982B299DA16C"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0DC08853F40064D7"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "792D988DB4215F75"
+					item: { Count: 6, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "4495EFEDACB75357"
+					item: { Count: 2, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "0587AA47F5CD4C8A"
+					item: "immersiveengineering:steel_fence"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F94E5DE0202A749"]
+			description: ["多方块结构，用于提炼流体"]
+			id: "74717E532B8D8064"
+			rewards: [{
+				id: "708BA2D7BF107AE4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "2E14886EB4775EB7"
+					item: { Count: 6, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "782EE84D67144A52"
+					item: { Count: 4, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "185C0B1867ABB1D6"
+					item: { Count: 2, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					id: "4514669282C993F3"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0D07A575461E046A"
+					item: { Count: 8, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "6C69F14587745595"
+					item: { Count: 5, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F94E5DE0202A749"]
+			description: ["多方块结构，用于灌装流体"]
+			id: "3A7BA3D6DAA2BCA9"
+			rewards: [{
+				id: "30EBF55A9939162E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "1097B5E9DA4C6DFB"
+					item: { Count: 2, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "6752E0CDD2A0CF1C"
+					item: { Count: 2, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3E693B2FAA1E762D"
+					item: { Count: 9, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "63E04261FFE0C868"
+					item: { Count: 6, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "045E0EF6D0C16BE2"
+					item: { Count: 2, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+				{
+					id: "12331F325716F969"
+					item: "immersiveengineering:fluid_pump"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5F94E5DE0202A749"]
+			description: ["多方块结构，用于融化金属"]
+			id: "4AA530E60C3607FC"
+			rewards: [{
+				id: "313E0EACB64CD004"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 10L
+					id: "50E4CA2BE5FACB6B"
+					item: { Count: 4, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "3B50AC8202C3FFB1"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "0DD8DE17439DBA3E"
+					item: { Count: 2, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "0F4244C824260C46"
+					item: { Count: 5, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "73BFA05FEB2BC71F"
+					item: { Count: 8, id: "immersiveengineering:sheetmetal_steel" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "64B81A7179E19380"
+					item: { Count: 6, id: "thermal:steel_block" }
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "4E86D503F82CCF64"
+					item: { Count: 27, id: "immersiveengineering:blastbrick_reinforced" }
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "36BF8395AB00CE27"
+					item: { Count: 14, id: "immersiveengineering:slab_sheetmetal_steel" }
+					type: "item"
+				}
+				{
+					id: "28CD6BD1B09412AC"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E75418A1F41F49D"]
+			description: ["多方块结构，用于挖掘矿物"]
+			id: "10CD0ED5428D8F12"
+			rewards: [{
+				id: "064D5A464420389C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 9L
+					id: "7BA71D480957F509"
+					item: { Count: 4, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "38C2B18061DDE8ED"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3CA782391B63C088"
+					item: { Count: 2, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					count: 26L
+					id: "6BDC1C0D02E1B719"
+					item: { Count: 5, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2E3512D140B88451"
+					item: { Count: 8, id: "immersiveengineering:sheetmetal_steel" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "31EBD16EC4521A07"
+					item: { Count: 6, id: "thermal:steel_block" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "13C9922E29BF2958"
+					item: { Count: 3, id: "immersiveengineering:radiator" }
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: -0.5d
+		}
+	]
+	title: "Immersive Engineering"
+}

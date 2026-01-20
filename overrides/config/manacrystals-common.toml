@@ -1,0 +1,7 @@
+
+[Mana_Crystal]
+	#Mana increase per mana crystal
+	Mana_Increase = 10.0
+	#Maximum amount of times you can use mana crystals
+	Max_Uses = 10
+

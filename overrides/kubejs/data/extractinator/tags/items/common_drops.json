@@ -1,0 +1,32 @@
+{
+  "values": [
+    "minecraft:raw_iron",
+    "minecraft:raw_copper",
+    "minecraft:raw_gold",
+    "minecraft:coal",
+    {
+      "required": false,
+      "id": "#forge:raw_materials/tin"
+    },
+    {
+      "required": false,
+      "id": "#forge:gems/apatite"
+    },
+    {
+      "required": false,
+      "id": "#forge:gems/cinnabar"
+    },
+    {
+      "required": false,
+      "id": "#forge:gems/niter"
+    },
+    {
+      "required": false,
+      "id": "#forge:gems/sulfur"
+    },
+    {
+      "required": false,
+      "id": "#forge:gems/fluorite"
+    }
+  ]
+}

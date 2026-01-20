@@ -1,0 +1,10 @@
+{
+  "type": "voidminers:miner",
+  "allowHigherTiers": true,
+  "dimension": "minecraft:overworld",
+  "minTier": 1,
+  "output": {
+    "item": "thermal:silver_ore",
+    "weight": 8.0
+  }
+}

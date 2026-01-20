@@ -1,0 +1,2052 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "2DB7574DB5EFE80D"
+	icon: "mekanism:metallurgic_infuser"
+	id: "613056EF503F78B0"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["燃烧燃料产生能量"]
+			id: "76AF49123135EC21"
+			rewards: [{
+				id: "19C172041F6FF69B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1094488590FAB64B"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["76AF49123135EC21"]
+			description: ["消耗能量合成材料"]
+			id: "2E95D1B5C9A1DC1A"
+			rewards: [{
+				id: "03EC9F48EEFF41A9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "172C840F71CD0D63"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["068A12428D07C915"]
+			description: ["用于合成机器"]
+			id: "79CD9F0FF6356A4D"
+			rewards: [{
+				id: "7517E9DC4DC30396"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E7C9026E8B97D41"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2E95D1B5C9A1DC1A"]
+			description: ["合成材料"]
+			id: "068A12428D07C915"
+			rewards: [{
+				id: "1189A65CE561C198"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DAAFF672352FE35"
+				item: "thermal:steel_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79CD9F0FF6356A4D"]
+			description: ["合成材料"]
+			id: "55196B14541C8AF0"
+			rewards: [{
+				id: "2F9B88D34F4875F2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14287C4A37C59953"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["55196B14541C8AF0"]
+			description: ["消耗能量烧炼物品，1倍产物"]
+			id: "0EFB3DE5F3D6D520"
+			rewards: [{
+				id: "5E5AC47D20BA7568"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02345258667A7A9F"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["55196B14541C8AF0"]
+			id: "368E733FF1A54C66"
+			rewards: [{
+				id: "4DF3A0E87CBD16BD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A93F33A7F9FE4BF"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["55196B14541C8AF0"]
+			description: ["用于存储物品"]
+			id: "1B5007E25793A329"
+			rewards: [{
+				id: "7981A8804D74D165"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "147A9C2F2033E636"
+				item: "mekanism:basic_bin"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["55196B14541C8AF0"]
+			description: ["消耗能量处理矿物，2倍产物"]
+			id: "369C0DA7417E99BF"
+			rewards: [{
+				id: "23F29A31A99795DA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11A380BD59872023"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["068A12428D07C915"]
+			description: ["用于存储流体"]
+			id: "2E944523569EB9AA"
+			rewards: [{
+				id: "06DE3B97B3E1D98B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78D67E02207AAE4A"
+				item: "mekanism:basic_fluid_tank"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["068A12428D07C915"]
+			description: ["用于存储化学品"]
+			id: "5DB263275D22967F"
+			rewards: [{
+				id: "4026EF5C955A62B4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FEAE8F403D10903"
+				item: "mekanism:basic_chemical_tank"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["10C894E49840AADE"]
+			id: "33A5698134F5859A"
+			rewards: [{
+				id: "5AA0D75FDB4FA1B8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FC953120F40B00B"
+				item: "mekanism:precision_sawmill"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["10C894E49840AADE"]
+			description: ["用于电解流体"]
+			id: "538FD2F616244B42"
+			rewards: [{
+				id: "68B78F27129090A0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "399C6F3DCA462660"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55196B14541C8AF0"]
+			description: ["将内部的流体填满一定范围内的坑"]
+			id: "1CE0B61F1EF52BE0"
+			rewards: [{
+				id: "50494E6AD04BFE74"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1709770B1CB79CDA"
+				item: "mekanism:fluidic_plenisher"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["55196B14541C8AF0"]
+			description: ["将食物转化为营养糊剂"]
+			id: "2D07D98D74695176"
+			rewards: [{
+				id: "1E1957029C3C78A1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6376840030415B2E"
+				item: "mekanism:nutritional_liquifier"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["10C894E49840AADE"]
+			description: ["将液体和气体还有物品处理成高级材料"]
+			id: "249B84F1475672D8"
+			rewards: [{
+				id: "6AD6A8BE9C372C74"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C82A3C549D5ABE5"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["55196B14541C8AF0"]
+			description: ["用于提取物品颜色"]
+			id: "55BBECAE49646256"
+			rewards: [{
+				id: "65AF93D24E34E022"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34C3945B022DA0E0"
+				item: "mekanism:pigment_extractor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5BA0716F2C170D2F"]
+			description: ["用于存储能量"]
+			id: "03EAA3983DD4E0E7"
+			rewards: [{
+				id: "7924C7F059C6D8BA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DBA575E66E8A0BF"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5BA0716F2C170D2F"]
+			description: ["用于给物品充能"]
+			id: "2444419B0D0A4899"
+			rewards: [{
+				id: "1A56B81E6A9FA52E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5ADF7B3C559A04BB"
+				item: "mekanism:chargepad"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["55196B14541C8AF0"]
+			description: ["用于自动合成"]
+			id: "0134157968B23887"
+			rewards: [{
+				id: "154A6D29370DCC7F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "682BF5EE5B037D90"
+				item: "mekanism:formulaic_assemblicator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["068A12428D07C915"]
+			id: "2BAB1C3250C9CFE3"
+			rewards: [{
+				id: "2C4BFC0807D36D24"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4C8E3328971BBBD0"
+					item: "mekanism:basic_universal_cable"
+					type: "item"
+				}
+				{
+					id: "620F7A3B9AC60891"
+					item: "mekanism:basic_mechanical_pipe"
+					type: "item"
+				}
+				{
+					id: "1D104747E7E78B66"
+					item: "mekanism:basic_logistical_transporter"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["55196B14541C8AF0"]
+			description: ["只有玩家本人才能打开的箱子/桶"]
+			id: "3F7CCDFB86154B5F"
+			rewards: [{
+				id: "3953B60327DFE2C8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6397C832C7A1FF00"
+					item: "mekanism:personal_chest"
+					type: "item"
+				}
+				{
+					id: "58C829842DB0A8B4"
+					item: "mekanism:personal_barrel"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5BA0716F2C170D2F"]
+			id: "1621E4BE04F73787"
+			rewards: [{
+				id: "02A69461835FA4B4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09E6428818259C69"
+				item: "mekanism:resistive_heater"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["55196B14541C8AF0"]
+			description: ["合成材料"]
+			id: "10C894E49840AADE"
+			rewards: [{
+				id: "09C9675D689B3050"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7A48B75F1B235A48"
+					item: "mekanism:advanced_control_circuit"
+					type: "item"
+				}
+				{
+					id: "665977C141E6BC14"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["10C894E49840AADE"]
+			description: ["制造强化萤石和强化黑曜石"]
+			id: "0BE5AC7681B02168"
+			rewards: [{
+				id: "5507AC22490E11BF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "426F85A00C9E61FD"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0BE5AC7681B02168"]
+			description: ["合成材料"]
+			id: "363F723C5D1F88F2"
+			rewards: [{
+				id: "4B0594E9ADF63418"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "53DF31FB1250A5D4"
+					item: "mekanism:ingot_refined_glowstone"
+					type: "item"
+				}
+				{
+					id: "0F7F1D74DB62BF3B"
+					item: "mekanism:ingot_refined_obsidian"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5BA0716F2C170D2F"]
+			description: ["将气体和流体相互转换"]
+			id: "1B2C264417D1A00D"
+			rewards: [{
+				id: "7D6C986E6B478F29"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FFD4D808E6A2C8A"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["10C894E49840AADE"]
+			id: "418BDEAE46BD8C8C"
+			rewards: [{
+				id: "22644AF2B9F4F5EC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "109B79BC44B81C43"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["10C894E49840AADE"]
+			description: ["将两种气体混合形成新的气体"]
+			id: "49A63CF0433CC854"
+			rewards: [{
+				id: "4485AC7D8947749C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D7EA35F61E604E8"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["10C894E49840AADE"]
+			description: ["将矿石加工为矿石碎块，3倍产物"]
+			id: "01D5F6251182084D"
+			rewards: [{
+				id: "4CAB7F3691460267"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E8586C743F2D921"
+				item: "mekanism:purification_chamber"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["55196B14541C8AF0"]
+			description: ["用于物流分类"]
+			id: "6DC6D1AD7DA4E13D"
+			rewards: [{
+				id: "61266A2FE6195153"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D00FA50965DE9B8"
+				item: "mekanism:logistical_sorter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["55196B14541C8AF0"]
+			description: ["用于抽取流体"]
+			id: "2CEEE16E4E48C2E4"
+			rewards: [{
+				id: "788ECA3DB13CE8B0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36589BF98F21D456"
+				item: "mekanism:electric_pump"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["10C894E49840AADE"]
+			description: ["合成材料"]
+			id: "669FB1861C7C83F1"
+			rewards: [{
+				id: "75ED7C6B380CCC6D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4830B8DCCC9C9250"
+					item: "mekanism:elite_control_circuit"
+					type: "item"
+				}
+				{
+					id: "1D0B92B2189FEE65"
+					item: "mekanism:alloy_reinforced"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["669FB1861C7C83F1"]
+			id: "3456E862BC58F9B3"
+			rewards: [{
+				id: "26837D46F871C9FC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "359A5E361C437F43"
+				item: "mekanism:combiner"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["76AF49123135EC21"]
+			description: ["用风力产生能量"]
+			id: "6F1D92B62B088FC1"
+			rewards: [{
+				id: "18B4F5E4A79C9E37"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25934A405557751A"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F1D92B62B088FC1"]
+			description: ["消耗氢气或乙烯产生能量"]
+			id: "7FCA6FF40277AB5A"
+			rewards: [{
+				id: "10157531EC1E6937"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A8CAFF16531C963"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7FCA6FF40277AB5A"]
+			description: ["燃烧生物燃料产生能量"]
+			id: "51C7A5E441832D81"
+			rewards: [{
+				id: "1DE4669040EEF374"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6806616E84D4DF76"
+				item: "mekanismgenerators:bio_generator"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["669FB1861C7C83F1"]
+			description: ["混合颜料产生新的颜色"]
+			id: "4792BE9045C37E80"
+			rewards: [{
+				id: "6D09350AB58F6244"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68C5A435B6FBF5D3"
+				item: "mekanism:pigment_mixer"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["10C894E49840AADE"]
+			id: "423BBE0F81775956"
+			rewards: [{
+				id: "72AB1658CA553AC9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EB4AAF57601E7B6"
+				item: "mekanism:painting_machine"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["068A12428D07C915"]
+			id: "66F6CCD260385B57"
+			rewards: [{
+				id: "6407BBB908A68709"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2078391E56332DA9"
+				item: "mekanism:radioactive_waste_barrel"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["55196B14541C8AF0"]
+			description: ["用于产生热量"]
+			id: "7789FA0CFB4427B6"
+			rewards: [{
+				id: "49C313B040CD77AC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53B389DFE229EF3D"
+				item: "mekanism:fuelwood_heater"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["55196B14541C8AF0"]
+			description: ["用于转换物品标签"]
+			id: "3A2DD368178E708D"
+			rewards: [{
+				id: "1D44EE821B3E46DD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34EEAFF6B2B4F903"
+				item: "mekanism:oredictionificator"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10C894E49840AADE"]
+			description: ["随身能量存储"]
+			id: "5BA0716F2C170D2F"
+			rewards: [{
+				id: "0C7FE623CEE85F51"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66ACD1F1EC9F2D47"
+				item: "mekanism:energy_tablet"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["669FB1861C7C83F1"]
+			description: ["合成材料"]
+			id: "36EEC51D6A5023B7"
+			rewards: [{
+				id: "600ED4281AB35D1D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "401D434A1286A4D5"
+					item: "mekanism:ultimate_control_circuit"
+					type: "item"
+				}
+				{
+					id: "2C79BAA6F6EE1EB8"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["36EEC51D6A5023B7"]
+			description: ["加载区块"]
+			id: "0C0B2ECB7E2D2C8D"
+			rewards: [{
+				id: "756C9DCEA7AF3CAB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "695C0BCF0FFF6BB5"
+				item: "mekanism:dimensional_stabilizer"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["55196B14541C8AF0"]
+			description: ["读取此方块竖直方向下的所有方块，会吸引监守者"]
+			id: "328495E61B5AB186"
+			rewards: [{
+				id: "639829E045D06DCA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1AF49C7333863E0D"
+					item: "mekanism:seismic_vibrator"
+					type: "item"
+				}
+				{
+					id: "0E20EA75CE1C29AA"
+					item: "mekanism:seismic_reader"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["51C7A5E441832D81"]
+			description: ["在白天产生能量"]
+			id: "4F376207A914D31D"
+			rewards: [{
+				id: "1E842C843E384D51"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B99255D7D98B73F"
+				item: "mekanismgenerators:solar_generator"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4F376207A914D31D"]
+			description: ["在白天产生能量"]
+			id: "1274929E6847CA6F"
+			rewards: [{
+				id: "6570D6997A9A131E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "027D021C3B870AF1"
+				item: "mekanismgenerators:advanced_solar_generator"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["36EEC51D6A5023B7"]
+			description: ["将矿物浆液结晶"]
+			id: "59688680EB4F5046"
+			rewards: [{
+				id: "7D73A425C70C5837"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1032076DE709557C"
+				item: "mekanism:chemical_crystallizer"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["36EEC51D6A5023B7"]
+			description: ["用于合成机器"]
+			id: "5A7A8E278354861A"
+			rewards: [{
+				id: "7293984F55A3F1DA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EB59095ACBE8BA3"
+				item: "mekanism:teleportation_core"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A7A8E278354861A"]
+			description: ["无线传输物品/流体/气体/能量"]
+			id: "40DF394B91C862B5"
+			rewards: [{
+				id: "5A702DB5F1504866"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AC80EF07346795D"
+				item: "mekanism:quantum_entangloporter"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5A7A8E278354861A"]
+			description: ["在相同频率的传送器之间进行传送"]
+			id: "11379FFCEF1C4AAE"
+			rewards: [{
+				id: "5870F86672165503"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "52722BB5BB508CBD"
+					item: "mekanism:teleporter"
+					type: "item"
+				}
+				{
+					id: "093B514AF592E493"
+					item: "mekanism:teleporter_frame"
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5A7A8E278354861A"]
+			description: ["挖掉以其为中心32x32正方形区域内的矿物"]
+			id: "773016795F609568"
+			rewards: [{
+				id: "203961FBD1FC8602"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E55B38118194E0A"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["67CE1E848BE5FDD7"]
+			description: ["照射入激光聚焦矩阵以用于反应堆的充能"]
+			id: "4A3CAE78D1C016B5"
+			rewards: [{
+				id: "5DB8B0053FB8A902"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4CD803F5991613B5"
+					item: "mekanism:laser"
+					type: "item"
+				}
+				{
+					id: "4C139458DF25225A"
+					item: "mekanism:laser_amplifier"
+					type: "item"
+				}
+				{
+					id: "7AFF59B20F03F889"
+					item: "mekanism:laser_tractor_beam"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["1274929E6847CA6F"]
+			description: ["多方块结构，最小为3x3x4，最大为18x18x18"]
+			id: "5AF1F728CF224327"
+			rewards: [{
+				id: "4F4B681BECFB5C64"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "459D4B71B610E862"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "5D7EA7632FEC336A"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					id: "4AE77210B1CC08BF"
+					item: "mekanismgenerators:fission_reactor_logic_adapter"
+					type: "item"
+				}
+				{
+					id: "0CD7052E7EB98C3F"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+				{
+					id: "1AB2DA052A906FC7"
+					item: "mekanismgenerators:control_rod_assembly"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2BAB1C3250C9CFE3"]
+			description: ["多方块结构，可以储存大量单一类型流体或化学品，最小尺寸为3x3x3，最大尺寸为18x18x18"]
+			id: "12036975A5049E23"
+			rewards: [{
+				id: "4BDFD6B84459B602"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "71B1173E483E9F20"
+					item: "mekanism:dynamic_tank"
+					type: "item"
+				}
+				{
+					id: "6F64918B3B9DF30C"
+					item: "mekanism:dynamic_valve"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["669FB1861C7C83F1"]
+			description: ["用于气态锂转化为氚，将核废料转化为钋"]
+			id: "000EED740295DAEC"
+			rewards: [{
+				id: "2AE97B4D48428FFA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "049B08CDA9A040EF"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["36EEC51D6A5023B7"]
+			description: ["用于生产裂变燃料和钚"]
+			id: "604C119B3EDDBF4C"
+			rewards: [{
+				id: "33E08D41BC57CC04"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EDB4E80FC95D8A8"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5AF1F728CF224327"]
+			id: "199078D2FDAE5F9C"
+			rewards: [{
+				id: "1B0843ED2CE444C2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0154C4F878EAE03D"
+					item: "mekanism:pellet_polonium"
+					type: "item"
+				}
+				{
+					id: "52DD1B13B6A23FC5"
+					item: "mekanism:pellet_plutonium"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7FD294763ED439DA"]
+			description: ["多方块结构，用激光或热量启动"]
+			id: "67CE1E848BE5FDD7"
+			rewards: [{
+				id: "7D279C82B3E25D7D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3BC9DFC65D748DE2"
+					item: "mekanismgenerators:fusion_reactor_frame"
+					type: "item"
+				}
+				{
+					id: "14A31F4DCD3649A3"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					type: "item"
+				}
+				{
+					id: "0E1B5941CB9A4D00"
+					item: "mekanismgenerators:fusion_reactor_port"
+					type: "item"
+				}
+				{
+					id: "419204C29E25ADD9"
+					item: "mekanismgenerators:hohlraum"
+					type: "item"
+				}
+				{
+					id: "35EDB49CF96F2709"
+					item: "mekanismgenerators:laser_focus_matrix"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["36EEC51D6A5023B7"]
+			description: ["合成材料"]
+			id: "6982FB502028A099"
+			rewards: [{
+				id: "7287B739571F8E11"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "40798F60D26D5928"
+					item: "evolvedmekanism:overclocked_control_circuit"
+					type: "item"
+				}
+				{
+					id: "3A0AB2FD4004E835"
+					item: "evolvedmekanism:alloy_hypercharged"
+					type: "item"
+				}
+			]
+			x: 27.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6982FB502028A099"]
+			description: ["合成材料"]
+			id: "2E2A8E372449EE27"
+			rewards: [{
+				id: "59E2383D27C81BDA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "207F0F4F7307B6F7"
+					item: "evolvedmekanism:quantum_control_circuit"
+					type: "item"
+				}
+				{
+					id: "18D08851A1CCC5DE"
+					item: "evolvedmekanism:alloy_subatomic"
+					type: "item"
+				}
+			]
+			x: 29.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2E2A8E372449EE27"]
+			description: ["合成材料"]
+			id: "15E8F2BEA9885C22"
+			rewards: [{
+				id: "163BF2C15C546D6B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1B59C09B84E24700"
+					item: "evolvedmekanism:dense_control_circuit"
+					type: "item"
+				}
+				{
+					id: "26156CF3FA6839C2"
+					item: "evolvedmekanism:alloy_singular"
+					type: "item"
+				}
+			]
+			x: 31.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["15E8F2BEA9885C22"]
+			description: ["合成材料"]
+			id: "2ACF0099D8C0FD70"
+			rewards: [{
+				id: "055714826C39909A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4727AACE2DB85086"
+					item: "evolvedmekanism:multiversal_control_circuit"
+					type: "item"
+				}
+				{
+					id: "4E548CC6AF11CA04"
+					item: "evolvedmekanism:alloy_exoversal"
+					type: "item"
+				}
+			]
+			x: 33.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6982FB502028A099"
+				"7183906A4DE66669"
+			]
+			description: ["合成材料"]
+			id: "1E54142A675C5D93"
+			rewards: [{
+				id: "3D0F33BB8D10B2D2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "024FECCD837DB8A0"
+				item: "emextras:absolute_overclocked_control_circuit"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["36EEC51D6A5023B7"]
+			description: ["合成材料"]
+			id: "7183906A4DE66669"
+			rewards: [{
+				id: "6F053B708C0F0EE7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "55A1BBD316BB5253"
+					item: "mekanism_extras:absolute_control_circuit"
+					type: "item"
+				}
+				{
+					id: "7A399D0FA7F8FEB2"
+					item: "mekanism_extras:alloy_radiance"
+					type: "item"
+				}
+			]
+			x: 27.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7183906A4DE66669"]
+			description: ["合成材料"]
+			id: "41995DAE97713DB4"
+			rewards: [{
+				id: "42545A9E19190F26"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "42702E5A4D1CEBA2"
+					item: "mekanism_extras:supreme_control_circuit"
+					type: "item"
+				}
+				{
+					id: "0DD5040A481202E8"
+					item: "mekanism_extras:alloy_thermonuclear"
+					type: "item"
+				}
+			]
+			x: 29.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["41995DAE97713DB4"]
+			description: ["合成材料"]
+			id: "5A28CD253A437DDF"
+			rewards: [{
+				id: "63DFCE916EDD97C3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "262FB3D6977500E3"
+					item: "mekanism_extras:cosmic_control_circuit"
+					type: "item"
+				}
+				{
+					id: "355539489E112BE1"
+					item: "mekanism_extras:alloy_shining"
+					type: "item"
+				}
+			]
+			x: 31.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A28CD253A437DDF"]
+			description: ["合成材料"]
+			id: "769216234FF6F06B"
+			rewards: [{
+				id: "4F367CA5CCDB6297"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1EEA738A344270AA"
+					item: "mekanism_extras:infinite_control_circuit"
+					type: "item"
+				}
+				{
+					id: "743A6E6AD7097E88"
+					item: "mekanism_extras:alloy_spectrum"
+					type: "item"
+				}
+			]
+			x: 33.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2E2A8E372449EE27"
+				"41995DAE97713DB4"
+			]
+			description: ["合成材料"]
+			id: "27A47A259B313332"
+			rewards: [{
+				id: "24ACEE6F2970640F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05ECA815CF2086F8"
+				item: "emextras:supreme_quantum_control_circuit"
+				type: "item"
+			}]
+			x: 29.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"15E8F2BEA9885C22"
+				"5A28CD253A437DDF"
+			]
+			description: ["合成材料"]
+			id: "215B38319966AEF5"
+			rewards: [{
+				id: "666B8FDD16DD5A1E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "703419C09FB45E8E"
+				item: "emextras:cosmic_dense_control_circuit"
+				type: "item"
+			}]
+			x: 31.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2ACF0099D8C0FD70"
+				"769216234FF6F06B"
+			]
+			description: ["合成材料"]
+			id: "4245CB7F7EDA652C"
+			rewards: [{
+				id: "68D28C02A1752E79"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "519749B6174A3E8B"
+				item: "emextras:infinite_multiversal_control_circuit"
+				type: "item"
+			}]
+			x: 33.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5BA0716F2C170D2F"]
+			description: ["电动武器"]
+			id: "0AF5F0D75EC84E09"
+			rewards: [{
+				id: "45F1C0A16FB8DB70"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "675AF550FCEF37FD"
+					item: "mekanism:atomic_disassembler"
+					type: "item"
+				}
+				{
+					id: "48D3CE7198401C09"
+					item: "mekanism:electric_bow"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["199078D2FDAE5F9C"]
+			description: ["模块化电动工具、武器和护甲"]
+			id: "6EABB88EB20B83DA"
+			rewards: [{
+				id: "4B93FD0A873ACCC6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "008EC95E61737313"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "mekanism:mekasuit_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "5F91123DF5C72BEE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "mekanism:mekasuit_bodyarmor"
+					}
+					type: "item"
+				}
+				{
+					id: "6C46E70C9013E8F1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "mekanism:mekasuit_pants"
+					}
+					type: "item"
+				}
+				{
+					id: "40D310020DFF2BA5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "mekanism:mekasuit_boots"
+					}
+					type: "item"
+				}
+				{
+					id: "08F44E2435ACEE69"
+					item: "mekaweapons:mekatana"
+					type: "item"
+				}
+				{
+					id: "593650D7DA38DEB9"
+					item: "mekaweapons:mekabow"
+					type: "item"
+				}
+				{
+					id: "56E9F93B7CD775B9"
+					item: "mekanism:meka_tool"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5BA0716F2C170D2F"]
+			description: ["现代化武器"]
+			id: "193AB262DC304211"
+			rewards: [{
+				id: "66D825615782AEA0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7560354C8199243D"
+					item: {
+						Count: 1
+						id: "mekanism_weaponry:gauntlet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "175AEBA8B5063239"
+					item: {
+						Count: 1
+						id: "mekanism_weaponry:plasma_rifle"
+						tag: {
+							chip1: {
+								Count: 1b
+								id: "minecraft:air"
+							}
+							chip2: {
+								Count: 1b
+								id: "minecraft:air"
+							}
+							chip3: {
+								Count: 1b
+								id: "minecraft:air"
+							}
+							heat: 0.0f
+							paint: {
+								Count: 1b
+								id: "minecraft:air"
+							}
+							scope: {
+								Count: 1b
+								id: "minecraft:air"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D1FF7BDBEF1919E"
+					item: {
+						Count: 1
+						id: "mekanism_weaponry:railgun"
+						tag: {
+							chip1: {
+								Count: 1b
+								id: "minecraft:air"
+							}
+							chip2: {
+								Count: 1b
+								id: "minecraft:air"
+							}
+							chip3: {
+								Count: 1b
+								id: "minecraft:air"
+							}
+							loaded_ammo: {
+								Count: 1b
+								id: "minecraft:air"
+							}
+							paint: {
+								Count: 1b
+								id: "minecraft:air"
+							}
+							railgun_secondary_mode: 0b
+							scope: {
+								Count: 1b
+								id: "minecraft:air"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75B18D484C413738"
+					item: {
+						Count: 1
+						id: "mekanism_weaponry:tesla_minigun"
+						tag: {
+							chip1: {
+								Count: 1b
+								id: "minecraft:air"
+							}
+							chip2: {
+								Count: 1b
+								id: "minecraft:air"
+							}
+							chip3: {
+								Count: 1b
+								id: "minecraft:air"
+							}
+							heat: 0.0f
+							paint: {
+								Count: 1b
+								id: "minecraft:air"
+							}
+							scope: {
+								Count: 1b
+								id: "minecraft:air"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["773016795F609568"]
+			description: ["虚空产矿"]
+			id: "7138F9734B88BAAD"
+			rewards: [{
+				id: "733F6F1ACE473979"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16826BD79B8649C2"
+				item: "mekanism_lasers:ore_generator"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["773016795F609568"]
+			description: ["从虚空中挖掘矿物"]
+			id: "6D900B5BF3DB66A8"
+			rewards: [{
+				id: "7DC78E7529E78440"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "636E578B6CD72872"
+				item: "compactvoidminers:void_miner"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6D900B5BF3DB66A8"]
+			description: ["从虚空中抽取流体"]
+			id: "00141D00D6D09CDE"
+			rewards: [{
+				id: "5E0911DE9ED1EE1A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62F9BC80FD174FFA"
+				item: "compactvoidminers:void_pump"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2BAB1C3250C9CFE3"]
+			description: ["用于存储大量物品"]
+			id: "310C171708F012D3"
+			rewards: [{
+				id: "20799962B6E2B356"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6364F17E33550A5F"
+					item: "mekanism:qio_drive_array"
+					type: "item"
+				}
+				{
+					id: "0348C3BBA846F07B"
+					item: "mekanism:qio_dashboard"
+					type: "item"
+				}
+				{
+					id: "5BF58410BD09F632"
+					item: "mekanism:qio_drive_base"
+					type: "item"
+				}
+				{
+					id: "5586D2E81CFE6F33"
+					item: "mekanism:portable_qio_dashboard"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2BAB1C3250C9CFE3"]
+			description: ["多方块结构，用于储存能量，最小为3x3x3，最大为18x18x18"]
+			id: "61F8CFE1C45A2B43"
+			rewards: [{
+				id: "793D14A1E7691ABB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "74F7BE42886224B3"
+					item: "mekanism:induction_casing"
+					type: "item"
+				}
+				{
+					id: "5C5C19D1D4A143A8"
+					item: "mekanism:induction_port"
+					type: "item"
+				}
+				{
+					id: "757710EF9C7146E2"
+					item: "mekanism:basic_induction_cell"
+					type: "item"
+				}
+				{
+					id: "675267F2405EA122"
+					item: "mekanism:basic_induction_provider"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5AF1F728CF224327"]
+			description: ["多方块结构，底座必须为最小5x5的正方形"]
+			id: "7FD294763ED439DA"
+			rewards: [{
+				id: "60B7DA85A2A15092"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "579D4CD980C8352D"
+					item: "mekanismgenerators:turbine_casing"
+					type: "item"
+				}
+				{
+					id: "5E2E4BE00483406E"
+					item: "mekanismgenerators:turbine_vent"
+					type: "item"
+				}
+				{
+					id: "18626499AC1B9352"
+					item: "mekanismgenerators:turbine_rotor"
+					type: "item"
+				}
+				{
+					id: "0D9EEB9032636704"
+					item: "mekanismgenerators:turbine_blade"
+					type: "item"
+				}
+				{
+					id: "620B8321B5CB0AB8"
+					item: "mekanismgenerators:rotational_complex"
+					type: "item"
+				}
+				{
+					id: "46EE705BF9703F0D"
+					item: "mekanism:pressure_disperser"
+					type: "item"
+				}
+				{
+					id: "6F9D455684B803ED"
+					item: "mekanismgenerators:turbine_valve"
+					type: "item"
+				}
+				{
+					id: "538BEACD999FFCA4"
+					item: "mekanismgenerators:electromagnetic_coil"
+					type: "item"
+				}
+				{
+					id: "16A5AA57B99EF0B8"
+					item: "mekanismgenerators:saturating_condenser"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["7FD294763ED439DA"]
+			description: ["多方块结构，用于将水转化为蒸汽，最小为3x3x3，最大为18x18x18"]
+			id: "09141B1B1F404E68"
+			rewards: [{
+				id: "66DB18D9A5914009"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2F1FC041634DC406"
+					item: "mekanism:boiler_casing"
+					type: "item"
+				}
+				{
+					id: "1686ACFCF4D7895D"
+					item: "mekanism:boiler_valve"
+					type: "item"
+				}
+				{
+					id: "46B8A11AE8B7AF6E"
+					item: "mekanism:superheating_element"
+					type: "item"
+				}
+				{
+					id: "202D5377D9868AEF"
+					item: "mekanism:pressure_disperser"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["7789FA0CFB4427B6"]
+			description: ["升温后将水蒸馏为盐水，将盐水蒸馏为液态锂"]
+			id: "1E7B23FFFBCA687E"
+			rewards: [{
+				id: "108DCDFAA292BECB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1F28394E2024DDAF"
+					item: "mekanism:thermal_evaporation_block"
+					type: "item"
+				}
+				{
+					id: "09752DC8EB71B0BE"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+				{
+					id: "521614D2E435F2E4"
+					item: "mekanism:thermal_evaporation_valve"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["669FB1861C7C83F1"]
+			description: ["将矿物转化为矿物碎片，4倍产物"]
+			id: "5152743D42940B51"
+			rewards: [{
+				id: "4EA32A600981D527"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7773562540642895"
+				item: "mekanism:chemical_injection_chamber"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["36EEC51D6A5023B7"]
+			description: ["将矿石变为矿物浆，5倍产物"]
+			id: "63DFC39831194CAD"
+			rewards: [{
+				id: "4A025EF9954436A2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "108BBB01D1F41595"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
+			x: 21.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["10C894E49840AADE"]
+			description: ["用于销毁物品"]
+			id: "5A758A1B8A24F7EB"
+			rewards: [{
+				id: "0038DFCDC4F9B943"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DBB181C8DCD147E"
+				item: "mekmm:recycler"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["669FB1861C7C83F1"]
+			description: ["用于种植植物"]
+			id: "032A8909E0391241"
+			rewards: [{
+				id: "503AC79198E13E16"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "282BDE410D0E0704"
+				item: "mekmm:planting_station"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["55196B14541C8AF0"]
+			description: ["用模具压制物品"]
+			id: "60418B78B96B6238"
+			rewards: [{
+				id: "29FC5D577E91BFCD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22F2CD11FA54AE09"
+				item: "mekmm:cnc_stamper"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["36EEC51D6A5023B7"]
+			description: ["用于加工材料"]
+			id: "4AB171DA6D363087"
+			rewards: [{
+				id: "0D9D1379D9874E76"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D8632AE525C2CB2"
+				item: "mekmm:cnc_lathe"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["55196B14541C8AF0"]
+			description: ["用于制造金属线"]
+			id: "02A9D49E16042B81"
+			rewards: [{
+				id: "58E78081A590DD2F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FCBAD1946475824"
+				item: "mekmm:cnc_rolling_mill"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["36EEC51D6A5023B7"]
+			description: ["用于复制物品"]
+			id: "37DB2841AFD5644B"
+			rewards: [{
+				id: "4191078F64E6DAF6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7E83F8640F39C644"
+					item: "mekmm:replicator"
+					type: "item"
+				}
+				{
+					id: "7C97E8C1116AC973"
+					item: "mekmm:fluid_replicator"
+					type: "item"
+				}
+			]
+			x: 22.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["36EEC51D6A5023B7"]
+			description: ["用于抽取环境中的气体"]
+			id: "07A5F1F730D14CA0"
+			rewards: [{
+				id: "367E9794F54FC352"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72E60703B06C3E03"
+				item: "mekmm:ambient_gas_collector"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 2.0d
+		}
+	]
+	title: "Mekanism"
+}

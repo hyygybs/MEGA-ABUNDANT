@@ -1,0 +1,13 @@
+{
+  "type": "everlastingabilities:effect",
+  "target": "radius",
+  "name": "ability.everlastingabilities.overencumbered",
+  "rarity": "common",
+  "max_level": 2,
+  "xp_per_level": 20,
+  "effect": "supplementaries:overencumbered",
+  "condition": {
+    "type": "forge:mod_loaded",
+    "modid": "supplementaries"
+  }
+}

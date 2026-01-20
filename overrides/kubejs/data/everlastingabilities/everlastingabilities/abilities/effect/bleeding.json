@@ -1,0 +1,13 @@
+{
+  "type": "everlastingabilities:effect",
+  "target": "radius",
+  "name": "ability.everlastingabilities.bleeding",
+  "rarity": "rare",
+  "max_level": 1,
+  "xp_per_level": 50,
+  "effect": "apotheosis:bleeding",
+  "condition": {
+    "type": "forge:mod_loaded",
+    "modid": "apotheosis"
+  }
+}

@@ -1,0 +1,79 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"texture_size": [32, 32],
+	"textures": {
+		"particle": "cyclic:block/spike/spikes_iron",
+		"spike": "cyclic:block/spike/spikes_iron",
+		"side": "block/smooth_stone",
+		"base_up": "block/smooth_stone",
+		"down": "block/smooth_stone"
+	},
+	"elements": [
+		{
+			"name": "Base",
+			"from": [0, 0, 0],
+			"to": [16, 2, 16],
+			"faces": {
+				"north": {"uv": [0, 14, 16, 16], "texture": "#side"},
+				"east": {"uv": [0, 14, 16, 16], "texture": "#side"},
+				"south": {"uv": [0, 14, 16, 16], "texture": "#side"},
+				"west": {"uv": [0, 14, 16, 16], "texture": "#side"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#base_up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#down", "cullface": "down"}
+			}
+		},
+		{
+			"name": "SpikeS",
+			"from": [0, 2, 14.5],
+			"to": [16, 16, 14.5],
+			"faces": {
+				"north": {"uv": [16, 0, 0, 14], "texture": "#spike"},
+				"east": {"uv": [3, 0, 3, 14], "texture": "#spike"},
+				"south": {"uv": [0, 0, 16, 14], "texture": "#spike"},
+				"west": {"uv": [13, 0, 13, 14], "texture": "#spike"},
+				"up": {"uv": [0, 13, 16, 13], "texture": "#spike"},
+				"down": {"uv": [0, 3, 16, 3], "texture": "#spike", "cullface": "down"}
+			}
+		},
+		{
+			"name": "SpikeN",
+			"from": [0, 2, 1.5],
+			"to": [16, 16, 1.5],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 14], "texture": "#spike"},
+				"east": {"uv": [0, 0, 0, 7], "texture": "#spike"},
+				"south": {"uv": [16, 0, 0, 14], "texture": "#spike"},
+				"west": {"uv": [0, 0, 0, 7], "texture": "#spike"},
+				"up": {"uv": [8, 0, 0, 0], "texture": "#spike"},
+				"down": {"uv": [8, 0, 0, 0], "texture": "#spike", "cullface": "down"}
+			}
+		},
+		{
+			"name": "SpikeW",
+			"from": [14.5, 2, 0],
+			"to": [14.5, 16, 16],
+			"faces": {
+				"north": {"uv": [3, 0, 3, 14], "texture": "#spike"},
+				"east": {"uv": [0, 0, 16, 14], "texture": "#spike"},
+				"south": {"uv": [13, 0, 13, 14], "texture": "#spike"},
+				"west": {"uv": [16, 0, 0, 14], "texture": "#spike"},
+				"up": {"uv": [13, 0, 13, 16], "texture": "#spike"},
+				"down": {"uv": [13, 0, 13, 16], "texture": "#spike", "cullface": "down"}
+			}
+		},
+		{
+			"name": "SpikeE",
+			"from": [1.5, 2, 0],
+			"to": [1.5, 16, 16],
+			"faces": {
+				"north": {"uv": [13, 0, 13, 14], "texture": "#spike"},
+				"east": {"uv": [16, 0, 0, 14], "texture": "#spike"},
+				"south": {"uv": [3, 0, 3, 14], "texture": "#spike"},
+				"west": {"uv": [0, 0, 16, 14], "texture": "#spike"},
+				"up": {"uv": [3, 0, 3, 16], "texture": "#spike"},
+				"down": {"uv": [3, 0, 3, 16], "texture": "#spike", "cullface": "down"}
+			}
+		}
+	]
+}

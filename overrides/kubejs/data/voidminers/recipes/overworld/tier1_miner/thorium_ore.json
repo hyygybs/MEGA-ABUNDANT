@@ -1,0 +1,10 @@
+{
+  "type": "voidminers:miner",
+  "allowHigherTiers": true,
+  "dimension": "minecraft:overworld",
+  "minTier": 1,
+  "output": {
+    "item": "create_new_age:thorium_ore",
+    "weight": 2.0
+  }
+}

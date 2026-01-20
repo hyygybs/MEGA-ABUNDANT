@@ -1,0 +1,56 @@
+{
+  "values": [
+    "minecraft:redstone",
+    "minecraft:glowstone_dust",
+    "minecraft:lapis_lazuli",
+    "minecraft:quartz",
+    {
+      "required": false,
+      "id": "#forge:raw_materials/lead"
+    },
+    {
+      "required": false,
+      "id": "#forge:raw_materials/aluminum"
+    },
+    {
+      "required": false,
+      "id": "#forge:raw_materials/silver"
+    },
+    {
+      "required": false,
+      "id": "#forge:raw_materials/nickel"
+    },
+    {
+      "required": false,
+      "id": "#forge:raw_materials/antimony"
+    },
+    {
+      "required": false,
+      "id": "mysticalagriculture:prosperity_shard"
+    },
+    {
+      "required": false,
+      "id": "mysticalagriculture:soulium_dust"
+    },
+    {
+      "required": false,
+      "id": "#forge:gems/ruby"
+    },
+    {
+      "required": false,
+      "id": "#forge:gems/sapphire"
+    },
+    {
+      "required": false,
+      "id": "#forge:gems/topaz"
+    },
+    {
+      "required": false,
+      "id": "ae2:certus_quartz_crystal"
+    },
+    {
+      "required": false,
+      "id": "draconicevolution:draconium_dust"
+    }
+  ]
+}

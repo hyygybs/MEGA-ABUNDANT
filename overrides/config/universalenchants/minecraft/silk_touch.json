@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "ae2:annihilation_plane",
+    "industrialforegoing:infinity_drill",
+    "industrialforegoing:infinity_saw",
+    "buildinggadgets2:gadget_exchanging",
+    "apotheosis:pickaxe_tome",
+    "thermal:flux_drill",
+    "thermal:flux_saw",
+    "cuisinedelight:spatula",
+    "twilightforest:block_and_chain",
+    "the_bumblezone:carpenter_bee_boots_1",
+    "the_bumblezone:carpenter_bee_boots_2",
+    "quark:pickarang",
+    "quark:flamerang"
+  ],
+  "incompatible": [
+    "enderio:xp_boost",
+    "spartanweaponry:lucky_throw",
+    "minecraft:fortune",
+    "enderio:auto_smelt",
+    "minecraft:luck_of_the_sea"
+  ]
+}

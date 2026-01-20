@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:pet",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": [
+    "domesticationinnovation:chain_lightning",
+    "domesticationinnovation:bubbling",
+    "domesticationinnovation:fireproof",
+    "domesticationinnovation:warping_bite",
+    "domesticationinnovation:blazing_protection"
+  ]
+}

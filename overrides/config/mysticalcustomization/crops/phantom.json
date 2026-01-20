@@ -1,0 +1,17 @@
+{
+    "type": "mysticalagriculture:mob",
+    "tier": "mysticalagriculture:3",
+    "ingredient": {
+      "type": "forge:partial_nbt",
+      "item": "mysticalagriculture:soul_jar",
+      "nbt": {
+        "Type": "mysticalcustomization:phantom",
+        "Souls": 6.0
+      }
+    },
+    "color": "A79985",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_face",
+      "essence": "mysticalagriculture:item/essence_rock"
+    }
+}

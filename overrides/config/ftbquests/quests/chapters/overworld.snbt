@@ -1,0 +1,2230 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overworld"
+	group: "05AB17DBA7318260"
+	icon: "minecraft:grass_block"
+	id: "253AAC6A1C3FE479"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["欢迎"]
+			icon: "minecraft:grass_block"
+			id: "330A0B2E8829382E"
+			rewards: [{
+				id: "7C397CCF717C4DA5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "25168D53E3AD5B46"
+				type: "dimension"
+			}]
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66E62F43B3259A2B"]
+			description: ["铁质工具"]
+			id: "4E2746EE25D69332"
+			rewards: [{
+				id: "28DDE93719FAA7DC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "15DA997901006A65"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5595CA624E0EDC21"
+					item: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "093E0D4621B9065E"
+					item: {
+						Count: 1
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26CE260A529262F6"
+					item: {
+						Count: 1
+						id: "minecraft:iron_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D1EF759743FD208"
+					item: {
+						Count: 1
+						id: "resourceful_tools:tree_trimmer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A293777C971E814"
+					item: {
+						Count: 1
+						id: "resourceful_tools:hand_tiller"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76FFDA5D178B42AA"
+					item: {
+						Count: 1
+						id: "resourceful_tools:hook_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D495CEBB732BD5E"
+					item: {
+						Count: 1
+						id: "resourceful_tools:hand_pick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24D474525070ED4E"
+					item: {
+						Count: 1
+						id: "minecraft:shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "683FB1BCD3C97F25"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E9922CDB9E25D8C"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["66E62F43B3259A2B"]
+			description: ["铁质武器"]
+			id: "1053D38EA54F23A5"
+			rewards: [{
+				id: "5BA1165590303D13"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "66B9A9498727C923"
+					item: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65A4CB110BED29E2"
+					item: {
+						Count: 1
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49577D6ED341FC97"
+					item: {
+						Count: 1
+						id: "minecraft:crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0632D67DD2AC44BA"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+				{
+					id: "48C39542A2E8FE8A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BAD7903B917DE81"]
+			description: ["进入铁器时代"]
+			id: "66E62F43B3259A2B"
+			rewards: [{
+				id: "6420396511DA38DE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D3483B3B191B1F5"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61D226DF26C243F0"]
+			description: ["挖铁矿"]
+			id: "5BAD7903B917DE81"
+			rewards: [{
+				id: "67F1D87E251525E7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6381198FD29B4E57"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73F2DA9A04408232"]
+			description: ["进入石器时代"]
+			id: "61D226DF26C243F0"
+			rewards: [{
+				id: "2D36543E9EA89C80"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61DB63FDA3236D5C"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3ADB3C740F20D983"]
+			description: ["挖石头"]
+			id: "73F2DA9A04408232"
+			rewards: [{
+				id: "6443D82598B62EE0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C768B6B8A974B38"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["330A0B2E8829382E"]
+			description: ["合成万物的起点"]
+			id: "3ADB3C740F20D983"
+			rewards: [{
+				id: "6C692F66D3C60A70"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F3316F0BB0DCD67"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66E62F43B3259A2B"]
+			description: ["铁质装备"]
+			id: "57103EFB62E7A538"
+			rewards: [{
+				id: "66916F845C6FD07C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "30E4BD1A8741747B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50D85ED0EC81750A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09B7000536DF4EA3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EB83A25F3FF01F4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3ADB3C740F20D983"]
+			description: ["随时随地合成万物"]
+			id: "62650B2235373DC6"
+			rewards: [{
+				id: "2D3548310B37205F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62F791633280A7FD"
+				item: "actuallyadditions:crafter_on_a_stick"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1053D38EA54F23A5"]
+			description: ["杀死怪物或者收集资源获得掉落物"]
+			id: "736950E3F58BB5E0"
+			rewards: [{
+				id: "5F7E0C2285EDE744"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5EA08B79854A6F59"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					id: "7547D3AC5F9D41A1"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+				{
+					id: "462AC12A523B0F02"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					id: "023DB2FAFAB09BD5"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+				{
+					id: "39C41446EFF504BB"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "1F143FE94A9CBC77"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+				{
+					id: "57E2F1FF835A9D90"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61D226DF26C243F0"]
+			description: ["烧炼的起点"]
+			id: "1C5FB00EE97D4118"
+			rewards: [{
+				id: "02F91E930D7C3B6D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CC8BD5F63C5543C"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C5FB00EE97D4118"]
+			description: ["烧制原木获得木炭"]
+			id: "5056707D3E9105E7"
+			rewards: [{
+				id: "2D4C509D66B17403"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55F3E2B310304BC8"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5056707D3E9105E7"]
+			description: ["取暖，照明并烧制食物"]
+			id: "27419D26D5B6C070"
+			rewards: [{
+				id: "358314FC9A64EA7B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EEC149C345E163A"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5056707D3E9105E7"]
+			description: ["照亮周围"]
+			id: "06379EA4823AD8DA"
+			rewards: [{
+				id: "370AEC122BDEBE0D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BDDC921A553DC61"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["06379EA4823AD8DA"]
+			description: ["可穿戴的移动光源"]
+			id: "29617CEC72C6A5DD"
+			rewards: [{
+				id: "239F8B0FCEC14D8A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EEA90BA240246C1"
+				item: "minecraft:lantern"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1C5FB00EE97D4118"]
+			description: ["烧制食物"]
+			id: "735EE0845E79EF15"
+			rewards: [{
+				id: "1F5F1D492A38AFAF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C31CB27AEC4813F"
+				item: "minecraft:smoker"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4E2746EE25D69332"]
+			description: ["挖掘基础矿物"]
+			id: "589AAAE8EC17CEC1"
+			rewards: [{
+				id: "231C7D40108C2F3A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "05BA5732E6ECCE95"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "34E43E894EF0B45B"
+					item: "thermal:tin_ingot"
+					type: "item"
+				}
+				{
+					id: "05EC2D6AB56414ED"
+					item: "thermal:lead_ingot"
+					type: "item"
+				}
+				{
+					id: "24706404B9301BE8"
+					item: "thermal:silver_ingot"
+					type: "item"
+				}
+				{
+					id: "4E203F337B0363D2"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "066326032F204ED7"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+				{
+					id: "0A2571F5F93AF28B"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+				{
+					id: "453F46403798E19D"
+					item: "thermal:nickel_ingot"
+					type: "item"
+				}
+				{
+					id: "136FABF918B844CC"
+					item: "immersiveengineering:ingot_uranium"
+					type: "item"
+				}
+				{
+					id: "229CD548D643A147"
+					item: "immersiveengineering:ingot_aluminum"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2321151773D8A041"]
+			description: ["便携存储"]
+			id: "2F386716C703FAA8"
+			tasks: [{
+				id: "436376F12CB57E5F"
+				item: "backpacked:backpack"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4E2746EE25D69332"]
+			description: ["进入钻石时代"]
+			id: "5BB7BD13D60A4A16"
+			rewards: [{
+				id: "0969915B535F1FD9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25895E53BA67D44D"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5BB7BD13D60A4A16"]
+			description: ["村民交易的起点"]
+			id: "29477B9014093959"
+			rewards: [{
+				id: "0C1605F8ACE7D4FB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "427DB0BC39919F93"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["29477B9014093959"]
+			description: ["和村民交易"]
+			id: "542A10D6B817BB7F"
+			rewards: [{
+				id: "7AF788775C2D3431"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A6250E4DB4EF185"
+				item: "tradingpost:trading_post"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5BB7BD13D60A4A16"]
+			description: ["准备进入下界"]
+			id: "64BBCEC3FD31C564"
+			rewards: [{
+				id: "016E291516B0872B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B6E12FAD92BF0B7"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["64BBCEC3FD31C564"]
+			description: ["将黑曜石摆放成内部为2x3空气的空心门，再用打火石点燃黑曜石"]
+			icon: "minecraft:netherrack"
+			id: "3B74B3CDD17AB874"
+			rewards: [{
+				id: "7BC9D772A0C37BAA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "39A41F5974C7FD9E"
+				type: "dimension"
+			}]
+			x: 5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4E2746EE25D69332"]
+			description: ["红石科技的起点"]
+			id: "57E210BC915E2308"
+			rewards: [{
+				id: "58DAE0427D5C8666"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E5E8E87CC5A4BFE"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["64BBCEC3FD31C564"]
+			description: ["附魔的起点"]
+			icon: "minecraft:enchanting_table"
+			id: "1D5788583B2B369A"
+			rewards: [{
+				id: "1A50272AE532CE03"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6774673272974CF3"
+					item: "minecraft:enchanting_table"
+					type: "item"
+				}
+				{
+					id: "31800F959C622585"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1D5788583B2B369A"]
+			description: ["祛魔实用工具"]
+			id: "2CCFB899880F7155"
+			rewards: [{
+				id: "39AB9D273EDE5D70"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EA0B0E2CF3ED850"
+				item: "disenchanting:disenchanter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["66E62F43B3259A2B"]
+			description: ["修复工具、武器和装备"]
+			id: "017FA7EE0B0EBA73"
+			rewards: [{
+				id: "05DB21EE713B05FB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10107A525440A673"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3ADB3C740F20D983"]
+			description: ["存储的起点"]
+			id: "79180420C4FF7267"
+			rewards: [{
+				id: "509FAFFFB17B976A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BD918F48C11CFDB"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2321151773D8A041"]
+			description: ["用于跳过夜晚并设置重生点"]
+			id: "4DDB66DC46A97FB1"
+			rewards: [{
+				id: "727D83950C21D8F1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D79D61E6C7EAD2B"
+				item: "minecraft:white_bed"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["61D226DF26C243F0"]
+			description: ["去杀死动物吧"]
+			id: "3AAA2A2733C19E68"
+			rewards: [{
+				id: "22DAA24D7D424CD0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "074F18D9F830D6C3"
+				item: {
+					Count: 1
+					id: "minecraft:stone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3AAA2A2733C19E68"]
+			description: ["杀死动物或者收集资源获得掉落物"]
+			id: "2321151773D8A041"
+			rewards: [{
+				id: "4A094AF5CB223F99"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7832726946EA4C70"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					id: "28735842F6304934"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					id: "39FBAF68F701125D"
+					item: "minecraft:rabbit_hide"
+					type: "item"
+				}
+				{
+					id: "50A2CC8215F99911"
+					item: "minecraft:feather"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2321151773D8A041"]
+			description: ["便携存储"]
+			id: "41A137B0992A3E97"
+			rewards: [{
+				id: "3BB3BCA98421DC75"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50753F6A0F8C1BB6"
+				item: "bagofholding:leather_bag_of_holding"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["41A137B0992A3E97"]
+			description: ["更大的便携存储"]
+			id: "4A8DEFC8561601D3"
+			rewards: [{
+				id: "030E3FF9FD78588E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C7850C14E1CB996"
+				item: "bagofholding:iron_bag_of_holding"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4A8DEFC8561601D3"]
+			description: ["更大的便携存储"]
+			id: "519E4D3857F047EF"
+			rewards: [{
+				id: "0E8601AF31A3F696"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60BEC55DC9E0BF85"
+				item: "bagofholding:golden_bag_of_holding"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["589AAAE8EC17CEC1"]
+			description: ["查看温度和时间和方向"]
+			id: "2603554194E12A5E"
+			rewards: [{
+				id: "61FD5EA50629BF60"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3419610A132AD361"
+					item: "cold_sweat:thermometer"
+					type: "item"
+				}
+				{
+					id: "38D20F324A48B8FC"
+					item: "minecraft:clock"
+					type: "item"
+				}
+				{
+					id: "29957BDC6319B4EA"
+					item: "minecraft:compass"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2321151773D8A041"]
+			description: ["便携水壶"]
+			id: "472283F0B1C9FEDF"
+			rewards: [{
+				id: "76BDC9EA7893907B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46CC8CB5B36BBC6D"
+				item: "thirstcanteen:leather_canteen"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["472283F0B1C9FEDF"]
+			description: ["更好的便携水壶"]
+			id: "5FADA25992E1E5F0"
+			rewards: [{
+				id: "1D682B6C7F8389DC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "51514FEDE2532AD9"
+				item: "thirstcanteen:military_bottle"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3AEBE6DF4AA7C5E2"]
+			description: ["破坏草来得到种子"]
+			id: "5AB3993DB13FC0A1"
+			rewards: [{
+				id: "15D73863D2BD18CD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76408415D11785C2"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["61D226DF26C243F0"]
+			description: ["开始种地，右键在水源附近的泥土或草方块"]
+			id: "3AEBE6DF4AA7C5E2"
+			rewards: [{
+				id: "616B00D4D6C36A65"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B947135CFA1CCC7"
+				item: {
+					Count: 1
+					id: "minecraft:stone_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5AB3993DB13FC0A1"]
+			description: ["食物出炉"]
+			id: "401860908E47BBE6"
+			rewards: [{
+				id: "52F76693A8995981"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21958FBC55126E89"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2603554194E12A5E"]
+			description: ["加速时间"]
+			id: "0A15457D29DD55CC"
+			rewards: [{
+				id: "4D3422E1D4DA946E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6E67E677F4739D5E"
+					item: {
+						Count: 1
+						id: "tiab:time_in_a_bottle"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0F8285E23DBC1C9F"
+					item: "torcherino:torcherino"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1053D38EA54F23A5"]
+			description: ["开启钓鱼之旅"]
+			id: "58299971CD0C522C"
+			rewards: [{
+				id: "498125B0AAE909D4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74E5DE51B8C6AC3B"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2321151773D8A041"]
+			description: ["开始阅读"]
+			id: "02CC26D1807F89BE"
+			rewards: [{
+				id: "33D75E8BD385DBD1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3591415F9E598FD2"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2CCFB899880F7155"]
+			description: ["更好地附魔"]
+			id: "27D9B01FDD990CC0"
+			rewards: [{
+				id: "78F96E28FD8E9A17"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "728C7D76C8899B8B"
+				item: "enchantinginfuser:enchanting_infuser"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["02CC26D1807F89BE"]
+			description: ["储存指导书"]
+			id: "4A5DC78171BE7178"
+			rewards: [{
+				id: "5B5E22EDD3EE5D70"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A3537C22D28D561"
+				item: {
+					Count: 1
+					id: "eccentrictome:tome"
+					tag: {
+						"eccentrictome:mods": { }
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["66E62F43B3259A2B"]
+			description: ["烧炼金属"]
+			id: "13793E2FD7A35ABB"
+			rewards: [{
+				id: "7805AC3E5B809738"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7261BEA8308C852D"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["736950E3F58BB5E0"]
+			description: ["消耗经验可以在石碑间相互传送"]
+			id: "658C746BAF2F3B65"
+			rewards: [{
+				id: "6E52D3B54BC72031"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "297B80F50DAA864B"
+					item: "waystones:waystone"
+					type: "item"
+				}
+				{
+					id: "5E6E4E2BD44EDA1C"
+					item: {
+						Count: 1
+						id: "waystones:warp_stone"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["658C746BAF2F3B65"]
+			description: ["快速回到重生点"]
+			id: "5B37AFCD0385FA7F"
+			rewards: [{
+				id: "64CB60F5E30396C2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C1EB4BF99341F32"
+				item: "backtobed:magical_returner"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5AB3993DB13FC0A1"]
+			description: ["购买种子"]
+			id: "3D1A784CDC566BD6"
+			rewards: [{
+				id: "6AD6B9099E7AE4DA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44B602C87D9C861B"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4E2746EE25D69332"]
+			description: ["无限流体源"]
+			id: "03540475AA99DB39"
+			rewards: [{
+				id: "0F619FD207B406B0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "152C51128844FE64"
+					item: "resourceful_tools:wellspring"
+					type: "item"
+				}
+				{
+					id: "302133F39C748618"
+					item: "resourceful_tools:lavaspring"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["735EE0845E79EF15"]
+			description: ["更便捷的食物合成"]
+			id: "2A48DE765E385C75"
+			rewards: [{
+				id: "7CFCEA915971B943"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26CCE83E21DFBD23"
+				item: "cookingforblockheads:cooking_table"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2A48DE765E385C75"]
+			description: ["无限水源"]
+			id: "7D6BBDC90FB0DA83"
+			rewards: [{
+				id: "7A7085A7C83FA9A8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C1B8B79050AE1A9"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2603554194E12A5E"]
+			description: ["寻找生物群系和结构"]
+			id: "276272CE719336EF"
+			rewards: [{
+				id: "2C65378C289237F2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "40109EECEBEB87E4"
+					item: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4F130FB0E2592101"
+					item: {
+						Count: 1
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6B1DB2BBA75AFA7A"]
+			description: ["寻找古城"]
+			id: "20A43AB6E31727B2"
+			rewards: [{
+				id: "6F5797928498C2B7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6F85390D289DAF34"
+					item: "minecraft:sculk"
+					type: "item"
+				}
+				{
+					id: "6A47DD7CDEB7B272"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["276272CE719336EF"]
+			description: ["寻找林地府邸"]
+			id: "6B1DB2BBA75AFA7A"
+			rewards: [{
+				id: "7F746B7928675583"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D0CD8101DDD6E99"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["06379EA4823AD8DA"]
+			description: ["大范围阻止生物生成"]
+			id: "2E57CB64820232F4"
+			rewards: [{
+				id: "2D881584FC4CDB2A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B7B0B195D96A231"
+				item: "magnumtorch:diamond_magnum_torch"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["06379EA4823AD8DA"]
+			description: ["更大范围的火把"]
+			id: "4AB3C71002878A6E"
+			rewards: [{
+				id: "702CDE0379FBC5AE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35682F4AB66B5A4B"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4AB3C71002878A6E"]
+			description: ["照亮一大片空间"]
+			id: "6995BC2BC938A78B"
+			rewards: [{
+				id: "392CC48E0B03871D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E83AE4E4F9F01FD"
+				item: "torchmaster:feral_flare_lantern"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["66E62F43B3259A2B"]
+			description: ["升级装备"]
+			id: "7DAEA01F6726FD78"
+			rewards: [{
+				id: "5654CC9BBCF18C22"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6581670FB7C61D11"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1D5788583B2B369A"]
+			description: ["附魔位阶和阿卡那"]
+			id: "76B31E7FDC485B15"
+			rewards: [{
+				id: "71185E3C2126B923"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "32BD5A0E31C86E17"
+					item: "minecraft:bookshelf"
+					type: "item"
+				}
+				{
+					id: "2D38F82FDB57B9E4"
+					item: "minecraft:candle"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["76B31E7FDC485B15"]
+			description: ["附魔位阶和量子化"]
+			id: "39BF73EDD8D91B70"
+			rewards: [{
+				id: "12FA1A1920E7DBF6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77421C269D0F11A5"
+				item: "apotheosis:hellshelf"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["39BF73EDD8D91B70"]
+			description: ["附魔位阶"]
+			id: "6303951679F426AF"
+			rewards: [{
+				id: "1AE8ED515056A642"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "373FCED4F71EB6CC"
+				item: "apotheosis:dormant_deepshelf"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["39BF73EDD8D91B70"]
+			description: ["附魔位阶、量子化和阿卡那"]
+			id: "250AB0B98993FDBB"
+			rewards: [{
+				id: "1E9E31ACADDE40DC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0D482BA9825662DA"
+					item: "apotheosis:infused_hellshelf"
+					type: "item"
+				}
+				{
+					id: "2427339A484A686C"
+					item: "apotheosis:blazing_hellshelf"
+					type: "item"
+				}
+				{
+					id: "6BD97EA0A7132F8D"
+					item: "apotheosis:glowing_hellshelf"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6303951679F426AF"]
+			description: ["附魔位阶、阿卡那和量子化"]
+			id: "0A72B42FAD17075F"
+			rewards: [{
+				id: "12B734830ED2584D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3E962E7E4C4EEC4E"
+					item: "apotheosis:deepshelf"
+					type: "item"
+				}
+				{
+					id: "40BBE2325C421E93"
+					item: "apotheosis:echoing_deepshelf"
+					type: "item"
+				}
+				{
+					id: "151D193959A029C8"
+					item: "apotheosis:echoing_sculkshelf"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["76B31E7FDC485B15"]
+			description: ["附魔位阶和阿卡那"]
+			id: "75392CF568387069"
+			rewards: [{
+				id: "5E9938B9909DE019"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AC15915C3B0EAF9"
+				item: "apotheosis:melonshelf"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["20A43AB6E31727B2"]
+			description: ["自动收集周围的掉落物与经验"]
+			id: "538381B746ADBC76"
+			rewards: [{
+				id: "6A8FEF54BFA0FFAF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2922D0263B010C80"
+				item: "echochest:echo_chest"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["75392CF568387069"]
+			description: ["附魔位阶、阿卡那和量子化"]
+			id: "14FB8F17C5D840BE"
+			rewards: [{
+				id: "123DEBAD57BBF759"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "10A7B10110BFB6D2"
+					item: "apotheosis:seashelf"
+					type: "item"
+				}
+				{
+					id: "6432E8EC85827CAD"
+					item: "apotheosis:infused_seashelf"
+					type: "item"
+				}
+				{
+					id: "5A755037D1841C57"
+					item: "apotheosis:crystal_seashelf"
+					type: "item"
+				}
+				{
+					id: "1CD6CF57F1C1583B"
+					item: "apotheosis:heart_seashelf"
+					type: "item"
+				}
+				{
+					id: "162B452E47FE67C5"
+					item: "apotheosis:filtering_shelf"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6303951679F426AF"]
+			description: ["附魔位阶、阿卡那和量子化"]
+			id: "364AC959A89E7FB2"
+			rewards: [{
+				id: "2C5893337B6C4D76"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73349F1F026F8671"
+				item: "apotheosis:endshelf"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["364AC959A89E7FB2"]
+			id: "7E2946305E8CD4AD"
+			tasks: [
+				{
+					id: "34D86269A841752F"
+					item: "apotheosis:pearl_endshelf"
+					type: "item"
+				}
+				{
+					id: "5E8A32A8DF1D439E"
+					item: "apotheosis:draconic_endshelf"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["14FB8F17C5D840BE"]
+			description: ["附魔校准"]
+			id: "183B94402A2E8555"
+			rewards: [{
+				id: "24AC4783D3343C9A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "087F234DA162618B"
+					item: "apotheosis:rectifier"
+					type: "item"
+				}
+				{
+					id: "14F08041F3B61FCD"
+					item: "apotheosis:rectifier_t2"
+					type: "item"
+				}
+				{
+					id: "1868DFE335ED763E"
+					item: "apotheosis:rectifier_t3"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["57E210BC915E2308"]
+			description: ["砍倒一整颗树"]
+			id: "7A405F10232E0C1C"
+			rewards: [{
+				id: "219FEDA594C450BA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F8687CF27D8FE6E"
+				item: {
+					Count: 1
+					id: "lumbers_axe:lumber_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6FB05CFDF39F1A59"]
+			description: ["简易种植作物，但更快"]
+			id: "401EF6C36F9DBE70"
+			rewards: [{
+				id: "62F144C8AFA9D1A1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C3959ADBA630513"
+				item: "botanypotstiers:elite_terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3D1A784CDC566BD6"]
+			description: ["简易种植作物"]
+			id: "6FB05CFDF39F1A59"
+			rewards: [{
+				id: "02E4DA8AE770121A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C2AAEE6FD5A07BC"
+				item: "botanypots:terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["401EF6C36F9DBE70"]
+			description: ["简易种植作物，但更快"]
+			id: "058109707AD5FFB5"
+			rewards: [{
+				id: "08F9ED14EED62583"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DEE848FCCA9D047"
+				item: "botanypotstiers:ultra_terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["058109707AD5FFB5"]
+			id: "4143A96B4D8BE271"
+			rewards: [{
+				id: "17BC8E024F4FFD96"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "456E69C84EA01890"
+				item: "botanypotstiers:creative_terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["20A43AB6E31727B2"]
+			description: ["杀死监守者"]
+			id: "6D2FDBC10D46879E"
+			rewards: [{
+				id: "5D60A4221143A09B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3CD30EFB30DE18D7"
+					item: "deeperdarker:heart_of_the_deep"
+					type: "item"
+				}
+				{
+					id: "48FA3080E2C5A8AD"
+					item: "deeperdarker:warden_carapace"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6D2FDBC10D46879E"]
+			description: ["用深渊之心开启强化深板岩框架传送门"]
+			icon: "deeperdarker:sculk_stone"
+			id: "2D184B555488AC9A"
+			rewards: [{
+				id: "607DB9CEB9DF9DFF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "3730EB984FD77CAB"
+				type: "dimension"
+			}]
+			x: 15.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["27419D26D5B6C070"]
+			description: ["用于烧制食物"]
+			id: "074DD1FF162E831F"
+			rewards: [{
+				id: "144C7DE9241CD0D3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4144D45AB4EB3087"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["074DD1FF162E831F"]
+			description: ["用于处理食物"]
+			id: "63F0D53921CDA9B3"
+			rewards: [{
+				id: "3BA55831DBE510FA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "217163BE00F2445F"
+					item: {
+						Count: 1
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "728F20BCCB3FBBC2"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1C5FB00EE97D4118"]
+			description: ["燃烧垃圾产生经验"]
+			id: "531B3603FDF8C0FF"
+			rewards: [{
+				id: "22D50A4B6DF7E129"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03F3A37904F80EB1"
+				item: "trashcompactor:trash_compactor"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["736950E3F58BB5E0"]
+			description: ["实用工具"]
+			id: "7023FA24A6D97450"
+			rewards: [{
+				id: "2D4066F5DE5C9818"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6500D3F83B60A1D5"
+					item: {
+						Count: 1
+						id: "simplemagnets:basicmagnet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "182EDC27D3A08E80"
+					item: {
+						Count: 1
+						id: "superiorshields:iron_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2603554194E12A5E"]
+			description: ["返回重生点"]
+			id: "15FD2F3971C3A6F9"
+			tasks: [{
+				id: "25B6D831A349F7AA"
+				item: {
+					Count: 1
+					id: "gag:hearthstone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2321151773D8A041"]
+			description: ["用于滑翔"]
+			id: "18A9AAFE2CD8A1D1"
+			rewards: [{
+				id: "5380DD51893ACAB7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D757164EF74484C"
+				item: {
+					Count: 1
+					id: "hangglider:hang_glider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E2746EE25D69332"]
+			description: ["用于赶路"]
+			id: "67D1F492A7CF5CD8"
+			rewards: [{
+				id: "2D72251E94DF181D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E38613E7B202CA8"
+				item: {
+					Count: 1
+					id: "grapplemod:grapplinghook"
+					tag: {
+						Damage: 0
+						custom: {
+							angle: 20.0d
+							attract: 0b
+							attractradius: 3.0d
+							crc32: 2252267022L
+							detachonkeyrelease: 0b
+							doublehook: 0b
+							enderstaff: 0b
+							hookgravity: 1.0d
+							maxlen: 30.0d
+							motor: 0b
+							motoracceleration: 0.2d
+							motordampener: 0b
+							motormaxspeed: 4.0d
+							motorwhencrouching: 0b
+							motorwhennotcrouching: 1b
+							oneropepull: 0b
+							phaserope: 0b
+							playermovementmult: 1.0d
+							pullbackwards: 1b
+							reelin: 1b
+							repel: 0b
+							repelforce: 1.0d
+							rocket: 0b
+							rocket_active_time: 0.5d
+							rocket_force: 1.0d
+							rocket_refuel_ratio: 15.0d
+							rocket_vertical_angle: 0.0d
+							smartdoublemotor: 1b
+							smartmotor: 0b
+							sneakingangle: 10.0d
+							sneakingverticalthrowangle: 0.0d
+							sticky: 0b
+							throwspeed: 2.0d
+							verticalthrowangle: 0.0d
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["589AAAE8EC17CEC1"]
+			description: ["用于施法"]
+			id: "4EAAEC0AA2584CCD"
+			rewards: [{
+				id: "2A29FDE206338D87"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "275D5827AF9B5607"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:copper_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 5
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75B46555562FF1B9"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:iron_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 6
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4EAAEC0AA2584CCD"]
+			description: ["用于施法"]
+			id: "1F18834D76CC19CD"
+			rewards: [{
+				id: "29E7223A8F33A48D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "169A612E15057ABB"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:diamond_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["736950E3F58BB5E0"]
+			description: ["对着蜂巢使用末影珍珠"]
+			id: "4F8A55AE391126CF"
+			rewards: [{
+				id: "21E366C86BA26FAC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				icon: "minecraft:bee_nest"
+				id: "666EE680CC4FA174"
+				type: "dimension"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5BB7BD13D60A4A16"]
+			description: ["在2x2的水周围的草方块上都插上花，将钻石丢入水中"]
+			id: "06759CA8D682692C"
+			rewards: [{
+				id: "624439867B8C995C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				id: "37B39661C07768F4"
+				type: "dimension"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5BB7BD13D60A4A16"]
+			description: ["用于前往深暗之园"]
+			id: "2CEE04D4C9EFDF87"
+			rewards: [{
+				id: "1F220A3229D1F550"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C7F430780F1CF6F"
+				item: "undergarden:catalyst"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2CEE04D4C9EFDF87"]
+			description: ["用石砖摆成内部为2x3的门，然后用深园催化石激活"]
+			id: "437E2BEB7EDC8322"
+			rewards: [{
+				id: "2E85F3F0E3CB39C1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "undergarden:undergarden"
+				icon: "undergarden:deepturf_block"
+				id: "7DAFCA2F3E4E1631"
+				type: "dimension"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4DDB66DC46A97FB1"]
+			description: ["跳过夜晚但不设置重生点"]
+			id: "269B16D3EF439574"
+			rewards: [{
+				id: "5E0CFE671F2A745E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63649A70147E29FB"
+				item: "comforts:sleeping_bag_white"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["269B16D3EF439574"]
+			description: ["用于便携存储物品"]
+			id: "28E93F6CDD54D194"
+			rewards: [{
+				id: "31F85F2B2F1E5003"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72400B6F04543826"
+				item: {
+					Count: 1
+					id: "travelersbackpack:standard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+	]
+	title: "Overworld"
+}

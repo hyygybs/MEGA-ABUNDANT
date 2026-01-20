@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_chest",
+    "apotheosis:chestplate_tome"
+  ],
+  "incompatible": [
+    "fancyenchantments:stacking_waves",
+    "fancyenchantments:bubble_shield",
+    "fancyenchantments:calmer",
+    "fancyenchantments:drowning",
+    "minecraft:blast_protection",
+    "fancyenchantments:ocean_current",
+    "fancyenchantments:overflow"
+  ]
+}

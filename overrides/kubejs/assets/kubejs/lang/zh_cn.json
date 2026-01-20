@@ -1,0 +1,29 @@
+{
+"item.kubejs.sticky_leaves.name": "黏叶",
+"item.kubejs.slime_scrap.name": "史莱姆碎片",
+
+"item.kubejs.iridium_ingot.name": "铱锭",
+"item.kubejs.platinum_ingot.name": "铂锭",
+"tile.kubejs.iridium_block.name": "铱块",
+"tile.kubejs.platinum_block.name": "铂块",
+
+"item.kubejs.random_essence.name": "随机精华",
+
+"item.kubejs.amethyst.name": "紫水晶",
+"tile.kubejs.amethyst_block.name": "紫水晶块",
+
+"tile.kubejs.bird_nest.name": "鸟巢",
+
+"tile.kubejs.allthemodium_crux.name": "Allthemodium核心",
+"tile.kubejs.unobtainium_crux.name": "难得素核心",
+"tile.kubejs.vibranium_crux.name": "振金核心",
+
+"tile.kubejs.ultranium_alloy.name": "超合金",
+"tile.kubejs.ultranium_gem.name": "超宝石",
+
+"tile.kubejs.mini_coal.name": "小块煤炭",
+"tile.kubejs.mini_charcoal.name": "小块木炭",
+
+"item.kubejs.poikilothermic_slime.name": "变温史莱姆"
+
+}

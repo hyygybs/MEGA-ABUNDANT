@@ -1,0 +1,13 @@
+{
+  "type": "everlastingabilities:effect",
+  "target": "self",
+  "name": "ability.everlastingabilities.insulated",
+  "rarity": "common",
+  "max_level": 1,
+  "xp_per_level": 20,
+  "effect": "cold_sweat:insulated",
+  "condition": {
+    "type": "forge:mod_loaded",
+    "modid": "cold_sweat"
+  }
+}

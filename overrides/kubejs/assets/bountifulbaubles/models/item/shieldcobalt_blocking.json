@@ -1,0 +1,6 @@
+{
+	"parent": "bountifulbaubles:item/shield_blocking",
+	"textures": {
+		"0": "bountifulbaubles:items/shield_cobalt"
+	}
+}

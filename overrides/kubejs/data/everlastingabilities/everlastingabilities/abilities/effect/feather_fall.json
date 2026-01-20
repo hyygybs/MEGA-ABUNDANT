@@ -1,0 +1,13 @@
+{
+  "type": "everlastingabilities:effect",
+  "target": "self",
+  "name": "ability.everlastingabilities.feather_fall",
+  "rarity": "rare",
+  "max_level": 1,
+  "xp_per_level": 20,
+  "effect": "tombstone:feather_fall",
+  "condition": {
+    "type": "forge:mod_loaded",
+    "modid": "tombstone"
+  }
+}

@@ -1,0 +1,172 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "toms_simple_storage"
+	group: "1F9A9FE71A5A4AA9"
+	icon: "toms_storage:ts.inventory_connector"
+	id: "7C3DC96D74769E46"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["连接相邻的容器"]
+			id: "10526E25F1FBD494"
+			rewards: [{
+				id: "516A5B3253C59081"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7608A8294325020E"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10526E25F1FBD494"]
+			description: ["访问相邻的容器"]
+			id: "6FDD54421AFE3EEA"
+			rewards: [{
+				id: "0353B274CD44EAF9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70153023A832F2D9"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FDD54421AFE3EEA"]
+			description: ["将容器桥接至存储整合器"]
+			id: "38AF127B55898088"
+			rewards: [{
+				id: "64E5B419B318F3C9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63571591A934A730"
+				item: "toms_storage:ts.trim"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FDD54421AFE3EEA"]
+			description: ["带合成栏的存储终端"]
+			id: "6F4769753B866BB4"
+			rewards: [{
+				id: "590FF4BB5E90CFA3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D1554B7FD45740D"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2AC7B86CBCA66682"]
+			description: ["拓展指向方块的物品存取交互面"]
+			id: "3F6DD9A5A64A1910"
+			rewards: [{
+				id: "72767206BCE13855"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FE5435CE78D825B"
+				item: "toms_storage:ts.inventory_proxy"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38AF127B55898088"]
+			description: ["用于连接终端或其他容器，连接信标可创建存储网络"]
+			id: "2AC7B86CBCA66682"
+			rewards: [{
+				id: "7ADB15AE5545099D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "27B8744CC9EA449C"
+					item: "toms_storage:ts.inventory_cable"
+					type: "item"
+				}
+				{
+					id: "45A59B5FA61EF221"
+					item: "toms_storage:ts.inventory_cable_connector"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AC7B86CBCA66682"]
+			description: ["用于向存储网络中输入或从存储网络中输出物品"]
+			id: "578990AC5EE749DE"
+			rewards: [{
+				id: "46174568EC174FFE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EAD96F1BDDFFBD5"
+				item: "toms_storage:ts.inventory_hopper_basic"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6F4769753B866BB4"]
+			description: ["扩大访问终端的范围"]
+			id: "6343BDFD4481AD45"
+			rewards: [{
+				id: "1DE6D4FA947FC312"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EBC927174C25285"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6343BDFD4481AD45"]
+			description: ["绑定一个终端，然后远距离访问"]
+			id: "004A03F45346B5FD"
+			rewards: [{
+				id: "38CFD383BA204BE4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "633259A5372023D8"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+	]
+	title: "Tom's Simple Storage"
+}

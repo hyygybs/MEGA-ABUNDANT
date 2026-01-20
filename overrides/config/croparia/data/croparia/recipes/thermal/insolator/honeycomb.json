@@ -1,0 +1,19 @@
+{
+  "type": "thermal:insolator",
+  "ingredient": {
+    "item": "croparia:seed_crop_honeycomb"
+  },
+  "result": [
+    {
+      "item": "croparia:seed_crop_honeycomb",
+      "chance": 2.0
+    },
+    {
+      "item": "croparia:fruit_honeycomb",
+      "chance": 1.0
+    }
+  ],
+  "energy_mod": 1.5,
+  "water_mod": 1.5,
+  "experience": 0.2
+}

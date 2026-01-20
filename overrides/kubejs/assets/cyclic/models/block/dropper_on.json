@@ -1,0 +1,8 @@
+{ 
+ 	"parent": "cyclic:parent/machine_classic_on",
+    "textures": {
+        "base": "minecraft:block/copper_block",
+        "stem": "minecraft:block/smooth_stone",
+        "front": "cyclic:block/machine/dropper/dropper_on"
+    }
+}

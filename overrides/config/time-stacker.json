@@ -1,0 +1,8 @@
+{
+  "comment": "The time is in minutes. Change timeUnit to s (seconds), m (minutes) and h (hours). You can use /effect ... to see the modid/effectname and blacklist it.",
+  "timeUnit": "m",
+  "maxTime": 16,
+  "blacklist": [
+    "modid:effectname"
+  ]
+}

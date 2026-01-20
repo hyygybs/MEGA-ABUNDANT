@@ -1,0 +1,1966 @@
+{
+  "enableEnergy": true,
+  "crackerEnergyRate": 20,
+  "ovoscopeEnergyRate": 10,
+  "incubatorEnergyMultiplier": 1.0,
+  "breederMaxProcessTime": 1000,
+  "crackerProcessTime": 20,
+  "ovoscopeProcessTime": 100,
+  "eggItemMaxTimeOnGround": 15,
+  "onLaidViabilityChange": 0.99,
+  "incubateSuccessRate": 1.0,
+  "breederFoodConsumptionChance": 0.1,
+  "chickens": [
+    {
+      "name": "chickens:vanilla_chicken",
+      "colour": 16777215,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:egg",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "",
+      "parent_2": ""
+    },
+    {
+      "name": "chickens:smart_chicken",
+      "colour": 16777215,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:egg",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "",
+      "parent_2": ""
+    },
+    {
+      "name": "chickens:white_chicken",
+      "colour": 15790320,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:white_dye",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "",
+      "parent_2": ""
+    },
+    {
+      "name": "chickens:yellow_chicken",
+      "colour": 14602026,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:yellow_dye",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "",
+      "parent_2": ""
+    },
+    {
+      "name": "chickens:blue_chicken",
+      "colour": 2437522,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:blue_dye",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "",
+      "parent_2": ""
+    },
+    {
+      "name": "chickens:green_chicken",
+      "colour": 3887386,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:green_dye",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "",
+      "parent_2": ""
+    },
+    {
+      "name": "chickens:red_chicken",
+      "colour": 11743532,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:red_dye",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "",
+      "parent_2": ""
+    },
+    {
+      "name": "chickens:black_chicken",
+      "colour": 1973019,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:black_dye",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "",
+      "parent_2": ""
+    },
+    {
+      "name": "chickens:pink_chicken",
+      "colour": 14188952,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:pink_dye",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:red_chicken",
+      "parent_2": "chickens:white_chicken"
+    },
+    {
+      "name": "chickens:purple_chicken",
+      "colour": 8073150,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:purple_dye",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:blue_chicken",
+      "parent_2": "chickens:red_chicken"
+    },
+    {
+      "name": "chickens:orange_chicken",
+      "colour": 15435844,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:orange_dye",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:red_chicken",
+      "parent_2": "chickens:yellow_chicken"
+    },
+    {
+      "name": "chickens:light_blue_chicken",
+      "colour": 6719955,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:light_blue_dye",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:white_chicken",
+      "parent_2": "chickens:blue_chicken"
+    },
+    {
+      "name": "chickens:lime_chicken",
+      "colour": 4312372,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:lime_dye",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:green_chicken",
+      "parent_2": "chickens:white_chicken"
+    },
+    {
+      "name": "chickens:gray_chicken",
+      "colour": 4408131,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:gray_dye",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:black_chicken",
+      "parent_2": "chickens:white_chicken"
+    },
+    {
+      "name": "chickens:cyan_chicken",
+      "colour": 2651799,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:cyan_dye",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:blue_chicken",
+      "parent_2": "chickens:green_chicken"
+    },
+    {
+      "name": "chickens:light_gray_chicken",
+      "colour": 11250603,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:light_gray_dye",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:gray_chicken",
+      "parent_2": "chickens:white_chicken"
+    },
+    {
+      "name": "chickens:magenta_chicken",
+      "colour": 12801229,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:magenta_dye",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:purple_chicken",
+      "parent_2": "chickens:pink_chicken"
+    },
+    {
+      "name": "chickens:flint_chicken",
+      "colour": 7039815,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:flint",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "",
+      "parent_2": ""
+    },
+    {
+      "name": "chickens:quartz_chicken",
+      "colour": 5046272,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:quartz",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "",
+      "parent_2": ""
+    },
+    {
+      "name": "chickens:log_chicken",
+      "colour": 9995373,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:oak_log",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "",
+      "parent_2": ""
+    },
+    {
+      "name": "chickens:sand_chicken",
+      "colour": 15525297,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:sand",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "",
+      "parent_2": ""
+    },
+    {
+      "name": "chickens:string_chicken",
+      "colour": 16777215,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:spider_eye",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:black_chicken",
+      "parent_2": "chickens:log_chicken"
+    },
+    {
+      "name": "chickens:glowstone_chicken",
+      "colour": 16777062,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:glowstone_dust",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:quartz_chicken",
+      "parent_2": "chickens:yellow_chicken"
+    },
+    {
+      "name": "chickens:gunpowder_chicken",
+      "colour": 10066329,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:gunpowder",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:sand_chicken",
+      "parent_2": "chickens:flint_chicken"
+    },
+    {
+      "name": "chickens:redstone_chicken",
+      "colour": 15073280,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:redstone",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:red_chicken",
+      "parent_2": "chickens:sand_chicken"
+    },
+    {
+      "name": "chickens:glass_chicken",
+      "colour": 16777215,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:glass",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:quartz_chicken",
+      "parent_2": "chickens:redstone_chicken"
+    },
+    {
+      "name": "chickens:iron_chicken",
+      "colour": 16777164,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:iron_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:flint_chicken",
+      "parent_2": "chickens:white_chicken"
+    },
+    {
+      "name": "chickens:coal_chicken",
+      "colour": 2500134,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:coal",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:flint_chicken",
+      "parent_2": "chickens:log_chicken"
+    },
+    {
+      "name": "chickens:brown_chicken",
+      "colour": 5320730,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:brown_dye",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:red_chicken",
+      "parent_2": "chickens:green_chicken"
+    },
+    {
+      "name": "chickens:gold_chicken",
+      "colour": 13421568,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:gold_nugget",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:iron_chicken",
+      "parent_2": "chickens:yellow_chicken"
+    },
+    {
+      "name": "chickens:snowball_chicken",
+      "colour": 3390463,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:snowball",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:blue_chicken",
+      "parent_2": "chickens:log_chicken"
+    },
+    {
+      "name": "chickens:water_chicken",
+      "colour": 153,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "fluid",
+        "id": "minecraft:water",
+        "nbt": "",
+        "quantity": 1000
+      },
+      "parent_1": "chickens:gunpowder_chicken",
+      "parent_2": "chickens:snowball_chicken"
+    },
+    {
+      "name": "chickens:lava_chicken",
+      "colour": 13382400,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "fluid",
+        "id": "minecraft:lava",
+        "nbt": "",
+        "quantity": 1000
+      },
+      "parent_1": "chickens:coal_chicken",
+      "parent_2": "chickens:quartz_chicken"
+    },
+    {
+      "name": "chickens:clay_chicken",
+      "colour": 13421772,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:clay_ball",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:snowball_chicken",
+      "parent_2": "chickens:sand_chicken"
+    },
+    {
+      "name": "chickens:leather_chicken",
+      "colour": 10985580,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:leather",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:string_chicken",
+      "parent_2": "chickens:brown_chicken"
+    },
+    {
+      "name": "chickens:netherwart_chicken",
+      "colour": 8388608,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:nether_wart",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:brown_chicken",
+      "parent_2": "chickens:glowstone_chicken"
+    },
+    {
+      "name": "chickens:diamond_chicken",
+      "colour": 10079487,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:diamond",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:glass_chicken",
+      "parent_2": "chickens:gold_chicken"
+    },
+    {
+      "name": "chickens:blaze_chicken",
+      "colour": 16777062,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:blaze_rod",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:gold_chicken",
+      "parent_2": "chickens:lava_chicken"
+    },
+    {
+      "name": "chickens:slime_chicken",
+      "colour": 39219,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:slime_ball",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:clay_chicken",
+      "parent_2": "chickens:green_chicken"
+    },
+    {
+      "name": "chickens:ender_chicken",
+      "colour": 6656,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:ender_pearl",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:diamond_chicken",
+      "parent_2": "chickens:netherwart_chicken"
+    },
+    {
+      "name": "chickens:ghast_chicken",
+      "colour": 16777164,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:ghast_tear",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:white_chicken",
+      "parent_2": "chickens:blaze_chicken"
+    },
+    {
+      "name": "chickens:emerald_chicken",
+      "colour": 52224,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:emerald",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:diamond_chicken",
+      "parent_2": "chickens:green_chicken"
+    },
+    {
+      "name": "chickens:magma_chicken",
+      "colour": 1705216,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:magma_cream",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:slime_chicken",
+      "parent_2": "chickens:blaze_chicken"
+    },
+    {
+      "name": "chickens:pshard_chicken",
+      "colour": 4423790,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:prismarine_shard",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:water_chicken",
+      "parent_2": "chickens:blue_chicken"
+    },
+    {
+      "name": "chickens:pcrystal_chicken",
+      "colour": 5138785,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:prismarine_crystals",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:water_chicken",
+      "parent_2": "chickens:emerald_chicken"
+    },
+    {
+      "name": "chickens:obsidian_chicken",
+      "colour": 526350,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:obsidian",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:water_chicken",
+      "parent_2": "chickens:lava_chicken"
+    },
+    {
+      "name": "chickens:soulsand_chicken",
+      "colour": 4534565,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:soul_sand",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "",
+      "parent_2": ""
+    },
+    {
+      "name": "chickens:tin_chicken",
+      "colour": 10470592,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "thermal:tin_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:white_chicken",
+      "parent_2": "chickens:clay_chicken"
+    },
+    {
+      "name": "chickens:silver_chicken",
+      "colour": 10333106,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "thermal:silver_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:iron_chicken",
+      "parent_2": "chickens:white_chicken"
+    },
+    {
+      "name": "chickens:nickel_chicken",
+      "colour": 12957058,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "thermal:nickel_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:white_chicken",
+      "parent_2": "chickens:green_chicken"
+    },
+    {
+      "name": "chickens:lead_chicken",
+      "colour": 5660024,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "thermal:lead_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:iron_chicken",
+      "parent_2": "chickens:cyan_chicken"
+    },
+    {
+      "name": "chickens:copper_chicken",
+      "colour": 14973781,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:copper_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:yellow_chicken",
+      "parent_2": "chickens:brown_chicken"
+    },
+    {
+      "name": "chickens:invar_chicken",
+      "colour": 12831425,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "thermal:invar_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:iron_chicken",
+      "parent_2": "chickens:nickel_chicken"
+    },
+    {
+      "name": "chickens:bronze_chicken",
+      "colour": 14122281,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "thermal:bronze_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:copper_chicken",
+      "parent_2": "chickens:tin_chicken"
+    },
+    {
+      "name": "chickens:steel_chicken",
+      "colour": 10271421,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "thermal:steel_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:iron_chicken",
+      "parent_2": "chickens:coal_chicken"
+    },
+    {
+      "name": "chickens:platinum_chicken",
+      "colour": 14872299,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "alltheores:platinum_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:nickel_chicken",
+      "parent_2": "chickens:silver_chicken"
+    },
+    {
+      "name": "chickens:iridium_chicken",
+      "colour": 15066597,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "alltheores:iridium_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:enderium_chicken",
+      "parent_2": "chickens:blizz_chicken"
+    },
+    {
+      "name": "chickens:constantan_chicken",
+      "colour": 15515490,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "thermal:constantan_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:copper_chicken",
+      "parent_2": "chickens:nickel_chicken"
+    },
+    {
+      "name": "chickens:electrum_chicken",
+      "colour": 16118932,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "thermal:electrum_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:silver_chicken",
+      "parent_2": "chickens:gold_chicken"
+    },
+    {
+      "name": "chickens:rose_gold_chicken",
+      "colour": 16350050,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "thermal:rose_gold_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:copper_chicken",
+      "parent_2": "chickens:gold_chicken"
+    },
+    {
+      "name": "chickens:enderium_chicken",
+      "colour": 1932682,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "thermal:enderium_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:lead_chicken",
+      "parent_2": "chickens:ender_chicken"
+    },
+    {
+      "name": "chickens:lumium_chicken",
+      "colour": 16576168,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "thermal:lumium_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:tin_chicken",
+      "parent_2": "chickens:glowstone_chicken"
+    },
+    {
+      "name": "chickens:signalum_chicken",
+      "colour": 16277524,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "thermal:signalum_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:copper_chicken",
+      "parent_2": "chickens:silver_chicken"
+    },
+    {
+      "name": "chickens:sulfur_chicken",
+      "colour": 15724676,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "thermal:sulfur",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:gunpowder_chicken",
+      "parent_2": "chickens:flint_chicken"
+    },
+    {
+      "name": "chickens:niter_chicken",
+      "colour": 12038319,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "thermal:niter",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:sulfur_chicken",
+      "parent_2": "chickens:redstone_chicken"
+    },
+    {
+      "name": "chickens:cinnabar_chicken",
+      "colour": 10170160,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "thermal:cinnabar",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:niter_chicken",
+      "parent_2": "chickens:diamond_chicken"
+    },
+    {
+      "name": "chickens:apatite_chicken",
+      "colour": 6472904,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "thermal:apatite",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:cinnabar_chicken",
+      "parent_2": "chickens:diamond_chicken"
+    },
+    {
+      "name": "chickens:basalz_chicken",
+      "colour": 5198167,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "thermal:basalz_rod",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:niter_chicken",
+      "parent_2": "chickens:blaze_chicken"
+    },
+    {
+      "name": "chickens:blitz_chicken",
+      "colour": 14344421,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "thermal:blitz_rod",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:basalz_chicken",
+      "parent_2": "chickens:sulfur_chicken"
+    },
+    {
+      "name": "chickens:blizz_chicken",
+      "colour": 11988974,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "thermal:blizz_rod",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:blitz_chicken",
+      "parent_2": "chickens:snowball_chicken"
+    },
+    {
+      "name": "chickens:rubber_chicken",
+      "colour": 13881265,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "thermal:rubber",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:log_chicken",
+      "parent_2": "chickens:orange_chicken"
+    },
+    {
+      "name": "chickens:plastic_chicken",
+      "colour": 11513775,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "industrialforegoing:plastic",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:rubber_chicken",
+      "parent_2": "chickens:light_gray_chicken"
+    },
+    {
+      "name": "chickens:zinc_chicken",
+      "colour": 12707266,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "create:zinc_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:white_chicken",
+      "parent_2": "chickens:clay_chicken"
+    },
+    {
+      "name": "chickens:brass_chicken",
+      "colour": 16378269,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "create:brass_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:zinc_chicken",
+      "parent_2": "chickens:copper_chicken"
+    },
+    {
+      "name": "chickens:osmium_chicken",
+      "colour": 13689068,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "mekanism:ingot_osmium",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:iron_chicken",
+      "parent_2": "chickens:quartz_chicken"
+    },
+    {
+      "name": "chickens:refined_obsidian_chicken",
+      "colour": 8153254,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "mekanism:ingot_refined_obsidian",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:osmium_chicken",
+      "parent_2": "chickens:obsidian_chicken"
+    },
+    {
+      "name": "chickens:refined_glowstone_chicken",
+      "colour": 16446130,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "mekanism:ingot_refined_glowstone",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:osmium_chicken",
+      "parent_2": "chickens:glowstone_chicken"
+    },
+    {
+      "name": "chickens:fluorite_chicken",
+      "colour": 13167082,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "mekanism:fluorite_gem",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:osmium_chicken",
+      "parent_2": "chickens:quartz_chicken"
+    },
+    {
+      "name": "chickens:uranium_chicken",
+      "colour": 8557430,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "immersiveengineering:ingot_uranium",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:redstone_chicken",
+      "parent_2": "chickens:ender_chicken"
+    },
+    {
+      "name": "chickens:aluminum_chicken",
+      "colour": 12962509,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "immersiveengineering:ingot_aluminum",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:flint_chicken",
+      "parent_2": "chickens:iron_chicken"
+    },
+    {
+      "name": "chickens:certus_quartz_chicken",
+      "colour": 12183805,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "ae2:certus_quartz_crystal",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:water_chicken",
+      "parent_2": "chickens:quartz_chicken"
+    },
+    {
+      "name": "chickens:fluix_chicken",
+      "colour": 8148660,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "ae2:fluix_crystal",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:certus_quartz_chicken",
+      "parent_2": "chickens:redstone_chicken"
+    },
+    {
+      "name": "chickens:terrasteel_chicken",
+      "colour": 9305168,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "botania:terrasteel_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:ender_chicken",
+      "parent_2": "chickens:pcrystal_chicken"
+    },
+    {
+      "name": "chickens:manasteel_chicken",
+      "colour": 9024505,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "botania:manasteel_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:iron_chicken",
+      "parent_2": "chickens:ghast_chicken"
+    },
+    {
+      "name": "chickens:elementium_chicken",
+      "colour": 15310025,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "botania:elementium_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:manasteel_chicken",
+      "parent_2": "chickens:terrasteel_chicken"
+    },
+    {
+      "name": "chickens:alfsteel_chicken",
+      "colour": 15906879,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "mythicbotany:alfsteel_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:elementium_chicken",
+      "parent_2": "chickens:terrasteel_chicken"
+    },
+    {
+      "name": "chickens:yellorium_chicken",
+      "colour": 13690698,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "biggerreactors:yellorium_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:glowstone_chicken",
+      "parent_2": "chickens:ender_chicken"
+    },
+    {
+      "name": "chickens:graphite_chicken",
+      "colour": 16381921,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "biggerreactors:graphite_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:coal_chicken",
+      "parent_2": "chickens:black_chicken"
+    },
+    {
+      "name": "chickens:cyanite_chicken",
+      "colour": 7258849,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "biggerreactors:cyanite_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:yellorium_chicken",
+      "parent_2": "chickens:sand_chicken"
+    },
+    {
+      "name": "chickens:blutonium_chicken",
+      "colour": 5013199,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "biggerreactors:blutonium_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:cyanite_chicken",
+      "parent_2": "chickens:water_chicken"
+    },
+    {
+      "name": "chickens:ludicrite_chicken",
+      "colour": 13848770,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "biggerreactors:ludicrite_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:blutonium_chicken",
+      "parent_2": "chickens:yellorium_chicken"
+    },
+    {
+      "name": "chickens:antimatter_chicken",
+      "colour": 11498178,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "mekanism:pellet_antimatter",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:ludicrite_chicken",
+      "parent_2": "chickens:uranium_chicken"
+    },
+    {
+      "name": "chickens:silicon_chicken",
+      "colour": 4607318,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "ae2:silicon",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:clay_chicken",
+      "parent_2": "chickens:sand_chicken"
+    },
+    {
+      "name": "chickens:peridot_chicken",
+      "colour": 10272611,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "projectred_core:peridot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:silicon_chicken",
+      "parent_2": "chickens:green_chicken"
+    },
+    {
+      "name": "chickens:sapphire_chicken",
+      "colour": 5863097,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "projectred_core:sapphire",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:blue_chicken",
+      "parent_2": "chickens:aluminum_chicken"
+    },
+    {
+      "name": "chickens:ruby_chicken",
+      "colour": 11492964,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "projectred_core:ruby",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:red_chicken",
+      "parent_2": "chickens:aluminum_chicken"
+    },
+    {
+      "name": "chickens:amethyst_chicken",
+      "colour": 11374829,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:amethyst_shard",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:ghast_chicken",
+      "parent_2": "chickens:purple_chicken"
+    },
+    {
+      "name": "chickens:honey_chicken",
+      "colour": 14521145,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:honeycomb",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:slime_chicken",
+      "parent_2": "chickens:orange_chicken"
+    },
+    {
+      "name": "chickens:pewter_chicken",
+      "colour": 10460822,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "tconstruct:fake_ingot",
+        "nbt": "{\"Material\": \"tconstruct:pewter\"}",
+        "quantity": 1
+      },
+      "parent_1": "chickens:lead_chicken",
+      "parent_2": "chickens:tin_chicken"
+    },
+    {
+      "name": "chickens:ardite_chicken",
+      "colour": 12605732,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "tinkers_thinking:ardite_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:blaze_chicken",
+      "parent_2": "chickens:magma_chicken"
+    },
+    {
+      "name": "chickens:cobalt_chicken",
+      "colour": 3962067,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "tconstruct:cobalt_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:netherwart_chicken",
+      "parent_2": "chickens:ghast_chicken"
+    },
+    {
+      "name": "chickens:manyullyn_chicken",
+      "colour": 6963876,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "tconstruct:manyullyn_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:ardite_chicken",
+      "parent_2": "chickens:cobalt_chicken"
+    },
+    {
+      "name": "chickens:ender_slime_chicken",
+      "colour": 11558380,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "tconstruct:ender_slime_ball",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:slime_chicken",
+      "parent_2": "chickens:ender_chicken"
+    },
+    {
+      "name": "chickens:ichor_slime_chicken",
+      "colour": 15704670,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "tconstruct:ichor_slime_ball",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:slime_chicken",
+      "parent_2": "chickens:magma_chicken"
+    },
+    {
+      "name": "chickens:sky_slime_chicken",
+      "colour": 8370874,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "tconstruct:sky_slime_ball",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:slime_chicken",
+      "parent_2": "chickens:blue_chicken"
+    },
+    {
+      "name": "chickens:source_gem_chicken",
+      "colour": 12413940,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "ars_nouveau:source_gem",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:lapis_chicken",
+      "parent_2": "chickens:amethyst_chicken"
+    },
+    {
+      "name": "chickens:lapis_chicken",
+      "colour": 4153018,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:lapis_lazuli",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:blue_chicken",
+      "parent_2": "chickens:redstone_chicken"
+    },
+    {
+      "name": "chickens:draconium_chicken",
+      "colour": 12161258,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "draconicevolution:draconium_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:manyullyn_chicken",
+      "parent_2": "chickens:ender_chicken"
+    },
+    {
+      "name": "chickens:awakened_draconium_chicken",
+      "colour": 15907136,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "draconicevolution:awakened_draconium_nugget",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:draconium_chicken",
+      "parent_2": "chickens:ender_chicken"
+    },
+    {
+      "name": "chickens:chaos_chicken",
+      "colour": 1447189,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "draconicevolution:small_chaos_frag",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:awakened_draconium_chicken",
+      "parent_2": "chickens:antimatter_chicken"
+    },
+    {
+      "name": "chickens:netherite_chicken",
+      "colour": 5715245,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "minecraft:netherite_scrap",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:draconium_chicken",
+      "parent_2": "chickens:soulsand_chicken"
+    },
+    {
+      "name": "chickens:enderite_chicken",
+      "colour": 1585195,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "enderitemod:enderite_scrap",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:netherite_chicken",
+      "parent_2": "chickens:ender_chicken"
+    },
+    {
+      "name": "chickens:prosperity_chicken",
+      "colour": 11323850,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "mysticalagriculture:prosperity_shard",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:sand_chicken",
+      "parent_2": "chickens:ender_chicken"
+    },
+    {
+      "name": "chickens:soulium_chicken",
+      "colour": 4010537,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "mysticalagriculture:soulium_dust",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:prosperity_chicken",
+      "parent_2": "chickens:soulsand_chicken"
+    },
+    {
+      "name": "chickens:restonia_crystal_chicken",
+      "colour": 13386286,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "actuallyadditions:restonia_crystal",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:redstone_chicken",
+      "parent_2": "chickens:black_quartz_chicken"
+    },
+    {
+      "name": "chickens:palis_crystal_chicken",
+      "colour": 6463179,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "actuallyadditions:palis_crystal",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:lapis_chicken",
+      "parent_2": "chickens:black_quartz_chicken"
+    },
+    {
+      "name": "chickens:emeradic_crystal_chicken",
+      "colour": 8840308,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "actuallyadditions:emeradic_crystal",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:palis_crystal_chicken",
+      "parent_2": "chickens:emerald_chicken"
+    },
+    {
+      "name": "chickens:void_crystal_chicken",
+      "colour": 3819600,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "actuallyadditions:void_crystal",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:coal_chicken",
+      "parent_2": "chickens:palis_crystal_chicken"
+    },
+    {
+      "name": "chickens:enori_crystal_chicken",
+      "colour": 9869726,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "actuallyadditions:enori_crystal",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:void_crystal_chicken",
+      "parent_2": "chickens:iron_chicken"
+    },
+    {
+      "name": "chickens:black_quartz_chicken",
+      "colour": 3357253,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "actuallyadditions:black_quartz",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:quartz_chicken",
+      "parent_2": "chickens:black_chicken"
+    },
+    {
+      "name": "chickens:diamatine_crystal_chicken",
+      "colour": 9498320,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "actuallyadditions:diamatine_crystal",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:emeradic_crystal_chicken",
+      "parent_2": "chickens:enori_crystal_chicken"
+    },
+    {
+      "name": "chickens:neutron_chicken",
+      "colour": 2565927,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "avaritia:neutron_pile",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:quartz_chicken",
+      "parent_2": "chickens:draconium_chicken"
+    },
+    {
+      "name": "chickens:conductive_alloy_chicken",
+      "colour": 15122600,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "enderio:conductive_alloy_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:redstone_chicken",
+      "parent_2": "chickens:iron_chicken"
+    },
+    {
+      "name": "chickens:dark_steel_chicken",
+      "colour": 6775402,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "enderio:dark_steel_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:iron_chicken",
+      "parent_2": "chickens:obsidian_chicken"
+    },
+    {
+      "name": "chickens:end_steel_chicken",
+      "colour": 13617282,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "enderio:end_steel_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:dark_steel_chicken",
+      "parent_2": "chickens:obsidian_chicken"
+    },
+    {
+      "name": "chickens:energetic_alloy_chicken",
+      "colour": 15318629,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "enderio:energetic_alloy_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:gold_chicken",
+      "parent_2": "chickens:glowstone_chicken"
+    },
+    {
+      "name": "chickens:pulsating_alloy_chicken",
+      "colour": 8832650,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "enderio:pulsating_alloy_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:iron_chicken",
+      "parent_2": "chickens:ender_chicken"
+    },
+    {
+      "name": "chickens:redstone_alloy_chicken",
+      "colour": 15170423,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "enderio:redstone_alloy_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:redstone_chicken",
+      "parent_2": "chickens:silicon_chicken"
+    },
+    {
+      "name": "chickens:soularium_chicken",
+      "colour": 7102015,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "enderio:soularium_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:gold_chicken",
+      "parent_2": "chickens:soulsand_chicken"
+    },
+    {
+      "name": "chickens:vibrant_alloy_chicken",
+      "colour": 15858845,
+      "is_enabled": true,
+      "lay_coefficient": 1.0,
+      "breed_speed_multiplier": 1.0,
+      "lay_item": {
+        "type": "item",
+        "id": "enderio:vibrant_alloy_ingot",
+        "nbt": "",
+        "quantity": 1
+      },
+      "parent_1": "chickens:energetic_chicken",
+      "parent_2": "chickens:ender_chicken"
+    }
+  ],
+  "fabricSpawns": []
+}

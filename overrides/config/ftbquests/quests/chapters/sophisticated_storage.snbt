@@ -1,0 +1,744 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sophisticated_storage"
+	group: "1F9A9FE71A5A4AA9"
+	icon: {
+		Count: 1
+		id: "sophisticatedstorage:netherite_chest"
+		tag: {
+			woodType: "oak"
+		}
+	}
+	id: "40E1CB73C7E51C0B"
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["升级容器"]
+			id: "2798081F6FA1D6C4"
+			rewards: [{
+				id: "386D495694702F91"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16632B9A3024C5E3"
+				item: "sophisticatedstorage:basic_tier_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2798081F6FA1D6C4"]
+			description: ["存储物品"]
+			id: "682A8E9ED5240E9F"
+			rewards: [{
+				id: "30F32521750F2A7D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1876F7B6D4099DD7"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66726C0AADD5E11E"]
+			description: ["存储物品"]
+			id: "77D0212B4BF85D4B"
+			rewards: [{
+				id: "180BD0AB5A0F513A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "57BC169903D4950F"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:copper_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2798081F6FA1D6C4"]
+			description: ["升级容器"]
+			id: "66726C0AADD5E11E"
+			rewards: [{
+				id: "1CA97358D1C2788F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "556A43BF7FF0E134"
+				item: "sophisticatedstorage:basic_to_copper_tier_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["66726C0AADD5E11E"]
+			description: ["升级容器"]
+			id: "6198A04F9282C71B"
+			rewards: [{
+				id: "65B2D45F04CFFF95"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F99BFDC69D1A01B"
+				item: "sophisticatedstorage:copper_to_iron_tier_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6198A04F9282C71B"]
+			description: ["存储物品"]
+			id: "3A3ACA6ECC3D1119"
+			rewards: [{
+				id: "04760226AD04CAB9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78993E2075978A79"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:iron_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["718DC30D620A72E4"]
+			description: ["存储物品，但限定槽位"]
+			id: "2FCE43874435B628"
+			rewards: [{
+				id: "6DAE2BB5FC4673A7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2EBF19D5560490C2"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_copper_barrel_1"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "165053C7FB3E97B5"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_copper_barrel_2"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45CE4E1C9EA961FA"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_copper_barrel_3"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B16ADD3B1707AE9"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_copper_barrel_4"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["56B0B3D768BDB22D"]
+			description: ["存储物品，但限定槽位"]
+			id: "76939B782C72F410"
+			rewards: [{
+				id: "5D798EFBDCE5B74A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2E9A9BE84FE056CE"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_iron_barrel_1"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4CB004BEDE3556D2"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_iron_barrel_2"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08EF58F99A71F6A2"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_iron_barrel_3"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E5C5D4C842C49CE"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_iron_barrel_4"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6198A04F9282C71B"]
+			description: ["升级容器"]
+			id: "79A308B2257B7350"
+			rewards: [{
+				id: "0F3B85C87CB175FD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19FD7E1216FE82AB"
+				item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["79A308B2257B7350"]
+			description: ["存储物品"]
+			id: "1C7FC68E1DB93940"
+			rewards: [{
+				id: "138F102EC4385312"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14CF3B750462C16D"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:gold_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["78CDACB6C9BB7059"]
+			description: ["存储物品，但限定槽位"]
+			id: "15B04900D30E1BA2"
+			rewards: [{
+				id: "3F6F93AED6D023ED"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0DD550CF8294D12D"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_gold_barrel_1"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "060D923CA20B12D7"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_gold_barrel_2"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0ADDFD4990EB3F05"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_gold_barrel_3"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C7A8729B7DC3DCA"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_gold_barrel_4"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["79A308B2257B7350"]
+			description: ["升级容器"]
+			id: "289C0BB33A3A753D"
+			rewards: [{
+				id: "789A219E658E0CBE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "148EF25D3432B27E"
+				item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["289C0BB33A3A753D"]
+			description: ["存储物品"]
+			id: "7DCC62994C3F57F0"
+			rewards: [{
+				id: "5E6742E6A1FE8EBA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "041A51A2217B190B"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:diamond_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["289C0BB33A3A753D"]
+			description: ["存储物品"]
+			id: "7BFBDCB81993975B"
+			rewards: [{
+				id: "7FD70C229A5743D5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "250F82CC0D85A5A5"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:diamond_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["02441EBC5FC058C4"]
+			description: ["存储物品，但限定槽位"]
+			id: "5E590E5D0479FF69"
+			rewards: [{
+				id: "0562ED549597A666"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2345539F2B9A9F9F"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_barrel_1"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ABDD10369422586"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_barrel_2"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56F29764269DB906"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_barrel_3"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79105BD962942FE6"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_barrel_4"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2798081F6FA1D6C4"]
+			description: ["存储物品"]
+			id: "02441EBC5FC058C4"
+			rewards: [{
+				id: "0392A7C8D65DD021"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A6F12593EEC6B14"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["66726C0AADD5E11E"]
+			description: ["存储物品"]
+			id: "718DC30D620A72E4"
+			rewards: [{
+				id: "5FDF674ABAA37D14"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "445948A10D02D2AA"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:copper_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6198A04F9282C71B"]
+			description: ["存储物品"]
+			id: "56B0B3D768BDB22D"
+			rewards: [{
+				id: "4D1D64D582FB5CD0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F91532024FFD113"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:iron_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["79A308B2257B7350"]
+			description: ["存储物品"]
+			id: "78CDACB6C9BB7059"
+			rewards: [{
+				id: "6082D8C02078F3B1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59636ACB76A62C9F"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:gold_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7BFBDCB81993975B"]
+			description: ["存储物品，但限定槽位"]
+			id: "5171D9CC60DC5434"
+			rewards: [{
+				id: "05B1DB876EE83265"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2E1CA9EA7C2839A3"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_diamond_barrel_1"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0604F05152A4E833"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_diamond_barrel_2"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68FE7FF2CA95D0DF"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_diamond_barrel_3"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E9285CAD8E102DA"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_diamond_barrel_4"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["289C0BB33A3A753D"]
+			description: ["升级容器"]
+			id: "18FFAD59C8EADF60"
+			rewards: [{
+				id: "72498D152D7C8563"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60BF382E7DBD1DE1"
+				item: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["18FFAD59C8EADF60"]
+			description: ["存储物品"]
+			id: "756228DC6EE2D4CD"
+			rewards: [{
+				id: "61636DA2D0BF96F8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C02E5F9147C283A"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:netherite_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["18FFAD59C8EADF60"]
+			description: ["存储物品"]
+			id: "5CE63D0EBF158B63"
+			rewards: [{
+				id: "541DD1CB01339A7B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59BCD6BFFDAD9131"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:netherite_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5CE63D0EBF158B63"]
+			description: ["存储物品，但限定槽位"]
+			id: "0AE15DE84A78A5DB"
+			rewards: [{
+				id: "7D3E298DF8FD0197"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7686586326CD727E"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_netherite_barrel_1"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49DC8EBDBE386ED6"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_netherite_barrel_2"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16D7697AE74D3F19"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_netherite_barrel_3"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61EA6F9064465C48"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_netherite_barrel_4"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 4.5d
+		}
+	]
+	title: "Sophisticated Storage"
+}

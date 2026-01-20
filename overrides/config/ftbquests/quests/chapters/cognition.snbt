@@ -1,0 +1,404 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cognition"
+	group: "1F9A9FE71A5A4AA9"
+	icon: {
+		Count: 1
+		id: "experienceobelisk:experience_obelisk"
+		tag: { }
+	}
+	id: "276ACBBF4C763B42"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["合成材料"]
+			id: "531EA8EE32F7DE42"
+			rewards: [{
+				id: "14EE4EEAF4A0069B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "119DB28C1AD23824"
+				item: "experienceobelisk:cognitive_flux"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["531EA8EE32F7DE42"]
+			description: ["合成材料"]
+			id: "011148EC1D5EF108"
+			rewards: [{
+				id: "2E584DACF343B728"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DBD857D12BA9152"
+				item: "experienceobelisk:cognitive_amalgam"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["011148EC1D5EF108"]
+			description: ["合成材料"]
+			id: "79FEEE20E6776187"
+			rewards: [{
+				id: "5167FDF416BEA85A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AAB59E3A3EDB0FA"
+				item: "experienceobelisk:cognitive_alloy"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79FEEE20E6776187"]
+			description: ["合成材料"]
+			id: "64EDA6BE4A2927D2"
+			rewards: [{
+				id: "6F5F82CAFFAB5E67"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27A12986038E2D55"
+				item: "experienceobelisk:cognitive_crystal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64EDA6BE4A2927D2"]
+			description: ["合成材料"]
+			id: "38159CFF36C62C4C"
+			rewards: [{
+				id: "6B5D04A8B6D516D9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30D64AA9B27C9065"
+				item: "experienceobelisk:astute_assembly"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38159CFF36C62C4C"]
+			description: ["护甲"]
+			id: "1EF5F666A77CAFC2"
+			rewards: [{
+				id: "36E4506AE854BE44"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3D0AC6FC3AE9ECD6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "experienceobelisk:cognitive_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "222610A560737C60"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "experienceobelisk:cognitive_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5740DC410069D9EE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "experienceobelisk:cognitive_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A250F801693FD1D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "experienceobelisk:cognitive_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["38159CFF36C62C4C"]
+			description: ["用于存储经验"]
+			id: "6D75F1ECB27E1763"
+			rewards: [{
+				id: "7C07BB11A92D2228"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D5F382D888690DC"
+				item: {
+					Count: 1
+					id: "experienceobelisk:experience_obelisk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D75F1ECB27E1763"]
+			description: ["用于喷出经验"]
+			id: "1B75E8A5D75022B8"
+			rewards: [{
+				id: "593CDF67860BECC1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B2056845ABAD705"
+				item: "experienceobelisk:experience_fountain"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D75F1ECB27E1763"]
+			description: ["选择性移除附魔"]
+			id: "6515F7888C563A55"
+			rewards: [{
+				id: "7F7FA2996221B5E5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31C18C9B185C27E0"
+				item: "experienceobelisk:precision_dispeller"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D75F1ECB27E1763"]
+			description: ["用于发射实体"]
+			id: "4802E8623714988A"
+			rewards: [{
+				id: "58C6FCB06385E876"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2C5ED14A114760CD"
+					item: "experienceobelisk:accelerator"
+					type: "item"
+				}
+				{
+					id: "376E42D69EC081B6"
+					item: "experienceobelisk:linear_accelerator"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4802E8623714988A"]
+			description: ["用于处理材料"]
+			id: "7BCF80F48587A634"
+			rewards: [{
+				id: "771DC4CA0BEB99FD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6149EF351179A045"
+				item: {
+					Count: 1
+					id: "experienceobelisk:molecular_metamorpher"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BCF80F48587A634"]
+			description: ["合成材料"]
+			id: "01E176810880F370"
+			rewards: [{
+				id: "6FED5F90C9B3212C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4430EE4E445DE5FD"
+				item: "experienceobelisk:primordial_assembly"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BCF80F48587A634"]
+			description: ["合成转化材料"]
+			id: "2F3C831086911549"
+			rewards: [{
+				id: "011973C2A5831FDE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79D885BE969BE832"
+				item: {
+					Count: 1
+					id: "experienceobelisk:transforming_focus"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64EDA6BE4A2927D2"]
+			description: ["用于调整本模组的机器"]
+			id: "152A12C63C0758EA"
+			rewards: [{
+				id: "75A758C6D8890FB9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B2C7388F7137F8C"
+				item: "experienceobelisk:attunement_staff"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["01E176810880F370"]
+			description: ["用于感染书架"]
+			id: "0F6E56B7DCD070A7"
+			rewards: [{
+				id: "27EC499692BA46EA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FF3DD9F604EFC09"
+				item: "experienceobelisk:bibliophage"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F6E56B7DCD070A7"]
+			description: ["破坏被感染的书架掉落"]
+			id: "1A01BC5BE8D98C94"
+			rewards: [{
+				id: "3233A72A97D130BE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0903E10B618AE52B"
+				item: "experienceobelisk:forgotten_dust"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A01BC5BE8D98C94"]
+			description: ["合成材料"]
+			id: "584739A92D71D9A0"
+			rewards: [{
+				id: "2701C5980A62AC99"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C146DCF7F92520F"
+				item: "experienceobelisk:calcarine_matrix"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["584739A92D71D9A0"]
+			description: ["远程访问经验方尖碑"]
+			id: "746C15D128896916"
+			rewards: [{
+				id: "44BB0BD4DA1C34C5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2691A7A01E2FF9C9"
+				item: "experienceobelisk:memory_tablet"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+	]
+	title: "Cognition"
+}

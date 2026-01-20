@@ -1,0 +1,7 @@
+
+[general]
+	#Toughness Bar Icon Colors
+	"color values" = ["#FFFFFF", "#FF5500", "#FFC747", "#27FFE3", "#00FF00", "#7F00FF", "#FF0066", "FFFF00", "FF0000", "7D7D7D"]
+	#Show empty armor toughness icons?
+	"Show empty icons" = false
+

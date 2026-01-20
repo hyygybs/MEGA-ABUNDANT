@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_feet",
+    "apotheosis:boots_tome",
+    "alexsmobs:pigshoes"
+  ],
+  "incompatible": [
+    "fancyenchantments:afterimage",
+    "fancyenchantments:streamline",
+    "fancyenchantments:recoil",
+    "fancyenchantments:lightness",
+    "fancyenchantments:blessed_wind",
+    "fancyenchantments:floating",
+    "fancyenchantments:downwind",
+    "fancyenchantments:wind_blade",
+    "fancyenchantments:air_attack",
+    "fancyenchantments:dexterity",
+    "fancyenchantments:reflecting",
+    "fancyenchantments:feather_fall"
+  ]
+}

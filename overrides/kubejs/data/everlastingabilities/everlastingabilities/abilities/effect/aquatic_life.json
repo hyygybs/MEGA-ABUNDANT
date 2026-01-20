@@ -1,0 +1,13 @@
+{
+  "type": "everlastingabilities:effect",
+  "target": "self",
+  "name": "ability.everlastingabilities.aquatic_life",
+  "rarity": "epic",
+  "max_level": 1,
+  "xp_per_level": 50,
+  "effect": "tombstone:aquatic_life",
+  "condition": {
+    "type": "forge:mod_loaded",
+    "modid": "tombstone"
+  }
+}

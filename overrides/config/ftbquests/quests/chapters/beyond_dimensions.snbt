@@ -1,0 +1,321 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "beyond_dimensions"
+	group: "1F9A9FE71A5A4AA9"
+	icon: "beyonddimensions:net_control"
+	id: "7362E847BDAD42A1"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["在背包放置一个小时后转化为稳态时空碎片"]
+			id: "27B71267D973C266"
+			rewards: [{
+				id: "08C71A7F7F4D240C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "590AE57ED9E9E3E9"
+				item: "beyonddimensions:unstable_space_time_fragment"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27B71267D973C266"]
+			description: ["用于合成维度网络发生器"]
+			id: "1BFD30AFCD27210C"
+			rewards: [{
+				id: "278BFB7DA6E2A9FE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FAB686DF2F14284"
+				item: "beyonddimensions:stable_space_time_fragment"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BFD30AFCD27210C"]
+			description: ["右键使用以创建一个维度网络"]
+			id: "4C0C6928067E0591"
+			rewards: [{
+				id: "418E9F9D8141D02E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59AC64FA2F1FF8E6"
+				item: "beyonddimensions:net_creater"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C0C6928067E0591"]
+			description: ["合成材料，创建维度网络后，每 10 分钟自然生成一个"]
+			id: "7399C778D048992E"
+			rewards: [{
+				id: "79928FC8B1AFB38E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "697608279D6C9561"
+				item: "beyonddimensions:shattered_space_time_crystallization"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7399C778D048992E"]
+			description: ["合成材料"]
+			id: "0EC2C1B2EFC3727A"
+			rewards: [{
+				id: "28A622CBBA066CD5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7911EA27839122DB"
+				item: "beyonddimensions:space_time_bar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EC2C1B2EFC3727A"]
+			description: ["合成材料"]
+			id: "6200412617A29BDF"
+			rewards: [{
+				id: "6F2DCFD392901D50"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4ABBB339A911379C"
+				item: "beyonddimensions:space_time_stable_frame"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6200412617A29BDF"]
+			description: ["打开当前玩家的维度网络控制界面"]
+			id: "2DF323ED76F246C5"
+			rewards: [{
+				id: "15D87AF9118547D3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32271B803F9D13E9"
+				item: "beyonddimensions:net_control"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DF323ED76F246C5"]
+			description: ["用于为维度网络接收和输出FE，需要空手潜行右击绑定"]
+			id: "0253BD1A0EA748BD"
+			rewards: [{
+				id: "63AD0BA33FC5ABC9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06D1B1D4379E15AA"
+				item: "beyonddimensions:net_energy_pathway"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2DF323ED76F246C5"]
+			description: ["暴露整个维度网络的存储空间，需要空手潜行右击绑定"]
+			id: "74150DA2FD72FD8F"
+			rewards: [{
+				id: "5C8A216BF327C883"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F9C278C113E7153"
+				item: "beyonddimensions:net_pathway"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DF323ED76F246C5"]
+			description: ["用于物品输入和输出，需要空手潜行右击绑定"]
+			id: "184D328DA435692F"
+			rewards: [{
+				id: "6DFCFBBE8CE02832"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A0C5A647BCB959F"
+				item: "beyonddimensions:net_interface"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"184D328DA435692F"
+				"0253BD1A0EA748BD"
+				"74150DA2FD72FD8F"
+			]
+			description: ["用于访问维度网络内的物品，需要空手潜行右击绑定"]
+			id: "229E3BD6713A5882"
+			rewards: [{
+				id: "19F2CE609F719EA0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0701AAA80A87A872"
+				item: "beyonddimensions:net_terminal_block"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["229E3BD6713A5882"]
+			description: ["用于访问维度网络内的物品，需要空手潜行右击绑定"]
+			id: "43B948BE8CAF6F4C"
+			rewards: [{
+				id: "2083D4DA68EDBDC9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B9378BE1AECD976"
+				item: "beyonddimensions:net_terminal_item"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6200412617A29BDF"]
+			description: ["让ME网络读取其所绑定的维度网络内容"]
+			id: "09E41E766CDA11DE"
+			rewards: [{
+				id: "1185EDE62C786ADF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FD6B5EFC460DC15"
+				item: "beyonddimensions:net_ae_storage_cell"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["43B948BE8CAF6F4C"]
+			description: [
+				"网络泵：主动从周围六个面的容器中抽取资源进入维度网络"
+				"网络漏斗：主动收集一定范围内的掉落物以及流体"
+				"网络熔炉：可以根据输入标记从网络中提取原料，根据燃料标记提取燃料，成品可以直接存入网络中"
+			]
+			id: "39D6055DD23F58C6"
+			rewards: [{
+				id: "7551537D5DF81D53"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4A9324FFFC719CB0"
+					item: "beyonddimensions:net_pump_block"
+					type: "item"
+				}
+				{
+					id: "44FCB5433A3AE8AF"
+					item: "beyonddimensions:net_hopper_block"
+					type: "item"
+				}
+				{
+					id: "6F8106B598DA3C1B"
+					item: "beyonddimensions:net_furnace_block"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6200412617A29BDF"]
+			description: ["让RS网络读取其所绑定的维度网络内容"]
+			id: "547D728A57D0D46B"
+			rewards: [{
+				id: "6E5679D921210682"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "090073AF241F3D29"
+				item: "beyonddimensions:rs_net_pathway"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6200412617A29BDF"]
+			description: ["用于为维度网络接收和输出魔源，需要空手潜行右击绑定"]
+			id: "6FC751769DD90834"
+			rewards: [{
+				id: "56A17802BCDD74F0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AB6A14AC9E99E7B"
+				item: "beyonddimensions:ars_source_pathway"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6200412617A29BDF"]
+			description: ["用于为维度网络接收和输出魔力，需要空手潜行右击绑定"]
+			id: "7D4B6A5A72E446AE"
+			rewards: [{
+				id: "69332BCE65F39CD2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32D54DB6ACE69D8C"
+				item: "beyonddimensions:mana_pool_pathway"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+	]
+	title: "Beyond Dimensions"
+}

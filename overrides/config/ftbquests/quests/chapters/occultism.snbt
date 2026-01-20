@@ -1,0 +1,442 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "occultism"
+	group: "0896B032D36C2B34"
+	icon: "occultism:golden_sacrificial_bowl"
+	id: "63FB586576BF0C08"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["打草掉落"]
+			id: "76AF2988757BDC1B"
+			rewards: [{
+				id: "2A8585462CB0CE75"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12B9F6CC2FC01FF3"
+				item: "occultism:datura_seeds"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["76AF2988757BDC1B"]
+			description: ["本模组的指导书"]
+			id: "282683B6CE763A0F"
+			rewards: [{
+				id: "10BABB0C76D3DCEE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29B0607B60EC29A1"
+				item: {
+					Count: 1
+					id: "occultism:dictionary_of_spirits"
+					tag: {
+						"modonomicon:book_id": "occultism:dictionary_of_spirits"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["76AF2988757BDC1B"]
+			description: ["食用后获得第三只眼效果，在地上点燃获得灵火"]
+			id: "1AC2408566C21F14"
+			rewards: [{
+				id: "448E89C103A40A59"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F796A0E3FD7DD8F"
+				item: "occultism:datura"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1AC2408566C21F14"]
+			description: ["食用后获得第三只眼效果"]
+			id: "1731282595E36108"
+			rewards: [{
+				id: "301945AA6EE81E2E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "496DA12F7060AC3B"
+				item: "occultism:demons_dream_essence"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1731282595E36108"]
+			description: ["食用后获得第三只眼效果"]
+			id: "002979D1D0BAED37"
+			rewards: [{
+				id: "282317F63A9B1EA0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6449063CDC2AEDFE"
+				item: "occultism:otherworld_essence"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1AC2408566C21F14"]
+			description: ["将钻石、安山岩、橡树树苗丢入灵火中获得"]
+			id: "678CF7EC5828CED9"
+			rewards: [{
+				id: "63D6BB936E51FABC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5547993DBE750DCD"
+					item: "occultism:spirit_attuned_gem"
+					type: "item"
+				}
+				{
+					id: "2191B0461415BF09"
+					item: "occultism:otherstone"
+					type: "item"
+				}
+				{
+					id: "6068B2A2A6A28E7B"
+					item: "occultism:otherworld_sapling"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["678CF7EC5828CED9"]
+			description: ["与安山岩、橡木原木、橡树树叶、下界岩发生共鸣，然后在感知到时在第三只眼下采集"]
+			id: "6934370CEEA90F18"
+			rewards: [{
+				id: "6ACA511312D48B6E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BCDB07BABF599A8"
+				item: {
+					Count: 1
+					id: "occultism:divination_rod"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["04F3241D29904252"]
+			id: "292325F90B226906"
+			rewards: [{
+				id: "1EAE493395CDF552"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37A1499A75B66587"
+				item: "occultism:iesnium_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["678CF7EC5828CED9"]
+			description: ["用于仪式"]
+			id: "331392AE5FC11436"
+			rewards: [{
+				id: "1B5F76E17B8F4DB4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "67BF650D3C4509AF"
+					item: {
+						Count: 1
+						id: "occultism:chalk_white"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C56F6B56EDD8FD4"
+					item: "occultism:taboo_book"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["331392AE5FC11436"]
+			description: ["用于搭建仪式"]
+			id: "0B89E033647F469E"
+			rewards: [{
+				id: "58253C879ADBFB18"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6AAF8764FFF4F2F2"
+					item: "occultism:sacrificial_bowl"
+					type: "item"
+				}
+				{
+					id: "61E3C50EA3F18382"
+					item: "occultism:golden_sacrificial_bowl"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0B89E033647F469E"]
+			description: ["用第三只眼观察世界"]
+			id: "43E73569B98ABD57"
+			rewards: [{
+				id: "115D11E74BD0113F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2702C46A7F435109"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							insulation: [ ]
+						}
+					}
+					id: "occultism:otherworld_goggles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0B89E033647F469E"]
+			id: "04F3241D29904252"
+			rewards: [{
+				id: "7A7080CCF771F44C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05546EEFC427061B"
+				item: {
+					Count: 1
+					id: "occultism:infused_pickaxe"
+					tag: {
+						Damage: 0
+						spiritName: "Cacratron"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0B89E033647F469E"]
+			description: ["用于存储物品"]
+			id: "51967F23FF0D347B"
+			rewards: [{
+				id: "1E1D51CD4A076A46"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3EB9ABCB43F16596"
+					item: "occultism:storage_controller_base"
+					type: "item"
+				}
+				{
+					id: "42FDDD87BE422F7A"
+					item: "occultism:storage_controller"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["51967F23FF0D347B"]
+			description: ["存储用实用物品"]
+			id: "2485354A4CC03CDC"
+			rewards: [{
+				id: "6D20AE8A1383DA77"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3659C5AE439C3045"
+					item: "occultism:storage_stabilizer_tier1"
+					type: "item"
+				}
+				{
+					id: "15E169F3D5360FBE"
+					item: {
+						Count: 1
+						id: "occultism:storage_remote"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "16F18E2D7119753E"
+					item: {
+						Count: 1
+						id: "occultism:stable_wormhole"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0B89E033647F469E"]
+			description: ["用于自动挖矿"]
+			id: "3AD83631A8F5CB28"
+			rewards: [{
+				id: "27570E40864E8A09"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6938DF49F2A4DFAB"
+					item: "occultism:dimensional_mineshaft"
+					type: "item"
+				}
+				{
+					id: "0D0E9E1D21AF0AF5"
+					item: {
+						Count: 1
+						id: "occultism:miner_foliot_unspecialized"
+						tag: {
+							Damage: 0
+							maxMiningTime: 400
+							rollsPerOperation: 1
+							spiritName: "Drogmynsyrn"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B89E033647F469E"]
+			description: ["实用物品"]
+			id: "0414EB8306DEF7A9"
+			rewards: [{
+				id: "7806AA4191CD2E60"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "26B043EA1A8CE4D4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								hasFamiliar: 0b
+							}
+						}
+						id: "occultism:familiar_ring"
+						tag: {
+							spiritName: "Zedjyrdorne"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "617B2F3E46D8A691"
+					item: {
+						Count: 1
+						id: "occultism:satchel"
+						tag: {
+							spiritName: "Firdellvyn"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "773F72C0837ABA5F"
+					item: {
+						Count: 1
+						id: "occultism:soul_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["331392AE5FC11436"]
+			description: ["合成材料"]
+			id: "792C57A3D129749A"
+			rewards: [{
+				id: "7FAC34C560C9439D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "067161A5CCADAFD7"
+					item: "occultism:purified_ink"
+					type: "item"
+				}
+				{
+					id: "0659C457E1335541"
+					item: "occultism:awakened_feather"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -2.5d
+		}
+	]
+	title: "Occultism"
+}

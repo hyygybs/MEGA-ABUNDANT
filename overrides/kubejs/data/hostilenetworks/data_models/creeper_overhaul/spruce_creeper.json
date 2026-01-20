@@ -1,0 +1,27 @@
+{
+  "entity": "creeperoverhaul:spruce_creeper",
+  "name": "entity.creeperoverhaul.spruce_creeper",
+  "name_color": "0xAE9182",
+  "gui_scale": 1.0,
+  "gui_x_offset": 0.0,
+  "gui_y_offset": 0.0,
+  "gui_z_offset": 0.0,
+  "sim_cost": 128,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+	"item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:gunpowder",
+      "count": 16
+    },
+    {
+      "item": "minecraft:spruce_log",
+      "count": 8
+    }
+  ]
+}

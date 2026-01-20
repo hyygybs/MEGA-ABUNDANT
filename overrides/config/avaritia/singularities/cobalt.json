@@ -1,0 +1,22 @@
+{
+  "name": "singularity.avaritia.cobalt",
+  "colors": [
+    "00348C",
+    "2375DA"
+  ],
+  "timeRequired": 240,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "tag": "forge:ingots/cobalt",
+        "type": "forge:tag_empty"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/tin"
+  },
+  "enabled": true,
+  "recipeDisabled": false
+}

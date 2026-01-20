@@ -1,0 +1,13 @@
+{
+  "type": "everlastingabilities:effect",
+  "target": "self",
+  "name": "ability.everlastingabilities.soul_cross",
+  "rarity": "rare",
+  "max_level": 1,
+  "xp_per_level": 50,
+  "effect": "botania:soul_cross",
+  "condition": {
+    "type": "forge:mod_loaded",
+    "modid": "botania"
+  }
+}

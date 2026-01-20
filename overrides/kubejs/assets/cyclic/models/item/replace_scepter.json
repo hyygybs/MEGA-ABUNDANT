@@ -1,0 +1,6 @@
+{
+ 	"parent": "cyclic:item/build_scepter",
+    "textures": {
+    "head": "cyclic:item/wand/gold"
+    }
+}

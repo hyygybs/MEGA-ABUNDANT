@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:pet",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": [
+    "domesticationinnovation:herding",
+    "domesticationinnovation:deflection",
+    "domesticationinnovation:magnetic"
+  ]
+}

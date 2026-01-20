@@ -1,0 +1,13 @@
+{
+  "type": "everlastingabilities:effect",
+  "target": "radius",
+  "name": "ability.everlastingabilities.thirst",
+  "rarity": "rare",
+  "max_level": 1,
+  "xp_per_level": 30,
+  "effect": "thirst_fix:thirst",
+  "condition": {
+    "type": "forge:mod_loaded",
+    "modid": "thirst_fix"
+  }
+}

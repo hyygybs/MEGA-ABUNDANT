@@ -1,0 +1,4 @@
+{
+	"parent": "cyclic:parent/machine_crafting",
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_head",
+    "apotheosis:helmet_tome",
+    "lost_aether_content:swetty_mask"
+  ],
+  "incompatible": [
+    "fancyenchantments:eater_of_souls",
+    "fancyenchantments:the_fallen",
+    "fancyenchantments:greed_supreme_looting",
+    "fancyenchantments:nightmare",
+    "fancyenchantments:bloodthirsty",
+    "fancyenchantments:blood_sacrifice",
+    "fancyenchantments:hungry",
+    "fancyenchantments:bullying",
+    "fancyenchantments:cursed_gaze"
+  ]
+}

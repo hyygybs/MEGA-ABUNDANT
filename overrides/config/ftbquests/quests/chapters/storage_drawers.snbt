@@ -1,0 +1,279 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage_drawers"
+	group: "1F9A9FE71A5A4AA9"
+	icon: "storagedrawers:oak_full_drawers_1"
+	id: "2F54B1FDE4BCDADC"
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["存储一种物品"]
+			id: "07E341BEB7FFA361"
+			rewards: [{
+				id: "7E8B0AB0805AB4BF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C036541E63F213F"
+				item: "storagedrawers:oak_full_drawers_1"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07E341BEB7FFA361"]
+			description: ["升级抽屉"]
+			id: "5B038B206C6DA514"
+			rewards: [{
+				id: "6D2C9D524B2B7374"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35B3FF67AD048251"
+				item: "storagedrawers:obsidian_storage_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B038B206C6DA514"]
+			description: ["升级抽屉"]
+			id: "2B1F0044CF92DC14"
+			rewards: [{
+				id: "39A5CB5E93111992"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BB605F6AB2ADF09"
+				item: "storagedrawers:copper_storage_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B1F0044CF92DC14"]
+			description: ["升级抽屉"]
+			id: "1BF9E4A99EC4DEBF"
+			rewards: [{
+				id: "6C275785776EFB5A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "432FDD597A16E2D5"
+				item: "storagedrawers:iron_storage_upgrade"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BF9E4A99EC4DEBF"]
+			description: ["升级抽屉"]
+			id: "0532DA95723AB495"
+			rewards: [{
+				id: "6CFEF9E5C1177808"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A6D8535D9930637"
+				item: "storagedrawers:gold_storage_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0532DA95723AB495"]
+			description: ["升级抽屉"]
+			id: "410853F79AD889D2"
+			rewards: [{
+				id: "67A507A04D100923"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BA00522691D43E1"
+				item: "storagedrawers:emerald_storage_upgrade"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["410853F79AD889D2"]
+			description: ["升级抽屉"]
+			id: "500C9777F52A0235"
+			rewards: [{
+				id: "14284D07FCE79418"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "244A60FF5710745E"
+				item: "storagedrawers:diamond_storage_upgrade"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["500C9777F52A0235"]
+			description: ["升级抽屉"]
+			id: "3AB00BBA97DAE08E"
+			rewards: [{
+				id: "172DFE09051F9394"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "577F438ADDB92A2B"
+				item: "storagedrawers:netherite_storage_upgrade"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07E341BEB7FFA361"]
+			description: ["存储一种流体"]
+			id: "662E2491FDF8764E"
+			rewards: [{
+				id: "350B64E3DEB14200"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27DCCD1B935E6000"
+				item: {
+					Count: 1
+					id: "fluiddrawerslegacy:fluiddrawer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["07E341BEB7FFA361"]
+			description: ["存储两种物品"]
+			id: "7DE21B8E5DBBE4EE"
+			rewards: [{
+				id: "7E9CECB3500F5E50"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C49D595AB8B916A"
+				item: "storagedrawers:oak_full_drawers_2"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["07E341BEB7FFA361"]
+			description: ["存储四种物品"]
+			id: "064D2FC2F768F520"
+			rewards: [{
+				id: "527A4A193321AB2B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46DE9B4B09248163"
+				item: "storagedrawers:oak_full_drawers_4"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["662E2491FDF8764E"]
+			description: ["存储两种流体"]
+			id: "11828BB4E4E51DD9"
+			rewards: [{
+				id: "4C7E5CE3965949CD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7848E2B0F5B9E0EF"
+				item: {
+					Count: 1
+					id: "fluiddrawerslegacy:fluiddrawer_2"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["662E2491FDF8764E"]
+			description: ["存储四种流体"]
+			id: "360CF6B7D7B474D1"
+			rewards: [{
+				id: "49995CDA05D10135"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05421432CCF56900"
+				item: {
+					Count: 1
+					id: "fluiddrawerslegacy:fluiddrawer_4"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["07E341BEB7FFA361"]
+			description: ["自动压缩物品"]
+			id: "2F741928AF6664FB"
+			rewards: [{
+				id: "40520F5F6F9EA473"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "134E2FD8464C1DB2"
+				item: "storagedrawers:compacting_drawers_2"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["07E341BEB7FFA361"]
+			description: ["自动压缩物品"]
+			id: "4BF9FDCF852B0186"
+			rewards: [{
+				id: "216A509EF78B25D2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B4678EA47E72073"
+				item: "storagedrawers:compacting_drawers_3"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+	]
+	title: "Storage Drawers"
+}

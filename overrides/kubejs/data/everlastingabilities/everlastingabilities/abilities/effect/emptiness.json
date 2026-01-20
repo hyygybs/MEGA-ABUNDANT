@@ -1,0 +1,13 @@
+{
+  "type": "everlastingabilities:effect",
+  "target": "self",
+  "name": "ability.everlastingabilities.emptiness",
+  "rarity": "rare",
+  "max_level": 1,
+  "xp_per_level": 40,
+  "effect": "botania:emptiness",
+  "condition": {
+    "type": "forge:mod_loaded",
+    "modid": "botania"
+  }
+}

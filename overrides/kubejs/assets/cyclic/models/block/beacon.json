@@ -1,0 +1,10 @@
+{
+    "parent": "cyclic:parent/beacon",
+  "render_type": "cutout_mipped",
+    "textures": {
+        "particle": "cyclic:block/dark_glass",
+        "glass": "cyclic:block/dark_glass",
+        "obsidian": "minecraft:block/emerald_block",
+        "beacon": "minecraft:block/beacon"
+    }
+}

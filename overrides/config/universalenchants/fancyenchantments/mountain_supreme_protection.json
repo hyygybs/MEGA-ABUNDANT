@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:wearable",
+    "apotheosis:boots_tome",
+    "apotheosis:chestplate_tome",
+    "apotheosis:helmet_tome",
+    "apotheosis:leggings_tome"
+  ],
+  "incompatible": [
+    "fancyenchantments:streamline",
+    "fancyenchantments:lightness",
+    "minecraft:feather_falling",
+    "fancyenchantments:floating",
+    "fancyenchantments:reflecting",
+    "fancyenchantments:feather_fall",
+    "fancyenchantments:afterimage",
+    "minecraft:protection",
+    "fancyenchantments:recoil",
+    "ensorcellation:magic_protection",
+    "minecraft:blast_protection",
+    "fancyenchantments:blessed_wind",
+    "minecraft:projectile_protection",
+    "fancyenchantments:downwind",
+    "fancyenchantments:wind_blade",
+    "fancyenchantments:air_attack",
+    "minecraft:fire_protection",
+    "fancyenchantments:advanced_protection",
+    "fancyenchantments:dexterity"
+  ]
+}

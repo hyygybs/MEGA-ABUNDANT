@@ -1,0 +1,17 @@
+{
+ 	"parent": "cyclic:parent/wand_simple",
+    "textures": {
+    "particle": "minecraft:block/iron_block",
+		"base": "minecraft:block/iron_block",
+		"handle": "cyclic:item/wand/amber",
+		"handle2": "cyclic:item/wand/amber",
+		"handle3": "cyclic:item/wand/amber",
+		"handle4": "cyclic:item/wand/amber",
+		"handle1": "cyclic:item/wand/amber",
+    "head": "cyclic:item/wand/quartz",
+    "fl": "cyclic:item/wand/randomize1",
+    "fr": "cyclic:item/wand/randomize2",
+		"br": "cyclic:item/wand/randomize1",
+		"bl": "cyclic:item/wand/randomize2"
+    }
+}

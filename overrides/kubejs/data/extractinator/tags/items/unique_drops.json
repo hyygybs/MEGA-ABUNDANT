@@ -1,0 +1,25 @@
+{
+  "values": [
+    "minecraft:netherite_scrap",
+    {
+      "required": false,
+      "id": "enderitemod:enderite_scrap"
+    },
+    {
+      "required": false,
+      "id": "allthemodium:raw_allthemodium"
+    },
+    {
+      "required": false,
+      "id": "allthemodium:raw_unobtainium"
+    },
+    {
+      "required": false,
+      "id": "allthemodium:raw_vibranium"
+    },
+    {
+      "required": false,
+      "id": "byg:raw_pendorite"
+    }
+  ]
+}

@@ -1,0 +1,3216 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "applied_energistics"
+	group: "2DB7574DB5EFE80D"
+	icon: "ae2:controller"
+	id: "70905EFC01CE1084"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["42B94DB3AD8E4ADE"]
+			description: ["从陨石中心获得的基础材料"]
+			id: "4DB049F7F493F3DB"
+			rewards: [{
+				id: "004DDD96E487551F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "14347427E8C3EF1A"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "67C22B15E9C481AD"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "3AB6C6D928F4DBE8"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "7A0A0DFC45C0D91F"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "7728508C8570046E"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+				{
+					id: "7A32C25C6CDFB4F6"
+					item: {
+						Count: 1
+						id: "ae2:name_press"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EBF22431D61C6D2"]
+			description: ["本模组的指南书"]
+			id: "569D983BA88FAEA5"
+			rewards: [{
+				id: "3C513FE20ED9391E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "47E9F5C8FEB771E4"
+				item: "ae2:guide"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1450FC74A1B7A87A"]
+			description: ["消耗能量制造材料"]
+			id: "1EBF22431D61C6D2"
+			rewards: [{
+				id: "63BD4A9ABC9C5910"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08A75717551016BB"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EBF22431D61C6D2"]
+			description: ["用于寻找陨石"]
+			id: "42B94DB3AD8E4ADE"
+			rewards: [{
+				id: "6D731FD1F47FF9AA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26DF614B05C51FD1"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			description: ["手摇产生能量"]
+			id: "05DDC1EE0BB401AB"
+			rewards: [{
+				id: "32F9FCE0BBA5E167"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6593B9E3D491C50A"
+				item: "ae2:crank"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35FC727D1DF9A5C7"]
+			description: ["基础材料处理"]
+			id: "0B6CF5F265B9B8B5"
+			rewards: [{
+				id: "0D35E9881942DA69"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "03D8AD18E5A41B9F"
+					item: "ae2:inscriber"
+					type: "item"
+				}
+				{
+					id: "36ADF048E660D4D4"
+					item: "expatternprovider:circuit_cutter"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["567974E8F25C2125"]
+			description: ["高级合成材料"]
+			id: "1FF65A85A3AA8019"
+			rewards: [{
+				id: "3AA3C97EAE8880FE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0349B34E854D7F50"
+				item: "advanced_ae:quantum_processor_press"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0B6CF5F265B9B8B5"]
+			description: ["基础合成材料"]
+			id: "17CD17EFF86DABE4"
+			rewards: [{
+				id: "00A7F6EC26122059"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2916362392397DC4"
+				item: "megacells:accumulation_processor_press"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1EBF22431D61C6D2"]
+			description: ["合成材料"]
+			id: "0A3910F8C9417BC2"
+			rewards: [{
+				id: "19EC6BED4C79E44E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B95635AF80C2717"
+				item: "appflux:energy_processor_press"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0B6CF5F265B9B8B5"]
+			description: ["基础合成材料"]
+			id: "1BF592178CAFC0D2"
+			rewards: [{
+				id: "68B883AD959198C6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2307C3CBA1DE6ADC"
+					item: "ae2:printed_logic_processor"
+					type: "item"
+				}
+				{
+					id: "5474DAFEAF6C19AC"
+					item: "ae2:printed_calculation_processor"
+					type: "item"
+				}
+				{
+					id: "4D53244BA1D383D0"
+					item: "ae2:printed_engineering_processor"
+					type: "item"
+				}
+				{
+					id: "6A9ECB35DF0F2DBF"
+					item: "ae2:printed_silicon"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05DDC1EE0BB401AB"]
+			description: ["将其他模组能量转化为本模组的能量"]
+			id: "1C24AE8B4D2E7160"
+			rewards: [{
+				id: "31F690403AA2EEB4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35C0F8E1900345F4"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DB049F7F493F3DB"]
+			description: ["世界交互获得合成基础材料"]
+			id: "35FC727D1DF9A5C7"
+			rewards: [{
+				id: "4F8C5798D1DED932"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5EFF278EADB709FD"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+				{
+					id: "1F0B55AF399AC94F"
+					item: "ae2:charged_certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "4290E6A35A1DE5B1"
+					item: "appflux:redstone_crystal"
+					type: "item"
+				}
+				{
+					id: "3AAB149F8B1DABD8"
+					item: "appflux:charged_redstone"
+					type: "item"
+				}
+				{
+					id: "73581E2933C081DE"
+					item: "ae2:silicon"
+					type: "item"
+				}
+				{
+					id: "3C545835D7CB7CFD"
+					item: "megacells:sky_steel_ingot"
+					type: "item"
+				}
+				{
+					id: "56A1CA46D377201C"
+					item: "appflux:harden_insulating_resin"
+					type: "item"
+				}
+				{
+					id: "0FE6049F4894CE57"
+					item: "appflux:sky_harden_insulating_resin"
+					type: "item"
+				}
+				{
+					id: "0F415086E105438F"
+					item: "ae2omnicells:ender_ingot"
+					type: "item"
+				}
+				{
+					id: "44BB947FEC1507C3"
+					item: "ae2omnicells:charged_ender_ingot"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35FC727D1DF9A5C7"]
+			description: ["用于储存能量"]
+			id: "3B75DA4C044A7C9A"
+			rewards: [{
+				id: "1C124517F14B3407"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39C185905F547F21"
+				item: {
+					Count: 1
+					id: "ae2:energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B75DA4C044A7C9A"]
+			description: ["用于储存能量，但容量更大"]
+			id: "5000D5D655E5A669"
+			rewards: [{
+				id: "2A5BE981E60B9A47"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6839060DC7DC3C78"
+				item: {
+					Count: 1
+					id: "ae2:dense_energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1BF592178CAFC0D2"]
+			description: ["基础合成材料"]
+			id: "4D8AABBBDDD79895"
+			tasks: [
+				{
+					id: "470B1B75911EF6EF"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "098F2E62426C39D2"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "65DD4F66835B7286"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0406361390E7E556"]
+			description: ["用于配合ME箱子或磁盘驱动器存储物品、流体和气体"]
+			id: "0107860F27660C12"
+			rewards: [{
+				id: "61893B41964A949D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6ADA2678D8C3C75A"
+					item: {
+						Count: 1
+						id: "ae2:item_storage_cell_1k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "067B2C504D539570"
+					item: {
+						Count: 1
+						id: "ae2:fluid_storage_cell_1k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1C1E46011BEF95F7"
+					item: {
+						Count: 1
+						id: "appmek:chemical_storage_cell_1k"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4D8AABBBDDD79895"]
+			description: ["基础合成材料"]
+			id: "0406361390E7E556"
+			rewards: [{
+				id: "5D97DD041956E77A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A1B472A997EC395"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0107860F27660C12"]
+			description: ["配合存储元件存储物品和流体等"]
+			id: "1B8C76E8A0BF2346"
+			rewards: [{
+				id: "147819DF6CBBE79D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "28C8F9231BD298AE"
+					item: "ae2:chest"
+					type: "item"
+				}
+				{
+					id: "569BDB6E9880DE61"
+					item: "ae2:io_port"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1B8C76E8A0BF2346"]
+			description: ["用于放置存储元件"]
+			id: "04AA0FE9B0D92436"
+			rewards: [{
+				id: "2541B1F61295FAA9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6F2F4CAD41407BCD"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					id: "2D9DD25CE93F52F6"
+					item: "ae2:terminal"
+					type: "item"
+				}
+				{
+					id: "1CB55A13D346D490"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0406361390E7E556"]
+			description: ["基础合成材料"]
+			id: "0B063B3984E24608"
+			rewards: [{
+				id: "2168E3D402D703FD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3730FDDEC2291015"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B063B3984E24608"]
+			description: ["基础合成材料"]
+			id: "6802B311D50B291F"
+			rewards: [{
+				id: "60AEBFEE7A65B898"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26BA0C717452AC5F"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6802B311D50B291F"]
+			description: ["基础合成材料"]
+			id: "225B734F112B8C0B"
+			rewards: [{
+				id: "6882619E0C70FEC8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "442B85AA23CCB6EE"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["225B734F112B8C0B"]
+			description: ["基础合成材料"]
+			id: "772DCFC0081697E0"
+			rewards: [{
+				id: "50A880A09184AFB1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A3D852142B15BB6"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04AA0FE9B0D92436"]
+			description: ["控制ME网络，一个控制器拥有八个频道，可以使用多个ME控制器方块组成ME控制器结构，但要求是一个网络中的所有ME控制器方块必须通过其它ME控制器方块相连，且均位于同一个7x7x7的正方体内且每个ME控制器方块的上下、左右、前后中最多有一组方向上有两个ME控制器方块相邻"]
+			id: "681082A581DF674D"
+			rewards: [{
+				id: "28A3CBF0813B0B10"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2E4905E5375C8CD1"
+					item: "ae2:controller"
+					type: "item"
+				}
+				{
+					id: "362F58E43A017D54"
+					item: "ae2:crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "051379B41A9CF55F"
+					item: "ae2:fluix_smart_dense_cable"
+					type: "item"
+				}
+				{
+					id: "4D94F4C57E19C202"
+					item: "ae2netanalyser:network_analyser"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0B063B3984E24608"]
+			description: ["用于配合ME箱子或磁盘驱动器存储物品、流体和气体"]
+			id: "508CBE08295C8403"
+			rewards: [{
+				id: "44D1881460F2F090"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "616FDEA6FEED0E0E"
+					item: {
+						Count: 1
+						id: "ae2:item_storage_cell_4k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "71E251D73F4FA3EC"
+					item: {
+						Count: 1
+						id: "ae2:fluid_storage_cell_4k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "76DAD099D355C295"
+					item: {
+						Count: 1
+						id: "appmek:chemical_storage_cell_4k"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0B6CF5F265B9B8B5"]
+			description: ["基础合成材料"]
+			id: "5471403ED09A122B"
+			rewards: [{
+				id: "60C0AA2B299E3D93"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5250037B8CBD478D"
+				item: "appflux:printed_energy_processor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5471403ED09A122B"]
+			description: ["基础合成材料"]
+			id: "47A6EBD8D5CC9864"
+			rewards: [{
+				id: "288BF3E8D0A511BD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EE90C52AF0B5B52"
+				item: "appflux:energy_processor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["47A6EBD8D5CC9864"]
+			description: ["基础合成材料"]
+			id: "16DAF259D8E780E3"
+			rewards: [{
+				id: "0EA01261BBBC27A4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4616B4D9ACE33E30"
+				item: "appflux:core_1k"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["16DAF259D8E780E3"]
+			description: ["基础合成材料"]
+			id: "146AA78A88744D71"
+			rewards: [{
+				id: "2EEE6CD0885189FE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "502E9A7C2AA27F46"
+				item: "appflux:core_4k"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["146AA78A88744D71"]
+			description: ["基础合成材料"]
+			id: "01C31E97730AD895"
+			rewards: [{
+				id: "2C99CCDFB743A540"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "457D05603EFE3BA7"
+				item: "appflux:core_16k"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["01C31E97730AD895"]
+			description: ["基础合成材料"]
+			id: "4367992F00861AFC"
+			rewards: [{
+				id: "4D77B04620EDB5C9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "190A6F7C02AE456C"
+				item: "appflux:core_64k"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4367992F00861AFC"]
+			description: ["基础合成材料"]
+			id: "139D6AF4206DB0ED"
+			rewards: [{
+				id: "65D6FD991CE41B98"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "450DE5B2FAF90F65"
+				item: "appflux:core_256k"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["139D6AF4206DB0ED"]
+			description: ["高级合成材料"]
+			id: "5C1AB1712ED12A71"
+			rewards: [{
+				id: "384C944B67BDF3A4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F82511A8115C5A3"
+				item: "appflux:core_1m"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5C1AB1712ED12A71"]
+			description: ["高级合成材料"]
+			id: "4163E42464A6AF90"
+			rewards: [{
+				id: "254F0D5047EBE7FC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39FC12FF366E3CF4"
+				item: "appflux:core_4m"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4163E42464A6AF90"]
+			description: ["高级合成材料"]
+			id: "7CF62EA677C5B515"
+			rewards: [{
+				id: "35C5741580322C2D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FF6D26BED41A75D"
+				item: "appflux:core_16m"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7CF62EA677C5B515"]
+			description: ["高级合成材料"]
+			id: "356E043C31080BF8"
+			rewards: [{
+				id: "22F12DEF31DB9595"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41C00ED055E460F2"
+				item: "appflux:core_64m"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["356E043C31080BF8"]
+			description: ["高级合成材料"]
+			id: "11D9BD0F1B54BF51"
+			rewards: [{
+				id: "0A9FF93C4C03C0B5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FE386087D0AC0CE"
+				item: "appflux:core_256m"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["772DCFC0081697E0"]
+			description: ["高级合成材料"]
+			id: "69F75A52CCAF999C"
+			tasks: [{
+				id: "77C4D3D14CC58214"
+				item: "megacells:cell_component_1m"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17CD17EFF86DABE4"]
+			description: ["高级合成材料"]
+			id: "047CD81D90B6B434"
+			rewards: [{
+				id: "1C1A56051AED011F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3541D634BA2A87DF"
+				item: "megacells:printed_accumulation_processor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["047CD81D90B6B434"]
+			description: ["高级合成材料"]
+			id: "42AA4CBEEB7DC144"
+			rewards: [{
+				id: "1BD6B0CE1AE9EA4E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3473A51A1A68C1A5"
+				item: "megacells:accumulation_processor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6802B311D50B291F"]
+			description: ["用于配合ME箱子或磁盘驱动器存储物品、流体和气体"]
+			id: "6C8BAEF70D56D66E"
+			rewards: [{
+				id: "6930D053CFCDEB9F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "423B893CC2FC2788"
+					item: {
+						Count: 1
+						id: "ae2:item_storage_cell_16k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5591A1D67FB3DC17"
+					item: {
+						Count: 1
+						id: "ae2:fluid_storage_cell_16k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4A26DE92C1F53218"
+					item: {
+						Count: 1
+						id: "appmek:chemical_storage_cell_16k"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["225B734F112B8C0B"]
+			description: ["用于配合ME箱子或磁盘驱动器存储物品、流体和气体"]
+			id: "66507DAAC7A2C64F"
+			rewards: [{
+				id: "173F2EACE6DB4EB2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "128E6C70EB663321"
+					item: {
+						Count: 1
+						id: "ae2:item_storage_cell_64k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5ED1E7D26AC1AA2D"
+					item: {
+						Count: 1
+						id: "ae2:fluid_storage_cell_64k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1BAD3FF4CD041008"
+					item: {
+						Count: 1
+						id: "appmek:chemical_storage_cell_64k"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["772DCFC0081697E0"]
+			description: ["用于配合ME箱子或磁盘驱动器存储物品、流体和气体"]
+			id: "27E32E4663E0732D"
+			rewards: [{
+				id: "372AC81B4372AA67"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1F53A22AEB0E0C55"
+					item: {
+						Count: 1
+						id: "ae2:item_storage_cell_256k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4E8F28EA4989B2F8"
+					item: {
+						Count: 1
+						id: "ae2:fluid_storage_cell_256k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7BC178CFB54BF893"
+					item: {
+						Count: 1
+						id: "appmek:chemical_storage_cell_256k"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["69F75A52CCAF999C"]
+			description: ["高级合成材料"]
+			id: "201E5C933DF06AD0"
+			rewards: [{
+				id: "61E6C82308B07D27"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35BE0194948EB540"
+				item: "megacells:cell_component_4m"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["201E5C933DF06AD0"]
+			description: ["高级合成材料"]
+			id: "3DBA33E59349A9A6"
+			rewards: [{
+				id: "7A323BCC045716DC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "125AC82ECE477A23"
+				item: "megacells:cell_component_16m"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DBA33E59349A9A6"]
+			description: ["高级合成材料"]
+			id: "4DF70EB052439923"
+			rewards: [{
+				id: "5287AFDAB85265B7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70CA5BB42AE0F67D"
+				item: "megacells:cell_component_64m"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DF70EB052439923"]
+			description: ["高级合成材料"]
+			id: "54EFFF19D614E3CF"
+			rewards: [{
+				id: "175708909E536FCF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76BEB7BEA9EDF5CC"
+				item: "megacells:cell_component_256m"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69F75A52CCAF999C"]
+			description: ["用于配合ME箱子或磁盘驱动器存储物品、流体和气体"]
+			id: "0B3CEDC02D9B6CF0"
+			rewards: [{
+				id: "3859EEC2CDEA6C24"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "07D69A8220303DFE"
+					item: {
+						Count: 1
+						id: "megacells:item_storage_cell_1m"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "653E6842322704E4"
+					item: {
+						Count: 1
+						id: "megacells:fluid_storage_cell_1m"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "769AB9FC194754B7"
+					item: {
+						Count: 1
+						id: "megacells:chemical_storage_cell_1m"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["201E5C933DF06AD0"]
+			description: ["用于配合ME箱子或磁盘驱动器存储物品、流体和气体"]
+			id: "73A20F6C4F633A9E"
+			rewards: [{
+				id: "08D77C48CFCCE6BB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5EF31DE264FEEA53"
+					item: {
+						Count: 1
+						id: "megacells:item_storage_cell_4m"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2CF181051F279875"
+					item: {
+						Count: 1
+						id: "megacells:fluid_storage_cell_4m"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4E9D4A70E93F7D1C"
+					item: {
+						Count: 1
+						id: "megacells:chemical_storage_cell_4m"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3DBA33E59349A9A6"]
+			description: ["用于配合ME箱子或磁盘驱动器存储物品、流体和气体"]
+			id: "243AEC3D21016BE9"
+			rewards: [{
+				id: "679D306A68C6C928"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "10775D766394D891"
+					item: {
+						Count: 1
+						id: "megacells:item_storage_cell_16m"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4A35150BA2F329EB"
+					item: {
+						Count: 1
+						id: "megacells:fluid_storage_cell_16m"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7FCBD2313322D266"
+					item: {
+						Count: 1
+						id: "megacells:chemical_storage_cell_16m"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4DF70EB052439923"]
+			description: ["用于配合ME箱子或磁盘驱动器存储物品、流体和气体"]
+			id: "319D4168F7BC4D3E"
+			rewards: [{
+				id: "55236322A2DA122F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5B211BD354BEC9FF"
+					item: {
+						Count: 1
+						id: "megacells:item_storage_cell_64m"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "11E86C1925F1A25F"
+					item: {
+						Count: 1
+						id: "megacells:fluid_storage_cell_64m"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "590723E6633964DF"
+					item: {
+						Count: 1
+						id: "megacells:chemical_storage_cell_64m"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["54EFFF19D614E3CF"]
+			description: ["用于配合ME箱子或磁盘驱动器存储物品、流体和气体"]
+			id: "76974F5D698B08D4"
+			rewards: [{
+				id: "1EC84D3AF4297D2F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2D2FF85D3DE90A32"
+					item: {
+						Count: 1
+						id: "megacells:item_storage_cell_256m"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "721912D41E8BAC8C"
+					item: {
+						Count: 1
+						id: "megacells:fluid_storage_cell_256m"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "30E68C5CEB470C7D"
+					item: {
+						Count: 1
+						id: "megacells:chemical_storage_cell_256m"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["16DAF259D8E780E3"]
+			description: ["用于配合ME箱子或磁盘驱动器存储能量"]
+			id: "5AA9E29D42862C79"
+			rewards: [{
+				id: "0F5BE3816DCB5DBF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E67DF4989D4DFF0"
+				item: {
+					Count: 1
+					id: "appflux:fe_1k_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["146AA78A88744D71"]
+			description: ["用于配合ME箱子或磁盘驱动器存储能量"]
+			id: "095E74C84D00A94F"
+			rewards: [{
+				id: "4C05CE52968E4208"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79F005D251170010"
+				item: {
+					Count: 1
+					id: "appflux:fe_4k_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["01C31E97730AD895"]
+			description: ["用于配合ME箱子或磁盘驱动器存储能量"]
+			id: "5D31188508A66ACA"
+			rewards: [{
+				id: "2498C862BAE1D5C4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D8B5A50F3F02CBB"
+				item: {
+					Count: 1
+					id: "appflux:fe_16k_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4367992F00861AFC"]
+			id: "689F555D2C12769F"
+			rewards: [{
+				id: "573ACF6CC0793FDA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03E135B1E942A4F1"
+				item: {
+					Count: 1
+					id: "appflux:fe_64k_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["139D6AF4206DB0ED"]
+			description: ["用于配合ME箱子或磁盘驱动器存储能量"]
+			id: "3EBC79F5930621DB"
+			rewards: [{
+				id: "65295D885FDAEF47"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54DE5F364F4EF513"
+				item: {
+					Count: 1
+					id: "appflux:fe_256k_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5C1AB1712ED12A71"]
+			description: ["用于配合ME箱子或磁盘驱动器存储能量"]
+			id: "3581D831F0DBF1BC"
+			rewards: [{
+				id: "6376149286EB66D4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39BC0A86D38AB43C"
+				item: {
+					Count: 1
+					id: "appflux:fe_1m_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4163E42464A6AF90"]
+			description: ["用于配合ME箱子或磁盘驱动器存储能量"]
+			id: "0E775C23DB5C7BA0"
+			rewards: [{
+				id: "4A7321647A0F7044"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74D490B526247D1C"
+				item: {
+					Count: 1
+					id: "appflux:fe_4m_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7CF62EA677C5B515"]
+			description: ["用于配合ME箱子或磁盘驱动器存储能量"]
+			id: "45AF348C608E55E8"
+			rewards: [{
+				id: "32F935A273C1A186"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B25B688E64D8FAB"
+				item: {
+					Count: 1
+					id: "appflux:fe_16m_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["356E043C31080BF8"]
+			description: ["用于配合ME箱子或磁盘驱动器存储能量"]
+			id: "1DF2861B1D6B1F34"
+			rewards: [{
+				id: "30BA4FE6E5ADF567"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "610902E20066D496"
+				item: {
+					Count: 1
+					id: "appflux:fe_64m_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["11D9BD0F1B54BF51"]
+			description: ["用于配合ME箱子或磁盘驱动器存储能量"]
+			id: "2E8766A47F8C9E19"
+			rewards: [{
+				id: "18CD5C58710A81FA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EFF08DD23E768E0"
+				item: {
+					Count: 1
+					id: "appflux:fe_256m_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["013DADA5DD9D7827"]
+			description: ["高级合成材料"]
+			id: "5A59587E29FC0581"
+			rewards: [{
+				id: "00D6A379FF4EFE21"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "59D95D6E48CDB07F"
+					item: "ae2:spatial_cell_component_2"
+					type: "item"
+				}
+				{
+					id: "1144E260C62ECE6B"
+					item: "ae2:spatial_cell_component_16"
+					type: "item"
+				}
+				{
+					id: "285818FC3B0D9024"
+					item: "ae2:spatial_cell_component_128"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["714A3FFCFD2EB7CC"]
+			description: ["用于处理样板实现自动化，样板供应器可以给合成处理单元、分子装配室提供配方"]
+			id: "2586FDCAFD4DDC90"
+			rewards: [{
+				id: "4E52B82B91746A03"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4628400542029E97"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					id: "71E7EFF4C154CA08"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+				{
+					id: "72FCC571EE63F246"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					id: "7ED893C92237A9F2"
+					item: "ae2:pattern_access_terminal"
+					type: "item"
+				}
+				{
+					id: "14F062D59BE30F74"
+					item: "ae2:interface"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2586FDCAFD4DDC90"]
+			description: ["完成合成任务"]
+			id: "34E883B1D67B1850"
+			rewards: [{
+				id: "748F548373D7D1D3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0178902C2656202D"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2586FDCAFD4DDC90"]
+			description: ["升级样板供应器"]
+			id: "2A0DB99C67C63D26"
+			rewards: [{
+				id: "449FAE82E675BBB5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "692EEE91E4A24EDA"
+					item: "advanced_ae:adv_pattern_provider_upgrade"
+					type: "item"
+				}
+				{
+					id: "4E2B7E2499FA5BC4"
+					item: "advanced_ae:adv_pattern_provider_capacity_upgrade"
+					type: "item"
+				}
+				{
+					id: "6355F894780542BA"
+					item: "advanced_ae:adv_pattern_encoder"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2586FDCAFD4DDC90"]
+			description: ["更高级的样板供应器"]
+			id: "2D7DEFF0DAB69A4F"
+			rewards: [{
+				id: "50425CA392C81EC1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "035AF357DC26712E"
+					item: "megacells:mega_pattern_provider"
+					type: "item"
+				}
+				{
+					id: "52E29CDC08EE05F7"
+					item: "megacells:mega_interface"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["681082A581DF674D"]
+			description: ["用于自动化输入或输出"]
+			id: "714A3FFCFD2EB7CC"
+			rewards: [{
+				id: "1FAE4EF5B6B2A43C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1372AEADB56FA88F"
+					item: "ae2:import_bus"
+					type: "item"
+				}
+				{
+					id: "1667F3460BBFBBD1"
+					item: "ae2:export_bus"
+					type: "item"
+				}
+				{
+					id: "087E1A4A3C67F7A4"
+					item: "expatternprovider:tag_export_bus"
+					type: "item"
+				}
+				{
+					id: "75635AB388074491"
+					item: "expatternprovider:mod_export_bus"
+					type: "item"
+				}
+				{
+					id: "0DCAEBD303006C48"
+					item: "expatternprovider:precise_export_bus"
+					type: "item"
+				}
+				{
+					id: "58D818511AE118F0"
+					item: "advanced_ae:stock_export_bus_part"
+					type: "item"
+				}
+				{
+					id: "12A7683C495CE653"
+					item: "advanced_ae:import_export_bus_part"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["35FC727D1DF9A5C7"]
+			description: ["可以催生作物和水晶母岩"]
+			id: "6260FE460C3347DE"
+			rewards: [{
+				id: "05559AC6ADAB5160"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64A00F2E5798DC1A"
+				item: "ae2:growth_accelerator"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34E883B1D67B1850"]
+			description: ["多方块结构，至少包含1个合成存储器，必须为长方体，最大17x17x17"]
+			id: "16E314F3CC4DEB1F"
+			rewards: [{
+				id: "34DC3DC0FA18D4A9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "328DE11915F6BB14"
+					item: "ae2:1k_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "3926CC7873874F1D"
+					item: "ae2:4k_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "3DB59748DB0DF892"
+					item: "ae2:16k_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "38A32FB4C3F33A25"
+					item: "ae2:64k_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "17F7482A5E63F560"
+					item: "ae2:256k_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "0BDFA53A90BA8F67"
+					item: "ae2:crafting_accelerator"
+					type: "item"
+				}
+				{
+					id: "48EFF0C023FE8CE8"
+					item: "ae2:crafting_unit"
+					type: "item"
+				}
+				{
+					id: "04649A1BE3F77B31"
+					item: "ae2:crafting_monitor"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["16E314F3CC4DEB1F"]
+			description: ["更高级的合成处理单元"]
+			id: "006685A98A381073"
+			rewards: [{
+				id: "7C2F54E15E19019B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2F150BC749E5C272"
+					item: "megacells:1m_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "41B3C8A90CCAE962"
+					item: "megacells:4m_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "5521DF1C848F4DDE"
+					item: "megacells:16m_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "5D02634A9445E0C9"
+					item: "megacells:64m_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "6668160EA38337A8"
+					item: "megacells:256m_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "6A3EFF72C5663B99"
+					item: "megacells:mega_crafting_accelerator"
+					type: "item"
+				}
+				{
+					id: "7918824DBE183AAC"
+					item: "megacells:mega_crafting_unit"
+					type: "item"
+				}
+				{
+					id: "084BE96C17BCFB16"
+					item: "megacells:mega_crafting_monitor"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["76268E0F3B541DEF"]
+			description: [
+				"多方块结构，功能是将量子网环两端合并为一个ME网络"
+				"摆放方式为3x3，中央为1个ME量子链接仓，周围为8个ME量子环"
+			]
+			id: "013DADA5DD9D7827"
+			rewards: [{
+				id: "241EB2437AAB2C53"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1BDD2FD5F48AAB9C"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					id: "4AC82C349001A6BA"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					id: "3B57B9A9AC3180FC"
+					item: "ae2:quantum_entangled_singularity"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1964E9D88F66D0B1"]
+			description: ["更便利的材料合成"]
+			id: "74C31F4ED30964B1"
+			rewards: [{
+				id: "7ECD969FD761C209"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13A57E6566523D39"
+				item: "advanced_ae:reaction_chamber"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["34E883B1D67B1850"]
+			description: ["自动从网络中抽取物品以进行合成"]
+			id: "79B9BF220A5D1F70"
+			rewards: [{
+				id: "1E4DF7352D361D73"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B14A3D1E6908786"
+				item: "advanced_ae:quantum_crafter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["35FC727D1DF9A5C7"]
+			description: ["合成物质团"]
+			id: "1964E9D88F66D0B1"
+			rewards: [{
+				id: "702A80A29DF6A044"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1758BA8D90F660A1"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["74C31F4ED30964B1"]
+			description: ["高级合成材料"]
+			id: "567974E8F25C2125"
+			rewards: [{
+				id: "10AE1CB1F2CEFD9F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "651071595DCFE47E"
+					item: "ae2:singularity"
+					type: "item"
+				}
+				{
+					id: "0FA0D0497EB949DD"
+					item: "advanced_ae:quantum_alloy"
+					type: "item"
+				}
+				{
+					id: "3AB33BC833460DA3"
+					item: "advanced_ae:shattered_singularity"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5A59587E29FC0581"]
+			description: ["配合量子网桥，加载所在ME网络经过的所有区块及维度"]
+			id: "25056D32384A07C6"
+			rewards: [{
+				id: "683866348B55CFAF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E1EE693084D9F74"
+				item: "ae2:spatial_anchor"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["25056D32384A07C6"]
+			description: ["配合空间塔使用的存储元件"]
+			id: "3BD2609ADB1F0E53"
+			rewards: [{
+				id: "2FDAA573D078BCCC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "002E99D40F90F5F7"
+					item: "ae2:spatial_storage_cell_2"
+					type: "item"
+				}
+				{
+					id: "65EE9C6E11D04463"
+					item: "ae2:spatial_storage_cell_16"
+					type: "item"
+				}
+				{
+					id: "1A3435124ADFDE5A"
+					item: "ae2:spatial_storage_cell_128"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1B8C76E8A0BF2346"]
+			description: ["给元件加入物品标记和升级卡"]
+			id: "738761075361D0D3"
+			rewards: [{
+				id: "13BF7F85BDA6CF0B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BCDA92AE47B7BE6"
+				item: "ae2:cell_workbench"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5000D5D655E5A669"]
+			description: ["用于储存能量，但容量更大"]
+			id: "5AB61A16A9601FB6"
+			rewards: [{
+				id: "59EB12EB0CD65952"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B728BC0A47A8DAA"
+				item: {
+					Count: 1
+					id: "megacells:mega_energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["79B9BF220A5D1F70"]
+			description: [
+				"多方块结构，像合成处理单元一样工作"
+				"摆放方式为用量子计算机外壳建造厚度为1格的外壳，外径最大为7x7x7，且必须搭建成长方体，内部放上1个量子计算机核心，然后放上至多1个量子数据纠缠器，至多1个量子计算机多线程处理器，不限数量的量子计算机合成存储器和量子计算机加速器，最后用量子合成单元填充满内部空气"
+			]
+			id: "68535749E31EBC82"
+			rewards: [{
+				id: "14AD240F5BA50908"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "51A77C4DAA2B5794"
+					item: "advanced_ae:quantum_core"
+					type: "item"
+				}
+				{
+					id: "70BB326D5118D552"
+					item: "advanced_ae:quantum_structure"
+					type: "item"
+				}
+				{
+					id: "36C8664BF4BD2E65"
+					item: "advanced_ae:quantum_storage_128"
+					type: "item"
+				}
+				{
+					id: "70F49DA5D43EACA6"
+					item: "advanced_ae:quantum_storage_256"
+					type: "item"
+				}
+				{
+					id: "760B618788294136"
+					item: "advanced_ae:data_entangler"
+					type: "item"
+				}
+				{
+					id: "31FB3BF08C4B7040"
+					item: "advanced_ae:quantum_accelerator"
+					type: "item"
+				}
+				{
+					id: "61713FED770D1B7A"
+					item: "advanced_ae:quantum_multi_threader"
+					type: "item"
+				}
+				{
+					id: "7ED13F907AF005E3"
+					item: "advanced_ae:quantum_unit"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["681082A581DF674D"]
+			description: ["玩家可以无线访问此ME网络"]
+			id: "5CD0C0E44A5DEB52"
+			rewards: [{
+				id: "79B2693A8E9417E6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3ED58BD2F0F723C4"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+				{
+					id: "05D7383C152B916B"
+					item: "ae2:wireless_booster"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5CD0C0E44A5DEB52"]
+			description: ["用于无线访问ME网络"]
+			id: "15B1BF76FAB898EE"
+			rewards: [{
+				id: "54463591ECCADE4E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1C910D5452CCE5DC"
+					item: "ae2:wireless_terminal"
+					type: "item"
+				}
+				{
+					id: "4A6F511CF5F47229"
+					item: "ae2:wireless_crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "6E0C90EB24D3D1A4"
+					item: "ae2wtlib:wireless_pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					id: "0B5BAAD7B303F838"
+					item: "ae2wtlib:wireless_pattern_access_terminal"
+					type: "item"
+				}
+				{
+					id: "0093A2AEF514DE57"
+					item: "expatternprovider:wireless_ex_pat"
+					type: "item"
+				}
+				{
+					id: "6C0E19322E18DCE1"
+					item: "ae2wtlib:wireless_universal_terminal"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2586FDCAFD4DDC90"]
+			description: ["升级样板供应器"]
+			id: "5DE51E2F30E2ED29"
+			rewards: [{
+				id: "6CE23296740E2718"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3B61869B9C60C8B0"
+					item: "expatternprovider:pattern_provider_upgrade"
+					type: "item"
+				}
+				{
+					id: "40CD09B9ADE46BBD"
+					item: "expatternprovider:interface_upgrade"
+					type: "item"
+				}
+				{
+					id: "38EB70AD4C66E957"
+					item: "expatternprovider:pattern_terminal_upgrade"
+					type: "item"
+				}
+				{
+					id: "258545F3CD00AB8F"
+					item: "expatternprovider:pattern_modifier"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["714A3FFCFD2EB7CC"]
+			description: ["用于升级输入/输出总线"]
+			id: "6DE4341822A817F3"
+			rewards: [{
+				id: "24F713F608EE0D7E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43835F39DEB7162F"
+				item: "expatternprovider:io_bus_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["35FC727D1DF9A5C7"]
+			description: ["可以修复逐渐破损的赛特斯石英母岩"]
+			id: "5E80D55FD7E16D85"
+			rewards: [{
+				id: "0BEBFBA1775900FE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E745C7A07FAAF43"
+				item: "expatternprovider:crystal_fixer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1EBF22431D61C6D2"]
+			description: ["更先进的充能器"]
+			id: "14C31A912483AACA"
+			rewards: [{
+				id: "12813438C24AF90B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "479A159B6529F62D"
+				item: "expatternprovider:ex_charger"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0B6CF5F265B9B8B5"]
+			description: ["高等级的压印器"]
+			id: "461EFF1449C9967B"
+			rewards: [{
+				id: "41C86A26B33ABAC4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7843DCDCA34D4823"
+				item: "expatternprovider:ex_inscriber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1B8C76E8A0BF2346"]
+			description: ["高等级的IO端口"]
+			id: "24F2964726E809BA"
+			rewards: [{
+				id: "092FD7234D0CE18A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "459268C8FF75939C"
+				item: "expatternprovider:ex_io_port"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["34E883B1D67B1850"]
+			description: ["更高级的分子装配室"]
+			id: "4DDB936BF3DACE88"
+			rewards: [{
+				id: "78EF5AE762E97CDF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "764B5644423E5783"
+				item: "expatternprovider:ex_molecular_assembler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["34E883B1D67B1850"]
+			description: [
+				"多方块结构，等效于大量ME样板供应器与分子装配室组成的自动合成装置"
+				"摆放方式为用装配矩阵框架搭建装配矩阵的每一条棱，默认外径最大为7x7x7，然后用装配矩阵墙壁/装配矩阵玻璃填充装配矩阵的每一个面，内部放入至少1个装配矩阵样板核心和装配矩阵合成核心，至多5个装配矩阵速度核心，不允许存在空气"
+			]
+			id: "3E3D97958CCFE150"
+			rewards: [{
+				id: "560B4F25097963E5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "325D03A4CD29CB85"
+					item: "expatternprovider:assembler_matrix_frame"
+					type: "item"
+				}
+				{
+					id: "09BA033D4CF2D343"
+					item: "expatternprovider:assembler_matrix_wall"
+					type: "item"
+				}
+				{
+					id: "76B98A00EE581D5D"
+					item: "expatternprovider:assembler_matrix_wall"
+					type: "item"
+				}
+				{
+					id: "58AF2203BED23071"
+					item: "expatternprovider:assembler_matrix_pattern"
+					type: "item"
+				}
+				{
+					id: "7CB9CA8FC1EA69CD"
+					item: "expatternprovider:assembler_matrix_crafter"
+					type: "item"
+				}
+				{
+					id: "0B25DEC5898E1926"
+					item: "expatternprovider:assembler_matrix_speed"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["5DE51E2F30E2ED29"]
+			description: ["高级的接口"]
+			id: "654A95326809B427"
+			rewards: [{
+				id: "21EAD0491513092C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "453CE615CF4C4A24"
+				item: "expatternprovider:oversize_interface"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1FF65A85A3AA8019"]
+			description: ["高级合成材料"]
+			id: "6AF6C18EA9B9AD3D"
+			rewards: [{
+				id: "1A4905688339B5B6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DCF56AABC7F8AF2"
+				item: "advanced_ae:printed_quantum_processor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6AF6C18EA9B9AD3D"]
+			id: "1B49884980F35689"
+			rewards: [{
+				id: "53B8A8B79158E8D6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B6D9127940BE09C"
+				item: "advanced_ae:quantum_processor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1C24AE8B4D2E7160"]
+			description: ["通过燃烧燃料产生能量"]
+			id: "1450FC74A1B7A87A"
+			rewards: [{
+				id: "3E73C61B90E21992"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DBE35762969990F"
+				item: "ae2:vibration_chamber"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B49884980F35689"]
+			description: ["量子计算机合成存储器和量子套装的合成材料"]
+			id: "68FDB948CD464B34"
+			rewards: [{
+				id: "0C72444006FBFFBD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1852688731FAC638"
+				item: "advanced_ae:quantum_storage_component"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["738761075361D0D3"]
+			description: ["用于制作升级卡"]
+			id: "4447E8AFFDFFCF5A"
+			rewards: [{
+				id: "1CC3A3FD6D59A90D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5E7D8A36D2B122D6"
+					item: "ae2:basic_card"
+					type: "item"
+				}
+				{
+					id: "74EA80092A32754F"
+					item: "ae2:advanced_card"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5CD0C0E44A5DEB52"]
+			description: ["使无线访问范围无限的升级"]
+			id: "4D8456C1ACE00BAD"
+			rewards: [{
+				id: "5D79BB70E5606867"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "50524AD0082A88A5"
+					item: "aeinfinitybooster:infinity_card"
+					type: "item"
+				}
+				{
+					id: "5A0FF50D1AC5A2D5"
+					item: "aeinfinitybooster:dimension_card"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2D4DB1430DA2645F"]
+			description: ["与世界交互的面板，用于采集或放置方块、掉落物或照明"]
+			id: "6394BEF4640EC269"
+			rewards: [{
+				id: "10DEC313D36F0B52"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5AD33FB01A3227DE"
+					item: "ae2:annihilation_plane"
+					type: "item"
+				}
+				{
+					id: "2B9A4CC10C97C528"
+					item: "ae2:formation_plane"
+					type: "item"
+				}
+				{
+					id: "2DF86F8C03B1CF86"
+					item: "expatternprovider:active_formation_plane"
+					type: "item"
+				}
+				{
+					id: "74BD518DA724A01D"
+					item: "ae2:semi_dark_monitor"
+					type: "item"
+				}
+				{
+					id: "5FD93E16CF72F510"
+					item: "ae2:monitor"
+					type: "item"
+				}
+				{
+					id: "56503B8B2C22809F"
+					item: "ae2:dark_monitor"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["16E314F3CC4DEB1F"]
+			description: ["自动保持物品和流体的库存"]
+			id: "3ED31E5FF9E84327"
+			rewards: [{
+				id: "1573D13857249271"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3AE08860589B6F1F"
+					item: "merequester:requester"
+					type: "item"
+				}
+				{
+					id: "768DB3F196CFC76C"
+					item: "merequester:requester_terminal"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["42AA4CBEEB7DC144"]
+			description: ["高级合成材料"]
+			id: "0008967C18C0E2BD"
+			rewards: [{
+				id: "0F5F86AE06F3D063"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A557BD7FBB25A62"
+				item: "megacells:bulk_cell_component"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0008967C18C0E2BD"]
+			description: ["用于配合ME箱子或磁盘驱动器无限存储一种物品"]
+			id: "586D40CE7EDF3615"
+			rewards: [{
+				id: "6B244BAB13FEF432"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "380110150D23C744"
+				item: {
+					Count: 1
+					id: "megacells:bulk_item_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["68FDB948CD464B34"]
+			description: ["强大的护甲，可以加装升级"]
+			id: "0FE4CA8F998C9E69"
+			rewards: [{
+				id: "389B05692AED10E9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6AB22346A11D4833"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "advanced_ae:quantum_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F6D2DBA99848FC2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "advanced_ae:quantum_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68B53AD4FC4947F3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "advanced_ae:quantum_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CB0702965656DE0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "advanced_ae:quantum_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["42AA4CBEEB7DC144"]
+			description: ["高级合成材料"]
+			id: "39F9A71EE5327381"
+			rewards: [{
+				id: "452AE6F0FD1D4F68"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31D0E167A69E75BD"
+				item: "megacells:radioactive_cell_component"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["39F9A71EE5327381"]
+			description: ["用于配合ME箱子或磁盘驱动器存储单种放射性化学品"]
+			id: "21DCA48AE16C9144"
+			rewards: [{
+				id: "5D4EF0057BA4417D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7069274B656A23C7"
+				item: {
+					Count: 1
+					id: "megacells:radioactive_chemical_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["586D40CE7EDF3615"]
+			description: ["类似ME箱子，但专门配合大宗存储元件使用"]
+			id: "7573149BF8BF62E6"
+			rewards: [{
+				id: "4F29677862785B3C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E7CAA7F3708DE31"
+				item: "megacells:cell_dock"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2D4DB1430DA2645F"]
+			description: ["显示ME网络里面某个物品的存量或吞吐量"]
+			id: "69445B744FA0334A"
+			rewards: [{
+				id: "66FBE34B80352973"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "07E28EDE43160685"
+					item: "ae2:storage_monitor"
+					type: "item"
+				}
+				{
+					id: "2D3410060947C8DF"
+					item: "advanced_ae:throughput_monitor"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3FC3429D683B854A"]
+			description: ["将其它存储空间纳入ME网络"]
+			id: "2D4DB1430DA2645F"
+			rewards: [{
+				id: "5F4F9453954B2219"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0D0CE8148443133D"
+					item: "ae2:storage_bus"
+					type: "item"
+				}
+				{
+					id: "032042C54045FE0F"
+					item: "expatternprovider:tag_storage_bus"
+					type: "item"
+				}
+				{
+					id: "5FE42D0D3E351603"
+					item: "expatternprovider:mod_storage_bus"
+					type: "item"
+				}
+				{
+					id: "67B2BD8CEECB934F"
+					item: "expatternprovider:precise_storage_bus"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["04AA0FE9B0D92436"]
+			description: ["用于升级驱动器"]
+			id: "3FC3429D683B854A"
+			rewards: [{
+				id: "506D997E44B71DC5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "553B75A1083C6584"
+				item: "expatternprovider:drive_upgrade"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["24F2964726E809BA"]
+			description: ["随身携带的存储元件"]
+			id: "7C00DED057C87EAE"
+			rewards: [{
+				id: "387D42035C4A5AFE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "147151472D2571C3"
+					item: {
+						Count: 1
+						id: "ae2:portable_item_cell_256k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "52BB72114E85A670"
+					item: {
+						Count: 1
+						id: "ae2:portable_fluid_cell_256k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0F0DD87832DBCF75"
+					item: {
+						Count: 1
+						id: "appmek:portable_chemical_storage_cell_256k"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["35FC727D1DF9A5C7"]
+			description: ["无须燃料产生能量，但每个ME网络只能有一个，单多个ME网络相连时也只能使用一个"]
+			id: "414F5C573BA8DE9E"
+			rewards: [{
+				id: "2F1E688300F8AD4B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B62AC15028A618F"
+				item: "ae2:crystal_resonance_generator"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0FE4CA8F998C9E69"]
+			description: ["用于合成护甲升级卡"]
+			id: "5B50F365E40F3633"
+			rewards: [{
+				id: "122536C4CEB87217"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77C5C9B264330088"
+				item: "advanced_ae:quantum_upgrade_base"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3BD2609ADB1F0E53"]
+			description: ["用来存储一定范围内方块和实体，实质是将方块和实体搬入封闭空间"]
+			id: "68787473065939E1"
+			rewards: [{
+				id: "145FE27283ED6027"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4B23FDCE4842965F"
+					item: "ae2:spatial_pylon"
+					type: "item"
+				}
+				{
+					id: "33596891589BEFD8"
+					item: "ae2:spatial_io_port"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["714A3FFCFD2EB7CC"]
+			description: ["在同一网络中传输能量、物品、流体、红石信号等"]
+			id: "0B70D23DEDE3E222"
+			rewards: [{
+				id: "2E48A2F8100699B9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "748BAADBF5F2341F"
+					item: "ae2:me_p2p_tunnel"
+					type: "item"
+				}
+				{
+					id: "4B233949DEFB4A96"
+					item: {
+						Count: 1
+						id: "ae2:memory_card"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["681082A581DF674D"]
+			description: ["将两个连接器相连合并为一个ME网络，但只能单维度且连接距离受限"]
+			id: "76268E0F3B541DEF"
+			rewards: [{
+				id: "52AD17C8D37AE962"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5B69827D00704890"
+					item: "expatternprovider:wireless_connect"
+					type: "item"
+				}
+				{
+					id: "3E8095403E44D06F"
+					item: "expatternprovider:wireless_tool"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1C24AE8B4D2E7160"]
+			description: ["调整机器"]
+			id: "78B224B0469D21EC"
+			rewards: [{
+				id: "0421D467524DB389"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EB8A0ACB004AF2C"
+				item: "ae2:nether_quartz_wrench"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["78B224B0469D21EC"]
+			description: ["调整机器"]
+			id: "21AF837D817AC3CB"
+			rewards: [{
+				id: "18CB3E793DDC8C72"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B28470A3E6D2073"
+				item: "ae2:certus_quartz_wrench"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2518C7825C59B181"]
+			description: ["封包机需要和解包机相连，解包机需要紧挨合成器"]
+			id: "4B730C601B6CD172"
+			rewards: [{
+				id: "27234DC68536943E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "24B2F6F77AEC0559"
+					item: "packagedauto:packager"
+					type: "item"
+				}
+				{
+					id: "70C9DE5091A82504"
+					item: "packagedauto:unpackager"
+					type: "item"
+				}
+				{
+					id: "5FAB0F05006BCD1F"
+					item: "packagedauto:crafter"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2586FDCAFD4DDC90"]
+			description: ["编写封包配方样板"]
+			id: "2518C7825C59B181"
+			rewards: [{
+				id: "794E87DB08FBA9E7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "08B474CF5D4089B5"
+					item: "packagedauto:encoder"
+					type: "item"
+				}
+				{
+					id: "64B193883B2B9999"
+					item: "packagedauto:recipe_holder"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4B730C601B6CD172"]
+			description: ["放置于常规封包机周围3x3x3的区域内，共享其样板包存储器的配方并与封包机协同进行封包工作"]
+			id: "2BE3414DB7519ECA"
+			rewards: [{
+				id: "414262B3985154BF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CEE4E4316983EF5"
+				item: "packagedauto:packager_extension"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["35FC727D1DF9A5C7"]
+			description: ["合成材料"]
+			id: "6B0E91D2A7533B1A"
+			rewards: [{
+				id: "78F45361F8C8E022"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1B8B27FE4BD4DB64"
+					item: "ae2omnicells:omni_link_print_press"
+					type: "item"
+				}
+				{
+					id: "661982DC5922CE77"
+					item: "ae2omnicells:complex_link_print_press"
+					type: "item"
+				}
+				{
+					id: "52CC93EFF3BC5D77"
+					item: "ae2omnicells:multidimensional_expansion_print_press"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6B0E91D2A7533B1A"]
+			description: ["合成材料"]
+			id: "57B8C914C80712D6"
+			rewards: [{
+				id: "08F51710831C3724"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5E2064E0F77A2F6D"
+					item: "ae2omnicells:omni_link_circuit_print"
+					type: "item"
+				}
+				{
+					id: "77F3E62693CC7231"
+					item: "ae2omnicells:complex_link_circuit_print"
+					type: "item"
+				}
+				{
+					id: "03D5651F698C0E67"
+					item: "ae2omnicells:multidimensional_expansion_circuit_print"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["57B8C914C80712D6"]
+			description: ["合成材料"]
+			id: "5E705B74B15FD114"
+			rewards: [{
+				id: "7BF7FF4648B97D19"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "37DF6B8D7586D236"
+					item: "ae2omnicells:omni_link_processor"
+					type: "item"
+				}
+				{
+					id: "5772709119B7576D"
+					item: "ae2omnicells:complex_link_processor"
+					type: "item"
+				}
+				{
+					id: "272D45D9B87C5073"
+					item: "ae2omnicells:multidimensional_expansion_processor"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5E705B74B15FD114"]
+			description: ["用于配合ME箱子或磁盘驱动器存储物品、流体、气体、能量等"]
+			id: "0DAE7B3ABC287933"
+			rewards: [{
+				id: "70FEB014DA2846C7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "08767094485BE3E6"
+					item: "ae2omnicells:omni_cell_1k"
+					type: "item"
+				}
+				{
+					id: "3EAF5897FBBB0ED3"
+					item: "ae2omnicells:omni_cell_4k"
+					type: "item"
+				}
+				{
+					id: "7BBF4F263F27CAC1"
+					item: "ae2omnicells:omni_cell_16k"
+					type: "item"
+				}
+				{
+					id: "554EA5343DC66D49"
+					item: "ae2omnicells:omni_cell_64k"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0DAE7B3ABC287933"]
+			description: ["用于配合ME箱子或磁盘驱动器存储物品、流体、气体、能量等"]
+			id: "4E5C46E099A4D258"
+			rewards: [{
+				id: "53FE5B1375AD1AF3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4BB0DF9DFF5A734A"
+					item: "ae2omnicells:complex_omni_cell_1k"
+					type: "item"
+				}
+				{
+					id: "016CFCAA5324EFCC"
+					item: "ae2omnicells:complex_omni_cell_4k"
+					type: "item"
+				}
+				{
+					id: "4B44DF93AFA0FF22"
+					item: "ae2omnicells:complex_omni_cell_16k"
+					type: "item"
+				}
+				{
+					id: "4E6220751714C12A"
+					item: "ae2omnicells:complex_omni_cell_64k"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4E5C46E099A4D258"]
+			description: ["用于配合ME箱子或磁盘驱动器存储物品、流体、气体、能量等"]
+			id: "4CA10E4AF94098EF"
+			rewards: [{
+				id: "78B81D26BD7A594D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "023F3A448E696611"
+					item: "ae2omnicells:quantum_omni_cell_1k"
+					type: "item"
+				}
+				{
+					id: "267E16C6E8E4ADC7"
+					item: "ae2omnicells:quantum_omni_cell_4k"
+					type: "item"
+				}
+				{
+					id: "315597FBB030C13B"
+					item: "ae2omnicells:quantum_omni_cell_16k"
+					type: "item"
+				}
+				{
+					id: "4EC6D6D904BA44E4"
+					item: "ae2omnicells:quantum_omni_cell_64k"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["39F9A71EE5327381"]
+			description: ["用于配合ME箱子或磁盘驱动器存储核废料"]
+			id: "20D9F345ADBED0C9"
+			rewards: [{
+				id: "493837680404D694"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B2C3089FA2F252F"
+				item: "ae2omnicells:spent_nuclear_waste_cell"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.0d
+		}
+	]
+	title: "Applied Energistics"
+}

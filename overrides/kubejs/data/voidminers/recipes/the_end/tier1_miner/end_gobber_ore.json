@@ -1,0 +1,10 @@
+{
+  "type": "voidminers:miner",
+  "allowHigherTiers": true,
+  "dimension": "minecraft:the_end",
+  "minTier": 1,
+  "output": {
+    "item": "gobber2:gobber2_ore_end",
+    "weight": 0.1
+  }
+}

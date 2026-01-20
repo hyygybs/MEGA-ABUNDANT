@@ -1,0 +1,350 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powah"
+	group: "2DB7574DB5EFE80D"
+	icon: "powah:energy_cell_nitro"
+	id: "40F15BF9CDE34216"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["用于制造机器"]
+			id: "13303FBA9047C685"
+			rewards: [{
+				id: "0756228419490686"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "19661ED2F2BD3576"
+					item: "powah:dielectric_casing"
+					type: "item"
+				}
+				{
+					id: "1E1507FD1BADC54A"
+					item: "powah:capacitor_basic"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13303FBA9047C685"]
+			description: ["燃烧燃料发电"]
+			id: "398278DC19A4E922"
+			rewards: [{
+				id: "6B0FFCD21E21B6F2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EECEF46B62BB290"
+				item: "powah:furnator_basic"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["398278DC19A4E922"]
+			description: ["放置于热源上发电"]
+			id: "23B07D32067D1C4C"
+			rewards: [{
+				id: "6B25FE3082CEFCD5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F395CAFEA8380A3"
+				item: "powah:thermo_generator_basic"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["398278DC19A4E922"]
+			description: ["燃烧岩浆发电"]
+			id: "0AD751EDA220BEAA"
+			rewards: [{
+				id: "2B29E5B9AFBD7E8B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D04C4C8E1F7B145"
+				item: "powah:magmator_basic"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["398278DC19A4E922"]
+			description: ["利用太阳能发电"]
+			id: "0E7D15B8A33527B0"
+			rewards: [{
+				id: "08BB7BDC4F8D4892"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D37C4BE8A697241"
+				item: "powah:solar_panel_basic"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["398278DC19A4E922"]
+			description: ["多方块结构，构建方式为3x3x4"]
+			id: "23081279E652666C"
+			rewards: [{
+				id: "2A0E52F6DBD577E0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08D7581C8DE6F162"
+				item: "powah:reactor_basic"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["398278DC19A4E922"]
+			description: ["给箱子内的物品充能"]
+			id: "7D01C11BE718136E"
+			rewards: [{
+				id: "66DDBC5F0702665E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A5F41656A5FBF11"
+				item: "powah:energy_hopper_basic"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["398278DC19A4E922"]
+			description: ["用于存储能量"]
+			id: "43348AFEA7F643B7"
+			rewards: [{
+				id: "625ADE0C3BD9DD4D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "38161E630A518DB3"
+					item: "powah:energy_cell_basic"
+					type: "item"
+				}
+				{
+					id: "56346E2D4C2AA333"
+					item: {
+						Count: 1
+						id: "powah:battery_basic"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["398278DC19A4E922"]
+			description: ["用于提取物品中的能量"]
+			id: "08DC9AF70511F8FD"
+			rewards: [{
+				id: "7E06435CF7EF242F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04F1ABDDC212BF0D"
+				item: "powah:energy_discharger_basic"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["398278DC19A4E922"]
+			description: ["用于给物品充能"]
+			id: "36A5301D8D658616"
+			rewards: [{
+				id: "579C7C8CBEF3B1D9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6A249165A1947E33"
+					item: "powah:energizing_orb"
+					type: "item"
+				}
+				{
+					id: "16E986C4A0D725F7"
+					item: "powah:energizing_rod_basic"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["36A5301D8D658616"]
+			description: ["用于合成末影核心"]
+			id: "41785F3A5C963B7D"
+			rewards: [{
+				id: "07B189CE2BD2630B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E214336EB9DB13B"
+				item: "powah:ender_core"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["41785F3A5C963B7D"]
+			description: ["用于访问末影网络"]
+			id: "3BC1AE14B4F8A504"
+			rewards: [{
+				id: "6D427ACD798D59B8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D6A5423579FDF14"
+				item: "powah:ender_cell_basic"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["43348AFEA7F643B7"]
+			description: ["给玩家身上的物品充能"]
+			id: "6D33D3061D05A641"
+			rewards: [{
+				id: "695487715D189EDE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "342D3C70299B8460"
+					item: "powah:player_transmitter_basic"
+					type: "item"
+				}
+				{
+					id: "3BD34DB20926B169"
+					item: "powah:binding_card"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["398278DC19A4E922"]
+			description: ["升级机器"]
+			id: "6E8C2180BAD71578"
+			rewards: [{
+				id: "46D1B1021624488B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "082F090E6590BB4B"
+				item: "powah:capacitor_hardened"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E8C2180BAD71578"]
+			description: ["升级机器"]
+			id: "76EDBDF5D90DAC25"
+			rewards: [{
+				id: "2A2A57E285E9A1E2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "504820D66128D5E9"
+				item: "powah:capacitor_blazing"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76EDBDF5D90DAC25"]
+			description: ["升级机器"]
+			id: "5C4824ED6FF441CF"
+			rewards: [{
+				id: "37843668933DAA2B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "168882FEB997169F"
+				item: "powah:capacitor_niotic"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C4824ED6FF441CF"]
+			description: ["升级机器"]
+			id: "37724216D4718297"
+			rewards: [{
+				id: "7739E85D6A4D2A0D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2148C4EB8B60AA28"
+				item: "powah:capacitor_spirited"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37724216D4718297"]
+			description: ["升级机器"]
+			id: "7E3DCAD3A072BD68"
+			rewards: [{
+				id: "49DC2EC4493C2DE6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "195F699976B8CE14"
+				item: "powah:capacitor_nitro"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+	]
+	title: "Powah!"
+}

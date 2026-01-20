@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:hunting_weapon",
+    "industrialforegoing:infinity_saw",
+    "industrialforegoing:infinity_hammer",
+    "apotheosis:weapon_tome",
+    "twilightforest:block_and_chain",
+    "actuallyadditions:wooden_aiot",
+    "actuallyadditions:stone_aiot",
+    "actuallyadditions:iron_aiot",
+    "actuallyadditions:gold_aiot",
+    "actuallyadditions:diamond_aiot",
+    "actuallyadditions:netherite_aiot"
+  ],
+  "incompatible": [
+    "minecraft:looting"
+  ]
+}

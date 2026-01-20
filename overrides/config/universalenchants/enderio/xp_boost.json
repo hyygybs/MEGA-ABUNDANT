@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:eio_xpboost",
+    "industrialforegoing:infinity_drill",
+    "industrialforegoing:infinity_saw",
+    "industrialforegoing:infinity_hammer",
+    "industrialforegoing:infinity_trident",
+    "apotheosis:bow_tome",
+    "apotheosis:pickaxe_tome",
+    "apotheosis:weapon_tome"
+  ],
+  "incompatible": [
+    "minecraft:silk_touch"
+  ]
+}

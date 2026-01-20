@@ -1,0 +1,8 @@
+{
+	"parent": "cyclic:parent/spikes_on",
+  "render_type": "cutout_mipped",
+	"textures": {
+		"spike": "cyclic:block/spike/spikes_curse",
+		"particle": "cyclic:block/spike/spikes_curse"
+	}
+}

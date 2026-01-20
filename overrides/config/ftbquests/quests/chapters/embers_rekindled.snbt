@@ -1,0 +1,1627 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "embers_rekindled"
+	group: "0896B032D36C2B34"
+	icon: "embers:crystal_cell"
+	id: "490592F8EC814294"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["掉落物"]
+			id: "4D85445E6CC95C50"
+			rewards: [{
+				id: "5DF948EC5AB15227"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3A2A7715269914D0"
+					item: "embers:archaic_brick"
+					type: "item"
+				}
+				{
+					id: "62A1BABE9361CBBF"
+					item: "embers:ancient_motive_core"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4D85445E6CC95C50"]
+			description: ["本模组的指导书"]
+			id: "5C08361EBC4035FE"
+			rewards: [{
+				id: "246FA013CD464D78"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FF2B25A514DE683"
+				item: "embers:ancient_codex"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5C08361EBC4035FE"]
+			description: ["合成材料"]
+			id: "290C51C6FBE98B96"
+			rewards: [{
+				id: "38C08C848CDDC3F8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48C1A4E7DE3C6729"
+				item: "embers:caminite_brick"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5C08361EBC4035FE"]
+			description: ["用于调整机器"]
+			id: "10A85BE9C364C7F0"
+			rewards: [{
+				id: "44E6CBB69F84A13C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F7EB12A5DDA683E"
+				item: "embers:tinker_hammer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["10A85BE9C364C7F0"]
+			description: ["查看环境中的余烬能量"]
+			id: "6C8D077789E8CF94"
+			rewards: [{
+				id: "46DB57E0D8F6FBB9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "458D59DFABD01A0F"
+				item: "embers:atmospheric_gauge"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["290C51C6FBE98B96"]
+			description: ["用于储存流体"]
+			id: "644FB0BECCDA423C"
+			rewards: [{
+				id: "6AAFB8C9735EE0D0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C2E9E39AF9A93DB"
+				item: "embers:fluid_vessel"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["644FB0BECCDA423C"]
+			description: ["用于储存大量流体"]
+			id: "2C46292064A11213"
+			rewards: [{
+				id: "0C2873B79766EBB7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7380D2F1303F574B"
+				item: "embers:reservoir"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["290C51C6FBE98B96"]
+			description: ["能存储一组物品，用于自动化"]
+			id: "77DFB4D65BC8EB53"
+			rewards: [{
+				id: "68B6865BF287898A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1461A4607C3BA979"
+				item: "embers:bin"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["10A85BE9C364C7F0"]
+			description: ["传输物品和流体"]
+			id: "7912966733C39125"
+			rewards: [{
+				id: "11499CACCBF5034F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "227254AF3367B2A9"
+					item: "embers:item_pipe"
+					type: "item"
+				}
+				{
+					id: "416DBDC1670D97CB"
+					item: "embers:fluid_pipe"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7912966733C39125"]
+			description: ["用于物流"]
+			id: "558B9F6402DF4241"
+			rewards: [{
+				id: "1185061912676C2D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "50263E6377132383"
+					item: "embers:item_transfer"
+					type: "item"
+				}
+				{
+					id: "1ABAD382DD6C850B"
+					item: "embers:fluid_transfer"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7912966733C39125"]
+			description: ["用于自动合成"]
+			id: "39071BBBE57E282B"
+			rewards: [{
+				id: "15CAA0592EF14B96"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5787027A80A4C638"
+					item: "embers:item_vacuum"
+					type: "item"
+				}
+				{
+					id: "2B3E2E126948B65F"
+					item: "embers:item_dropper"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["10A85BE9C364C7F0"]
+			description: ["用于查看仪器的能量和物品"]
+			id: "292A3CBA0B79B1CD"
+			rewards: [{
+				id: "4B454FA7340B7869"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4117F1A4CAFE85C6"
+					item: "embers:ember_dial"
+					type: "item"
+				}
+				{
+					id: "67F275763E5F151F"
+					item: "embers:item_dial"
+					type: "item"
+				}
+				{
+					id: "2C795BEC5623AF57"
+					item: "embers:fluid_dial"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6C8D077789E8CF94"]
+			description: ["为机器的输出端扩展接口，可以增加5个输入输出面"]
+			id: "4CCCAC0240AF2B3B"
+			rewards: [{
+				id: "626A97CCBD793D69"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BB2B8F1F66D4FBB"
+				item: "embers:mechanical_core"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4CCCAC0240AF2B3B"]
+			description: ["放置于基岩层后通过导管或漏斗导入燃料即可开始开采灰烬晶体"]
+			id: "339DC6EBEA4C8D61"
+			rewards: [{
+				id: "48B66CB8A66EFEF7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08F90A0468D2E76E"
+				item: "embers:ember_bore"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["339DC6EBEA4C8D61"]
+			description: ["合成材料"]
+			id: "3DBA596CCD0A7AA1"
+			rewards: [{
+				id: "0948D85ACE509672"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34F5C64FF6F080D2"
+				item: "embers:ember_crystal"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["339DC6EBEA4C8D61"]
+			description: ["查看机器的能力"]
+			id: "64CB3D8217CD8A1C"
+			rewards: [{
+				id: "1B68EDBE5959802F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2178F22EF3E351C4"
+				item: "embers:tinker_lens"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["339DC6EBEA4C8D61"]
+			description: ["加装在灰烬晶体开采机上"]
+			id: "1C24BB3B8EB374AD"
+			rewards: [{
+				id: "4095F6434DC60DFE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4832CDFC17227C3C"
+				item: "embers:excavation_buckets"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3DBA596CCD0A7AA1"]
+			description: ["提取余烬晶体的能量并发射出去"]
+			id: "756257A359772586"
+			rewards: [{
+				id: "4D73D1D519580119"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DE1FA93763BFF15"
+				item: "embers:ember_activator"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["756257A359772586"]
+			description: ["连接在余烬能量激发器上使其能够处理余烬砂粒"]
+			id: "268D05DA7709FE8A"
+			rewards: [{
+				id: "68A0C85E4BD86955"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EC2167391339863"
+				item: "embers:heat_exchanger"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["756257A359772586"]
+			description: ["余烬能量传输"]
+			id: "4D10C680158C8DDA"
+			rewards: [{
+				id: "5A8022203C5EA14B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "29816ACB4D1B7024"
+					item: "embers:ember_emitter"
+					type: "item"
+				}
+				{
+					id: "67625957B6A488B0"
+					item: "embers:ember_receiver"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4D10C680158C8DDA"]
+			description: ["控制机器运行"]
+			id: "6409C3B019868A5B"
+			rewards: [{
+				id: "4EF2AC1808C72FEB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A1BE52B29B71F6C"
+				item: "embers:clockwork_attenuator"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7CDEEED52C8EFB8E"]
+			description: ["将物品熔炼为流体"]
+			id: "32BE626EE15109A3"
+			rewards: [{
+				id: "248760503260AD9E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2061B9EB8E6BFEEC"
+				item: "embers:melter"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4D10C680158C8DDA"]
+			description: ["存储余烬能量"]
+			id: "7CDEEED52C8EFB8E"
+			rewards: [{
+				id: "219602BCDA66845D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F316EE29CB16CE0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							"embers:ember": 0.0d
+							"embers:ember_capacity": 24000.0d
+						}
+					}
+					id: "embers:copper_cell"
+					tag: {
+						ForgeCaps: {
+							"embers:ember_capacity": 24000.0d
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4D10C680158C8DDA"]
+			description: ["延长余烬能量飞行时间"]
+			id: "5F438C2448CB642B"
+			rewards: [{
+				id: "01704B737313D1FA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A38F07093A85EDC"
+				item: "embers:ember_relay"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["32BE626EE15109A3"]
+			description: ["熔炼炉升级获得副产物"]
+			id: "1573E59B21BE495F"
+			rewards: [{
+				id: "4FE7B5A365FE2326"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53666D4CF1F78311"
+				item: "embers:geologic_separator"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7CDEEED52C8EFB8E"]
+			description: ["用余烬能量烧炼物品"]
+			id: "2A6299E309DC67A2"
+			rewards: [{
+				id: "3C88E799F59EAC9D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B8B051A7866618B"
+				item: "embers:hearth_coil"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["32BE626EE15109A3"]
+			description: ["用铸模压印材料"]
+			id: "0471A483B0DE41B0"
+			rewards: [{
+				id: "60B85D8C8AD1F0ED"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2F576A53DF56E597"
+					item: "embers:stamper"
+					type: "item"
+				}
+				{
+					id: "1E73D3C2D761396B"
+					item: "embers:stamp_base"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0471A483B0DE41B0"]
+			description: ["将流体混合"]
+			id: "3D9E0CEAE9D6E27E"
+			rewards: [{
+				id: "30831D5CE16FFD4E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "789DF58DBF654565"
+				item: "embers:mixer_centrifuge"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D9E0CEAE9D6E27E"]
+			description: ["合成材料"]
+			id: "04124E52D7708ED2"
+			rewards: [{
+				id: "6C76DF328591281E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31331E313E0C39FD"
+				item: "embers:dawnstone_ingot"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["04124E52D7708ED2"]
+			description: ["产出更多余烬能量"]
+			id: "4A5CDFB8A611FAEE"
+			rewards: [{
+				id: "25F8848076BDFA3D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1434E352A5186832"
+				item: "embers:pressure_refinery"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4A5CDFB8A611FAEE"]
+			description: ["自动抽水"]
+			id: "7D1A7D4369C9428C"
+			rewards: [{
+				id: "4C5313A13A87EB19"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C1FD766FDA460E8"
+				item: "embers:mechanical_pump"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7D1A7D4369C9428C"]
+			description: ["放在余烬机器旁将水转化为蒸汽"]
+			id: "1EF7156431FD6C22"
+			rewards: [{
+				id: "604CC47682EC29A1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62815591DD0A5241"
+				item: "embers:mini_boiler"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2A6299E309DC67A2"]
+			description: ["提升线圈效率"]
+			id: "4795D1C976073085"
+			rewards: [{
+				id: "7603D5699476EA05"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "293650E1BB8A514A"
+				item: "embers:heat_insulation"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2A6299E309DC67A2"]
+			description: ["将线圈炉转变为处理烟熏炉配方的机器"]
+			id: "4D0163D081422FF1"
+			rewards: [{
+				id: "5653E89EE2CF4A1F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18951D294FE76472"
+				item: "embers:char_instiller"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2A6299E309DC67A2"]
+			description: ["将线圈炉转变为处理高炉配方的机器"]
+			id: "497732DF0DF000C3"
+			rewards: [{
+				id: "7361569792F50975"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "222D76EDE9AEF96C"
+				item: "embers:atmospheric_bellows"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4A5CDFB8A611FAEE"]
+			description: ["更高级的余烬能量单元"]
+			id: "50C45ABEB2D49196"
+			rewards: [{
+				id: "65753C43BDDAD055"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AB8040FFCE31CF7"
+				item: "embers:crystal_cell"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["50C45ABEB2D49196"]
+			description: ["更高级的余烬能量发射器"]
+			id: "15C6D0F93284C090"
+			rewards: [{
+				id: "7B1C485909942E4F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "47B1C01C8C9F3E24"
+					item: "embers:ember_ejector"
+					type: "item"
+				}
+				{
+					id: "5EDAF184BA0CC17D"
+					item: "embers:ember_funnel"
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["15C6D0F93284C090"]
+			description: ["分流余烬能量"]
+			id: "73E28F8F13FCC6E8"
+			rewards: [{
+				id: "49F6E8D996484F38"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5110BFE954181C02"
+				item: "embers:beam_splitter"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["50C45ABEB2D49196"]
+			description: ["给物品填充余烬能量"]
+			id: "6F404AC81DED3163"
+			rewards: [{
+				id: "0A645F5601D88960"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43CFD7E36CB60A1A"
+				item: "embers:copper_charger"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F404AC81DED3163"]
+			description: ["反转余烬能量充能器的功能"]
+			id: "1565FCCF45ACA5EE"
+			rewards: [{
+				id: "367CA03E6E6FD91A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B231491CB7237D3"
+				item: "embers:ember_siphon"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6F404AC81DED3163"]
+			description: ["随身余烬能量存储"]
+			id: "57E92E387AEB1219"
+			rewards: [{
+				id: "1DC34DD8EA983837"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66EE085BBAEA2E9B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							"embers:ember": 0.0d
+							"embers:ember_capacity": 2000.0d
+						}
+					}
+					id: "embers:ember_jar"
+					tag: {
+						ForgeCaps: {
+							"embers:ember_capacity": 2000.0d
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 25.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["57E92E387AEB1219"]
+			description: ["随身余烬能量存储"]
+			id: "36400ECB40B6B8C5"
+			rewards: [{
+				id: "2CC2EFEF38B270C5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0827739A38E226C1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							"embers:ember": 0.0d
+							"embers:ember_capacity": 6000.0d
+						}
+					}
+					id: "embers:ember_cartridge"
+					tag: {
+						ForgeCaps: {
+							"embers:ember_capacity": 6000.0d
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 25.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["15C9B1A19C8C19BC"]
+			description: ["合成材料"]
+			id: "0E57CC7553B8A554"
+			rewards: [{
+				id: "42214DFAFFA25CE9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BE4B6AEBFBEBC94"
+				item: "aetherworks:ingot_aether"
+				type: "item"
+			}]
+			x: 35.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6F404AC81DED3163"]
+			description: ["发条工具"]
+			id: "6DBFC3327A5C8636"
+			rewards: [{
+				id: "5B0671CE63A0DD6D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "161E5A2A03D055B1"
+					item: "embers:clockwork_pickaxe"
+					type: "item"
+				}
+				{
+					id: "3CD08E17F4EE6A1B"
+					item: "embers:clockwork_axe"
+					type: "item"
+				}
+			]
+			x: 22.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6DBFC3327A5C8636"]
+			description: ["余烬武器"]
+			id: "7D74CAA355162991"
+			rewards: [{
+				id: "67DD0459C53A66FB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2564B3BFCF3A1079"
+					item: "embers:cinder_staff"
+					type: "item"
+				}
+				{
+					id: "797565D6919F2030"
+					item: "embers:blazing_ray"
+					type: "item"
+				}
+			]
+			x: 22.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["73DE140447D4A3DB"]
+			description: ["将物品转化为灰烬作为炼金材料"]
+			id: "715B4ACD0CC13B50"
+			rewards: [{
+				id: "082A0CDA73161FFC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "51E96E9922220AC7"
+				item: "embers:cinder_plinth"
+				type: "item"
+			}]
+			x: 28.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["73DE140447D4A3DB"]
+			description: ["发射余烬能量作为武器或用于启动炼金"]
+			id: "247D05A25314129C"
+			rewards: [{
+				id: "35CC1063FD4F2DE8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F52A8FAE57826AB"
+				item: "embers:beam_cannon"
+				type: "item"
+			}]
+			x: 28.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["47D438F89F1D5A97"]
+			description: ["用于合成材料的机器"]
+			id: "73DE140447D4A3DB"
+			rewards: [{
+				id: "2B24F37798613331"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6E69A89F35D56F3E"
+					item: "embers:alchemy_tablet"
+					type: "item"
+				}
+				{
+					id: "0710CBB1D9A0F373"
+					item: "embers:alchemy_pedestal"
+					type: "item"
+				}
+			]
+			x: 28.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["715B4ACD0CC13B50"]
+			description: ["合成材料"]
+			id: "1477F1EF78314C2F"
+			rewards: [{
+				id: "608E709CCF3D69CB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2EF5A4B46464B36C"
+				item: "embers:ash"
+				type: "item"
+			}]
+			x: 28.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["78A419696208D7B0"]
+			description: ["合成材料"]
+			id: "5282E3346DD12D40"
+			rewards: [{
+				id: "2462C9FD8358DFB2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A3D6F5009D65F0F"
+				item: "aetherworks:aether_shard"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["50C45ABEB2D49196"]
+			id: "47D438F89F1D5A97"
+			rewards: [{
+				id: "5FDD8E18B16E4E79"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6401193089A89375"
+					item: "embers:dawnstone_aspectus"
+					type: "item"
+				}
+				{
+					id: "04B742FD95D5088A"
+					item: "embers:iron_aspectus"
+					type: "item"
+				}
+				{
+					id: "27038F784207E6E0"
+					item: "embers:copper_aspectus"
+					type: "item"
+				}
+				{
+					id: "38ED837C9376D8A9"
+					item: "embers:lead_aspectus"
+					type: "item"
+				}
+				{
+					id: "44666627F020035D"
+					item: "embers:silver_aspectus"
+					type: "item"
+				}
+				{
+					id: "030ECFDE8DAA9E2A"
+					item: "aetherworks:aspectus_aetherium"
+					type: "item"
+				}
+			]
+			x: 26.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["68666F64888CEE59"]
+			description: ["用于合成天华材料"]
+			id: "15C9B1A19C8C19BC"
+			rewards: [{
+				id: "6020CC820ECA4BA7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34F2EB7CBFCA3B97"
+				item: "aetherworks:forge_metal_former"
+				type: "item"
+			}]
+			x: 33.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["73DE140447D4A3DB"]
+			description: ["炼金失败的产物"]
+			id: "0DB649E8BA6A1B54"
+			rewards: [{
+				id: "2BF182E5509C09BC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C4D3EFF70D66827"
+				item: "embers:alchemical_waste"
+				type: "item"
+			}]
+			x: 30.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0DB649E8BA6A1B54"]
+			description: ["用于破解炼金配方"]
+			id: "1E38171356E4C87F"
+			rewards: [{
+				id: "2A149D2A8A740767"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E5BBBD04E2E383C"
+				item: "embers:codebreaking_slate"
+				type: "item"
+			}]
+			x: 32.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1E38171356E4C87F"]
+			description: ["用于提升炼金容错"]
+			id: "4F5C0B1A9C89CB98"
+			rewards: [{
+				id: "0A50F6A339F5A3BA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4344879EF33166CC"
+				item: "embers:entropic_enumerator"
+				type: "item"
+			}]
+			x: 32.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1E38171356E4C87F"]
+			description: ["用于记录炼金配方"]
+			id: "67D81FF73E2E25ED"
+			rewards: [{
+				id: "26E66D8BA9A8480D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "083EB7DA4AF63CEA"
+				item: "embers:mnemonic_inscriber"
+				type: "item"
+			}]
+			x: 32.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E38171356E4C87F"]
+			description: ["合成材料"]
+			id: "001284C8F92197C7"
+			rewards: [{
+				id: "42CC5EEECD927905"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D6286CED8EA0BAD"
+				item: "embers:ember_crystal_cluster"
+				type: "item"
+			}]
+			x: 34.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1E38171356E4C87F"]
+			description: ["用于放置光源"]
+			id: "5702150293ED62AA"
+			rewards: [{
+				id: "7E642BD675A51636"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D144A1331E3DBE6"
+				item: {
+					Count: 1
+					id: "embers:glimmer_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 34.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1E38171356E4C87F"]
+			description: ["用于修复装备"]
+			id: "79D7F6DADC6231A3"
+			rewards: [{
+				id: "65736C03594A94DE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14B8C1148087B2CD"
+				item: "embers:isolated_materia"
+				type: "item"
+			}]
+			x: 34.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0FBD6F4BEF578790"]
+			description: ["快速激发余烬能量"]
+			id: "52F0106AF61BF363"
+			rewards: [{
+				id: "22564303666E89F0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6E01CE1C8899EEC7"
+					item: "embers:ignem_reactor"
+					type: "item"
+				}
+				{
+					id: "6DE8754146B252FD"
+					item: "embers:combustion_chamber"
+					type: "item"
+				}
+				{
+					id: "03DCDFBF1CE54F3A"
+					item: "embers:catalysis_chamber"
+					type: "item"
+				}
+			]
+			x: 38.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["001284C8F92197C7"]
+			id: "0FBD6F4BEF578790"
+			rewards: [{
+				id: "708828F7A2522930"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "339362E89BF85B0C"
+				item: "embers:wildfire_core"
+				type: "item"
+			}]
+			x: 36.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0FBD6F4BEF578790"]
+			description: ["减少机器所消耗的余烬能量"]
+			id: "6D01CBFDB5A99A0C"
+			rewards: [{
+				id: "0108FAAE9332F844"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7465C427751DC13D"
+				item: "embers:wildfire_stirling"
+				type: "item"
+			}]
+			x: 38.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D01CBFDB5A99A0C"]
+			description: ["消耗蒸汽提升机器运行速度"]
+			id: "15AB1D486C85A96A"
+			rewards: [{
+				id: "4C15FF64D829C13B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08AA3EE32A470EE1"
+				item: "embers:catalytic_plug"
+				type: "item"
+			}]
+			x: 40.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1379A64088473677"]
+			id: "47B301558368F206"
+			rewards: [{
+				id: "56069FB375487BC4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7F0F78222CE68C37"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "embers:ashen_goggles"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73C2CA3231EC69AF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "embers:ashen_cloak"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A2898C44AB726C3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "embers:ashen_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D372C9C654FD308"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "embers:ashen_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 36.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1E38171356E4C87F"]
+			description: ["合成材料"]
+			id: "1379A64088473677"
+			rewards: [{
+				id: "7EB4B50C362D7C66"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CBD05BD95EAACD7"
+				item: "embers:ashen_fabric"
+				type: "item"
+			}]
+			x: 34.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["04124E52D7708ED2"]
+			description: ["用于修复装备和给装备添加特殊能力"]
+			id: "1D986E6FF19B3049"
+			rewards: [{
+				id: "75B74421F8E992C2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08D7E21309A4E77A"
+				item: "embers:dawnstone_anvil"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1D986E6FF19B3049"]
+			description: ["自动锻造"]
+			id: "7178E8C0F3D7816D"
+			rewards: [{
+				id: "5F0B9ED00B60D683"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FC80CD67F0CC034"
+				item: "embers:automatic_hammer"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1E38171356E4C87F"]
+			description: ["用于给护甲进行强化"]
+			id: "7DADF7B44AC1144E"
+			rewards: [{
+				id: "16D67797B00FB2C4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77CA709A896C11DA"
+				item: {
+					Count: 1
+					id: "embers:inflictor_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 34.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7178E8C0F3D7816D"]
+			description: ["用于给装备添加强化槽"]
+			id: "68BA5BCFD2C0A517"
+			rewards: [{
+				id: "6CB4D28D033DA4B1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0914F89E537BDCA6"
+				item: "embers:inferno_forge"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["36400ECB40B6B8C5"]
+			description: ["用于寻找天华矿石"]
+			id: "78A419696208D7B0"
+			rewards: [{
+				id: "3F30239901FB609A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02BC70755D1211CD"
+				item: "aetherworks:aetheriometer"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5282E3346DD12D40"]
+			description: ["合成材料"]
+			id: "226CC392D8F6F792"
+			rewards: [{
+				id: "72F588D030800D3F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D8A976F87AC7162"
+				item: "aetherworks:aether_amalgam"
+				type: "item"
+			}]
+			x: 27.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["226CC392D8F6F792"]
+			description: ["用于收集月光"]
+			id: "1BE8E59334BD64A5"
+			rewards: [{
+				id: "024ECEF68DA97DC8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5442B7120E2FA812"
+					item: "aetherworks:prism"
+					type: "item"
+				}
+				{
+					id: "221AD123DA769E01"
+					item: "aetherworks:prism_support"
+					type: "item"
+				}
+				{
+					id: "4010E0D216D7A056"
+					item: "aetherworks:moonlight_amplifier"
+					type: "item"
+				}
+			]
+			x: 29.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1BE8E59334BD64A5"]
+			description: ["增幅天华的结晶速度"]
+			id: "497872DEAB293255"
+			rewards: [{
+				id: "1BA31AD173FF903A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "418244F98BA2DE82"
+				item: "aetherworks:aether_prism_controller_matrix"
+				type: "item"
+			}]
+			x: 29.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1BE8E59334BD64A5"]
+			description: ["用于锻造材料"]
+			id: "68666F64888CEE59"
+			rewards: [{
+				id: "740BB77EB5D3181B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "496762E8E6BFA0C4"
+				item: "aetherworks:aether_forge"
+				type: "item"
+			}]
+			x: 31.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["68666F64888CEE59"]
+			description: ["用于控制锻座温度"]
+			id: "48F78F3B034496C8"
+			rewards: [{
+				id: "7A428673DEDF8773"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "694DCC4CBB7E7121"
+					item: "aetherworks:forge_heater"
+					type: "item"
+				}
+				{
+					id: "049D9C9BF5EDB264"
+					item: "aetherworks:forge_cooler"
+					type: "item"
+				}
+				{
+					id: "0FB01C8AED0C68B3"
+					item: "aetherworks:forge_vent"
+					type: "item"
+				}
+			]
+			x: 31.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["68666F64888CEE59"]
+			description: ["查看锻座温度"]
+			id: "1ECB6744CFD5618C"
+			rewards: [{
+				id: "231B53A293FA0814"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AAC6B5C0C1096DA"
+				item: "aetherworks:heat_dial"
+				type: "item"
+			}]
+			x: 31.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["0E57CC7553B8A554"]
+			description: ["用于锻造天华工具"]
+			id: "526AB5549251E83C"
+			rewards: [{
+				id: "6A4E91791F0C496E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A6A8EE8EF04A436"
+				item: "aetherworks:forge_anvil"
+				type: "item"
+			}]
+			x: 37.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["526AB5549251E83C"]
+			description: ["用于组装工具"]
+			id: "50BD49E3C94A3CBF"
+			rewards: [{
+				id: "784A2F22494C61B7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B24A3584546132E"
+				item: "aetherworks:forge_tool_station"
+				type: "item"
+			}]
+			x: 39.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5282E3346DD12D40"]
+			description: ["合成材料"]
+			id: "0E45555B0287257F"
+			rewards: [{
+				id: "0DB7B0CBA72C234B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CC572B17835AE96"
+				item: "aetherworks:aspectus_aetherium"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["0E45555B0287257F"]
+			description: ["合成材料"]
+			id: "3B90BED6BA9861C8"
+			rewards: [{
+				id: "59A82FBEDC390839"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66ED53E242795B02"
+				item: "aetherworks:aether_pearl"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -13.5d
+		}
+	]
+	title: "Embers Rekindled"
+}

@@ -1,0 +1,10 @@
+{
+  "type": "voidminers:miner",
+  "allowHigherTiers": true,
+  "dimension": "minecraft:the_nether",
+  "minTier": 1,
+  "output": {
+    "item": "gobber2:gobber2_ore_nether",
+    "weight": 0.1
+  }
+}

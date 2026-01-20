@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:veinmining_vein_mining",
+    "industrialforegoing:infinity_drill",
+    "industrialforegoing:infinity_saw",
+    "apotheosis:other_tome",
+    "apotheosis:pickaxe_tome",
+    "twilightforest:block_and_chain"
+  ],
+  "incompatible": []
+}

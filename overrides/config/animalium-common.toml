@@ -1,0 +1,67 @@
+
+#Animal Spawn Settings
+["Animal Spawn Settings"]
+	#Piranha Min Y Spawn Height
+	#Range: -2032 ~ 2032
+	piranha_min_y = -64
+	#Piranha Max Y Spawn Height
+	#Range: -2032 ~ 2032
+	piranha_max_y = 319
+	#Piranha Spawn Dimension Blacklist
+	piranha_dimensions = []
+	#Wild Dog Min Y Spawn Height
+	#Range: -2032 ~ 2032
+	wild_dog_min_y = -64
+	#Wild Dog Max Y Spawn Height
+	#Range: -2032 ~ 2032
+	wild_dog_max_y = 319
+	#Wild Dog Spawn Dimension Blacklist
+	wild_dog_dimensions = []
+	#Bear Min Y Spawn Height
+	#Range: -2032 ~ 2032
+	bear_min_y = -64
+	#Bear Max Y Spawn Height
+	#Range: -2032 ~ 2032
+	bear_max_y = 319
+	#Bears Spawn Only During Day
+	bear_only_day_spawns = true
+	#Bear Spawn Dimension Blacklist
+	bear_dimensions = []
+	#Rat Min Y Spawn Height
+	#Range: -2032 ~ 2032
+	rat_min_y = -64
+	#Rat Max Y Spawn Height
+	#Range: -2032 ~ 2032
+	rat_max_y = 319
+	#Rat Spawn Dimension Blacklist
+	rat_dimensions = []
+
+#Animal Attack Settings
+["Animal Attack Settings"]
+	#Piranhas Attack Monsters
+	piranha_should_attack_monsters = false
+	#Piranhas Attack Everything (Except Piranhas)
+	piranha_should_attack_all = false
+	#Piranhas Damage Boats on Colliding
+	piranha_should_damage_boats = true
+	#Piranhas Damage Boats Probablility
+	#Range: > 0
+	piranha_chance_to_damage_boats = 30
+	#Wild Dogs Attack Monsters
+	wild_dog_should_attack_monsters = false
+	#Wild Dogs Attack Everything (Except Wild Dogs)
+	wild_dog_should_attack_all = false
+	#Bears Attack Monsters
+	bear_should_attack_monsters = false
+	#Bears Attack Everything (Except Bears)
+	bear_should_attack_all = false
+	#Rats Attack Monsters
+	rat_should_attack_monsters = false
+	#Rats Attack Everything (Except Rats)
+	rat_should_attack_all = false
+	#Rats Steal Items
+	rat_should_steal = true
+	#Rat Item Stealing Probability Bigger Numbers = Less Chance
+	#Range: > 0
+	rat_stealing_chance = 10
+

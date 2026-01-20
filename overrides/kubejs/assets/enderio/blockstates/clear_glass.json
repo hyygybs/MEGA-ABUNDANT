@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": {
+      "model": "enderio:block/clear_glass"
+    }
+  },
+  "athena:loader": "athena:ctm",
+  "ctm_textures": {
+    "center": "enderio:block/ctm/clear_glass_center",
+    "empty": "enderio:block/ctm/clear_glass_empty",
+    "horizontal": "enderio:block/ctm/clear_glass_horizontal",
+    "particle": "enderio:block/ctm/clear_glass_horizontal",
+    "vertical": "enderio:block/ctm/clear_glass_vertical"
+  }
+}

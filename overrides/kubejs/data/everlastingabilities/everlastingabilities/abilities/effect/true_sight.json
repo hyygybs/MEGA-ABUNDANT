@@ -1,0 +1,13 @@
+{
+  "type": "everlastingabilities:effect",
+  "target": "self",
+  "name": "ability.everlastingabilities.true_sight",
+  "rarity": "epic",
+  "max_level": 1,
+  "xp_per_level": 50,
+  "effect": "tombstone:true_sight",
+  "condition": {
+    "type": "forge:mod_loaded",
+    "modid": "tombstone"
+  }
+}

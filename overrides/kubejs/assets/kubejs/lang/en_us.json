@@ -1,0 +1,28 @@
+{
+"item.kubejs.sticky_leaves.name": "Sticky Leaves",
+"item.kubejs.slime_scrap.name": "Slime Scrap",
+
+"item.kubejs.iridium_ingot.name": "Iridium Ingot",
+"item.kubejs.platinum_ingot.name": "Platinum Ingot",
+"tile.kubejs.iridium_block.name": "Iridium Block",
+"tile.kubejs.platinum_block.name": "Platinum Block",
+
+"item.kubejs.random_essence.name": "Random Essence",
+
+"item.kubejs.amethyst.name": "Amethyst",
+"tile.kubejs.amethyst_block.name": "Amethyst Block",
+
+"tile.kubejs.bird_nest.name": "Bird Nest",
+
+"tile.kubejs.allthemodium_crux.name": "Allthemodium Crux",
+"tile.kubejs.unobtainium_crux.name": "Unobtainium Crux",
+"tile.kubejs.vibranium_crux.name": "Vibranium Crux",
+
+"tile.kubejs.ultranium_alloy.name": "Ultranium Alloy",
+"tile.kubejs.ultranium_gem.name": "Ultranium Gem",
+
+"tile.kubejs.mini_coal.name": "Mini Coal",
+"tile.kubejs.mini_charcoal.name": "Mini Charcoal",
+
+"item.kubejs.poikilothermic_slime.name": "Poikilothermic Slime"
+}

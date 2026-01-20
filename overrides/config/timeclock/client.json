@@ -1,0 +1,13 @@
+{
+  "render": {
+    "desaturate": false,
+    "overlay_tooltip": true,
+    "overlay_background": false,
+    "overlay_tooltip_offsetX": 0,
+    "overlay_tooltip_offsetY": 0,
+    "overlayTooltipColor": 16777215,
+    "overlayBackgroundColor": -1873784752,
+    "glowingColor": 16777045,
+    "tooltipPosition": "BOTTOM_RIGHT"
+  }
+}

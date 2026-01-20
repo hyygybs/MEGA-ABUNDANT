@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_weeping_vines"
+    }
+  ],
+  "result": {
+    "item": "minecraft:weeping_vines",
+    "count": 2
+  }
+}

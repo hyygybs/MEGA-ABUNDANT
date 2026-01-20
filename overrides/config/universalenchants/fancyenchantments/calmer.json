@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_chest",
+    "apotheosis:chestplate_tome"
+  ],
+  "incompatible": [
+    "fancyenchantments:gift_of_fire",
+    "fancyenchantments:melter",
+    "fancyenchantments:fire_disaster",
+    "fancyenchantments:nirvana",
+    "fancyenchantments:pyromaniac",
+    "fancyenchantments:self_immolation"
+  ]
+}

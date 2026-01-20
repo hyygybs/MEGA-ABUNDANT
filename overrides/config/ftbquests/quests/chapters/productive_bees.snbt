@@ -1,0 +1,279 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "productive_bees"
+	group: "09ADA29D0719965C"
+	icon: "productivebees:advanced_oak_beehive"
+	id: "09F6481246F1B9E5"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["投入蜂巢产出蜜蜂"]
+			id: "189DFAAAA41881F4"
+			rewards: [{
+				id: "6E768F31C55842FC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62405459F47D689D"
+				item: "productivebees:honey_treat"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["189DFAAAA41881F4"]
+			description: ["捕捉蜜蜂"]
+			id: "585661E099DE8485"
+			rewards: [{
+				id: "046CB91C894E5EA0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E5475A2F9FABA65"
+				item: "productivebees:bee_cage"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["585661E099DE8485"]
+			description: ["右键方块寻找同类蜂巢"]
+			id: "311B2F3FCD4999CB"
+			rewards: [{
+				id: "67EDB9B01DDAB0AB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10A18768761B33A1"
+				item: {
+					Count: 1
+					id: "productivebees:nest_locator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["585661E099DE8485"]
+			description: ["饲养蜜蜂"]
+			id: "5F621494BF389AE1"
+			rewards: [{
+				id: "2ADA766812AA0409"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08A67148E9365B30"
+				item: "minecraft:beehive"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F621494BF389AE1"]
+			description: ["饲养蜜蜂"]
+			id: "23E99065E2F2D160"
+			rewards: [{
+				id: "2A94B653D766490B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F4CBE95AB467826"
+				item: "productivebees:advanced_oak_beehive"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["23E99065E2F2D160"]
+			description: ["给蜜蜂采蜜"]
+			id: "29A0603950A198C5"
+			rewards: [{
+				id: "0F46BFF9EC303651"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "792992FCFDBDC332"
+				item: "productivebees:feeder"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["23E99065E2F2D160"]
+			description: ["增加蜂箱空间"]
+			id: "17663140BEFEF98B"
+			rewards: [{
+				id: "27FCF641B88F0AE9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "51D96F78BCE5DC35"
+				item: "productivebees:expansion_box_oak"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["23E99065E2F2D160"]
+			description: ["加工产出的蜜脾"]
+			id: "41CEA1B252AE9DA1"
+			rewards: [{
+				id: "09F8B2B17EB256BF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CB706E03184F29D"
+				item: "productivebees:centrifuge"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["41CEA1B252AE9DA1"]
+			description: ["加工产出的蜜脾"]
+			id: "7615A370D439A35F"
+			rewards: [{
+				id: "1D59E96D72C84D7C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "750AE4567A9B7BDC"
+				item: "productivebees:powered_centrifuge"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7615A370D439A35F"]
+			description: ["加工产出的蜜脾"]
+			id: "316C0C4B3DBC573D"
+			rewards: [{
+				id: "69D16A4416F3E3AE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7414729F3AF53CC6"
+				item: "productivebees:heated_centrifuge"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["69540577FFD852D0"]
+			description: ["繁殖蜜蜂"]
+			id: "6CC57DCA79CE2D3C"
+			rewards: [{
+				id: "1B70DD1C92CBE975"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BA7FD6310F6269A"
+				item: "productivebees:breeding_chamber"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6CC57DCA79CE2D3C"]
+			description: ["孵化蜜蜂"]
+			id: "780910EC1BC0C09F"
+			rewards: [{
+				id: "239A1EE57181D363"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CDD95F043806A63"
+				item: "productivebees:incubator"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["12ACEA3FB83578FC"]
+			description: ["检索并合成蜜蜂的基因"]
+			id: "0B4782F7EA9E04F6"
+			rewards: [{
+				id: "6B3F0BAE5E59A68F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CEC3FCEF1C3D5BA"
+				item: "productivebees:gene_indexer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["585661E099DE8485"]
+			description: ["用于捕捉蜜蜂"]
+			id: "69540577FFD852D0"
+			rewards: [{
+				id: "18BA7FD6CE070FCA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01064202596E573B"
+				item: "productivebees:catcher"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["41CEA1B252AE9DA1"]
+			description: ["离心产物"]
+			id: "12ACEA3FB83578FC"
+			rewards: [{
+				id: "3C6A8B41ADD60B20"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BB80502CFAEC0E5"
+				item: {
+					Count: 1
+					id: "productivebees:gene"
+					tag: {
+						productivebees_gene_attribute: "productivity"
+						productivebees_gene_purity: 100
+						productivebees_gene_value: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+	]
+	title: "Productive Bees"
+}

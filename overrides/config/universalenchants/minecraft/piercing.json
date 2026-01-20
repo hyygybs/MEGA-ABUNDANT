@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:crossbow",
+    "minecraft:trident",
+    "industrialforegoing:infinity_trident",
+    "iceandfire:tide_trident",
+    "apotheosis:other_tome",
+    "hunters_return:boomerang",
+    "enderzoology:hunting_bow",
+    "celestisynth:rainfall_serenity",
+    "silentgear:trident",
+    "redstone_arsenal:flux_trident",
+    "the_bumblezone:crystal_cannon",
+    "$minecraft:trident",
+    "$minecraft:bow"
+  ],
+  "incompatible": [
+    "minecraft:efficiency"
+  ]
+}

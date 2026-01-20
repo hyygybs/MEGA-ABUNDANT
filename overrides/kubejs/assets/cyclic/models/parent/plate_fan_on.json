@@ -1,0 +1,6 @@
+{
+    "parent": "cyclic:parent/plate_fan",
+    "textures": {
+    "fan":"cyclic:block/fan/fan_blades_on"
+    }
+}

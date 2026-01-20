@@ -1,0 +1,325 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bigger_reactors"
+	group: "2DB7574DB5EFE80D"
+	icon: "biggerreactors:reactor_terminal"
+	id: "013678B9051CFB77"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["48D8600CFD1C3A04"]
+			description: ["多方块结构，至少为3x3x3"]
+			id: "200BBAD14D2748C2"
+			rewards: [{
+				id: "3A51430FEFE0C59D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3981B49091D73397"
+				item: "biggerreactors:reactor_terminal"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["200BBAD14D2748C2"]
+			description: ["用于存放燃料和废物"]
+			id: "7A7FF291510CEA72"
+			rewards: [{
+				id: "18A4CDA6E2A2FB67"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B6230B03D5705D8"
+				item: "biggerreactors:reactor_fuel_rod"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			description: ["用于构建反应堆"]
+			id: "48D8600CFD1C3A04"
+			rewards: [{
+				id: "5FB1CA8B6C682752"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6831409653494B2B"
+				item: "biggerreactors:reactor_casing"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A7FF291510CEA72"]
+			description: ["放置在燃料棒顶部"]
+			id: "497888F106BA15E4"
+			rewards: [{
+				id: "7F17BEC892A2D0B2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B4F9BC7FEB12DC7"
+				item: "biggerreactors:reactor_control_rod"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["200BBAD14D2748C2"]
+			description: ["用于插入燃料和提取废物"]
+			id: "615DF9997FB3407D"
+			rewards: [{
+				id: "6B0CC2ABC3DC1A38"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EDAF4BBB7D9B798"
+				item: "biggerreactors:reactor_access_port"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["615DF9997FB3407D"]
+			description: ["从无源反应堆中提取能量"]
+			id: "253141503A48A2E0"
+			rewards: [{
+				id: "7AA74177AD71574B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "334B2D352E50AD34"
+				item: "biggerreactors:reactor_power_tap"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["200BBAD14D2748C2"]
+			description: ["用于输入和输出反应堆所需的水和辐射蒸汽"]
+			id: "1BF47AF25306663A"
+			rewards: [{
+				id: "708B661D549E10D7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CD1E3C5611BD695"
+				item: "biggerreactors:reactor_coolant_port"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BF47AF25306663A"]
+			description: ["反应堆废料"]
+			id: "0E9870A307ADC3CC"
+			rewards: [{
+				id: "235D95D3D8D2C7A2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "781768AE84E03DF6"
+				item: "biggerreactors:cyanite_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["253141503A48A2E0"]
+			description: ["允许通过红石电路控制各种反应堆功能"]
+			id: "72A442DE3556F931"
+			rewards: [{
+				id: "235BCF1E92DFAA66"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4166F8387F9AA554"
+				item: "biggerreactors:reactor_redstone_port"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0E9870A307ADC3CC"]
+			description: ["将蓝晶锭再加工"]
+			id: "791CFE2DC7C78773"
+			rewards: [{
+				id: "486E4FA06170086A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "611C48F0DC353788"
+				item: "biggerreactors:cyanite_reprocessor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["791CFE2DC7C78773"]
+			description: ["反应堆燃料"]
+			id: "14142BA0F84F6398"
+			rewards: [{
+				id: "6C98233674F4B97C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5745E8EC2742071D"
+				item: "biggerreactors:blutonium_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["14142BA0F84F6398"]
+			description: ["大型涡轮机的线圈"]
+			id: "757EBEC0B4861D56"
+			rewards: [{
+				id: "48B5297A47FD0959"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "51E72A9EC2FEBDA3"
+				item: "biggerreactors:ludicrite_block"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["79E71AA3C3481DED"]
+			description: ["多方块结构，至少为5x4x5"]
+			id: "41F52AC9A561A147"
+			rewards: [{
+				id: "20C495025964154F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6650E74391B0DAED"
+				item: "biggerreactors:turbine_terminal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E9870A307ADC3CC"]
+			description: ["用于建造涡轮机"]
+			id: "79E71AA3C3481DED"
+			rewards: [{
+				id: "44541C095CD3CBD0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "150BD935B2D2D21B"
+				item: "biggerreactors:turbine_casing"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41F52AC9A561A147"]
+			description: ["用于注入蒸汽和抽取水"]
+			id: "4A7A351B832E2E3B"
+			rewards: [{
+				id: "74C3DA5024249D8A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DF9C49DF655102D"
+				item: "biggerreactors:turbine_fluid_port"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4A7A351B832E2E3B"]
+			description: ["用于提取能量"]
+			id: "2A0823E5149811C4"
+			rewards: [{
+				id: "05FF5419CE0558EB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78FDFD7435D53286"
+				item: "biggerreactors:turbine_power_tap"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["41F52AC9A561A147"]
+			description: ["涡轮机的轴，跨越端到端并连接到转子轴承"]
+			id: "68918F7212E79F1E"
+			rewards: [{
+				id: "59AE440143A354F7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1203932E3C21EC46"
+					item: "biggerreactors:turbine_rotor_shaft"
+					type: "item"
+				}
+				{
+					id: "620876520629A927"
+					item: "biggerreactors:turbine_rotor_blade"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["68918F7212E79F1E"]
+			description: ["位于涡轮机轴的两端，总共需要两个"]
+			id: "4F158AC673379C41"
+			rewards: [{
+				id: "4F0D00E9B189B943"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "674E251CADD7A336"
+				item: "biggerreactors:turbine_rotor_bearing"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+	]
+	title: "Bigger Reactors"
+}

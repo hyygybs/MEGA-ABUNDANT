@@ -1,0 +1,522 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mystical_agriculture"
+	group: "09ADA29D0719965C"
+	icon: "mysticalagriculture:infusion_altar"
+	id: "12996216DF93EFFA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["合成材料"]
+			id: "1A2B0FCEC49A1C27"
+			rewards: [{
+				id: "3C9ABE08CA9206FE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7855479B236AEF16"
+					item: "mysticalagriculture:prosperity_shard"
+					type: "item"
+				}
+				{
+					id: "21DBEA2B88E0E2A6"
+					item: "mysticalagriculture:inferium_essence"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1A2B0FCEC49A1C27"]
+			description: ["合成更高级的精华"]
+			id: "663CCD0A6718FD30"
+			rewards: [{
+				id: "60F1CAF17CAF8961"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F9DA0C3CEB5C271"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:infusion_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["663CCD0A6718FD30"]
+			description: ["合成材料"]
+			id: "693E1264ACFA08C4"
+			rewards: [{
+				id: "62CBD5A08B0B9E6A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "711074DD77B190D8"
+				item: "mysticalagriculture:prudentium_essence"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["693E1264ACFA08C4"]
+			description: ["合成材料"]
+			id: "426475248002FA51"
+			rewards: [{
+				id: "32109FFAFAC32647"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25985AFEB03DEE43"
+				item: "mysticalagriculture:tertium_essence"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["426475248002FA51"]
+			description: ["合成材料"]
+			id: "25E400C56BC7306D"
+			rewards: [{
+				id: "5965240A57624843"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53FA1B7074BC7230"
+				item: "mysticalagriculture:imperium_essence"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["25E400C56BC7306D"]
+			description: ["合成材料"]
+			id: "12E34CBE1E4BEF6A"
+			rewards: [{
+				id: "45B577F05B2AEA36"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C21B48BC4840F54"
+				item: "mysticalagriculture:supremium_essence"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["12E34CBE1E4BEF6A"]
+			description: ["合成更高级的精华，但无限合成"]
+			id: "088C0D5243D158B6"
+			rewards: [{
+				id: "6B833EF5106C20BF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7553A1766DC6F2CB"
+				item: "mysticalagriculture:master_infusion_crystal"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["12E34CBE1E4BEF6A"]
+			description: ["合成材料"]
+			id: "1C52159CEE268288"
+			rewards: [{
+				id: "12CFA3C175712E7E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "086DD4EE921741CE"
+				item: "mysticalagradditions:insanium_essence"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1A2B0FCEC49A1C27"]
+			description: ["本模组的指导书"]
+			id: "3A615C5A7BE6214D"
+			rewards: [{
+				id: "5C264DF1FBE741A7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40F7625D249B98E4"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "mysticalagriculture:guide"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1A2B0FCEC49A1C27"]
+			description: ["合成材料"]
+			id: "5A7607082A21703C"
+			rewards: [{
+				id: "557BABA3DD1B5F47"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5B8AEE9E1F52700C"
+					item: "mysticalagriculture:inferium_seeds"
+					type: "item"
+				}
+				{
+					id: "5052376BEBADEC6D"
+					item: "mysticalagriculture:prosperity_seed_base"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5A7607082A21703C"]
+			description: ["合成材料"]
+			id: "7DCAD270C98EB15A"
+			rewards: [{
+				id: "79600EA74A45B922"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62E9B2AA9502F775"
+				item: "mysticalagriculture:soulium_seed_base"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1A2B0FCEC49A1C27"]
+			description: ["用于种植1级以下作物"]
+			id: "6AD4E6434F23AD99"
+			rewards: [{
+				id: "04194AC91D252B3B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62BF0730F7EADBA1"
+				item: "mysticalagriculture:inferium_farmland"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["693E1264ACFA08C4"]
+			description: ["用于种植2级以下作物"]
+			id: "30588F69BC74B79B"
+			rewards: [{
+				id: "4EDD4F4AB3B61896"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DC788BC9C79E181"
+				item: "mysticalagriculture:prudentium_farmland"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["426475248002FA51"]
+			description: ["用于种植3级以下作物"]
+			id: "0C98B2FECB613A1B"
+			rewards: [{
+				id: "5819D5363788FF51"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49E918F595774F0A"
+				item: "mysticalagriculture:tertium_farmland"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["25E400C56BC7306D"]
+			description: ["用于种植4级以下作物"]
+			id: "6863B686BACB031B"
+			rewards: [{
+				id: "48527E4094EC1188"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FFE2D3C961DC4FC"
+				item: "mysticalagriculture:imperium_farmland"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["12E34CBE1E4BEF6A"]
+			description: ["用于种植5级以下作物"]
+			id: "3ED3B7C9C52D86D6"
+			rewards: [{
+				id: "22579B9B5DFBA557"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6807005D483B9D10"
+				item: "mysticalagriculture:supremium_farmland"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1C52159CEE268288"]
+			description: ["用于种植6级以下作物"]
+			id: "43991924B831C337"
+			rewards: [{
+				id: "615858612D715B51"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BB6C5670A779588"
+				item: "mysticalagradditions:insanium_farmland"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A7607082A21703C"]
+			description: ["多方块结构，用于合成种子"]
+			id: "3DAF243B0FFE90BA"
+			rewards: [{
+				id: "18927EF5A916E2E7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "53970F326BF03F9F"
+					item: "mysticalagriculture:infusion_altar"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1529CDB6C6A28FA8"
+					item: { Count: 8, id: "mysticalagriculture:infusion_pedestal" }
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3DAF243B0FFE90BA"]
+			description: ["多方块结构，用于合成觉醒精华"]
+			id: "217D670696A36076"
+			rewards: [{
+				id: "3D65ED08D932C59E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4ACB37DD78FFAF5B"
+					item: "mysticalagriculture:awakening_altar"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "67F47F73763CA004"
+					item: { Count: 8, id: "mysticalagriculture:awakening_pedestal" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "556A6EBAAED5FF3C"
+					item: { Count: 4, id: "mysticalagriculture:essence_vessel" }
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["217D670696A36076"]
+			description: ["合成材料"]
+			id: "39B01B2EB44B200F"
+			rewards: [{
+				id: "48ADF14194973DA5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1134F2F0807AEC65"
+				item: "mysticalagriculture:awakened_supremium_essence"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["39B01B2EB44B200F"]
+			description: ["护甲"]
+			id: "74468A08F0AB8482"
+			rewards: [{
+				id: "1093B706DB14C541"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2F0990F81623F587"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "mysticalagriculture:awakened_supremium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "590EA569286055E2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "mysticalagriculture:awakened_supremium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "436D04C15464B0B3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "mysticalagriculture:awakened_supremium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2708896626610519"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "mysticalagriculture:awakened_supremium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["39B01B2EB44B200F"]
+			description: ["武器和工具"]
+			id: "64D39F32044ECA3B"
+			rewards: [{
+				id: "60B47DDAC47DB8AA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "30B3E5CA351C62FA"
+					item: "mysticalagriculture:awakened_supremium_sword"
+					type: "item"
+				}
+				{
+					id: "728CBDE03272CC2D"
+					item: "mysticalagriculture:awakened_supremium_bow"
+					type: "item"
+				}
+				{
+					id: "4318B29C117841B6"
+					item: "mysticalagriculture:awakened_supremium_pickaxe"
+					type: "item"
+				}
+				{
+					id: "13C325154BF415AA"
+					item: "mysticalagriculture:awakened_supremium_shovel"
+					type: "item"
+				}
+				{
+					id: "5EA4CA92F6615208"
+					item: "mysticalagriculture:awakened_supremium_axe"
+					type: "item"
+				}
+				{
+					id: "28E0A940A6268E7A"
+					item: "mysticalagriculture:awakened_supremium_hoe"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 10.5d
+		}
+	]
+	title: "Mystical Agriculture"
+}

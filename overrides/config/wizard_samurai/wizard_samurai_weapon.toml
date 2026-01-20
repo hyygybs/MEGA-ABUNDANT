@@ -1,0 +1,109 @@
+
+[weapon]
+
+	[weapon.wizard_samurai_katana]
+		#Damage of the Wizard Samurai Katana
+		#Range: 1.0 ~ 100.0
+		damage = 18.0
+		#Speed of the Wizard Samurai Katana
+		#Range: -10.0 ~ 10.0
+		attack_speed = -2.5
+		#Durability Wizard Samurai Katana
+		#Range: > 0
+		durability = 9000
+		#Enchantment Value Wizard Samurai Katana
+		#Range: 1 ~ 30
+		enchantment = 4
+		#Mana Regen Wizard Samurai Katana
+		#Range: 0.0 ~ 10.0
+		mana_regen = 0.02
+		#Cooldown Reduction Wizard Samurai Katana
+		#Range: 0.0 ~ 10.0
+		cooldown_reduction = 0.03
+		#Cast Time Reduction Wizard Samurai Katana
+		#Range: 0.0 ~ 10.0
+		cast_time_reduction = 0.03
+
+	[weapon.ignis_samurai_katana]
+		#Damage of the Ignis Samurai Katana
+		#Range: 1.0 ~ 100.0
+		damage = 21.0
+		#Speed of the Ignis Samurai Katana
+		#Range: -10.0 ~ 10.0
+		attack_speed = -2.5
+		#Durability Ignis Samurai Katana
+		#Range: > 0
+		durability = 7500
+		#Enchantment Value Ignis Samurai Katana
+		#Range: 1 ~ 30
+		enchantment = 14
+
+	[weapon.sculk_wizard_samurai_katana]
+		#Damage of the Sculk Wizard Samurai Katana
+		#Range: 1.0 ~ 100.0
+		damage = 17.0
+		#Speed of the Sculk Wizard Samurai Katana
+		#Range: -10.0 ~ 10.0
+		attack_speed = -2.5
+		#Durability Sculk Wizard Samurai Katana
+		#Range: > 0
+		durability = 6000
+		#Enchantment Value Sculk Wizard Samurai Katana
+		#Range: 1 ~ 30
+		enchantment = 12
+		#Eldritch Spell Power Sculk Wizard Samurai Katana
+		#Range: 0.0 ~ 10.0
+		eldritch_spell_power = 0.1
+		#Cooldown Reduction Sculk Wizard Samurai Katana
+		#Range: 0.0 ~ 10.0
+		cooldown_reduction = 0.05
+		#Cast Time Reduction Sculk Wizard Samurai Katana
+		#Range: 0.0 ~ 10.0
+		cast_time_reduction = 0.05
+
+	[weapon.amethyst_wizard_samurai_katana]
+		#Damage of the Amethyst Wizard Samurai Katana
+		#Range: 1.0 ~ 100.0
+		damage = 15.0
+		#Speed of the Amethyst Wizard Samurai Katana
+		#Range: -10.0 ~ 10.0
+		attack_speed = -2.5
+		#Durability Amethyst Wizard Samurai Katana
+		#Range: > 0
+		durability = 7000
+		#Enchantment Value Amethyst Wizard Samurai Katana
+		#Range: 1 ~ 30
+		enchantment = 13
+		#Cooldown Reduction Amethyst Wizard Samurai Katana
+		#Range: 0.0 ~ 10.0
+		cooldown_reduction = 0.1
+		#Cast Time Reduction Amethyst Wizard Samurai Katana
+		#Range: 0.0 ~ 10.0
+		cast_time_reduction = 0.1
+
+	[weapon.crimson_wizard_samurai_katana]
+		#Damage of the Crimson Wizard Samurai Katana
+		#Range: 1.0 ~ 100.0
+		damage = 17.0
+		#Speed of the Crimson Wizard Samurai Katana
+		#Range: -10.0 ~ 10.0
+		attack_speed = -2.5
+		#Durability Crimson Wizard Samurai Katana
+		#Range: > 0
+		durability = 7000
+		#Enchantment Value Crimson Wizard Samurai Katana
+		#Range: 1 ~ 30
+		enchantment = 13
+		#Blood Spell Power Crimson Wizard Samurai Katana
+		#Range: 0.0 ~ 10.0
+		blood_spell_power = 0.1
+		#Mana Regen Crimson Wizard Samurai Katana
+		#Range: 0.0 ~ 10.0
+		mana_regen = 0.03
+		#Cooldown Reduction Crimson Wizard Samurai Katana
+		#Range: 0.0 ~ 10.0
+		cooldown_reduction = 0.02
+		#Cast Time Reduction Crimson Wizard Samurai Katana
+		#Range: 0.0 ~ 10.0
+		cast_time_reduction = 0.05
+

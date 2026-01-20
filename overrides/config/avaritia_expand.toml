@@ -1,0 +1,6 @@
+
+["Infinity TNT Configuration"]
+	explosion_radius = 100.0
+	allow_break_bedrock = false
+	allow_break_obsidian = false
+

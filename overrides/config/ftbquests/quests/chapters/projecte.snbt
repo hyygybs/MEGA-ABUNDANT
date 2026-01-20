@@ -1,0 +1,928 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "projecte"
+	group: "0896B032D36C2B34"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			Parent: { }
+		}
+		id: "projecte:philosophers_stone"
+		tag: { }
+	}
+	id: "2D5AD493EDA83FB1"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["用于合成转换桌"]
+			id: "22CFB22F1032FBD6"
+			rewards: [{
+				id: "6C68096F7E35FB24"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68D84E135F79BD03"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22CFB22F1032FBD6"]
+			description: ["合成材料"]
+			id: "7A5825B31AD5B452"
+			rewards: [{
+				id: "32B669AC50FB7C9D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22FBABD24B86D5F7"
+				item: "projecte:alchemical_coal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A5825B31AD5B452"]
+			description: ["合成材料"]
+			id: "5EC30B6B1143F09F"
+			rewards: [{
+				id: "0989E2EDAC7FAFB4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32DA96437479C096"
+				item: "projecte:mobius_fuel"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5EC30B6B1143F09F"]
+			description: ["合成材料"]
+			id: "484749495EBE3A0F"
+			rewards: [{
+				id: "022D87EF8C9E4459"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "171C4FFB32BB80EE"
+				item: "projecte:aeternalis_fuel"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["484749495EBE3A0F"]
+			description: ["合成材料"]
+			id: "604B8700BFE19F08"
+			rewards: [{
+				id: "09D1DC8A4AD8B693"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B886207CBE50418"
+				item: "projecte:dark_matter"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["604B8700BFE19F08"]
+			description: ["合成材料"]
+			id: "528E8495B70D8807"
+			rewards: [{
+				id: "3D01F3E086741568"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40A4470AF31307D0"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22CFB22F1032FBD6"]
+			description: ["用于等价交换"]
+			id: "299A39D0761CA719"
+			rewards: [{
+				id: "5679F19939169E2F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5564EDF703F370F2"
+				item: "projecte:transmutation_table"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["299A39D0761CA719"]
+			description: ["便携版转化桌"]
+			id: "221AA932C7486263"
+			rewards: [{
+				id: "2CFC1F2BF5C99BE7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2327DF0195254BD9"
+				item: "projecte:transmutation_tablet"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["22CFB22F1032FBD6"]
+			description: ["合成材料"]
+			id: "0A5B368DC4D6E7D9"
+			rewards: [{
+				id: "3D95B0D97A8404EF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "512F0F8748C35E69"
+					item: "projecte:low_covalence_dust"
+					type: "item"
+				}
+				{
+					id: "2935464FFE333D50"
+					item: "projecte:medium_covalence_dust"
+					type: "item"
+				}
+				{
+					id: "381FBBE5CE121A54"
+					item: "projecte:high_covalence_dust"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A5B368DC4D6E7D9"]
+			description: ["存储物品"]
+			id: "6F98377FFB79BE44"
+			rewards: [{
+				id: "3619D42808BB2E22"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20D4569965D8ABF0"
+				item: "projecte:alchemical_chest"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F98377FFB79BE44"]
+			description: ["复制存储物品"]
+			id: "24C0B8D287514680"
+			rewards: [{
+				id: "7EF2505EBF423B07"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2691F6664E9B998F"
+				item: "projecte:condenser_mk1"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24C0B8D287514680"]
+			description: ["复制存储物品"]
+			id: "26100A3D1C30B2CD"
+			rewards: [{
+				id: "503438F209539E11"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "012DFDCD57D14A10"
+				item: "projecte:condenser_mk2"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6F98377FFB79BE44"]
+			description: ["存储物品"]
+			id: "0CB0E19FAFF730A6"
+			rewards: [{
+				id: "2391FD553605C2E3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B4162C5FEDC460D"
+				item: "projecte:white_alchemical_bag"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["22CFB22F1032FBD6"]
+			description: ["产生EMC"]
+			id: "0D0117E5D1FFB626"
+			rewards: [{
+				id: "36B30B7D42E86842"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A8B64E22A7FC975"
+				item: "projecte:collector_mk1"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0D0117E5D1FFB626"]
+			description: ["产生EMC"]
+			id: "40B8D492369951FD"
+			rewards: [{
+				id: "2540E53EE366AAAC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43ABF74BBD2804D2"
+				item: "projecte:collector_mk2"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["40B8D492369951FD"]
+			description: ["产生EMC"]
+			id: "7DE9F13334D92DC1"
+			rewards: [{
+				id: "49EFF13A56813321"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "344497408081A4AE"
+				item: "projecte:collector_mk3"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["22CFB22F1032FBD6"]
+			description: ["传输EMC"]
+			id: "1B14F6821FADCEC2"
+			rewards: [{
+				id: "7C14284A043B2E86"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29546A41390814CD"
+				item: "projecte:relay_mk1"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B14F6821FADCEC2"]
+			description: ["传输EMC"]
+			id: "51A5C8CF81F06A93"
+			rewards: [{
+				id: "297C7E56DE69C7FF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "001DC87B94C84011"
+				item: "projecte:relay_mk2"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["51A5C8CF81F06A93"]
+			description: ["传输EMC"]
+			id: "5A01EC0033D1E94B"
+			rewards: [{
+				id: "2C645482EA10E3A9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "475A29E6AC1BA55C"
+				item: "projecte:relay_mk3"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["22CFB22F1032FBD6"]
+			description: ["消耗EMC烧炼物品"]
+			id: "0DE4B11946D49665"
+			rewards: [{
+				id: "7F4AEBA28539C6F7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34506E69523595AC"
+				item: "projecte:dm_furnace"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0DE4B11946D49665"]
+			description: ["消耗EMC烧炼物品"]
+			id: "4B4EE6F658F31EC1"
+			rewards: [{
+				id: "35F6F73AAA665E96"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "295A09966EBFDCE4"
+				item: "projecte:rm_furnace"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5EC30B6B1143F09F"]
+			description: ["存储EMC"]
+			id: "0BBAAB8AE7B9C515"
+			rewards: [{
+				id: "11F307B45658B374"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38DFA953E4375AC1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_ein"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0BBAAB8AE7B9C515"]
+			description: ["存储EMC"]
+			id: "4D596A71C46BAA44"
+			rewards: [{
+				id: "03485E0201F92E83"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25FE3EAB55959AB2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_zwei"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4D596A71C46BAA44"]
+			description: ["存储EMC"]
+			id: "58B7863AF43342AC"
+			rewards: [{
+				id: "0DFA651F51C5E8FA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D2E44CF30679091"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_drei"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["58B7863AF43342AC"]
+			description: ["存储EMC"]
+			id: "34D0CC159A09816D"
+			rewards: [{
+				id: "39E582A6C0301251"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "004F42E1C54796FA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_vier"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["34D0CC159A09816D"]
+			description: ["存储EMC"]
+			id: "116264A3AC9F13F4"
+			rewards: [{
+				id: "3E179710CF13CBD1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CC2E9AB780E6978"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_sphere"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["116264A3AC9F13F4"]
+			description: ["存储EMC"]
+			id: "0A89BF3BA6AF5534"
+			rewards: [{
+				id: "7177606F9C31066B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36B9A96BFA1846E4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_omega"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["528E8495B70D8807"]
+			description: ["饰品"]
+			id: "0F6A03FDFDEAF63D"
+			rewards: [{
+				id: "20D94DE9AB2AA465"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "641B36C7F3B9534E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:body_stone"
+					}
+					type: "item"
+				}
+				{
+					id: "2D2788E6BC0673CF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:soul_stone"
+					}
+					type: "item"
+				}
+				{
+					id: "7D3AF72454EDAD12"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:life_stone"
+					}
+					type: "item"
+				}
+				{
+					id: "7F96629C00301F34"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:mind_stone"
+					}
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["528E8495B70D8807"]
+			description: ["红物质装备"]
+			id: "0054D773644BF0B0"
+			rewards: [{
+				id: "18566EFFC3837D64"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F77A446F97D4C1E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:rm_katar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0054D773644BF0B0"]
+			description: ["红物质装备"]
+			id: "524D52BAE486D5E1"
+			rewards: [{
+				id: "1F8AC4F0DB7AA334"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "358D65C2824FDBD5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "projecte:rm_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "35E25501AF8ACA54"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "projecte:rm_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "30880F86851CC441"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "projecte:rm_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "6FB8161542314D90"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "projecte:rm_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["528E8495B70D8807"]
+			description: ["用于快速建筑"]
+			id: "1BA2B5F74B9B3E47"
+			rewards: [{
+				id: "05D8F75780A8863A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49F8DCDD673B1106"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							EyeInventory: {
+								Items: [ ]
+								Size: 2
+							}
+						}
+					}
+					id: "projecte:mercurial_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["604B8700BFE19F08"]
+			description: ["用于大范围破坏方块"]
+			id: "72828C55AEB514AD"
+			rewards: [{
+				id: "494BC735A0AFE5B0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EFB0595EB2D15AE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:catalytic_lens"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["512572A24CF1A2E3"]
+			description: ["将饰品至于其上有特殊效果"]
+			id: "5D1A7C83E0765AAF"
+			rewards: [{
+				id: "12B49C1BCD83003C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "061A054671206C2D"
+				item: "projecte:dm_pedestal"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["604B8700BFE19F08"]
+			description: ["饰品"]
+			id: "512572A24CF1A2E3"
+			rewards: [{
+				id: "6E48DADE4D5C33A6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5F313DF1E1CB6AAD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:ignition_ring"
+					}
+					type: "item"
+				}
+				{
+					id: "159B8D23456CFD75"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:zero_ring"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4D8955C5D155F7E1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:harvest_goddess_band"
+					}
+					type: "item"
+				}
+				{
+					id: "794579A717DB0D9A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:swiftwolf_rending_gale"
+					}
+					type: "item"
+				}
+				{
+					id: "2B5CD98DDD5F1D00"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:black_hole_band"
+					}
+					type: "item"
+				}
+				{
+					id: "453802EC99B0A4C9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:archangel_smite"
+					}
+					type: "item"
+				}
+				{
+					id: "31B0B13400D0D67E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:watch_of_flowing_time"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1DF304DA76661D3B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:evertide_amulet"
+					}
+					type: "item"
+				}
+				{
+					id: "14CD0D8E1AD2111A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:volcanite_amulet"
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["512572A24CF1A2E3"]
+			description: ["饰品"]
+			id: "0327B6A7093AE2ED"
+			rewards: [{
+				id: "538BCF4D00C32C71"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0B06734223B7AB1D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:arcana_ring"
+						tag: {
+							Mode: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BF68A355F33B05A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:void_ring"
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0A5B368DC4D6E7D9"]
+			description: ["修复装备"]
+			id: "2B81CE0E7EB15B28"
+			rewards: [{
+				id: "7F102146752EBEE7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71FC2724A1C05EE1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:repair_talisman"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+	]
+	title: "ProjectE"
+}

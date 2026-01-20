@@ -1,0 +1,382 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "integrated_dynamics"
+	group: "2DB7574DB5EFE80D"
+	icon: "integrateddynamics:logic_programmer"
+	id: "5659FE3D5829CBCB"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["找到门瑞欧树"]
+			id: "37A6E20DC6E0C6F2"
+			rewards: [{
+				id: "6074943ECBBEA5D1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71BF627D5BA5E623"
+				item: "integrateddynamics:crystalized_menril_chunk"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37A6E20DC6E0C6F2"]
+			description: ["本模组的指导书"]
+			id: "5CD8AAA2998FB54B"
+			rewards: [{
+				id: "6D95BCD0C30FDCE9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "447544C61A85BEF3"
+				item: "integrateddynamics:on_the_dynamics_of_integration"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["37A6E20DC6E0C6F2"]
+			description: ["用于制造门瑞欧树脂"]
+			id: "33CA7710FEC9B30D"
+			rewards: [{
+				id: "54B25BDB7B7E65A5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "652150608FA9CA14"
+				item: "integrateddynamics:squeezer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33CA7710FEC9B30D"]
+			description: ["将门瑞欧树脂转化为门瑞欧结晶块"]
+			id: "7A8AA7E0B9A996E9"
+			rewards: [{
+				id: "7E22C2DA9F71A099"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C273BF369EE0FC8"
+				item: "integrateddynamics:drying_basin"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BBA224DEEA7F459"]
+			description: ["电动的挤压机"]
+			id: "351D3A8B967DE024"
+			rewards: [{
+				id: "5CE3AC2367BE3F81"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41599F878E95DA85"
+				item: "integrateddynamics:mechanical_squeezer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7A8AA7E0B9A996E9"]
+			description: ["用于储存能量"]
+			id: "0B0B8559185F33BA"
+			rewards: [{
+				id: "0EDD9C0C80379461"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13EC5B1ADA968B77"
+				item: {
+					Count: 1
+					id: "integrateddynamics:energy_battery"
+					tag: {
+						energy: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3BBA224DEEA7F459"]
+			description: ["电动的烘干池"]
+			id: "77BCAFF6C5EA4A65"
+			rewards: [{
+				id: "510D864E5F711588"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D19CE800FAB60C5"
+				item: "integrateddynamics:mechanical_drying_basin"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0B0B8559185F33BA"]
+			description: ["燃烧燃料发电"]
+			id: "3BBA224DEEA7F459"
+			rewards: [{
+				id: "4218EC8E221D4098"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74B5F1821E1DBF3C"
+				item: "integrateddynamics:coal_generator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7A8AA7E0B9A996E9"]
+			description: ["用于构建网络"]
+			id: "64AAED90AC9EE19D"
+			rewards: [{
+				id: "786AEEFA85C77735"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D1FF7F6D3A44DB4"
+				item: "integrateddynamics:cable"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64AAED90AC9EE19D"]
+			description: ["用于存储变量"]
+			id: "0972F2A78A63C8F2"
+			rewards: [{
+				id: "1248743886F5A5AB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F4692B42FAD3414"
+				item: "integrateddynamics:variable"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0CBDD467FBEBE83E"]
+			description: ["用于储存变量卡并供其他网络组件读取这些变量卡"]
+			id: "7735AF23ED39E6A4"
+			rewards: [{
+				id: "5C20DDCCBC190FBF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F2E2700F5ED5B9A"
+				item: "integrateddynamics:variablestore"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64AAED90AC9EE19D"]
+			description: ["用于调节机器"]
+			id: "589DD906B4E47EC3"
+			rewards: [{
+				id: "1BEB5BC2D9374E94"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5511F89961EFB741"
+				item: "integrateddynamics:wrench"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0972F2A78A63C8F2"]
+			description: ["用于输入输出变量"]
+			id: "7E68DA434E4BD8F6"
+			rewards: [{
+				id: "3C86EA1ED48E3360"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5F875ECD73DB9D1D"
+					item: "integrateddynamics:variable_transformer_input"
+					type: "item"
+				}
+				{
+					id: "2F32F808BB0D52FB"
+					item: "integrateddynamics:variable_transformer_output"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0972F2A78A63C8F2"]
+			description: ["用于为变量卡存入变量"]
+			id: "5AF08C22CD395657"
+			rewards: [{
+				id: "1541F06C13081907"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "513867C43451FC87"
+				item: "integrateddynamics:part_redstone_reader"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5AF08C22CD395657"]
+			description: ["显示变量值"]
+			id: "796476B6BB03A493"
+			rewards: [{
+				id: "7B081625CADDFC34"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06C0D8EA40B68D87"
+				item: "integrateddynamics:part_display_panel"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5AF08C22CD395657"]
+			description: ["用于输出变量值"]
+			id: "69DB68E1B519EAD7"
+			rewards: [{
+				id: "2C66B20B71F59619"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "384FBC63629B9F2B"
+				item: "integrateddynamics:part_redstone_writer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5AF08C22CD395657"]
+			description: ["用于进行与变量卡数据相关的操作"]
+			id: "0CBDD467FBEBE83E"
+			rewards: [{
+				id: "5B4564F1D86A194A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2601CE4D002B4385"
+				item: "integrateddynamics:logic_programmer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0CBDD467FBEBE83E"]
+			description: ["将动态变量转化为静态，将变量卡值进行复制"]
+			id: "1C6D8E80D56C6D72"
+			rewards: [{
+				id: "6DF986BBC0E0C09D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "73473BF1D6F06089"
+					item: "integrateddynamics:materializer"
+					type: "item"
+				}
+				{
+					id: "6C33FEEE64752092"
+					item: "integrateddynamics:proxy"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["64AAED90AC9EE19D"]
+			description: ["将线缆转化为管道"]
+			id: "323CC7997C83D846"
+			rewards: [{
+				id: "7A72D6852011A649"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "07BDB5A25F26182B"
+					item: "integratedtunnels:part_importer_energy"
+					type: "item"
+				}
+				{
+					id: "30C22DB7EF2A3BCD"
+					item: "integratedtunnels:part_exporter_energy"
+					type: "item"
+				}
+				{
+					id: "4B27D64BA8DC5633"
+					item: "integratedtunnels:part_importer_item"
+					type: "item"
+				}
+				{
+					id: "239E4C2C4458C8A0"
+					item: "integratedtunnels:part_exporter_item"
+					type: "item"
+				}
+				{
+					id: "17B2849056D00B61"
+					item: "integratedtunnels:part_importer_fluid"
+					type: "item"
+				}
+				{
+					id: "6B4749CC80F5A66B"
+					item: "integratedtunnels:part_exporter_fluid"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+	title: "Integrated Dynamics"
+}

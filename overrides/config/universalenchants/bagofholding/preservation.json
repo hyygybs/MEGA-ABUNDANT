@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:bagofholding_bag_of_holding",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": []
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/hopper_side",
+  "textures": {
+    "particle": "minecraft:block/barrel_bottom",
+    "top": "minecraft:block/barrel_top_open",
+    "side": "minecraft:block/barrel_bottom",
+    "inside": "minecraft:block/barrel_top_open"
+  }
+}

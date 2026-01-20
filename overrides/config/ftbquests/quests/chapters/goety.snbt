@@ -1,0 +1,347 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "goety"
+	group: "0896B032D36C2B34"
+	icon: "goety:dark_altar"
+	id: "6EDE35922134896E"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["本模组的指导书"]
+			id: "5729584EBC4F2985"
+			rewards: [{
+				id: "319862C288156A5D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C486A7275604145"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "goety:black_book"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5729584EBC4F2985"]
+			description: ["本模组的指导书"]
+			id: "6C3CD07DCFA7A7DC"
+			rewards: [{
+				id: "0FD58CF853511D9D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12C31E8A3C874E41"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "goety:witches_brew"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5729584EBC4F2985"]
+			description: ["杀死幽灵获得灵质，合成储存灵魂能量的图腾"]
+			id: "754A7A1BF3D2A62B"
+			rewards: [{
+				id: "223C20F819A8144F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "436CEDDFA999144E"
+				item: {
+					Count: 1
+					id: "goety:totem_of_roots"
+					tag: {
+						"Max Souls": 100
+						Souls: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F27E56F8975C2AD"]
+			description: ["放置在刷怪笼上用于转化材料"]
+			id: "728D8CE9294DF8D7"
+			rewards: [{
+				id: "18B6F064BC3AA005"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73B7CBB45B968375"
+				item: "goety:cursed_infuser"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["754A7A1BF3D2A62B"]
+			description: ["合成材料"]
+			id: "38523D0BB7657FEE"
+			rewards: [{
+				id: "0857F6FD48B94AF2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6576FCE512FA47B1"
+				item: "goety:magic_emerald"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38523D0BB7657FEE"]
+			description: ["用于储存灵魂能量"]
+			id: "1F27E56F8975C2AD"
+			rewards: [{
+				id: "73E2EC16874529CF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D6E6110A734C04F"
+				item: {
+					Count: 1
+					id: "goety:totem_of_souls"
+					tag: {
+						"Max Souls": 10000
+						Souls: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["728D8CE9294DF8D7"]
+			description: ["合成材料"]
+			id: "6CA614ADDAD683E2"
+			rewards: [{
+				id: "077873A0B54B6FC7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "07CC80ABF68C8157"
+					item: "goety:cursed_ingot"
+					type: "item"
+				}
+				{
+					id: "51124BCFAA44831D"
+					item: "goety:empty_focus"
+					type: "item"
+				}
+				{
+					id: "19811F47A1C92CC8"
+					item: "goety:haunted_sapling"
+					type: "item"
+				}
+				{
+					id: "3200B14CB539C014"
+					item: "goety:savage_tooth"
+					type: "item"
+				}
+				{
+					id: "64C2A6D34FA70DBB"
+					item: "goety:shade_stone"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1F27E56F8975C2AD"]
+			description: ["用于施法"]
+			id: "2A16A1CC4E546070"
+			rewards: [{
+				id: "30590B896C7C600C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DA5C7B21CA96056"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+					}
+					id: "goety:dark_wand"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A16A1CC4E546070"]
+			description: ["多方块结构，用于举行仪式"]
+			id: "3E4B8BDB447E20B8"
+			rewards: [{
+				id: "097E66492004BB95"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "79096DA4643B88D6"
+					item: "goety:dark_altar"
+					type: "item"
+				}
+				{
+					id: "69A0C30D4040DF58"
+					item: "goety:cursed_cage"
+					type: "item"
+				}
+				{
+					id: "1EC20A5D4CC96D25"
+					item: "goety:pedestal"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E4B8BDB447E20B8"]
+			description: ["用于在安息仪式中召唤使徒"]
+			id: "75653271F90852F0"
+			rewards: [{
+				id: "3BA35C9C4277D88A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3B8E95F6D4C9DFB2"
+					item: "goety:crone_hat"
+					type: "item"
+				}
+				{
+					id: "24CA6F72214D4AAE"
+					item: "goety:witch_hat"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "48D49B37E9230128"
+					item: "goety:warlock_sash"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75653271F90852F0"]
+			description: ["击败使徒后获得"]
+			id: "5A298C0E94DDF419"
+			rewards: [{
+				id: "10FE3096F5961C53"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05AAF79038191C5A"
+				item: "goety:unholy_blood"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A298C0E94DDF419"]
+			description: ["用于储存和传输灵魂能量"]
+			id: "032262808F811DC9"
+			rewards: [{
+				id: "5F17FEFFB99914DF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6F50BC5FE828B24D"
+					item: "goety:arca"
+					type: "item"
+				}
+				{
+					id: "440A9A0B5C77C144"
+					item: "goety:soul_transfer"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A298C0E94DDF419"]
+			description: ["合成材料"]
+			id: "6AA30B7210AA9571"
+			rewards: [{
+				id: "78A6F9AB1F4F894C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "747205EED2C2F744"
+				item: "goety:unholy_fabric"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AA30B7210AA9571"]
+			description: ["模组饰品"]
+			id: "0B9FDC74BB48FC25"
+			rewards: [{
+				id: "5848AF8D42CAD1DC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7AD85E82343895FB"
+					item: "goety:unholy_hat"
+					type: "item"
+				}
+				{
+					id: "22EDE3FC4FBBF1BE"
+					item: "goety:unholy_robe"
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 0.0d
+		}
+	]
+	title: "Goety"
+}

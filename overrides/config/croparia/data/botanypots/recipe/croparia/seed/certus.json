@@ -1,0 +1,28 @@
+{
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "croparia:seed_crop_certus"
+  },
+  "categories": [
+    "crop", "farmland"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "croparia:block_crop_certus"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "croparia:fruit_certus"
+      }
+    },
+    {
+      "chance": 0.01,
+      "output": {
+        "item": "croparia:seed_crop_certus"
+      }
+    }
+  ]
+}

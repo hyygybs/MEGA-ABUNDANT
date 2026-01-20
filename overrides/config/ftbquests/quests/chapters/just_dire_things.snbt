@@ -1,0 +1,664 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "just_dire_things"
+	group: "1F9A9FE71A5A4AA9"
+	icon: "justdirethings:generatort1"
+	id: "49CB0D17866F070A"
+	order_index: 18
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["42DADB58FB46D17B"]
+			description: ["喂食需要的材料，将转化铁块和煤炭块"]
+			id: "642EE2FB13184AF7"
+			rewards: [{
+				id: "38BBB5C16C95A50F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2256AF54E09174C3"
+				item: "justdirethings:gooblock_tier1"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["642EE2FB13184AF7"]
+			description: ["喂食需要的材料，将转化金块和原初煤炭块"]
+			id: "02C3D508A4C83882"
+			rewards: [{
+				id: "2CEDD4AA68820464"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "089110330F4A2B33"
+				item: "justdirethings:gooblock_tier2"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02C3D508A4C83882"]
+			description: ["喂食需要的材料，将转化钻石块和烈焰烬质块"]
+			id: "29F2E8FE9E610948"
+			rewards: [{
+				id: "3BE062F3E7A66BB8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "031831A9DB88C0D4"
+				item: "justdirethings:gooblock_tier3"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29F2E8FE9E610948"]
+			description: ["喂食需要的材料，将转化下界合金块和虚炎煤炭块"]
+			id: "100368299C5B1C3B"
+			rewards: [{
+				id: "713AEEC7E3075E19"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49ABF34039ABE095"
+				item: "justdirethings:gooblock_tier4"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["642EE2FB13184AF7"]
+			description: ["合成材料"]
+			id: "30B43AA3E9B4F76C"
+			rewards: [{
+				id: "1302DEEC2A86691E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "179C4C6B3E085928"
+				item: "justdirethings:ferricore_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["02C3D508A4C83882"]
+			description: ["合成材料"]
+			id: "1DDDB1520BB5389B"
+			rewards: [{
+				id: "3276EF3B87630EDB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F3F4E2146FEBECA"
+				item: "justdirethings:blazegold_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29F2E8FE9E610948"]
+			description: ["合成材料"]
+			id: "59663E039BE79F51"
+			rewards: [{
+				id: "3013D3F1C43999B0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7831573DE7F3C755"
+				item: "justdirethings:celestigem"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["100368299C5B1C3B"]
+			description: ["合成材料"]
+			id: "12D2822802855717"
+			rewards: [{
+				id: "6DA99E4E0443BEA0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70A27EB98645F121"
+				item: "justdirethings:eclipsealloy_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["642EE2FB13184AF7"]
+			description: ["合成材料"]
+			id: "0D1C0823FF6CEB9B"
+			rewards: [{
+				id: "79E0721508ABCD4D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3391B9995A22E434"
+				item: "justdirethings:coal_t1"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["02C3D508A4C83882"]
+			description: ["合成材料"]
+			id: "56B25E0812CCB082"
+			rewards: [{
+				id: "2105CEF44CE9AE38"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C15047663D90D71"
+				item: "justdirethings:coal_t2"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["29F2E8FE9E610948"]
+			description: ["合成材料"]
+			id: "602D500B298420FC"
+			rewards: [{
+				id: "77744136D8961B38"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FDC1EC08F7968E7"
+				item: "justdirethings:coal_t3"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["100368299C5B1C3B"]
+			description: ["合成材料"]
+			id: "575571528E4D2448"
+			rewards: [{
+				id: "505B0EFE1CC8B04C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C0792C02EE1F38F"
+				item: "justdirethings:coal_t4"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["668098E107D58487"]
+			description: ["与世界交互的机器"]
+			id: "31C33FEF3DBF15C1"
+			rewards: [{
+				id: "3C072C4C173F8986"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "31E6EC9A553AFD43"
+					item: "justdirethings:blockbreakert1"
+					type: "item"
+				}
+				{
+					id: "59C4389445562CB8"
+					item: "justdirethings:blockplacert1"
+					type: "item"
+				}
+				{
+					id: "57D414755E8774F4"
+					item: "justdirethings:clickert1"
+					type: "item"
+				}
+				{
+					id: "037D9C6ACCBE0958"
+					item: "justdirethings:sensort1"
+					type: "item"
+				}
+				{
+					id: "26D64EBFC1DBA453"
+					item: "justdirethings:droppert1"
+					type: "item"
+				}
+				{
+					id: "4022A02A90D1AB14"
+					item: "justdirethings:fluidplacert1"
+					type: "item"
+				}
+				{
+					id: "6DFD1D34A581631F"
+					item: "justdirethings:fluidcollectort1"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["30B43AA3E9B4F76C"]
+			description: ["燃烧燃料发电"]
+			id: "668098E107D58487"
+			rewards: [{
+				id: "4F4652868A90E5E4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BC94C72B6874CD1"
+				item: "justdirethings:generatort1"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1DDDB1520BB5389B"]
+			description: ["燃烧流体发电"]
+			id: "3CB2BFA20CDA24AB"
+			rewards: [{
+				id: "31C2A3EBDD72D5EC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6ED083F9C6056EC2"
+				item: "justdirethings:generatorfluidt1"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3CB2BFA20CDA24AB"]
+			description: ["替换范围内的方块"]
+			id: "64D3CE9BBC58CF80"
+			rewards: [{
+				id: "058DBB9EAE51DF3C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FA3E795ECB4867A"
+				item: "justdirethings:blockswappert1"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3CB2BFA20CDA24AB"]
+			description: ["访问玩家物品栏"]
+			id: "1782EE32AAAC034A"
+			rewards: [{
+				id: "1F50717BBD48CBE7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "409A7A139B2FB935"
+					item: "justdirethings:playeraccessor"
+					type: "item"
+				}
+				{
+					id: "3F0DCDD0C5DA13F5"
+					item: "justdirethings:inventory_holder"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3CB2BFA20CDA24AB"]
+			description: ["用于无线传输能量"]
+			id: "2EE8212B744367E3"
+			rewards: [{
+				id: "200EFAA7D3C45605"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "151FC63F96B2EFBC"
+				item: "justdirethings:energytransmitter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3CB2BFA20CDA24AB"]
+			description: ["用于存储经验"]
+			id: "433B5964B117FD0A"
+			rewards: [{
+				id: "7618579212B93EB7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F852478C74243F3"
+				item: "justdirethings:experienceholder"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["100368299C5B1C3B"]
+			description: ["合成材料"]
+			id: "125F0426B3E05C59"
+			rewards: [{
+				id: "0C51F8134088130B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40A72A84375E93D8"
+				item: "justdirethings:time_crystal"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			description: ["本模组的指导书"]
+			id: "42DADB58FB46D17B"
+			rewards: [{
+				id: "0618B069C0B830A9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23D20E6D4288AAF1"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "justdirethings:justdirethingsbook"
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CB2BFA20CDA24AB"]
+			description: ["用于捕捉生物"]
+			id: "263BAD8C8263C540"
+			rewards: [{
+				id: "798E37CC3D6C18C8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5092E62021901C5F"
+				item: "justdirethings:creaturecatcher"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1DDDB1520BB5389B"]
+			description: ["实用工具"]
+			id: "37B99DAC3324358A"
+			rewards: [{
+				id: "40DFCD71A6E446B7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "64EBF3F304B72E16"
+					item: "justdirethings:portalgun"
+					type: "item"
+				}
+				{
+					id: "0187232043B17857"
+					item: "justdirethings:totem_of_death_recall"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["30B43AA3E9B4F76C"]
+			description: ["实用工具"]
+			id: "729A3A6D89EAA9A3"
+			rewards: [{
+				id: "1A701CFA4B3D37D1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0CF481887BDF15DC"
+					item: "justdirethings:fuel_canister"
+					type: "item"
+				}
+				{
+					id: "003B4FD64C2C250D"
+					item: "justdirethings:pocket_generator"
+					type: "item"
+				}
+				{
+					id: "0B0D3733C4A30599"
+					item: "justdirethings:ferricore_wrench"
+					type: "item"
+				}
+				{
+					id: "1D04BD5F4B570168"
+					item: "justdirethings:fluid_canister"
+					type: "item"
+				}
+				{
+					id: "5D0549C4648A8354"
+					item: "justdirethings:potion_canister"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["125F0426B3E05C59"]
+			description: ["回溯方块和生物"]
+			id: "11F407BF65EB2A2C"
+			rewards: [{
+				id: "419570A1B141CF62"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38C0C66441E4E1D4"
+				item: "justdirethings:paradoxmachine"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["125F0426B3E05C59"]
+			description: ["加速方块时间"]
+			id: "629F744C3403D063"
+			rewards: [{
+				id: "0DF691E203B197F7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FD998F31450F59D"
+				item: "justdirethings:time_wand"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["12D2822802855717"]
+			description: ["实用工具"]
+			id: "48C328ADBA5551D5"
+			rewards: [{
+				id: "646EAA7233D017C7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "467A76CEDEB04301"
+				item: {
+					Count: 1
+					id: "justdirethings:eclipsegate_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["12D2822802855717"]
+			description: ["护甲"]
+			id: "681AD1E71FC4271A"
+			rewards: [{
+				id: "5D0C3BE3D417223F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5A8823814163D88B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "justdirethings:eclipsealloy_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "4024C6F3043ADB13"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "justdirethings:eclipsealloy_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "2C1E4668E77F9DA2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "justdirethings:eclipsealloy_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "46755077D57DA4A5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "justdirethings:eclipsealloy_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["12D2822802855717"]
+			description: ["武器和工具"]
+			id: "18A5289524FC6898"
+			rewards: [{
+				id: "415F99230CB124D4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6F29E403C44FAED8"
+					item: {
+						Count: 1
+						id: "justdirethings:eclipsealloy_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AE8C8D4C98919E7"
+					item: {
+						Count: 1
+						id: "justdirethings:eclipsealloy_paxel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59656FA09E11DF1F"
+					item: {
+						Count: 1
+						id: "justdirethings:bow_eclipsealloy"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -4.0d
+		}
+	]
+	title: "Just Dire Things"
+}

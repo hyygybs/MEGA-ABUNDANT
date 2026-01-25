@@ -38,17 +38,6 @@ chest_rendering_optimization = false
 fastBlit = true
 
 
-[rendering.GpuPlus]
-## Gpu Plus
-gpuPlus = true
-
-## Gpu Plus Vbo
-gpuPlusVbo = true
-
-## Gpu Plus Index
-gpuPlusIndex = true
-
-
 [rendering.reflex]
 ## Enable Reflex
 enableReflex = true
@@ -98,11 +87,6 @@ enableFaceOcclusionCulling = true
 fastLanguageSwitch = true
 
 
-[clientOptimizations.FastResourcePack]
-## Resource Pack Cache
-resourcePackCache = true
-
-
 [clientOptimizations.dynamicFPS]
 ## Enable
 enable = true
@@ -118,10 +102,10 @@ minimizedFPS = 1
 enabled = false
 
 ## Position
-position = 0
+position = "TOP_LEFT"
 
 ## Display Mode
-displayMode = 1
+displayMode = "CURRENT_ONLY"
 
 ## Text Color
 textColor = "#FFFFFF"
@@ -133,7 +117,7 @@ shadow = true
 backgroundOpacity = 0.3
 
 ## Decimal Places
-decimalPlaces = 1
+decimalPlaces = "ZERO"
 
 ## Show Unit
 showUnit = true
@@ -194,7 +178,7 @@ mergeDistance = 1.5
 stackCountColor = "#00FF00"
 
 ## List Mode
-listMode = 0
+listMode = "ALL"
 
 ## Item List
 itemList = ["minecraft:item"]
@@ -210,6 +194,74 @@ enableRailOffloading = true
 [techOptimizations.lambdaEventListeners]
 ## Lambda Event Listeners
 lambdaEventListeners = true
+
+
+
+[fastRandom]
+## Enable Fast Random
+enableFastRandom = false
+
+## Default Algorithm
+defaultAlgorithm = "L64X128MIXRANDOM"
+
+## Default Seed
+defaultSeed = 0
+
+## Default Stream Mode
+defaultStreamMode = "SHARED"
+
+## Default Split
+defaultSplit = 0
+
+[fastRandom.structurePoolWeightedSample]
+## Enable
+enable = false
+
+## Algorithm
+algorithm = "DEFAULT"
+
+## Seed
+seed = 0
+
+## Stream Mode
+streamMode = "DEFAULT"
+
+## Split
+split = 0
+
+
+[fastRandom.particleRejection]
+## Enable
+enable = false
+
+## Algorithm
+algorithm = "DEFAULT"
+
+## Seed
+seed = 0
+
+## Stream Mode
+streamMode = "DEFAULT"
+
+## Split
+split = 0
+
+
+[fastRandom.minecraftGlobal]
+## Enable
+enable = false
+
+## Algorithm
+algorithm = "DEFAULT"
+
+## Seed
+seed = 0
+
+## Stream Mode
+streamMode = "DEFAULT"
+
+## Split
+split = 0
 
 
 
@@ -258,7 +310,7 @@ noiseSamplingCache = true
 
 [serverPerformance.jigsawOptimizations]
 ## Enable Jigsaw Optimizations
-enableJigsawOptimizations = true
+enableJigsawOptimizations = false
 
 ## Enable Octree Collision Detection
 enableOctreeCollisionDetection = true
@@ -271,14 +323,6 @@ enableStructureBlockFiltering = false
 
 ## Enable Jigsaw Generation Check
 enableJigsawGenerationCheck = true
-
-
-[serverPerformance.asyncWorldSave]
-## Async World Save
-asyncWorldSave = true
-
-## Async World Save Timeout Seconds
-asyncWorldSaveTimeoutSeconds = 30
 
 
 

@@ -22,12 +22,6 @@
 	#Drop chance for Nether Caterpillar from Nether Wart (0.0 to 1.0)
 	#Range: 0.0 ~ 1.0
 	netherCaterpillarDropChance = 0.1
-	#Drop chance for Crimson Fruit from Weeping Vines (0.0 to 1.0)
-	#Range: 0.0 ~ 1.0
-	crimsonFruitDropChance = 0.6
-	#Drop chance for Warped Fruit from Twisting Vines (0.0 to 1.0)
-	#Range: 0.0 ~ 1.0
-	warpedFruitDropChance = 0.6
 
 [star_blessing]
 	#Armor bonus at level 3

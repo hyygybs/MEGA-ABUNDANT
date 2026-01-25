@@ -124,6 +124,9 @@
 	#The amount of Illager Servants an Ominous Idol can register to revive, Default: 16
 	#Range: > 0
 	ominousIdolLimit = 16
+	#Add mobs that Forbidden Grass will not spawn. 
+	#To do so, enter the namespace ID of the mob, like "minecraft:zombie, minecraft:skeleton".
+	forbiddenGrassBlackList = []
 
 ["Soul Taken"]
 	#Multiplies the amount of Souls taken by this amount, Default: 2

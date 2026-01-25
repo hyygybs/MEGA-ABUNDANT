@@ -5,11 +5,13 @@ logDirtBlock = true
 magicNumber = 42
 #What you want the introduction message to be for the magic number
 magicNumberIntroduction = "The magic number is... "
+# 
 #A list of items that can use on side of terracotta golem.
 #You can add other item to this list, it's texture must named be the same as item id.
 items = ["minecraft:iron_ingot"]
 #Whether to enable the health value display override for the weak potion effect
 useWeakPoisonOverLay = true
+# 
 #Greatly enhance effects and monsters. Use for that games using mods with additional cultivation content- such as Curios, any Skill mods or Guns mods.
 #true: Always enabled this mode.
 #default: Automatically determine whether to enable it based on the player's combat performance.
@@ -34,10 +36,44 @@ rightClickHarvest = true
 mininProbability = 0.5
 #After being turned off, when the Power Battle Mode is enabled, the prompt field will no longer be displayed in the game
 powerBattleModeHint = true
+# 
 #We apologize for making players excessively capable. 
 #For the sake of balance, you can use this option to synchronously strengthen some of the original enemies.
-#Configure which enemies can be strengthened in the entity tags file.
+#Configure which enemies can be strengthened in the entity tags file, to all the functions.
 needStrengthenTheEnemies = true
+# 
+#Configure the attack damage multiplier of powered mobs be increased based on the target's health value
+useDynamicDamage = false
+# 
+#Set the maximum attack damage multiplier of powered mobs
+#Example: [0.5, 2.0, 5.0],it must have 3 number,to normal mobs,elite mobs,mod bosses.
+maximumDamageMultiplier = [0.5, 2.0, 5.0]
+# 
+#Set the attack damage multiplier per target's health
+#Example: [0.002, 0.006, 0.02],it must have 3 number,to normal mobs,elite mobs,mod bosses.
+#Use gradient calculation. For example, for elite mobs, follow the default value:
+# the damage multiplier increases by 0.002 per health point until it reaches 1.5x (1+0.5), 
+#then the damage multiplier increases by 0.006 per health point until it reaches 3.0x (1+2.0). 
+damageMultiplierPerHealth = [0.002, 0.006, 0.02]
+# 
+#Configure the min value when powered mobs attack
+useMinDamage = false
+# 
+#Set the min value when powered mobs attack
+#Example: [1.0, 2.0, 2.5],it must have 3 number,to normal mobs,elite mobs,mod bosses.
+minDamageValue = [1.0, 2.0, 2.5]
+# 
+#Configure the damage multiplier taken by mobs will decrease as the base damage value increases.
+useHigh-DamageCounteraction = true
+# 
+#Set the maximum damage divisor taken by mobs
+#For example,if set 9.0 to a mob, damage taken by mobs will min become 0.1x.
+#Example: [7.0, 11.0, 15.0],it must have 3 number,to normal mobs,elite mobs,mod bosses.
+maximumDamageDivisor = [7.0, 11.0, 15.0]
+# 
+#Set the attack damage divisor per damage taken by mobs
+#Example: [0.04, 0.05, 0.08],it must have 3 number,to normal mobs,elite mobs,mod bosses.
+damageDivisorPerDamage = [0.04, 0.05, 0.08]
 
 [ReverseNormalEffect]
 	#Potion effects that can be reversed. Effect in this Map will be remove every tick. 

@@ -36,12 +36,6 @@
 	#Far spell task attack interval (in ticks, default: 5)
 	#Range: 1 ~ 100
 	farAttackInterval = 5
-	#
-	#法术黑名单，女仆不会施放这些法术
-	#Spell blacklist, maids will not cast these spells
-	#示例: ["irons_spellbooks:spectral_hammer", "irons_spellbooks:firecracker"]
-	#Example: ["irons_spellbooks:spectral_hammer", "irons_spellbooks:firecracker"]
-	spellBlacklist = ["irons_spellbooks:spectral_hammer"]
 
 #饰品系统相关配置
 #Bauble system configurations
@@ -115,15 +109,10 @@
 		#Range: 0 ~ 10000
 		hairpinMinExtensionTicks = 300
 		#
-		#馥郁巧思进食好感度增长 (默认: 2)
-		#Fragrant Ingenuity favorability gain when eating
+		#发簪进食好感度增长 (默认: 1)
+		#Hairpin favorability gain when eating
 		#Range: 1 ~ 10
-		fragrantIngenuityFavorabilityGain = 2
-		#
-		#馥郁巧思喂食buff持续时间 (tick)
-		#Fragrant Ingenuity buff duration when maid feeds owner
-		#Range: 200 ~ 120000
-		fragrantIngenuityBuffDuration = 2400
+		hairpinFavorabilityGain = 1
 
 	#触发机制相关饰品配置
 	#Trigger mechanism bauble configurations

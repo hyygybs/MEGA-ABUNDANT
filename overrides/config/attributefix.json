@@ -176,6 +176,17 @@
         "value": 100
       }
     },
+    "l2weaponry:shield_defense": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
     "additional_attributes:innate_spell/cataclysm_spellbooks/desert_winds": {
       "enabled": false,
       "min": {
@@ -504,6 +515,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "curseofpandora:spell_tolerance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "attributeslib:healing_received": {
@@ -1230,6 +1252,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "touhou_little_maid:maid_hunger": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 2147483647
       }
     },
     "runiclib:generic.lifesteal_heal_amount": {
@@ -3179,6 +3212,17 @@
         "value": 100
       }
     },
+    "touhou_little_maid:maid_crossbow_attack_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 2147483647
+      }
+    },
     "additional_attributes:innate_spell/alshanex_familiars/birds_spell": {
       "enabled": false,
       "min": {
@@ -3463,6 +3507,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "curseofpandora:reality_index": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "additional_attributes:innate_spell/cataclysm_spellbooks/emp_blast": {
@@ -4618,6 +4673,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "l2weaponry:reflect_time": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
       }
     },
     "minecraft:generic.movement_speed": {
@@ -6292,6 +6358,17 @@
         "value": 100
       }
     },
+    "touhou_little_maid:maid_gun_attack_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 2147483647
+      }
+    },
     "additional_attributes:spell/traveloptics/vigor_siphon": {
       "enabled": false,
       "min": {
@@ -6653,6 +6730,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "slashblade:slashblade_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 512,
+        "value": 512
       }
     },
     "additional_attributes:innate_spell/irons_spellbooks/spectral_hammer": {
@@ -7425,6 +7513,17 @@
         "value": 1024
       }
     },
+    "touhou_little_maid:maid_trident_cooldown": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 2147483647
+      }
+    },
     "additional_attributes:innate_spell/traveloptics/lingering_strain": {
       "enabled": false,
       "min": {
@@ -7841,6 +7940,17 @@
       "max": {
         "default": 64,
         "value": 64
+      }
+    },
+    "touhou_little_maid:maid_shoot_cooldown": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 2147483647
       }
     },
     "additional_attributes:innate_spell/irons_spellbooks/frostwave": {
@@ -8701,6 +8811,17 @@
         "value": 100
       }
     },
+    "touhou_little_maid:maid_use_item_speed": {
+      "enabled": false,
+      "min": {
+        "default": -2147483648,
+        "value": -2147483648
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 2147483647
+      }
+    },
     "obscure_api:magic_resistance": {
       "enabled": false,
       "min": {
@@ -9251,6 +9372,17 @@
         "value": 100
       }
     },
+    "touhou_little_maid:maid_passive_use_shield_tick": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 2147483647
+      }
+    },
     "miapi:generic.projectile_speed": {
       "enabled": false,
       "min": {
@@ -9700,6 +9832,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "touhou_little_maid:maid_pickup_range": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+        "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
       }
     },
     "additional_attributes:spell_type_ice_block": {

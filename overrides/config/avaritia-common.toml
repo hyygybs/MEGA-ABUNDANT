@@ -80,6 +80,11 @@
 			channel_full_update_rate = 40
 
 [misc]
+	#Infinity Elytra Flying Range Damage
+	#Range: 0.0 ~ 10000.0
+	"Infinity Elytra Flying Range Damage" = 100.0
+	#Infinity Armor Night Vision
+	"Infinity Open or Off Night Vision" = true
 
 	[misc."immortal item entity"]
 

@@ -417,4 +417,39 @@
 	#弹药魂石间隔
 	#Range: 0.05 ~ 2.147483647E9
 	ammo_soul_stone_time = 5.0
+	#泰拉钢魂石是否允许左键释放光束
+	terrasteel_soul_stone_left = true
+	#泰拉钢魂石魔力恢复数额
+	#Range: 0.0 ~ 2.147483647E9
+	terrasteel_soul_stone_mana = 20.0
+	#精灵钢魂石DEBUFF时长
+	#Range: 0.0 ~ 2.147483647E9
+	elementium_soul_stone_time = 3.0
+	#精灵钢魂石攻击力基础
+	#Range: 0.0 ~ 2.147483647E9
+	elementium_soul_stone_atk = 0.5
+	#精灵钢魂石概率
+	#Range: 0.0 ~ 2.147483647E9
+	elementium_soul_stone_chance = 0.5
+	#魔力钢魂石耐久回复数额
+	#Range: 0.0 ~ 2.147483647E9
+	manasteel_soul_stone_number = 1.0
+	#魔力钢魂石消耗
+	#Range: 0.0 ~ 2.147483647E9
+	manasteel_soul_stone_mana = 70.0
+	#魔力钢魂石间隔
+	#Range: 0.05 ~ 2.147483647E9
+	manasteel_soul_stone_time = 2.0
+	#盖亚魂石回血数额
+	#Range: 0.0 ~ 2.147483647E9
+	gaia_soul_stone_heal = 1.0
+	#盖亚魂石回血间隔
+	#Range: 0.05 ~ 2.147483647E9
+	gaia_soul_stone_time = 2.0
+	#盖亚魂石暴击伤害
+	#Range: 0.0 ~ 2.147483647E9
+	gaia_soul_stone_damage = 1.5
+	#盖亚魂石暴击概率
+	#Range: 0.0 ~ 2.147483647E9
+	gaia_soul_stone_chance = 0.5
 

@@ -9,6 +9,15 @@
       "volineSleepWhenFed": true,
       "volineGetBig": true,
       "volineMagmaCreamAmount": 3
+    },
+    "miscellaneous": {
+      "luminousFungusActivateDistance": 4.0,
+      "glowsilkBowSpeed": 1.0
+    },
+    "mobInteractions": {
+      "glowsquitoBlockSucking": true,
+      "blindsightExtinguishFire": true,
+      "blindsightEatBabyMobs": true
     }
   }
 }

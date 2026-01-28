@@ -1,0 +1,48 @@
+
+#Xaero's World Map
+[xaeroworldmap]
+	Enable = true
+
+#Xaero's Minimap
+[xaerominimap]
+	Enable = true
+
+#Touhou Little Maid
+[touhou_little_maid]
+	Enable = true
+
+#Snow! Real Magic!
+[snowrealmagic]
+	Enable = true
+
+#Macaw's Roofs
+[mcwroofs]
+	#Enable automatic snow-covered blocks and models.
+	Enable = true
+
+#Macaw's Bridges
+[mcwbridges]
+	#Enable automatic snow-covered blocks and models.
+	Enable = true
+
+#In Control
+[incontrol]
+	Enable = true
+
+#Goety
+[goety]
+	Enable = true
+	FakeSeasonsLoaded = true
+
+#Cold Sweat
+[cold_sweat]
+	Enable = true
+	#Spring Temperatures, divided into six periods according to the solar term table.
+	SpringTemps = [-0.25, -0.15, -0.1, 0.0, 0.0, 0.05]
+	#Summer Temperatures divided into six periods according to the solar term table.
+	SummerTemps = [0.1, 0.15, 0.15, 0.2, 0.2, 0.25]
+	#Autumn Temperatures divided into six periods according to the solar term table.
+	AutumnTemps = [0.15, 0.1, 0.05, 0.0, -0.1, -0.2]
+	#Winter Temperatures divided into six periods according to the solar term table.
+	WinterTemps = [-0.3, -0.35, -0.35, -0.5, -0.45, -0.4]
+

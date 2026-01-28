@@ -247,6 +247,14 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "eclipticseasons": {
+    "greenhouse_core": true,
+    "animal": true,
+    "cauldron": true,
+    "crop": true,
+    "snowy_status": true,
+    "crop.shift_hint": true
+  },
   "soulshards": {
     "cage_data": true,
     "entity_data": true

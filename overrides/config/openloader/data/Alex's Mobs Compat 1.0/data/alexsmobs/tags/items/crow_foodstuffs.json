@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "sullysmod:tortoise_egg",
+      "required": false
+    },
+    {
+      "id": "deep_aether:quail_egg",
+      "required": false
+    },
+    {
+      "id": "whatareyouvotingfor:penguin_egg",
+      "required": false
+    },
+    {
+      "id": "hauntedharvest:corn",
+      "required": false
+    }
+  ]
+}

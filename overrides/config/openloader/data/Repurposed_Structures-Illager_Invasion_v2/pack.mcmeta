@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "Repurposed Structures - Illager Invasion v2",
+    "pack_format": 15,
+    "supported_formats": [
+      0,
+      1000000
+    ]
+  }
+}

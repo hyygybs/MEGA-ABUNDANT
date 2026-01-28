@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "crabbersdelight:cooked_clawster",
+      "required": false
+    },
+    {
+      "id": "crabbersdelight:clawster",
+      "required": false
+    },
+    {
+      "id": "crabbersdelight:crab",
+      "required": false
+    },
+    {
+      "id": "crabbersdelight:cooked_crab",
+      "required": false
+    },
+    {
+      "id": "crabbersdelight:shrimp",
+      "required": false
+    },
+    {
+      "id":  "crabbersdelight:cooked_shrimp",
+      "required": false
+    }
+  ]
+}

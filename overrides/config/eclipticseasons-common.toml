@@ -55,7 +55,7 @@
 
 [Temperature]
 	#Ice or snow layer will melt in warm time.
-	IceAndSnowMelt = false
+	IceAndSnowMelt = true
 	#It will snow in cold time.
 	IceAndSnow = false
 	#If enabled, water placed in frozen biomes will behave as in vanilla and freeze into ice.
@@ -63,7 +63,7 @@
 	#If enabled and IceAndSnowMelt same enabled, snow placed in snowy biomes would not melt if in hot time.
 	SnowKeepInSnowyBiomes = true
 	#Add heat stroke effect in summer noon while in hot biome.
-	HeatStroke = true
+	HeatStroke = false
 
 [Crop]
 	#Enable crop season control.

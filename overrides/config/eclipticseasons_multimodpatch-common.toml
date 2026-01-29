@@ -11,10 +11,6 @@
 [touhou_little_maid]
 	Enable = true
 
-#Snow! Real Magic!
-[snowrealmagic]
-	Enable = true
-
 #Macaw's Roofs
 [mcwroofs]
 	#Enable automatic snow-covered blocks and models.

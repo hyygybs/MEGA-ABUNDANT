@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "MEGA ABUNDANT",
-  "version": "1.2.0",
+  "version": "1.2.3",
   "author": "",
   "files": [
     {
@@ -148,7 +148,7 @@
     },
     {
       "projectID": 618298,
-      "fileID": 7532347,
+      "fileID": 7543230,
       "required": true,
       "isLocked": false
     },
@@ -233,6 +233,12 @@
     {
       "projectID": 1220380,
       "fileID": 6304909,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1377964,
+      "fileID": 7301403,
       "required": true,
       "isLocked": false
     },
@@ -1349,12 +1355,6 @@
     {
       "projectID": 308380,
       "fileID": 7329736,
-      "required": true,
-      "isLocked": false
-    },
-    {
-      "projectID": 1316748,
-      "fileID": 7372937,
       "required": true,
       "isLocked": false
     },
@@ -3118,7 +3118,7 @@
     },
     {
       "projectID": 1228903,
-      "fileID": 7533375,
+      "fileID": 7542684,
       "required": true,
       "isLocked": false
     },
@@ -5110,7 +5110,7 @@
     },
     {
       "projectID": 1030121,
-      "fileID": 7085566,
+      "fileID": 7539683,
       "required": true,
       "isLocked": false
     },
@@ -5279,6 +5279,12 @@
     {
       "projectID": 1002304,
       "fileID": 6908505,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1334659,
+      "fileID": 7194843,
       "required": true,
       "isLocked": false
     },
@@ -5782,7 +5788,7 @@
     },
     {
       "projectID": 1300212,
-      "fileID": 7305450,
+      "fileID": 7542025,
       "required": true,
       "isLocked": false
     },
@@ -6394,7 +6400,7 @@
     },
     {
       "projectID": 583318,
-      "fileID": 7533525,
+      "fileID": 6049267,
       "required": true,
       "isLocked": false
     },
@@ -6712,7 +6718,7 @@
     },
     {
       "projectID": 499980,
-      "fileID": 7540753,
+      "fileID": 7541536,
       "required": true,
       "isLocked": false
     },
@@ -6923,12 +6929,6 @@
     {
       "projectID": 384991,
       "fileID": 4596807,
-      "required": true,
-      "isLocked": false
-    },
-    {
-      "projectID": 308663,
-      "fileID": 7472648,
       "required": true,
       "isLocked": false
     },
@@ -7595,6 +7595,12 @@
     {
       "projectID": 1007788,
       "fileID": 5848042,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1377996,
+      "fileID": 7182705,
       "required": true,
       "isLocked": false
     },

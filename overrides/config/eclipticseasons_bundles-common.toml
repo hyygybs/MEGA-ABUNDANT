@@ -1,0 +1,54 @@
+
+#Adds seasonal and humidity compatibility for vital herbs.
+[es_dp_x_vital_herbs]
+	#Enable compat package es_dp_x_vital_herbs
+	Enable = true
+	#This package will be loaded first.
+	PriorityLoading = false
+
+#Adds seasonal and humidity compatibility for abnormal crops.
+[es_dp_x_abnormals]
+	#Enable compat package es_dp_x_abnormals
+	Enable = true
+	#This package will be loaded first.
+	PriorityLoading = false
+
+#pack_description.eclipticseasons_bundles.es_x_ru
+[es_x_ru]
+	#Enable compat package es_x_ru
+	Enable = true
+	#This package will be loaded first.
+	PriorityLoading = false
+
+#Removes seasonal limits for saplings and mushrooms.
+#Adds humidity rules, snow-covered grass variants, and fixes biome tags for natural seasonal behavior.
+[es_x_bwg]
+	#Enable compat package es_x_bwg
+	Enable = true
+	#This package will be loaded first.
+	PriorityLoading = false
+
+#Adds seasonal and humidity requirements for crops, plants, and mushrooms.
+#Introduces snow-covered variants and visual enhancements for grass and ferns.
+[es_x_ns]
+	#Enable compat package es_x_ns
+	Enable = true
+	#This package will be loaded first.
+	PriorityLoading = false
+
+#Integrates Let's Do series with Ecliptic Seasons.
+#Adds seasonal and humidity rules for crops, animals, and landscapes, enhancing immersion.
+[es_x_letsdo]
+	#Enable compat package es_x_letsdo
+	Enable = true
+	#This package will be loaded first.
+	PriorityLoading = false
+
+#Adjusts crops and plants for Biomes O' Plenty.
+#Removes seasonal requirements for saplings and mushrooms, adds humidity rules, snow-covered variants, and preserves biome colors.
+[es_x_bop]
+	#Enable compat package es_x_bop
+	Enable = true
+	#This package will be loaded first.
+	PriorityLoading = false
+

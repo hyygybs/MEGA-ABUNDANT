@@ -27,3 +27,20 @@
 	#If it's true, the duration of effects gives by Lucky Nugget will be infinite.
 	LuckyNuggetInfinite = false
 
+[DevourSword]
+	#Whether to enable the capability of shooting sword.
+	ShootingSwords = true
+	#Define the amount of damage increased by each sword.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	DamageAdd = 0.5
+	#Define the percentage of damage inherited from Devour Sword (Devoured sword number * damage inherit * damage add).
+	#Range: 0.0 ~ 1.7976931348623157E308
+	DamageInherit = 0.5
+	#Define the sword amount requirement for increase the shooting sword amount.
+	#Range: > 0
+	UpdateAmount = 9
+
+[WateringCan]
+	#Whether to enable the infinite enchantment on watering can.
+	WateringCanInfinite = true
+

@@ -327,9 +327,6 @@
 	#远古遗魂魂石护甲韧性
 	#Range: 0.0 ~ 2.147483647E9
 	ancient_remnant_soul_stone_armor = 3.0
-	#末影守卫魂石冷却
-	#Range: 0.0 ~ 2.147483647E9
-	ender_guardian_soul_stone_cooldown_time = 5.0
 	#末影守卫魂石时间
 	#Range: 0.0 ~ 2.147483647E9
 	ender_guardian_soul_stone_time = 2.0
@@ -635,4 +632,112 @@
 	#锌魂石挖掘速度
 	#Range: 0.0 ~ 2.147483647E9
 	zinc_soul_stone_speed = 0.5
+	#蔓生巨像魂石等级
+	#Range: 0.0 ~ 2.147483647E9
+	overgrown_colossus_soul_stone_level = 1.0
+	#蔓生巨像魂石时长
+	#Range: 0.0 ~ 2.147483647E9
+	overgrown_colossus_soul_stone_time = 5.0
+	#潜影拟态者魂石冷却
+	#Range: 0.0 ~ 2.147483647E9
+	shulker_mimic_soul_stone_cooldown = 4.0
+	#潜影拟态者魂石等级
+	#Range: 0.0 ~ 2.147483647E9
+	shulker_mimic_soul_stone_level = 1.0
+	#潜影拟态者魂石时长
+	#Range: 0.0 ~ 2.147483647E9
+	shulker_mimic_soul_stone_time = 3.0
+	#潜影拟态者魂石几率
+	#Range: 0.0 ~ 2.147483647E9
+	shulker_mimic_soul_stone_chance = 0.3
+	#末影遣使魂石减伤
+	#Range: 0.0 ~ 2.147483647E9
+	endersent_soul_stone = 0.25
+	#沙丘哨兵魂石减伤
+	#Range: 0.0 ~ 2.147483647E9
+	dune_sentinel_soul_stone_down = 0.25
+	#沙丘哨兵魂石增伤
+	#Range: 0.0 ~ 2.147483647E9
+	dune_sentinel_soul_stone_up = 0.15
+	#魄攫圣骑魂石等级
+	#Range: 0.0 ~ 2.147483647E9
+	posessed_paladin_soul_stone_level = 1.0
+	#魄攫圣骑魂石范围
+	#Range: 0.0 ~ 2.147483647E9
+	posessed_paladin_soul_stone_range = 21.0
+	#魄攫圣骑魂石时间
+	#Range: 0.0 ~ 2.147483647E9
+	posessed_paladin_soul_stone_time = 3.0
+	#魄攫圣骑魂石几率
+	#Range: 0.0 ~ 2.147483647E9
+	posessed_paladin_soul_stone_chance = 0.5
+	#荒古守卫者魂石护甲提升数额
+	#Range: 0.0 ~ 2.147483647E9
+	ancient_guardian_soul_stone_armor = 0.25
+	#荒古守卫者魂石护甲提升阈值
+	#Range: 0.0 ~ 2.147483647E9
+	ancient_guardian_soul_stone_hp = 0.5
+	#荒古守卫者魂石冷却
+	#Range: 0.0 ~ 2.147483647E9
+	ancient_guardian_soul_stone_cooldown = 0.2
+	#荒古守卫者魂石BUFF时间
+	#Range: 0.0 ~ 2.147483647E9
+	ancient_guardian_soul_stone_time = 3.0
+	#荒古守卫者魂石概率
+	#Range: 0.0 ~ 2.147483647E9
+	ancient_guardian_soul_stone_chance = 0.5
+	#荒古守卫者魂石百分比伤害
+	#Range: 0.0 ~ 2.147483647E9
+	ancient_guardian_soul_stone_damage = 0.25
+	#荒古守卫者魂石固定伤害
+	#Range: 0.0 ~ 2.147483647E9
+	ancient_guardian_soul_stone_fixed_damage = 5.0
+	#霜冻傀儡魂石冷却
+	#Range: 0.0 ~ 2.147483647E9
+	frostbitten_golem_soul_stone_cooldown = 0.2
+	#霜冻傀儡魂石等级
+	#Range: 0.0 ~ 2.147483647E9
+	frostbitten_golem_soul_stone_level = 1.0
+	#霜冻傀儡魂石时长
+	#Range: 0.0 ~ 2.147483647E9
+	frostbitten_golem_soul_stone_time = 3.0
+	#霜冻傀儡魂石伤害
+	#Range: 0.0 ~ 2.147483647E9
+	frostbitten_golem_soul_stone_damage = 0.2
+	#霜冻傀儡魂石范围
+	#Range: 0.0 ~ 2.147483647E9
+	frostbitten_golem_soul_stone_range = 7.0
+	#湫渃云魔魂石无敌时间延长
+	#Range: 0.0 ~ 2.147483647E9
+	cloud_golem_soul_stone_time = 0.5
+	#湫渃云魔魂石冷却
+	#Range: 0.0 ~ 2.147483647E9
+	cloud_golem_soul_stone_cooldown = 0.2
+	#湫渃云魔魂石雷伤
+	#Range: 0.0 ~ 2.147483647E9
+	cloud_golem_soul_stone_damage = 0.35
+	#熔岩食者魂石燃烧时长
+	#Range: 0.0 ~ 2.147483647E9
+	lava_eater_soul_stone_time = 5.0
+	#凋灵恶煞魂石凋零等级
+	#Range: 0.0 ~ 2.147483647E9
+	withered_abomination_soul_stone_level = 1.0
+	#凋灵恶煞魂石凋零时长
+	#Range: 0.0 ~ 2.147483647E9
+	withered_abomination_soul_stone_time = 5.0
+	#凋灵恶煞魂石攻击
+	#Range: 0.0 ~ 2.147483647E9
+	withered_abomination_soul_stone_atk = 0.125
+	#骷髅蜥龙魂石击退抗性
+	#Range: 0.0 ~ 2.147483647E9
+	skeletosaurus_soul_stone_knockback_resistance = 0.2
+	#骷髅蜥龙魂石护甲
+	#Range: 0.0 ~ 2.147483647E9
+	skeletosaurus_soul_stone_armor = 2.0
+	#骷髅蜥龙魂石攻击
+	#Range: 0.0 ~ 2.147483647E9
+	skeletosaurus_soul_stone_atk = 0.075
+	#末影守卫魂石冷却
+	#Range: 0.0 ~ 2.147483647E9
+	ender_guardian_soul_stone_cooldown = 5.0
 

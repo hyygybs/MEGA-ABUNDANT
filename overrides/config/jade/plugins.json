@@ -7,6 +7,9 @@
   "jadeaddons.mcjtylib": {
     "jadeaddons": true
   },
+  "infuserapothcompat": {
+    "infuser_stats": true
+  },
   "mekanismcovers": {
     "cover_component": true
   },

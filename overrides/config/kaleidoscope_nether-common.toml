@@ -23,19 +23,6 @@
 	#Range: 0.0 ~ 1.0
 	netherCaterpillarDropChance = 0.1
 
-[star_blessing]
-	#Armor bonus at level 3
-	#Range: 0 ~ 20
-	level3ArmorBonus = 2
-	#Armor toughness bonus at level 6
-	#Range: 0 ~ 10
-	level6ToughnessBonus = 1
-	#Knockback resistance bonus at level 9 (0-10, where 1 = 10% resistance)
-	#Range: 0 ~ 10
-	level9KnockbackResistance = 1
-	#Whether level 12 provides complete fire immunity
-	level12FireImmunity = true
-
 [warped_buff]
 	#List of mob entity IDs that are affected by Warped Buff (e.g., minecraft:piglin, minecraft:ghast)
 	affectedMobs = ["minecraft:piglin", "minecraft:ghast", "minecraft:magma_cube", "minecraft:hoglin"]

@@ -1,0 +1,18 @@
+{
+	"parent": "minecraft:item/handheld",
+	"loader": "forge:separate_transforms",
+	"textures": {
+	  "layer0": "traveloptics:item/scourge_of_the_sands_gui"
+	},
+	"base": {
+	  "parent": "traveloptics:displaysettings/scourge_of_the_sands_display"
+	},
+	"perspectives": {
+	  "gui": {
+		"parent": "traveloptics:item/scourge_of_the_sands_gui"
+	  },
+	  "fixed": {
+		"parent": "traveloptics:item/scourge_of_the_sands_gui"
+	  }
+	}
+  }

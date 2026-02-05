@@ -1,0 +1,62 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by Satisfy",
+	"textures": {
+		"0": "herbalbrews:block/oolong_tea",
+		"particle": "herbalbrews:block/oolong_tea"
+	},
+	"elements": [
+		{
+			"from": [5.35, 3, 1.95],
+			"to": [10.35, 8, 6.95],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.05, 6.25, 4.6]},
+			"faces": {
+				"north": {"uv": [0, 0, 5, 5], "texture": "#0"},
+				"east": {"uv": [0, 0, 5, 5], "texture": "#0"},
+				"south": {"uv": [0, 0, 5, 5], "texture": "#0"},
+				"west": {"uv": [0, 0, 5, 5], "texture": "#0"},
+				"up": {"uv": [0, 5, 5, 10], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [0, 10, 5, 15], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [8.1, 4, 7],
+			"to": [8.1, 9, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.05, 6.25, 4.6]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 5], "texture": "#missing"},
+				"east": {"uv": [8, 0, 5, 5], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 5], "texture": "#missing"},
+				"west": {"uv": [5, 0, 8, 5], "texture": "#0"},
+				"up": {"uv": [0, 0, 3, 0], "rotation": 270, "texture": "#missing"},
+				"down": {"uv": [0, 0, 3, 0], "rotation": 90, "texture": "#missing"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [31.15, -5.7, 7.62],
+			"translation": [-0.75, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [31.15, -5.7, 7.62],
+			"translation": [-0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-7.61, 4.3, 17.83],
+			"translation": [-0.25, 5, 4.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-7.61, 4.3, 17.83],
+			"translation": [-0.25, 5, 4.75]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

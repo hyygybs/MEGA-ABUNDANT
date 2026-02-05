@@ -1,0 +1,60 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by Satisfy",
+	"textures": {
+		"1": "furniture:block/blueprint",
+		"particle": "furniture:block/blueprint_flat"
+	},
+	"elements": [
+		{
+			"from": [4, 2.3, 1],
+			"to": [2, 4.3, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 2, 1]},
+			"faces": {
+				"east": {"uv": [1, 9, 15, 11], "texture": "#1"},
+				"west": {"uv": [1, 13, 15, 15], "texture": "#1"},
+				"up": {"uv": [1, 11, 15, 13], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [1, 3, 15, 1], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"from": [2, 2.3, 1],
+			"to": [4, 4.3, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2, 1]},
+			"faces": {
+				"east": {"uv": [1, 9, 15, 11], "texture": "#1"},
+				"west": {"uv": [1, 9, 15, 11], "texture": "#1"},
+				"up": {"uv": [1, 11, 15, 13], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [1, 3, 15, 1], "rotation": 90, "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [3, -1.75, 4.25],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [90, 0, 0],
+			"translation": [-4, -1.75, 4.25],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [9.75, -0.5, 1.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [90, 0, 0],
+			"translation": [0.5, -0.5, 1.75]
+		}
+	},
+	"groups": [
+		{
+			"name": "roll",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

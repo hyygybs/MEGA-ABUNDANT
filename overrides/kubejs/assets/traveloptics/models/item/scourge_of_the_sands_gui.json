@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+	  "layer0" : "traveloptics:item/scourge_of_the_sands_hand"
+	}
+  }

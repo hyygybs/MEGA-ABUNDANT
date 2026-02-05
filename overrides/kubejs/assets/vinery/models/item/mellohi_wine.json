@@ -1,0 +1,9 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "vinery:item/mellohi_wine"
+  },
+  "overrides": [
+    { "predicate": { "pommel:is_held": 1.0 }, "model": "vinery:item/mellohi_wine_hand" }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "candlelight:item/cooking_pot"
+  },
+  "overrides": [
+    { "predicate": { "pommel:is_held": 1.0 }, "model": "candlelight:item/cooking_pot_hand" }
+  ]
+}

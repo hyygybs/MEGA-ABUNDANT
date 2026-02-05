@@ -1,0 +1,18 @@
+{
+	"parent": "minecraft:item/handheld",
+	"loader": "forge:separate_transforms",
+	"textures": {
+	  "layer0": "traveloptics:item/abyssal_tidecaller_gui"
+	},
+	"base": {
+	  "parent": "traveloptics:item/abyssal_tidecaller_hand"
+	},
+	"perspectives": {
+	  "gui": {
+		"parent": "traveloptics:item/abyssal_tidecaller_gui"
+	  },
+	  "fixed": {
+		"parent": "traveloptics:item/abyssal_tidecaller_gui"
+	  }
+	}
+  }

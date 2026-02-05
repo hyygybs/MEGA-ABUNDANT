@@ -1,0 +1,9 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "furniture:item/tool_box"
+  },
+  "overrides": [
+    { "predicate": { "pommel:is_held": 1.0 }, "model": "furniture:item/tool_box_hand" }
+  ]
+}

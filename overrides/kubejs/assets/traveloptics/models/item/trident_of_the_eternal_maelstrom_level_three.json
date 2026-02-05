@@ -1,0 +1,18 @@
+{
+	"parent": "minecraft:item/handheld",
+	"loader": "forge:separate_transforms",
+	"textures": {
+	  "layer0": "traveloptics:item/trident_of_the_eternal_maelstrom_gui"
+	},
+	"base": {
+	  "parent": "traveloptics:displaysettings/trident_of_the_eternal_maelstrom_display"
+	},
+	"perspectives": {
+	  "gui": {
+		"parent": "traveloptics:item/trident_of_the_eternal_maelstrom_gui"
+	  },
+	  "fixed": {
+		"parent": "traveloptics:item/trident_of_the_eternal_maelstrom_gui"
+	  }
+	}
+  }

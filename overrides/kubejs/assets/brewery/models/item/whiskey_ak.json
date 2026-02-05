@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "brewery:item/whiskey_ak"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "pommel:is_held": 1.0
+      },
+      "model": "brewery:item/whiskey_ak_hand"
+    },
+    {
+      "predicate": {
+        "pommel:is_fixed": 1.0
+      },
+      "model": "brewery:item/whiskey_ak_hand"
+    },
+    {
+      "predicate": {
+        "pommel:is_head": 1.0
+      },
+      "model": "brewery:item/whiskey_ak_hand"
+    }
+  ]
+}

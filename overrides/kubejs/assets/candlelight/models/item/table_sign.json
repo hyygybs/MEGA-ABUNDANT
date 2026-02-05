@@ -1,0 +1,9 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "candlelight:item/table_sign"
+  },
+  "overrides": [
+    { "predicate": { "pommel:is_held": 1.0 }, "model": "candlelight:item/table_sign_hand" }
+  ]
+}

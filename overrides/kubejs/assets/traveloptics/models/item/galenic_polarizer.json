@@ -1,0 +1,18 @@
+{
+	"parent": "minecraft:item/handheld",
+	"loader": "forge:separate_transforms",
+	"textures": {
+	  "layer0": "traveloptics:item/galenic_polarizer_gui"
+	},
+	"base": {
+	  "parent": "traveloptics:displaysettings/galenic_polarizer_display"
+	},
+	"perspectives": {
+	  "gui": {
+		"parent": "traveloptics:item/galenic_polarizer_gui"
+	  },
+	  "fixed": {
+		"parent": "traveloptics:item/galenic_polarizer_gui"
+	  }
+	}
+  }

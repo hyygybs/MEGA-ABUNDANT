@@ -1,0 +1,18 @@
+{
+	"parent": "minecraft:item/handheld",
+	"loader": "forge:separate_transforms",
+	"textures": {
+	  "layer0": "traveloptics:item/the_obliterator_gui"
+	},
+	"base": {
+	  "parent": "traveloptics:displaysettings/the_obliterator_display"
+	},
+	"perspectives": {
+	  "gui": {
+		"parent": "traveloptics:item/the_obliterator_gui"
+	  },
+	  "fixed": {
+		"parent": "traveloptics:item/the_obliterator_gui"
+	  }
+	}
+  }

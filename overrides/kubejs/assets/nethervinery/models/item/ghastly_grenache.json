@@ -1,0 +1,9 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "nethervinery:item/ghastly_grenache"
+  },
+  "overrides": [
+    { "predicate": { "pommel:is_held": 1.0 }, "model": "nethervinery:item/ghastly_grenache_hand" }
+  ]
+}

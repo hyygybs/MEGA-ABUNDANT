@@ -1,0 +1,9 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "nethervinery:item/netherite_nectar"
+  },
+  "overrides": [
+    { "predicate": { "pommel:is_held": 1.0 }, "model": "nethervinery:item/netherite_nectar_hand" }
+  ]
+}

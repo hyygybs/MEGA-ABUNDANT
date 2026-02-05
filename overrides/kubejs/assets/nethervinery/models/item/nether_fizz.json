@@ -1,0 +1,9 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "nethervinery:item/nether_fizz"
+  },
+  "overrides": [
+    { "predicate": { "pommel:is_held": 1.0 }, "model": "nethervinery:item/nether_fizz_hand" }
+  ]
+}

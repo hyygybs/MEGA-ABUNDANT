@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bakery:item/glowberry_jam"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "pommel:is_held": 1.0
+      },
+      "model": "bakery:item/glowberry_jam_hand"
+    },
+    {
+      "predicate": {
+        "pommel:is_fixed": 1.0
+      },
+      "model": "bakery:item/glowberry_jam_hand"
+    },
+    {
+      "predicate": {
+        "pommel:is_head": 1.0
+      },
+      "model": "bakery:item/glowberry_jam_hand"
+    }
+  ]
+}

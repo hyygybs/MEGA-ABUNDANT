@@ -1,0 +1,43 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made by Satisfy",
+	"textures": {
+		"1": "farm_and_charm:block/pet_bowl_empty",
+		"particle": "farm_and_charm:block/pet_bowl_empty"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 4],
+			"to": [12, 4, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 0, 4]},
+			"faces": {
+				"north": {"uv": [8, 4, 16, 8], "texture": "#1"},
+				"east": {"uv": [8, 12, 16, 16], "texture": "#1"},
+				"south": {"uv": [8, 4, 16, 8], "texture": "#1"},
+				"west": {"uv": [8, 8, 16, 12], "texture": "#1"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#1"},
+				"down": {"uv": [0, 8, 8, 16], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [24, 0, 0],
+			"translation": [0, 4, 0.75],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [24, 0, 0],
+			"translation": [0, 4, 0.75],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"translation": [-0.75, 6.25, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_lefthand": {
+			"translation": [-0.75, 6.25, 0],
+			"scale": [0.7, 0.7, 0.7]
+		}
+	}
+}

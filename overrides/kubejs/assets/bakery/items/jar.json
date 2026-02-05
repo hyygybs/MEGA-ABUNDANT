@@ -1,0 +1,22 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "gui",
+          "ground"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "bakery:item/jar"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "bakery:item/jar_hand"
+    }
+  }
+}

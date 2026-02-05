@@ -1,0 +1,9 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "herbalbrews:item/tea_kettle"
+  },
+  "overrides": [
+    { "predicate": { "pommel:is_held": 1.0 }, "model": "herbalbrews:item/tea_kettle_hand" }
+  ]
+}

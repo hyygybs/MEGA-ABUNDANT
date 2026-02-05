@@ -1,0 +1,18 @@
+  {
+	"parent": "minecraft:item/handheld",
+	"loader": "forge:separate_transforms",
+	"textures": {
+	  "layer0": "traveloptics:item/wand_of_final_light_gui"
+	},
+	"base": {
+	  "parent": "traveloptics:displaysettings/supernova_staff_display"
+	},
+	"perspectives": {
+	  "gui": {
+		"parent": "traveloptics:item/wand_of_final_light_gui"
+	  },
+	  "fixed": {
+		"parent": "traveloptics:item/wand_of_final_light_gui"
+	  }
+	}
+  }

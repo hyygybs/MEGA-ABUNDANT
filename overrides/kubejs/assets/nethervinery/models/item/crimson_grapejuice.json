@@ -1,0 +1,9 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "nethervinery:item/crimson_grapejuice"
+  },
+  "overrides": [
+    { "predicate": { "pommel:is_held": 1.0 }, "model": "nethervinery:item/crimson_grapejuice_hand" }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by Satisfy",
+	"textures": {
+		"1": "herbalbrews:block/milk_coffee",
+		"particle": "herbalbrews:block/milk_coffee"
+	},
+	"elements": [
+		{
+			"from": [7, 5, 4],
+			"to": [9, 6, 6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [13, 5, -7]},
+			"faces": {
+				"north": {"uv": [1, 15, 3, 16], "texture": "#1"},
+				"east": {"uv": [1, 15, 3, 16], "texture": "#1"},
+				"south": {"uv": [1, 15, 3, 16], "texture": "#1"},
+				"west": {"uv": [1, 15, 3, 16], "texture": "#1"},
+				"up": {"uv": [1, 14, 3, 16], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [1, 14, 3, 16], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"from": [6, 6, 3],
+			"to": [10, 9, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [13, 5, -7]},
+			"faces": {
+				"north": {"uv": [0, 12, 4, 15], "texture": "#1"},
+				"east": {"uv": [0, 12, 4, 15], "texture": "#1"},
+				"south": {"uv": [0, 12, 4, 15], "texture": "#1"},
+				"west": {"uv": [0, 12, 4, 15], "texture": "#1"},
+				"up": {"uv": [0, 8, 4, 12], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [1, 1, 5, 5], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"from": [8, 6, 7],
+			"to": [8, 9, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [13, 5, -7]},
+			"faces": {
+				"east": {"uv": [6, 12, 4, 15], "texture": "#1"},
+				"west": {"uv": [4, 12, 6, 15], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [38.05, -4.46, 7.82],
+			"translation": [-0.5, -0.25, 0.75],
+			"scale": [1.3, 1.3, 1.3]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [38.05, -4.46, 7.82],
+			"translation": [-0.5, -0.25, 0.75],
+			"scale": [1.3, 1.3, 1.3]
+		},
+		"firstperson_righthand": {
+			"rotation": [-6.16, 3.97, 15.98],
+			"translation": [-0.75, 4, 5.75],
+			"scale": [1.3, 1.3, 1.3]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-6.16, 3.97, 15.98],
+			"translation": [-0.75, 4, 5.75],
+			"scale": [1.3, 1.3, 1.3]
+		}
+	},
+	"groups": [
+		{
+			"name": "coffee_cup1",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

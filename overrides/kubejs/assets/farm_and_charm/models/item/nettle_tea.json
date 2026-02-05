@@ -1,0 +1,9 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "farm_and_charm:item/nettle_tea"
+  },
+  "overrides": [
+    { "predicate": { "pommel:is_held": 1.0 }, "model": "farm_and_charm:item/nettle_tea_hand" }
+  ]
+}

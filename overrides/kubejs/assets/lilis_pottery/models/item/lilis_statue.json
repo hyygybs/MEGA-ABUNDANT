@@ -1,0 +1,9 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "lilis_pottery:item/lilis_statue"
+  },
+  "overrides": [
+    { "predicate": { "pommel:is_held": 1.0 }, "model": "lilis_pottery:item/lilis_statue_hand" }
+  ]
+}

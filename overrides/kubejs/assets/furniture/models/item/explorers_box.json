@@ -1,0 +1,9 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "furniture:item/explorers_box"
+  },
+  "overrides": [
+    { "predicate": { "pommel:is_held": 1.0 }, "model": "furniture:item/explorers_box_hand" }
+  ]
+}
